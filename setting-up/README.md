@@ -53,13 +53,15 @@ The project should load up in the Room/Level **IntroToBlueprints1** room. Scoot 
 
 Go to the content browser and look at the folders that are provided. Go to the first **Blueprints** folder. You should see two files, one is a GameMode blueprint and the other is a character controller blueprint.
 
-![alt_text](images/.jpg)
+![character and gamemode blueprint](images/GameModeCharacterBlueprints.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`ITL`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Go to the **Maps** folder and you should see two levels:
+
+![maps folder showing two levels](images/ThreeRoomsMapFolder.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
