@@ -2,7 +2,7 @@
 
 ### Tick Event
 
-<sub>[previous](../components/README.md#user-content-components) • [home](../README.md#user-content-ue4-blueprints) • [next](tick-event-ii/README.md#user-content-tick-event-ii)</sub>
+<sub>[previous](../components/README.md#user-content-components) • [home](../README.md#user-content-ue4-blueprints) • [next](../tick-event-ii/README.md#user-content-tick-event-ii)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -147,5 +147,5 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../components/README.md#user-content-components)| [home](../README.md#user-content-ue4-blueprints) | [next](.tick-event-ii/README.md#user-content-tick-event-ii)|
+| [previous](../components/README.md#user-content-components)| [home](../README.md#user-content-ue4-blueprints) | [next](../tick-event-ii/README.md#user-content-tick-event-ii)|
 |---|---|---|
