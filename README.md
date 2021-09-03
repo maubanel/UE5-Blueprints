@@ -13,8 +13,8 @@ Intro
 <!-- TOC -->
 ## Table of Contents
 <kbd></kbd> &nbsp;&nbsp; [Setting Up](setting-up/README.md#user-content-setting-up) <br>
-<kbd></kbd> &nbsp;&nbsp; [Constructor & Begin Play](constructor-begin/README.md#user-content-contructor--begin-play) <br>
-<kbd></kbd> &nbsp;&nbsp; [Constructor & Begin Play II](constructor-begin-ii/README.md#user-content-contructor--begin-play-ii) <br>
+<kbd></kbd> &nbsp;&nbsp; [Constructor & Begin Play](constructor-begin/README.md#user-content-constructor--begin-play) <br>
+<kbd></kbd> &nbsp;&nbsp; [Constructor & Begin Play II](constructor-begin-ii/README.md#user-content-constructor--begin-play-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Collision Events](collision/README.md#user-content-collision-events) <br>
 <kbd></kbd> &nbsp;&nbsp; [Grouping Meshes](grouping-meshes/README.md#user-content-grouping-meshes) <br>
 <kbd></kbd> &nbsp;&nbsp; [Dynamic Materials](dynamic-materials/README.md#user-content-dynamic-materials) <br>
