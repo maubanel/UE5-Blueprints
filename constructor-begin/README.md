@@ -6,7 +6,9 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+In **UE4** the **Construction Script** is the first thing that a blueprint runs when a class is instantiated. What does this mean? If we have something running inside the level that the game boots up to it will run the code that is in its **Construction Script** as the editor boots up. Also any time an object is changed in the editor the **Construction Script**  runs again..  Remember it only runs once!
+
+ The **Begin Play** runs when the game is run by pressing the Play buttons. It onlye runs once as well! So there are two times we can set things up for a game object, as the level loads, when a level object is altered and when the game runs.
 
 <br>
 
@@ -15,7 +17,9 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-![alt_text](images/.jpg)
+In the **Blueprints** folder press the <kdbd>Add New</kbd> button and add a new **Blueprint Class**:
+
+![add new blueprint to blueprints folder](images/AddBlueprintClass.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
