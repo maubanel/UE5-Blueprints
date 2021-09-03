@@ -4,7 +4,11 @@
 <!-- OVERVIEW -->
 ## Overview
 
-Intro
+There are two ways of adding logic to a game with the Unreal Engine.  You can do it through code in C++ or you can add logic through [blueprints](https://docs.unrealengine.com/en-us/Engine/Blueprints).  Blueprints are a visual scripting language that uses a node based interface (similar to materials) for adding game logic. Both systems can work together to provide a workflow that is beneficial to the entire team.  In fact some UE4 games are a majority scripted using blueprints!  
+
+Blueprints are meant to be used by programmers as well as level designers and other non-programming staff.  It allows the entire team the ability to edit and create some dynamic content on their own. To truly understand Unreal Engine, blueprints are an essential component.
+
+Lets get started looking into how to create some game logic.
   
 
 * Tested on UE4 4.26
