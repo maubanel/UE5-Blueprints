@@ -6,7 +6,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Now we can have a few types of collisions in **Unreal**. We can have a blocking collision that will stop two volumes from penetrating each other. Imagine a ball hitting a wall. We can also have a trigger collision where you can enter the collision volume and it will trigger a script. This is often when the player enters an invisible volume that they can't see. This is how we can access functionality in a script when a player is in a specific location in the level. This is the first type we will look at:
 
 <br>
 
@@ -15,11 +15,15 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
+Create a new folder called `Room2` and put it in the **Blueprints** folder. Move the camera over to **Room 2** and press the <kbd>Add New</kbd> button and select **Blueprint Class**.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+
+We will be using this blueprint in a level so we will make it the base class of **Actor**.
 
 ![alt_text](images/.jpg)
 
@@ -27,11 +31,15 @@ Chapter introduction here.
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Call it `BP_TextOnCollision`. *Drag* it into the room. In the **World Outliner** *drag* this newly created game object into the **Room 2** folder.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Double click the **blueprint**. Press the <kbd>Add Component</kbd> button and select a **Text Render**.
 
 ![alt_text](images/.jpg)
 
@@ -39,17 +47,24 @@ Chapter introduction here.
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
+Now press **Add Component** again and this time we want a collision box. We can add multiple components to the same blueprints. If you type `collision` into the menu you will see three shapes: **Box**, **Sphere** and **Cylinder.** We will pick the **Box Collision**:
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
+Rename the text component to `TextInRoom2`. Drag and drop this on top of the **DefaultSceneRoot** component. This will make the text box the root (parent) component. Make the **Text Render Color** more visible on a white background and change the **World Size** to `74`.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+With the **Box** component selected go to the **Details** panel and change the **Box Extent** to `600` on the **X**, `400` on the **Y** and `200` on the **Z**. Also make sure the text element is at the rear of the collision box.
+
 
 ![alt_text](images/.jpg)
 
@@ -63,11 +78,17 @@ Chapter introduction here.
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now go into the game and reposition so the collision box is above the floor and centered in the room.
+
+Go back to the **blueprint**. Make sure you are in the **Event Graph** tab. Drag and drop the **TextInRoom2** component into the scene graph. Left click the blue pin from this node and let go. This will now make sure that the context sensitive search will be items that are compatible with this reference. Start typing in **Set Text** to get the **Set Text** node.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
+
+Since we added a **Collision** component the event graph shows a **Begin Overlap** event. This will trigger only one time when two objects overlap. In our case it will be the player's collision volume with this blueprint. It will only trigger a second time if the object leaves the collision volume then re-enters. Connect the execution pin from the **EventActorBeginOverlap** greyed out node to the **Set Text** node you just created.
 
 ![alt_text](images/.jpg)
 
@@ -75,10 +96,13 @@ Chapter introduction here.
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
+Left click and drag off the **Value** node from **Set Text**. Let go and start typing **Make Literal Text**:
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
+Select the **Make Literal Text** node and add the text: `You are inside the box!` to this node. Make sure the Return Value pin is connected to the Value pin on the **Set Text** node.
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
@@ -88,11 +112,15 @@ Chapter introduction here.
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Run the game and move towards where the box is (we can't see it). You should see the text appear. It doesn't dissapear when you leave the box. Lets make some changes and improve this.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Go back to the blueprint and move the box component so the text is at the bottom left rear of the collision volume (behind if you like). Make sure the **Hidden In Game** box is deselected. Normally in a game we would hide our collision volumes, but for debug purposes lets set it so that we can see it.
 
 ![alt_text](images/.jpg)
 
@@ -100,11 +128,15 @@ Chapter introduction here.
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
+Run the game and step into the box. The text is more obvious and better positioned. Make any necessary adjustments here. Now lets change the message when the player leaves the box.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+*Copy and paste* the three nodes in the blueprint at the bottom.
 
 ![alt_text](images/.jpg)
 
@@ -112,11 +144,15 @@ Chapter introduction here.
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Right click on a blank section of the scene graph. Type in and select **EventActorEndOverlap** node. This will only run once when a collision volume exits this blueprint collision volume. In this case it will be the players collision.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Connect the execution pins from the **End Overlap** to the **Set Text**. Also change the **Value** to say `You are outside the box!`.
 
 ![alt_text](images/.jpg)
 
@@ -124,17 +160,29 @@ Chapter introduction here.
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Run the game and move inside and outside the collision volume and look at your blueprints being triggered.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
+Lets look at the player blueprint quickly. Go to the **Blueprints** folder and double click **BP_PlayerCharacter**. Look at the components. It root component is a Capsule Collision component. This acts the same as the box component but is the shape of a capsule (a pill on its end). This is roughly the shape of a bipedal upright human. It also has a FirstPersonCamera where the head would be. Notice the collision volume goes above the player's virtual head. This is a first person controller so the Mesh is empty. It is just a collision volume with a camera that moves around. When this capsule overlaps the box collider in the blueprint it triggers the overlap events.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
+Run the game again but this time keep the blueprint tab open and out of the way. Zoom so you can see the entire node graph. When you play the game you can see the execution pin connectors light up when it is triggered. This shows you what is hapenning and is incredibly useful for debugging.
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 22.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+That's it for Room 2. Press Save All then go into Source Control | Submit to Source Congrol, add a message that you have completed room 2 and press the Submit button. Now go to GitHub Desktop and Push changes to server. Next up we will be using blueprints to store multiple different components with no programming logic.
 
 ![alt_text](images/.jpg)
 
