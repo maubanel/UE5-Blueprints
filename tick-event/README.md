@@ -146,7 +146,7 @@ Now go to the game and *drag* the **BP_Timer** blueprint into **Room 7**. If the
 
 Now run the game and the millisecond counter should count very quickly (hard to see the fractional numbers as they change so fast).
 
-![alt_text](images/.jpg)
+![clock runs in game](images/MillisecondTimer.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -156,7 +156,7 @@ Duplicate MS Timer Message
 
 Lets add the ability to count in whole seconds. Go back to the **BP_Timer** blueprint and *select* the **MS Timer** and **MS Message** components. *Right click* and *select* **Duplicate**.
 
-![alt_text](images/.jpg)
+![duplicate ms timer and ms message](images/DuplicateMSTimerMessageRm7.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -164,14 +164,14 @@ Lets add the ability to count in whole seconds. Go back to the **BP_Timer** blue
 
 Now move the new copies to the right so they are next to each other. Change the names of the components to `Sec Timer` and `Sec Message`.
 
-![alt_text](images/.jpg)
+![reneame to sec timer and sec message](images/MoveAndRenameRm7.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 Change the message in the **Sec Message** component to `Time in Seconds`.
 
-![alt_text](images/.jpg)
+![change message](images/SecMessageTimeInSecsRm7.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -179,7 +179,7 @@ Change the message in the **Sec Message** component to `Time in Seconds`.
 
 Now go back to the **Event Graph** and add a new **Variable** by pressing the **+** button. This time we will make it an integer. A **float** stores a fractional number, an **integer** stores a whole number. Since we are *counting* seconds whole numbers will do. Call it `Time in Seconds`, add a **Tooltip** and make sure that **Private** is set to `true`.
 
-![alt_text](images/.jpg)
+![add an integer variable](images/TimeInSecondsIntRm7.jpg)
 
 ___
 
