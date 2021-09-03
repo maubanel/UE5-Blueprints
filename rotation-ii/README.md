@@ -166,13 +166,9 @@ Go into the game and try different values and combinations both positive and neg
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.jpg)
+Press the **File | Save All** then press the **Submit to Source Control...** and push in **Github Desktop**.
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.jpg)
+![add, commit and push to github](images/.jpg)
 
 ___
 
