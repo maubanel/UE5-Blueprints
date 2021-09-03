@@ -19,7 +19,7 @@ This is not as straight forward as changing a value to an existing material.  We
 
 Go to the **Blueprints** folder and duplicate **BP_Spotlight**. Call it `BP_SpotlightDynamic`. Create a new folder called `Room 4`. Drag **BP_Spotlight_Dynamic** into this folder. Put three of these blueprints in **Room 4** and rotate them to your liking:
 
-![alt_text](images/.jpg)
+![add three BP_SpotlightDynamic actors to room](images/BpSpotDynamicRm4.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -27,7 +27,7 @@ Go to the **Blueprints** folder and duplicate **BP_Spotlight**. Call it `BP_Spot
 
 Now we want to affect the color of the lightbulb in the **Material**. *Click* on the **Lamp** component and look for the material. *Double click* the icon to load it up. Make sure you are opening **M_Spotlight_Master**.
 
-![alt_text](images/.jpg)
+![open m_spotlight_master](images/FindOutLampMaterial.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -35,7 +35,7 @@ Now we want to affect the color of the lightbulb in the **Material**. *Click* on
 
 Look for the parameter that adjusts the light color. Just before the **Emissive** color we have a **Vector Parameter** called **Light Color**. This is the color we want to change in code in the blueprint.
 
-![alt_text](images/.jpg)
+![look for light color](images/LightColorParameterRm4.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -43,7 +43,7 @@ Look for the parameter that adjusts the light color. Just before the **Emissive*
 
 Go to the **blueprint** and into the **Construction Script** tab. *Drag* a reference to the **Lamp** component which contains that material we just looked at:
 
-![alt_text](images/.jpg)
+![drag lamp reference](images/DragLampReference.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -53,7 +53,7 @@ Now we need to reference just the material attached to the lamp component. To do
 
 We need to make the material dynamic in the constructor. This will allow us to access parameters within the material. Leave **Element Index** at `0`. If there were more than one material attached to the static mesh then you would select the one you want to access (it always starts counting from material 0). For **Source Material**, select **M_Spotlight_Master** which is the material we want to alter (we just looked at it).
 
-![alt_text](images/.jpg)
+![create dynamic instance material](images/CreateDynamicInstance.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -61,7 +61,7 @@ We need to make the material dynamic in the constructor. This will allow us to a
 
 Connect the execution pins.
 
-![alt_text](images/.jpg)
+![connect execution pins](images/ConnectFirstExecutionPinsRm4.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -69,7 +69,7 @@ Connect the execution pins.
 
 Drag off the **Create Dynamic Material Instance | Return Value** pin to help the node suggestions. Let go of the left mouse button and start to type **Set Vector Parameter Value**. You can see that this is in the **Material** section which gives us a good hint that this is what we want.
 
-![alt_text](images/.jpg)
+![set vector parameter values](images/SetVectorParameterValueRm4.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -77,7 +77,7 @@ Drag off the **Create Dynamic Material Instance | Return Value** pin to help the
 
 Go to the material and find out how the Parameter name is spelled with spaces and caps. You have to enter this exactly in the **Parameter Name** box `Light Color`. Make sure it is the same as it is in the material with a space between the two words.
 
-![alt_text](images/.jpg)
+![parameter name light color](images/ParameterNameRm4.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -85,7 +85,7 @@ Go to the material and find out how the Parameter name is spelled with spaces an
 
 Hover over the **Value** pin in the **Set Vector Parameter Value** input node. Notice that it wants a **Linear Color Structure**. This gives us a *hint*.
 
-![alt_text](images/.jpg)
+![tooltip](images/HoveOverValueRm4.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -93,7 +93,7 @@ Hover over the **Value** pin in the **Set Vector Parameter Value** input node. N
 
 Drag off the left pin, let go and enter **Linear Color**. Select the **Make Linear Color** node.
 
-![alt_text](images/.jpg)
+![add make linear color](images/MakeLinearColor.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -101,24 +101,24 @@ Drag off the left pin, let go and enter **Linear Color**. Select the **Make Line
 
 Make this node pure blue with a solid alpha.
 
-![alt_text](images/.jpg)
+![make a blue node](images/PureBlueSolidAlphaRm4.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Go into the game and checkout the color of the light. The actual light is still green but the light bulp glow is now blue.
+Go into the game and checkout the color of the light. The actual light is still green but the light bulb glow is now blue.
 
-![alt_text](images/.jpg)
+![blue lightbulb glow in game](images/ColorOfLight.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now go back to the **blueprint** and drag a reference form the light called **Spotlight** to the main graph area:
+Now go back to the **blueprint** and *drag* a reference from the light called **Spotlight** to the main graph area.
 
-![alt_text](images/.jpg)
+![drag spotlight reference](images/DragSpotLightReference.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -126,7 +126,7 @@ Now go back to the **blueprint** and drag a reference form the light called **Sp
 
 Now drag off the Spotlight pin and type **lightcolor**. Out of the options **Set Light Color** is what we want.
 
-![alt_text](images/.jpg)
+![set light color](images/SetLightColorRm4.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -134,15 +134,15 @@ Now drag off the Spotlight pin and type **lightcolor**. Out of the options **Set
 
 We will make the color of the light the same as the color of the bulb glow. Grab the output pin from the **Make Linear Color** node and connect it to the **New Light Color** input pin on the **Set Light Color** node.
 
-![alt_text](images/.jpg)
+![connet linear color to set color](images/OutputSecondLinearColorRm4.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Nothing will happen with this light until the execution pin is connected. Then press the <kbd>Compile</kbd> button so that the changes can run in engine.
+Nothing will happen with this light until the *execution pins* are *connected*. Then press the <kbd>Compile</kbd> button so that the changes can run in engine.
 
-![alt_text](images/.jpg)
+![connect execution and compile](images/SetExecutionPinThenCompileRm4.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -150,7 +150,7 @@ Nothing will happen with this light until the execution pin is connected. Then p
 
 Make sure the compile is succesful by checking to see that there is a green checkmark by the compile button.
 
-![alt_text](images/.jpg)
+![compile button has checkmark](images/GreenCheckmarkCompile.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -158,7 +158,7 @@ Make sure the compile is succesful by checking to see that there is a green chec
 
 Now go back to the game and hit run. You will see that both the bulb and the color of the light are set dynamically in the blueprint! But the lightbulb is still glowing white. Lets fix that.
 
-![alt_text](images/.jpg)
+![bulb in game glowing white](images/BlueLightAndGround.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
