@@ -197,7 +197,7 @@ Add a comment on all the nodes after the **Sequence** and type `Translate on Z`.
 
 Take the output of the **SIN** node and *plug* it into the input pin **Delta Location X** on the **Delta Relative Location** node
 
-![attach SIN to Delta Location X](images/.OuputSinDeltaXRm8jpg)
+![attach SIN to Delta Location X](images/OuputSinDeltaXRm8.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
