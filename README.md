@@ -13,10 +13,9 @@ Intro
 <!-- TOC -->
 ## Table of Contents
 <kbd></kbd> &nbsp;&nbsp; [Setting Up](setting-up/README.md#user-content-setting-up) <br>
-<kbd></kbd> &nbsp;&nbsp; [Constructor & Begin Play](construction-begin/README.md#user-content-contruction--begin-play) <br>
-<kbd></kbd> &nbsp;&nbsp; [Constructor & Begin Play II](construction-begin-ii/README.md#user-content-contruction--begin-play-ii) <br>
+<kbd></kbd> &nbsp;&nbsp; [Constructor & Begin Play](constructor-begin/README.md#user-content-contructor--begin-play) <br>
+<kbd></kbd> &nbsp;&nbsp; [Constructor & Begin Play II](constructor-begin-ii/README.md#user-content-contructor--begin-play-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Collision Events](collision/README.md#user-content-collision-events) <br>
-<kbd></kbd> &nbsp;&nbsp; [Grouping Meshes](grouping-meshes/README.md#user-content-grouping-meshes) <br>
 <kbd></kbd> &nbsp;&nbsp; [Grouping Meshes](grouping-meshes/README.md#user-content-grouping-meshes) <br>
 <kbd></kbd> &nbsp;&nbsp; [Dynamic Materials](dynamic-materials/README.md#user-content-dynamic-materials) <br>
 <kbd></kbd> &nbsp;&nbsp; [Private Variables](private-variables/README.md#user-content-private-variables) <br>
@@ -24,7 +23,6 @@ Intro
 <kbd></kbd> &nbsp;&nbsp; [Tick Event](tick-event/README.md#user-content-tick-event) <br>
 <kbd></kbd> &nbsp;&nbsp; [Rotation](rotation/README.md#user-content-rotation) <br>
 <kbd></kbd> &nbsp;&nbsp; [Rotation II](rotation-ii/README.md#user-content-rotation-ii) <br>
-<kbd></kbd> &nbsp;&nbsp; [Translation](translation/README.md#user-content-translation) <br>
 <kbd></kbd> &nbsp;&nbsp; [Translation](translation/README.md#user-content-translation) <br>
 <kbd></kbd> &nbsp;&nbsp; [Dynmaically Alter Multiple Classes](multiple-actors/README.md#user-content-dynamically-alter-multiple-classes) <br>
 <kbd></kbd> &nbsp;&nbsp; [Dynamically Alter Multiple Classes II](multiple-actors-ii/README.md#user-content-dynamically-alter-multiple-classes-ii) <br>
