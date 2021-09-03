@@ -106,7 +106,7 @@ Open the **BP_Spotlight** blueprint and select the **Spotlight**. You will see t
 
 Make sure it is rotated in the same direction as the lamp.
 
-![match direction with rotation](images/.RotateLightjpg)
+![match direction with rotation](images/RotateLight.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
