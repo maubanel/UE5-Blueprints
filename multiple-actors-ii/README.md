@@ -2,7 +2,7 @@
 
 ### Dynamically Alter Multiple Classes II
 
-<sub>[previous](../) • [home](../README.md#user-content-ue4-blueprints) • [next](../)</sub>
+<sub>[previous](../Dynamically Alter Multiple Classes](multiple-actors/README.md#user-content-dynamically-alter-multiple-classes) • [home](../README.md#user-content-ue4-blueprints) • [next](../interface/README.md#user-content-communicate-through-interface)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -147,5 +147,5 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../)| [home](../README.md#user-content-ue4-blueprints) | [next](../)|
+| [previous](../Dynamically Alter Multiple Classes](multiple-actors/README.md#user-content-dynamically-alter-multiple-classes)| [home](../README.md#user-content-ue4-blueprints) | [next](../interface/README.md#user-content-communicate-through-interface)|
 |---|---|---|
