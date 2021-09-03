@@ -28,10 +28,10 @@ Intro
 <kbd></kbd> &nbsp;&nbsp; [Dynamically Alter Multiple Classes II](multiple-actors-ii/README.md#user-content-dynamically-alter-multiple-classes-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Communicate Through Interface](interface/README.md#user-content-communicate-through-interface) <br>
 <kbd></kbd> &nbsp;&nbsp; [Communicate Through Interface II](interface-ii/README.md#user-content-communicate-through-interface-ii) <br>
-<kbd></kbd> &nbsp;&nbsp; [Orbiting Actors](orbiting/README.md#user-content-orbiting-actors) <br>
-<kbd></kbd> &nbsp;&nbsp; [Orbiting Actors II](orbiting-ii/README.md#user-content-orbiting-actors-ii) <br>
-<kbd></kbd> &nbsp;&nbsp; [Orbiting Actors III](orbiting-iii/README.md#user-content-orbiting-actors-iii) <br>
-<kbd></kbd> &nbsp;&nbsp; [Orbiting Actors IV](orbiting-iv/README.md#user-content-orbiting-actors-iv) <br>
+<kbd></kbd> &nbsp;&nbsp; [Orbiting Actors](orbiting-actors/README.md#user-content-orbiting-actors) <br>
+<kbd></kbd> &nbsp;&nbsp; [Orbiting Actors II](orbiting-actors-ii/README.md#user-content-orbiting-actors-ii) <br>
+<kbd></kbd> &nbsp;&nbsp; [Orbiting Actors III](orbiting-actors-iii/README.md#user-content-orbiting-actors-iii) <br>
+<kbd></kbd> &nbsp;&nbsp; [Orbiting Actors IV](orbiting-actors-iv/README.md#user-content-orbiting-actors-iv) <br>
 <kbd></kbd> &nbsp;&nbsp; [User Input](user-input/README.md#user-content-user-input) <br>
 <kbd></kbd> &nbsp;&nbsp; [User Input II](user-input-ii/README.md#user-content-user-input-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [User Input III](user-input-iii/README.md#user-content-user-input-iii) <br>
