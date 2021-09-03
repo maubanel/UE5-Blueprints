@@ -24,7 +24,7 @@ Intro
 <kbd></kbd> &nbsp;&nbsp; [Rotation](rotation/README.md#user-content-rotation) <br>
 <kbd></kbd> &nbsp;&nbsp; [Rotation II](rotation-ii/README.md#user-content-rotation-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Translation](translation/README.md#user-content-translation) <br>
-<kbd></kbd> &nbsp;&nbsp; [Dynmaically Alter Multiple Classes](multiple-actors/README.md#user-content-dynamically-alter-multiple-classes) <br>
+<kbd></kbd> &nbsp;&nbsp; [Dynamically Alter Multiple Classes](multiple-actors/README.md#user-content-dynamically-alter-multiple-classes) <br>
 <kbd></kbd> &nbsp;&nbsp; [Dynamically Alter Multiple Classes II](multiple-actors-ii/README.md#user-content-dynamically-alter-multiple-classes-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Communicate Through Interface](interface/README.md#user-content-communnicate-through-interface) <br>
 <kbd></kbd> &nbsp;&nbsp; [Communicate Through Interface II](interface-ii/README.md#user-content-communnicate-through-interface-ii) <br>
