@@ -17,7 +17,7 @@ Now we can have a few types of collisions in **Unreal**. We can have a blocking 
 
 Create a new folder called `Room2` and put it in the **Blueprints** folder. Move the camera over to **Room 2** and press the <kbd>Add New</kbd> button and select **Blueprint Class**.
 
-![alt_text](images/.jpg)
+![add blueprint class to blueprints folder](images/BlueprintClassRm2.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -25,7 +25,7 @@ Create a new folder called `Room2` and put it in the **Blueprints** folder. Move
 
 We will be using this blueprint in a level so we will make it the base class of **Actor**.
 
-![alt_text](images/.jpg)
+![select actor class](images/InheritFromActorBlueprint.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -33,7 +33,7 @@ We will be using this blueprint in a level so we will make it the base class of 
 
 Call it `BP_TextOnCollision`. *Drag* it into the room. In the **World Outliner** *drag* this newly created game object into the **Room 2** folder.
 
-![alt_text](images/.jpg)
+![drag BP_Text_OnCollision into room 2](images/NameAndPlaceBPRm2.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -41,7 +41,7 @@ Call it `BP_TextOnCollision`. *Drag* it into the room. In the **World Outliner**
 
 Double click the **blueprint**. Press the <kbd>Add Component</kbd> button and select a **Text Render**.
 
-![alt_text](images/.jpg)
+![add text render component](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -49,7 +49,7 @@ Double click the **blueprint**. Press the <kbd>Add Component</kbd> button and se
 
 Now press **Add Component** again and this time we want a collision box. We can add multiple components to the same blueprints. If you type `collision` into the menu you will see three shapes: **Box**, **Sphere** and **Cylinder.** We will pick the **Box Collision**:
 
-![alt_text](images/.jpg)
+![add box collision component](images/CollisionComponentRm2.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -57,7 +57,7 @@ Now press **Add Component** again and this time we want a collision box. We can 
 
 Rename the text component to `TextInRoom2`. Drag and drop this on top of the **DefaultSceneRoot** component. This will make the text box the root (parent) component. Make the **Text Render Color** more visible on a white background and change the **World Size** to `74`.
 
-![alt_text](images/.jpg)
+![rename component and make world size 74 and recolor](images/RenameMakeParentRoot.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -65,24 +65,23 @@ Rename the text component to `TextInRoom2`. Drag and drop this on top of the **D
 
 With the **Box** component selected go to the **Details** panel and change the **Box Extent** to `600` on the **X**, `400` on the **Y** and `200` on the **Z**. Also make sure the text element is at the rear of the collision box.
 
-
-![alt_text](images/.jpg)
+![change shape of collision box](images/ChangeBoxShape.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now go into the game and reposition so the collision box is above the floor and centered in the room.
+
+![reposition collisoin box in room](images/RepositionCollisionBoxRm2.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now go into the game and reposition so the collision box is above the floor and centered in the room.
-
 Go back to the **blueprint**. Make sure you are in the **Event Graph** tab. Drag and drop the **TextInRoom2** component into the scene graph. Left click the blue pin from this node and let go. This will now make sure that the context sensitive search will be items that are compatible with this reference. Start typing in **Set Text** to get the **Set Text** node.
 
-![alt_text](images/.jpg)
+![drag text reference and add set text node](images/DragTextRefAndPinRm2.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -90,7 +89,7 @@ Go back to the **blueprint**. Make sure you are in the **Event Graph** tab. Drag
 
 Since we added a **Collision** component the event graph shows a **Begin Overlap** event. This will trigger only one time when two objects overlap. In our case it will be the player's collision volume with this blueprint. It will only trigger a second time if the object leaves the collision volume then re-enters. Connect the execution pin from the **EventActorBeginOverlap** greyed out node to the **Set Text** node you just created.
 
-![alt_text](images/.jpg)
+![Connect set text execution pin to begin overlap](images/BeginOverlapPinConnectRm2.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -98,7 +97,7 @@ Since we added a **Collision** component the event graph shows a **Begin Overlap
 
 Left click and drag off the **Value** node from **Set Text**. Let go and start typing **Make Literal Text**:
 
-![alt_text](images/.jpg)
+![add make literal text](images/DragOffValueNodeRm2.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -106,7 +105,7 @@ Select the **Make Literal Text** node and add the text: `You are inside the box!
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+![add text to literal text](images/MakeLiteralTextInsideBoxRm2.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -114,7 +113,7 @@ Select the **Make Literal Text** node and add the text: `You are inside the box!
 
 Run the game and move towards where the box is (we can't see it). You should see the text appear. It doesn't dissapear when you leave the box. Lets make some changes and improve this.
 
-![alt_text](images/.jpg)
+![you are inside the box text in game](images/RunGame.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -122,7 +121,7 @@ Run the game and move towards where the box is (we can't see it). You should see
 
 Go back to the blueprint and move the box component so the text is at the bottom left rear of the collision volume (behind if you like). Make sure the **Hidden In Game** box is deselected. Normally in a game we would hide our collision volumes, but for debug purposes lets set it so that we can see it.
 
-![alt_text](images/.jpg)
+![unhide collision volume](images/ThreeChangesRm2.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -130,7 +129,7 @@ Go back to the blueprint and move the box component so the text is at the bottom
 
 Run the game and step into the box. The text is more obvious and better positioned. Make any necessary adjustments here. Now lets change the message when the player leaves the box.
 
-![alt_text](images/.jpg)
+![Run game and now you see the box](images/RunTheGameRm2B.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -138,7 +137,7 @@ Run the game and step into the box. The text is more obvious and better position
 
 *Copy and paste* the three nodes in the blueprint at the bottom.
 
-![alt_text](images/.jpg)
+![copy and paste three nodes in BP_TextOnCollision](images/CopyPasteThreeNodesRm2.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -146,7 +145,7 @@ Run the game and step into the box. The text is more obvious and better position
 
 Right click on a blank section of the scene graph. Type in and select **EventActorEndOverlap** node. This will only run once when a collision volume exits this blueprint collision volume. In this case it will be the players collision.
 
-![alt_text](images/.jpg)
+![add eventactorendoverlap node](images/ActorEndOverlapRm2.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -154,7 +153,7 @@ Right click on a blank section of the scene graph. Type in and select **EventAct
 
 Connect the execution pins from the **End Overlap** to the **Set Text**. Also change the **Value** to say `You are outside the box!`.
 
-![alt_text](images/.jpg)
+![change value to you rae inside the box and connect execution pins](images/ConnectPinsChangeMessageRm2.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -162,7 +161,7 @@ Connect the execution pins from the **End Overlap** to the **Set Text**. Also ch
 
 Run the game and move inside and outside the collision volume and look at your blueprints being triggered.
 
-![alt_text](images/.jpg)
+![alt_text](images/CollisionText.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
@@ -170,7 +169,7 @@ Run the game and move inside and outside the collision volume and look at your b
 
 Lets look at the player blueprint quickly. Go to the **Blueprints** folder and double click **BP_PlayerCharacter**. Look at the components. It root component is a Capsule Collision component. This acts the same as the box component but is the shape of a capsule (a pill on its end). This is roughly the shape of a bipedal upright human. It also has a FirstPersonCamera where the head would be. Notice the collision volume goes above the player's virtual head. This is a first person controller so the Mesh is empty. It is just a collision volume with a camera that moves around. When this capsule overlaps the box collider in the blueprint it triggers the overlap events.
 
-![alt_text](images/.jpg)
+![root component of player](images/PlayerBPRm2.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
