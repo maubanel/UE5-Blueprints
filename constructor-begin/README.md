@@ -25,13 +25,19 @@ In the **Blueprints** folder press the <kdbd>Add New</kbd> button and add a new 
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Pick an Actor as the base class. This is the most basic class that you can use for an object that exists in a level. It provides a bunch of functionality that we will be exploring including the ability to add blueprint logic.
+
+All other classes inherit from the **Actor** class object.  [Inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)) is an object oriented programming concept.
+
+![select actor class](images/ActorBaseClass.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Call it `BP_TextInConstructor`.
+
+![call blueprint BP_TextInConstructor](images/BPTextOnConstructor.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
