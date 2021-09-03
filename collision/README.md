@@ -183,7 +183,7 @@ Run the game again but this time keep the blueprint tab open and out of the way.
 
 That's it for Room 2. Press Save All then go into Source Control | Submit to Source Congrol, add a message that you have completed room 2 and press the Submit button. Now go to GitHub Desktop and Push changes to server. Next up we will be using blueprints to store multiple different components with no programming logic.
 
-![alt_text](images/.jpg)
+![save all, commit and push to github](images/Room2Github.jpg)
 
 ___
 
