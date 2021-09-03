@@ -25,7 +25,7 @@ Go into the game into the **Blueprints** folder. *Drag and drop* the **BP_Rotate
 
 **Run** the game and the cube should rotate around the **Z** axis.
 
-![alt_text](images/.jpg)
+![run game and look at cube rotate on z axis](images/RotatingCubeOnZ.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
