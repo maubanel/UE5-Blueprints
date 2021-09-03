@@ -232,7 +232,6 @@ That's it for **Room 6**. **Press Save All** and update **Github** by committing
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-
 ___
 
 
