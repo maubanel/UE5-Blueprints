@@ -41,7 +41,7 @@ Call it `BP_TextOnCollision`. *Drag* it into the room. In the **World Outliner**
 
 Double click the **blueprint**. Press the <kbd>Add Component</kbd> button and select a **Text Render**.
 
-![add text render component](images/.CollisionComponentRm2jpg)
+![add text render component](images/CollisionComponentRm2.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
