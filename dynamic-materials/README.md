@@ -6,7 +6,9 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+What if we want to change a property in the material dynamincally through the blueprint? What if we want to change the property of a component like the spotlight color? We will be looking at both of these in the upcoming exercise.
+
+This is not as straight forward as changing a value to an existing material.  We have to change the **type** to a dynamic material which is different from the one supplied in the editor (a *static* material).  Please note that a dynamic material is more expensive so only create one if you do need to make changes dynamically during gameplay.
 
 <br>
 
@@ -15,11 +17,15 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
+Go to the **Blueprints** folder and duplicate **BP_Spotlight**. Call it `BP_SpotlightDynamic`. Create a new folder called `Room 4`. Drag **BP_Spotlight_Dynamic** into this folder. Put three of these blueprints in **Room 4** and rotate them to your liking:
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+
+Now we want to affect the color of the lightbulb in the **Material**. *Click* on the **Lamp** component and look for the material. *Double click* the icon to load it up. Make sure you are opening **M_Spotlight_Master**.
 
 ![alt_text](images/.jpg)
 
@@ -27,11 +33,15 @@ Chapter introduction here.
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Look for the parameter that adjusts the light color. Just before the **Emissive** color we have a **Vector Parameter** called **Light Color**. This is the color we want to change in code in the blueprint.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Go to the **blueprint** and into the **Construction Script** tab. *Drag* a reference to the **Lamp** component which contains that material we just looked at:
 
 ![alt_text](images/.jpg)
 
@@ -39,11 +49,17 @@ Chapter introduction here.
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
+Now we need to reference just the material attached to the lamp component. To do this pull off of the **Lamp** pin then type **Create Dynamic Material Instance**. Make sure the subtitle says **Target is Primitive Component** and you have all the pins shown in the screenshot.
+
+We need to make the material dynamic in the constructor. This will allow us to access parameters within the material. Leave **Element Index** at `0`. If there were more than one material attached to the static mesh then you would select the one you want to access (it always starts counting from material 0). For **Source Material**, select **M_Spotlight_Master** which is the material we want to alter (we just looked at it).
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
+
+Connect the execution pins.
 
 ![alt_text](images/.jpg)
 
@@ -51,11 +67,15 @@ Chapter introduction here.
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Drag off the **Create Dynamic Material Instance | Return Value** pin to help the node suggestions. Let go of the left mouse button and start to type **Set Vector Parameter Value**. You can see that this is in the **Material** section which gives us a good hint that this is what we want.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Go to the material and find out how the Parameter name is spelled with spaces and caps. You have to enter this exactly in the **Parameter Name** box `Light Color`. Make sure it is the same as it is in the material with a space between the two words.
 
 ![alt_text](images/.jpg)
 
@@ -63,17 +83,23 @@ Chapter introduction here.
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Hover over the **Value** pin in the **Set Vector Parameter Value** input node. Notice that it wants a **Linear Color Structure**. This gives us a *hint*.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
+Drag off the left pin, let go and enter **Linear Color**. Select the **Make Linear Color** node.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
+
+Make this node pure blue with a solid alpha.
 
 ![alt_text](images/.jpg)
 
@@ -82,11 +108,15 @@ Chapter introduction here.
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Go into the game and checkout the color of the light. The actual light is still green but the light bulp glow is now blue.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Now go back to the **blueprint** and drag a reference form the light called **Spotlight** to the main graph area:
 
 ![alt_text](images/.jpg)
 
@@ -94,11 +124,15 @@ Chapter introduction here.
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now drag off the Spotlight pin and type **lightcolor**. Out of the options **Set Light Color** is what we want.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
+
+We will make the color of the light the same as the color of the bulb glow. Grab the output pin from the **Make Linear Color** node and connect it to the **New Light Color** input pin on the **Set Light Color** node.
 
 ![alt_text](images/.jpg)
 
@@ -106,11 +140,15 @@ Chapter introduction here.
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Nothing will happen with this light until the execution pin is connected. Then press the <kbd>Compile</kbd> button so that the changes can run in engine.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Make sure the compile is succesful by checking to see that there is a green checkmark by the compile button.
 
 ![alt_text](images/.jpg)
 
@@ -118,25 +156,24 @@ Chapter introduction here.
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now go back to the game and hit run. You will see that both the bulb and the color of the light are set dynamically in the blueprint! But the lightbulb is still glowing white. Lets fix that.
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Repeat creating a **Dynamic Material Instance** with **SM_Lightbulb**. Go look at the static mesh and notice that the **M_Glass** in **Element Index** `1`. Add another **Vector Parameter Value** to it. The parameter we want to change is called `ColorGlow`. Run in game and you can see that the light, casing glow and lightbulb glow are all the same color.
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.jpg)
+That's it for Room 4. Press **Save All** and update Github by *committing* and *pushing* all the changes made with **GitHub Desktop**. Next up we will be looking at using variables in blueprints.
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.jpg)
+![save, commit and push to github](images/Room4Github.jpg)
 
 ___
 
