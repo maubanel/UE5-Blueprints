@@ -118,37 +118,49 @@ Now go back to the game and try it out. No more gimble lock, the object rotates 
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Lets do the final axis of rotation along the **X** axis for **Roll**. *Copy* the **Yaw (rotating around Z)** and *paste* it at the bottom. Change the **comment** `Adjust Roll`:
+
+![copy and paste nodes from yaw](images/CopyPasteYawRm8.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.jpg)
+Delete the **Rotate On Z** boolean reference and duplicate it to create another boolean called `bRotateOnX`.
+
+![create brotateonx variable](images/DeleteRotateOnZRm8.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+I just noticed that I forgot to categorize the variables. Go back to each variable and add the category: `Rotation`.
+
+![add category rotation to all variables](images/CategorizeRotationRm8.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Drag* a copy of the **Rotate On X** variable as a **Get** onto the graph and *send* it to the **Condition** input on the **Branch** node. Also, *connect* the **Degrees Since Last Frame** output to the **Delta Rotation X (Roll)** on the **Add Relative Rotation** node.
+
+![re-connect pins](images/RotateOnXPinsRm8.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Press* **Add Pin +** to **Sequence** node. *Attach* **Then 2** to the adjust roll **Branch** node. Your node graph should now look like:
+
+![shot of full blueprint graph](images/FinalRotationNodeGraph.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Go into the game and try different values and combinations both positive and negative. Also, look at your blueprint node chart as it runs to see how the booleans gate the operation flow. Now we will continue in this room but instead of rotation will be translating the cube instead.
+
+![rotate on all three axes](images/Rotate3Axis.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
