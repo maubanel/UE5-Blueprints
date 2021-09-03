@@ -19,7 +19,9 @@ Lets get going by setting up the project so we can start using blueprints.
 
 ##### `Step 1.`\|`ITL`|:small_blue_diamond:
 
-![alt_text](images/.jpg)
+After you accept the [GitHub Classroom](https://classroom.github.com/a/HDRB55xp) invitation, go to the new **GitHub** repository and click on the green Code button and select open with **GitHub Desktop** then confirm that you will open in desktop then pick a directory and press the <kbd>Clone</kbd> button.
+
+![github classroom invite to blueprints](images/IntroductionToBlueprintsClassroom.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
