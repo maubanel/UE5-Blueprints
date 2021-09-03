@@ -166,6 +166,7 @@ Now go back to the game and hit run. You will see that both the bulb and the col
 
 Repeat creating a **Dynamic Material Instance** with **SM_Lightbulb**. Go look at the static mesh and notice that the **M_Glass** in **Element Index** `1`. Add another **Vector Parameter Value** to it. The parameter we want to change is called `ColorGlow`. Run in game and you can see that the light, casing glow and lightbulb glow are all the same color.
 
+https://user-images.githubusercontent.com/5504953/132038111-ba9730c2-cba5-4700-b76c-c8151d931e3d.mp4
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
