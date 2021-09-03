@@ -27,7 +27,9 @@ After you accept the [GitHub Classroom](https://classroom.github.com/a/HDRB55xp)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Go to your new GitHub repository and press the <kbdCode</kbd> button and select **Open with GitHub Desktop**. Then you can **Clone** the project to your hard drive.
+
+![accept and clone blueprints project](images/image_01.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
