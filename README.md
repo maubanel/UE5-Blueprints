@@ -26,8 +26,8 @@ Intro
 <kbd></kbd> &nbsp;&nbsp; [Translation](translation/README.md#user-content-translation) <br>
 <kbd></kbd> &nbsp;&nbsp; [Dynamically Alter Multiple Classes](multiple-actors/README.md#user-content-dynamically-alter-multiple-classes) <br>
 <kbd></kbd> &nbsp;&nbsp; [Dynamically Alter Multiple Classes II](multiple-actors-ii/README.md#user-content-dynamically-alter-multiple-classes-ii) <br>
-<kbd></kbd> &nbsp;&nbsp; [Communicate Through Interface](interface/README.md#user-content-communnicate-through-interface) <br>
-<kbd></kbd> &nbsp;&nbsp; [Communicate Through Interface II](interface-ii/README.md#user-content-communnicate-through-interface-ii) <br>
+<kbd></kbd> &nbsp;&nbsp; [Communicate Through Interface](interface/README.md#user-content-communicate-through-interface) <br>
+<kbd></kbd> &nbsp;&nbsp; [Communicate Through Interface II](interface-ii/README.md#user-content-communicate-through-interface-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Orbiting Actors](orbiting/README.md#user-content-orbiting-actors) <br>
 <kbd></kbd> &nbsp;&nbsp; [Orbiting Actors II](orbiting-ii/README.md#user-content-orbiting-actors-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Orbiting Actors III](orbiting-iii/README.md#user-content-orbiting-actors-iii) <br>
