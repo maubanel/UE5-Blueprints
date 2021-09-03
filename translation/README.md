@@ -99,7 +99,7 @@ Drag a **Get** node from the **Translate On Z** boolean onto the graph:
 
 *Drag* the pin off of the **Translate On Z** variable in the graph and *select* a **Branch** node (remember this is like an if() statement). *Connect* the execution pins from the **Sequence | Then 0** to **Branch** pin.
 
-![add branch node](images/v.jpg)
+![add branch node](images/ZToBranchRm8.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
