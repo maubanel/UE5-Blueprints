@@ -177,6 +177,8 @@ Lets look at the player blueprint quickly. Go to the **Blueprints** folder and d
 
 Run the game again but this time keep the blueprint tab open and out of the way. Zoom so you can see the entire node graph. When you play the game you can see the execution pin connectors light up when it is triggered. This shows you what is hapenning and is incredibly useful for debugging.
 
+https://user-images.githubusercontent.com/5504953/132032366-f8bbba20-0f9d-456f-97f2-ad4af02cff25.mp4
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 22.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
