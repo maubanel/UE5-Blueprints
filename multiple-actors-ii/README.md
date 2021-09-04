@@ -89,20 +89,15 @@ Go to **BP_LightbulbMulti** and the **Event Graph** *add* a **Switch Light** nod
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
+Now run the game and enter and leave the room. The lights should toggle on and off.
+
+![run game and trigger lights on and off](images/TurnOnOffLights.gif)
+
 ![alt_text](images/.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
-
-Now run the game and enter and leave the room. The lights should toggle on and off.
-
-![run game and trigger lights on and off](images/TurnOnOffLights.gif)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-
-##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 That's it for **Room 9**. *Press* **Save All** and update **Github** by committing and pushing all the changes made. Next up we will be using a broadcast event to access the on off switch on classes of different types.
 
