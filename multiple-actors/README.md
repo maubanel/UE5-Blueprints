@@ -138,23 +138,35 @@ Add a `Turn Light On` comment by highlighting the nodes and pressing the <kbd>C<
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Lets test this function before moving forward. Go back to the **Event Graph** and add a function call by *right clicking* and adding a **Switch Light** node and connect it to begin play. *Play* the game with the **Turn On** boolean set to `false`. *Play* it in game and the lights should be off. Now do the same thing with the **Turn On** boolean set to `True`. *Run* the game the light should be on. Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
+
+![test light in game by switching Turn On off and on](images/TestTurnOnOffUnct.gif)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+In previous rooms we have put the trigger volume in the blueprint. In most cases we would have a trigger volum set in the level as it is always in a different place in the level and can sometimes control more than one blueprint. Go to **Volumes** and *drag* a **Trigger Volume **into the level. *Scale* it to add a box in front of the ligths so the player can walk into and out of it to trigger a lights on / lights off event.
+
+![add trigger volume to level](images/UseLevelTriggerVolume.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now do we get access to any object that is in the room? This is easy go to the game and select the **Trigger Volume** you just selected.
+
+![select trigger volume in editor](images/BreakPinConnRm10.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now since a blueprint can be used in any level and that this trigger is unique to this level, there is a special kind of blueprint. Everytime you have created a new Map or Level the game has automatically created a [Level Blueprint](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Types/LevelBlueprint/). This blueprint gives you access to all the insances included in that level in the editor. 
+
+> A Level Blueprint is a specialized type of Blueprint that acts as a level-wide global event graph. Each level in your project has its own Level Blueprint created by default that can be edited within the Unreal Editor, however new Level Blueprints cannot be created through the editor interface.<br><br>Events pertaining to the level as a whole, or specific instances of Actors within the level, are used to fire off sequences of actions in the form of Function Calls or Flow Control operations. - UE4 manual
+
+Press the Blueprints button and select Open Level Blueprint. Please note that these *do not* show up in your Content folder as they can't be deleted. Their location is essentially hidden.
 
 ![alt_text](images/.jpg)
 
