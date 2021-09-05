@@ -33,7 +33,7 @@ Move the camera to room 11. *Add* a new Folder called **Blueprints | Room11**. *
 
 *Double click* **BP_Rotate_Around_Room** and press the **Add Component** button and add a **Static Mesh** to the blueprint.
 
-![add static mesh to blueprint](AddStaticMeshToBPRm15/.jpg)
+![add static mesh to blueprint](images/AddStaticMeshToBPRm15.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
