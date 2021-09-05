@@ -87,74 +87,100 @@ Connect the **Then 1** output of the **Sequence** node execution pin to the exec
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-![alt_text](images/.jpg)
+Now lets test our work to date. We have enough information to run a test in game. Add two **Print String** nodes. Connect one to the **Is Valid** output of the **Is Valid** node and the other to the **Is Not Valid** pin. The **Is Valid** print statement should have message `Rotate Around Object` in the default blue color for a duration of `0.0`. The other should have a message `No Object To Rotate Around`, change the color to a shade of **Red** and set the duration to `0.0`.
+
+![add two print strings to check validity](images/ShowDebugTestWorkRm15.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Now go into the game and don't assign a target, just run it as is. You should see the red message** No Object To Rotate Around** appears when you *run* the game.
+
+![run debug in game](images/RedDebugInGame.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Now highlight the **Blueprint** actor in the scene and assign the **Rotate Around Me** actor to the **Target To Rotate Around** input that we set up.
+
+![add rotate around me actor](images/RotateAroundMe.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+When we run the game we now have a valid game object. The message says in blue *Rotate Around Object* which is what we wanted!
+
+![rotate around object message in game](images/RunGameValidObject.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+OK, lets move on with the rotation. *Right click* and add a **Rotate Vector Around Axis** node.
+
+![add rotate vector around axis node](images/RotateAroundVectorNodeRm15.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.jpg)
+Now lets look at our input nodes. So we will be calculating from the object we are rotating around (the cube); from its origin point. The **In Vector** is a relative vector to the cube and will make the radius of the rotation. The angle is the value we have already calculated in degrees. The axis will be the **Z** axis of the cube. This means that it will rotate around its **Z** axis (remember it is Z up in UE4).
+
+![in vector node](images/RotateAroundVectorNodeBRm15.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.jpg)
+Make a new variable of type **Float** called `Radius`. Make sure it is **Instance Editable** and **Private**. Add the **Category** `Rotation` and add a **tooltip**.
+
+*Set* the **default value** of the **Radius** to `300` and press the <kbd>Compile</kbd>.
+
+![set radius to 300](images/RadiusVariableRm15.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now *drag and drop* a **Get Radius** to the graph and we need to figure out how to attach this to the **In Vector** input. Now this is a **float** and the in vector wants a vector (hover over the pins). Now we will just be affecting the **Z** vector of the object. Now if we split the pins and plug this into the **X** vector this will work in world space. Regardless of the rotation of the cube, this will be always rotating around world **Z**. What if we want it to rotate with the cube. We need it relative to the cube's rotation. *Unreal* gives us a normalized vector along the plane called **Get Actor Right Vector**. This is a vector that is 1 unit long point to the relative right side direction of the actor regardless of his world rotation. Add a **Get Actor Right Vector** node.
+
+![get actor right vector](images/RadiusRightVector.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now *drag* a **Get** reference to the **Target To Rotate Around** variable and attack it to the **Target** input of **Get Actor Right Vector**. We are rotating around the referenced object, not ourselves. Now we want to scale this normalized vector by adding a **Vector * Float** node and attaching the pins accordingly.
+
+![add target to rotate around and connect to righ vector](images/VectorTimesFloatRm15.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Send the output of this **Multiply** into the **In Vect** pin of the **Rotate Vector Around Axis** node:
+
+![attach multiply to in vect](images/OutputMultiplyInVector.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.jpg)
+We can also add variables without dragging and dropping. We can click on an open part of the graph and type **Current Angle In Degrees** and select **Get**:.
+
+![add get current angle in degrees node](images/GetRefToAngleInDegRm15.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+*Connect* the output of the **Get Current Angle In Degrees** pin to the **Angle Deg** input in the **Rotate Vector Around Axis** node. Add appropriate comments:
+
+![attache angle deg to current angle in degrees](images/ConnectAnglePinsRm15.jpg)
 
 ___
 
