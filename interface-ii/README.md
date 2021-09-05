@@ -57,7 +57,7 @@ Call it `BP_RotateRm10` and *drag it* into the **Room10** folder.
 
 Drag two **BP_Rotate_Rm10** in the room.
 
-![drag two bp_rotaterm10 into the level](images/.jpg)
+![drag two bp_rotaterm10 into the level](images/DragTwoCubesInRoom.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
