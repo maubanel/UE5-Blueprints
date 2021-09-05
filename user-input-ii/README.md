@@ -161,19 +161,25 @@ Then put a **Float + Float** node and add the output of the **Multiplication** n
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Pull of of the **Float + Float** output pin and add a **Set Current Angle Deg** node. Connect the execution pin of **Branch True** to the input execution pin:
+
+![connect execution pins](images/SetCurrentAngDegRm16.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.jpg)
+Now we don't want to use **Set Actor Rotation** or the entire actor which includes the text and the collision box will rotate. We just want the **Static Mesh** component mesh to rotate. *Drag* and drop a **Static Mesh** (or whatever you renamed the static mesh) node onto the graph. Pull off of the pin and select Set Relative Rotation node.
+
+![alt_text](images/GetCubeComponentRm16.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.jpg)
+Now do not have an entire rotation on all axis. We have a float to rotate around the **Z** axis. So *right click* on the **Set Relative Rotation** node's **New Rotation** pin and *select*** Split Struct Pin**:
+
+![split strut pin on set relative rotation node](images/SplitStructPinRm26.jpg)
 
 ___
 
