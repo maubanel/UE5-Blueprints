@@ -81,7 +81,7 @@ Repeat this process for an added Disable Input node for when the player leaves t
 
 Now go to the game and select the **BP_RotateCube** instance in the level and change the **Auto Receive Input** to `Player 0`.
 
-![change auto receive input to player 0](images/.AutoReceivePlayer0jpg)
+![change auto receive input to player 0](images/AutoReceivePlayer0.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
