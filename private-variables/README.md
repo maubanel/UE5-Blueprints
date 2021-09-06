@@ -49,7 +49,7 @@ We want to use a variable to store the light color. Open the blueprint and press
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Name the variable something that describes what it does. CI called it `ColorOfLight`. I also put it in a **Category** called `Light`. It is always best practice to also leave a **Tooltip** in the details panel. This way anytime a user hovers over the variable name a full explanation can be given. This allows you to use shorter less descriptive variable names and still provide a full description. My tooltip was `Sets color of lightbulb and spotlight beam in game`.
+Name the variable something that describes what it does. I called it `ColorOfLight`. I also put it in a **Category** called `Light` (this will not show up by default, you can just type it in and it will add it in the future in this blueprint as a category). It is always best practice to also leave a **Tooltip** in the details panel. This way anytime a user hovers over the variable name a full explanation can be given. This allows you to use shorter less descriptive variable names and still provide a full description. My tooltip was `Sets color of lightbulb and spotlight beam in game`.
 
 ![add color of light variable](images/SetTooltipRm5.jpg)
 
