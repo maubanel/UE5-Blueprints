@@ -114,7 +114,7 @@ Send the output of the **Append** node to the **Value** input pin in **Set Text*
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now you can change the random number and run that node every time you compile the blueprint or change that blueprint object in the editor. It only runs in these two conditions and will not run during hte game. If you hit play that text will always be the same for as long as the game is running.
+Now you can change the random number and run that node every time you compile the blueprint or change that blueprint object in the editor. It only runs in these two conditions and will not run during the game. If you hit play that text will always be the same for as long as the game is running.
 
 https://user-images.githubusercontent.com/5504953/132024649-72889840-7518-45a7-adb6-55a6aa6d1edf.mp4
 
