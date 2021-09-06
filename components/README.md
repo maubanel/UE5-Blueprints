@@ -73,7 +73,7 @@ Click on Show **Engine Content** as this is hidden by default:
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Type* in **Sphere** and *select* the static mesh that *just* says **Sphere**.
+*Type* in **Sphere** and *select* the static mesh that *just* says **Sphere**. Look at the path in the editor it should show **Path: /Engine/BasicShapes**.
 
 ![select sphere](images/StaticMeshSphereEngineContent.jpg)
 
