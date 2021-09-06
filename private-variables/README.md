@@ -65,7 +65,7 @@ Right now I don't plan on allowing other blueprints to alter this variable. So i
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we no longer need the **Make Linear Color** node as we will be replacing it with a variable. Delete this node and drag and drop the **ColorOfLight** variable in its place.
+Now we no longer need the **Make Linear Color** node as we will be replacing it with a variable. Delete this node and drag and drop the **ColorOfLight** variable in its place. We are getting the value and not setting is so select **Get** with the pop up menu.  In the future I will just refer to this as **Get ColorOfLight**.
 
 ![replace linear color with color of light](images/DeleteLinearColorDragVariableRm5.jpg)
 
