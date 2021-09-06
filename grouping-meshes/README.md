@@ -132,7 +132,7 @@ Select the **Spotlight** then set the light color to your preference. I picked g
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Check the lamp out in game. I am noticing a problem with a model casting a shadow I don't like in the light. Youe light might not show up at all as the light source is hidden in geometry in the light bulp mesh. Move the **Spot Light** component further away from the light bulb and check in game to where it no longer is shadowed or occluded by the light bulb mesh.
+Check the lamp out in game. Make sure the light bulb mesh is not casting a shadow from the light. If it is *move* the **Spot Light** component further away from the light bulb and check in game to where it no longer is shadowed or occluded by the light bulb mesh.
 
 ![check in game that light is correct](images/CheckInGameLightBehindBulb.jpg)
 
