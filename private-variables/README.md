@@ -114,7 +114,7 @@ Open the Blueprint. There are two places you can make the variable editable. In 
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now go back to the game engine and select the new blueprint you put in the room. Go to the **Details** panel and you will see an option to adjust the **Editable** variable we just created. I changed it to yellow and it changes right away in game as any change runs the construction script.
+Now go back to the game engine and put a copy of **BP_Variable_Private** in the room. Select this actor in the **World Outliner**. Go to the **Details** panel and you will see an option to adjust the **Editable** variable we just created. I changed it to yellow and it changes right away in game as any change runs the construction script.
 
 ![change color of light](images/NewLightInSceneEditableRm5.jpg)
 
