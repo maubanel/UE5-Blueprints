@@ -210,7 +210,7 @@ Lets have it light the top of the ball so move it by `100` on the **Z** in **Loc
 
 ##### `Step 25.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond:
 
-*Add* two comments. Select the **Branch** and the comment `Every time a change is made this is run`. *Select* the light component and add the comment: `Adds point light to the same location and rotation and scale as the sphere`.
+*Add* two comments by group selecting the nodes then pressing the <kbd>C</kbd> key. Select the **Branch** and the comment `Every time a change is made this is run`. *Select* the light component and add the comment: `Adds point light to the same location and rotation and scale as the sphere`.
 
 ![add comment to nodes](images/CommentNodesRm6.jpg)
 
