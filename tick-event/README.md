@@ -47,7 +47,7 @@ Open up the blueprint and *add* a **Text Render** component by *pressing* the **
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Change the **World Size **to `120` and rename the **Text** message to the number `0`.
+Change the **World Size** to `120` and rename the **Text** message to the number `0`.
 
 ![set world size to 120 and text to 0](images/WorldSize120Text0Rm7.jpg)
 
