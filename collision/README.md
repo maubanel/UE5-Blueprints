@@ -183,7 +183,7 @@ https://user-images.githubusercontent.com/5504953/132032366-f8bbba20-0f9d-456f-9
 
 ##### `Step 22.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-That's it for Room 2. Press Save All then go into Source Control | Submit to Source Congrol, add a message that you have completed room 2 and press the Submit button. Now go to GitHub Desktop and Push changes to server. Next up we will be using blueprints to store multiple different components with no programming logic.
+That's it for **Room 2**. *Press* **Save All** then go into **Source Control | Submit to Source Control...**, add a message that you have completed room 2 and press the <kbd>Submit</kbd> button. Now go to **GitHub Desktop** and **Push** changes to server. 
 
 ![save all, commit and push to github](images/Room2Github.jpg)
 
