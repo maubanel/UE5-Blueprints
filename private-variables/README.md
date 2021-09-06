@@ -106,7 +106,7 @@ There is another useful feature with variables while still keeping them private.
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Open the Blueprint. There are two places you can make the variable editable. In the **MyBlueprints** panel there is a closed or open eyball next to the variable name. If it is open then it is editable. Also in the **Details** panel is has a radio box called **Instance Editable**. The word instance here is important as you can have a separate instance for each object in the room!
+Open the Blueprint. There are two places you can make the variable editable. In the **MyBlueprints | Color of Light** variable there is a closed or open eyball next to the variable name. If it is open then it is editable. Also in the **Details** panel is has a radio box called **Instance Editable**. The word instance here is important as you can have a separate instance for each object in the room!
 
 ![set instance editable](images/InstanceEditableRm5.jpg)
 
