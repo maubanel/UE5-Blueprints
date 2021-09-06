@@ -147,7 +147,7 @@ Press the <kbd>Compile</kbd> button then go back to the game. You wil notice tha
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Go back to the blueprint and change the font color to contrast with the background and center the text to a color of your choice.
+Go back to the blueprint and *change* the **Text Render Color** to contrast with the background. Change the **Horizontal Alignment** to `Center` to center the text.
 
 ![change font color in component](images/PlayGameFirstFontRm1.jpg)
 
