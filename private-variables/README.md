@@ -146,7 +146,7 @@ Put as many lights with different colors in this room as you like!
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-That's it for Room 5. Press Save All and update Github by committing and pushing all the changes made. Next up we will be adding components dynamically in scripts.
+That's it for **Room 5**. Press **File | Save All** then go into **Source Control | Submit to Source Control**, add a message that you have completed room 1 and press the <kbd>Submit</kbd> button. Open up **GitHub Desktop** and **Push** changes to server. The first time you do this it will say **Publish Branch**.  Select this to finish off this section.
 
 ![add, commit and push to github](images/Room5GitHub.jpg)
 
