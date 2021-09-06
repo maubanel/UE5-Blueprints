@@ -41,7 +41,7 @@ In the **World Outliner** drag and drop the variable into **Room 5**.
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We want to use a variable to store the light color. Open the blueprint and press the + button next to **Variables** in the **MyBlueprint** menu. In the details panel type `Linear Color`. Select this as the type of variable.:
+We want to use a variable to store the light color. Open the blueprint and press the **+** button next to **Variables** in the **MyBlueprint** menu. In the details panel type `Linear Color`. Select this as the type of variable.:
 
 ![add variable to blueprint](images/AddVariableRm5.jpg)
 
