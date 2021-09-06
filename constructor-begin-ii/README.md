@@ -91,6 +91,10 @@ Press the <kbd>Play</kbd> button and voila the text changes.
 
 ![press play and see text change](images/image_03.jpg)
 
+When you stop the game, it goes back to its prior state of just having **Text** on the screen.
+
+![stop game text disapears](images/BackToText.jpg)
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
