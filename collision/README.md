@@ -63,7 +63,7 @@ Rename the text component to `TextInRoom2`. Drag and drop this on top of the **D
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-With the **Box** component selected go to the **Details** panel and change the **Box Extent** to `600` on the **X**, `400` on the **Y** and `200` on the **Z**. Also make sure the text element is at the rear of the collision box.
+With the **Box** component selected go to the **Details** panel and change the **Box Extent** to `600` on the **X**, `400` on the **Y** and `200` on the **Z**. Also make sure the text element is at the rear of the collision box. Press the <kbd>Compile</kbd> button.
 
 ![change shape of collision box](images/ChangeBoxShape.jpg)
 
