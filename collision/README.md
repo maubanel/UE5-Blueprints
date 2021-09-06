@@ -119,7 +119,7 @@ Run the game and move towards where the box is (we can't see it). You should see
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go back to the blueprint and move the box component so the text is at the bottom left rear of the collision volume (behind if you like). Select the **Box*** component and make sure the **Hidden In Game** box is deselected. Normally in a game we would hide our collision volumes, but for debug purposes lets set it so that we can see it.
+Go back to the blueprint and move the box component so the text is at the bottom left rear of the collision volume (behind if you like). Select the **Box** component and make sure the **Hidden In Game** box is deselected. Normally in a game we would hide our collision volumes, but for debug purposes lets set it so that we can see it.
 
 ![unhide collision volume](images/ThreeChangesRm2.jpg)
 
