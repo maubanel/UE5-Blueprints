@@ -178,7 +178,11 @@ Drag off of the boolean's pin and type **Branch**.
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-This is the equivalent of an if() and else() statement in most programming languages. If the condition is **true** ( if() ) then the **True** execution pin runs. If the condition is **false** ( else() ) then the **False** execution pin runs. *Drag off* of the **true** pin and we will add a light component.
+Connect the execution pin from **Construction Script** to **Branch**.
+
+A branch node is the equivalent of an if() and else() statement in most programming languages. If the condition is **true** ( if() ) then the **True** execution pin runs. If the condition is **false** ( else() ) then the **False** execution pin runs. 
+
+*Drag off* of the **true** pin and we will add a light component.
 
 ![pull true pin from branch](images/BranchGraphRm6.jpg)
 
