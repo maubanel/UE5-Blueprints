@@ -17,7 +17,7 @@ Up until this point we have hard coded [Components](https://docs.unrealengine.co
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Go to the **Blueprints** folder and add a `Room6`. Press the <kbd>Add New</kbd> button. Select **Blueprint Class**:
+Go to the **Blueprints** folder and add a `Room6` folder. Press the <kbd>Add New</kbd> button. Select **Blueprint Class**:
 
 ![add blueprint to room 6 folder](images/NewBPClass.jpg)
 
