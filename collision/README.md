@@ -79,7 +79,7 @@ Now go into the game and reposition so the collision box is above the floor and 
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the **blueprint**. Make sure you are in the **Event Graph** tab. *Drag and drop* the **TextInRoom2** component into the scene graph. Left click the blue pin from this node and let go. This will now make sure that the context sensitive search will be items that are compatible with this reference. Start typing in **Set Text** to get the **Set Text** node.
+Go back to the **blueprint**. Make sure you are in the **Event Graph** tab. *Drag and drop* the **TextInRoom2** component into the scene graph. Left click the blue pin from this node and let go. This will now make sure that the context sensitive search will be items that are compatible with this reference. Start typing in **Text Render | Set Text** to get the **Set Text** node.
 
 ![drag text reference and add set text node](images/DragTextRefAndPinRm2.jpg)
 
@@ -119,7 +119,7 @@ Run the game and move towards where the box is (we can't see it). You should see
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go back to the blueprint and move the box component so the text is at the bottom left rear of the collision volume (behind if you like). Make sure the **Hidden In Game** box is deselected. Normally in a game we would hide our collision volumes, but for debug purposes lets set it so that we can see it.
+Go back to the blueprint and move the box component so the text is at the bottom left rear of the collision volume (behind if you like). Select the **Box*** component and make sure the **Hidden In Game** box is deselected. Normally in a game we would hide our collision volumes, but for debug purposes lets set it so that we can see it.
 
 ![unhide collision volume](images/ThreeChangesRm2.jpg)
 
