@@ -17,7 +17,7 @@ In **UE4** the **Construction Script** is the first thing that a blueprint runs 
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-In the **Blueprints** folder press the <kdbd>Add New</kbd> button and add a new **Blueprint Class**:
+In the **Blueprints** folder press the <kdbd>Add/Import</kbd> button and add a new **Blueprint Class**:
 
 ![add new blueprint to blueprints folder](images/AddBlueprintClass.jpg)
 
