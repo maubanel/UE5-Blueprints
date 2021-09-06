@@ -146,7 +146,7 @@ Now you will be able to find the texture **T_Default_MacroVariation**.
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the blueprint and now you should see the mesh with a proper material:
+Go back to the blueprint **BP_Dynamic_Component** and now you should see the mesh with a proper material:
 
 ![steel mesh](images/BPWithSteelMatRm6.jpg)
 
