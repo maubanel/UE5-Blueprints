@@ -25,7 +25,7 @@ Go to the **Blueprints** folder and duplicate **BP_Spotlight**. Call it `BP_Spot
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Now we want to affect the color of the lightbulb in the **Material**. *Click* on the **Lamp** component and look for the material. *Double click* the icon to load it up. Make sure you are opening **M_Spotlight_Master**.
+Open up **BP_SpotlightDynamic**. Now we want to affect the color of the glow in the lamp **Material**. *Click* on the **Lamp** component and look for the material. *Double click* the icon to load it up. Make sure you are opening **M_Spotlight_Master**.
 
 ![open m_spotlight_master](images/FindOutLampMaterial.jpg)
 
@@ -41,7 +41,7 @@ Look for the parameter that adjusts the light color. Just before the **Emissive*
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the **blueprint** and into the **Construction Script** tab. *Drag* a reference to the **Lamp** component which contains that material we just looked at:
+Go to the **blueprint** and into the **Construction Script** tab. *Drag* a reference to the **Lamp** component which contains that material we just looked at.
 
 ![drag lamp reference](images/DragLampReference.jpg)
 
@@ -99,7 +99,7 @@ Drag off the left pin, let go and enter **Linear Color**. Select the **Make Line
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Make this node pure blue with a solid alpha.
+Make this node pure blue with a solid alpha. Press the <kbd>Compile</kbd> button.
 
 ![make a blue node](images/PureBlueSolidAlphaRm4.jpg)
 
