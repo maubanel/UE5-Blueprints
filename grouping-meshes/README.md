@@ -112,6 +112,10 @@ Make sure it is rotated in the same direction as the lamp.
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now make sure that the parent child relationship is correct.  We want the **SpotlightLamp** to be at the top with a child of **Lightbulb** and grand child of **Spot Light**. This way when you move or rotate the object everything moves with it.
+
+![proper parent child hiearchy](images/ParentChild.jpg)
+
 Select the **Lamp** component and rotate the lamp so that it doesn't point straight down. Tune it to your liking:
 
 ![rotate lamp to your liking](images/RotateLampToOffsetIt.jpg)
