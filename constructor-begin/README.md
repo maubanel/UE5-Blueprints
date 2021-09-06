@@ -8,7 +8,7 @@
 
 In **UE4** the **Construction Script** is the first thing that a blueprint runs when a class is instantiated. What does this mean? If we have something running inside the level that the game boots up to it will run the code that is in its **Construction Script** as the editor boots up. Also any time an object is changed in the editor the **Construction Script**  runs again..  Remember it only runs once!
 
- The **Begin Play** runs when the game is run by pressing the Play buttons. It onlye runs once as well! So there are two times we can set things up for a game object, as the level loads, when a level object is altered and when the game runs.
+ The **Begin Play** runs when the game is run by pressing the Play buttons. It only runs once as well! So there are two times we can set things up for a game object, as the level loads, when a level object is altered and when the game runs.
 
 <br>
 
@@ -17,7 +17,7 @@ In **UE4** the **Construction Script** is the first thing that a blueprint runs 
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-In the **Blueprints** folder press the <kdbd>Add/Import</kbd> button and add a new **Blueprint Class**:
+In the **Blueprints | Room1** folder press the <kdbd>Add/Import</kbd> button and add a new **Blueprint Class**:
 
 ![add new blueprint to blueprints folder](images/AddBlueprintClass.jpg)
 
@@ -39,7 +39,7 @@ Call it `BP_TextInConstructor`.
 
 ![call blueprint BP_TextInConstructor](images/BPTextOnConstructor.jpg)
 
-I created it in the wrong folder so I drag and drop it into the **Room1** folder we just created. It gives me an option and I select **Move**:
+I created it in the wrong folder so I drag and drop it into the **Room1** folder we just created. It gives me an option and I select **Move**.
 
 ![make sure blueprint is inside Room1 folder](images/DragToFolder.jpg)
 
@@ -47,7 +47,7 @@ I created it in the wrong folder so I drag and drop it into the **Room1** folder
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Double click on the newly created Blueprint
+Double click on the newly created Blueprint.
 
 ![double click blueprint](images/DoubleClick.jpg)
 
@@ -63,7 +63,7 @@ Now you are going to press the <kbd>Add Component</kbd> button (make sure you ar
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Rename the component to `TextInRoom1`:
+Rename the component to `TextInRoom1`.
 
 ![rename component to TextInRoom1](images/TestInRoom1.jpg)
 
