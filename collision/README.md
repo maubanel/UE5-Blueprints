@@ -15,7 +15,7 @@ Now we can have a few types of collisions in **Unreal**. We can have a blocking 
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Create a new folder called `Room2` and put it in the **Blueprints** folder. Move the camera over to **Room 2** and press the <kbd>Add New</kbd> button and select **Blueprint Class**.
+Create a new folder called `Room2` and put it in the **Blueprints** folder. Move the camera over to **Room 2** and press the <kbd>Add/Import</kbd> button and select **Blueprint Class**.
 
 ![add blueprint class to blueprints folder](images/BlueprintClassRm2.jpg)
 
