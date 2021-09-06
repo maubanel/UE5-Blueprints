@@ -17,7 +17,7 @@ It is best to keep variables **private** if possible. This is called **[encapsul
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Right click **BP_Spotlight_Dynamic** and select **Duplicate**. Call the new blueprint `BP_Variable_Private`. Add a new room called `Room5`. *Drag* this new blueprint into the folder.
+Right click **BP_Spotlight_Dynamic** and select **Duplicate**. Call the new blueprint `BP_Variable_Private`. Add a new folder called `Blueprints | Room5`. *Drag* this new blueprint into the folder.
 
 ![duplicate bp_spotlight_dynamic](images/DuplicateBPRm5.jpg)
 
