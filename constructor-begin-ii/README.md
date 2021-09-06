@@ -47,7 +47,7 @@ Drag and drop the blueprint instances from the level into the **Room 1** folder 
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Go into the **blueprint**, enter the **Construction Script** tab and *copy* and *delete* all the nodes to the right of the **Construction Script** node.
+*Open* **BP_TextInBeginPlay**, enter the **Construction Script** tab and *copy* and *delete* all the nodes to the right of the **Construction Script** node.
 
 ![copy and delete construction script nodes](images/CopyAndDeleteConstructionNodes.jpg)
 
