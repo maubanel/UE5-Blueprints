@@ -68,7 +68,7 @@ Rename the component to `TextInRoom1`.
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the **Construction Script** tab to get access to the constructor. This script runs in the editor **before** the game starts. Every time you update an object, it will run again (a single time). You should see a node with a white **Execution** pin.
+Press the **Construction Script** tab to get access to the constructor. This script runs in the editor **before** the game starts. Every time you update an object, it will run again (a single time). You should see a node with a white **Execution** pin called **Construction Script**
 
 Execution pins determines the order of operations.  In a normal text script it goes from line 1 then subsequently through each block in order from top to bottom.  In **Blueprints** it follows the execution pin. All blueprints contains nodes that just have an execution pin (in this case **Construction Script**).  This is where the execution starts.  It then follows the chain of white connectors to determine the order that each block is run in.  This could go in any direction in the blueprint (so a node can be anywhere, it is the execution pin connector that determines order).
 
@@ -78,7 +78,7 @@ Execution pins determines the order of operations.  In a normal text script it g
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on an empty part of the graph and type `SetText` as we want the set text node. Notice that the function also includes the name of the **Text** component we just named (TextInRoom1).
+Right click on an empty part of the graph and type `Text Render | SetText(TextInRoom1)` as we want the set text node. Notice that the function also includes the name of the **Text** component we just named (TextInRoom1).
 
 ![add SetText node](images/SetTextNode.jpg)
 
