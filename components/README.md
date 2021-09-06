@@ -89,7 +89,7 @@ Go to *select* a **Material** in the details panel. *Select* it and you will see
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-*Select* the **M_Metal_Burnished_Steel** material. If you do not see a metal material continue with stepss 11 through 16 to fix it.  If you do see metal material skip to step 17.
+*Select* the **M_Metal_Burnished_Steel** material. If you do not see a metal material continue with steps 11 through 16 to fix it.  If you do see metal material skip to step 17.
 
 ![select m_metal_burnished_steel material](images/SelectMMetalBurnishedSteel.jpg)
 
