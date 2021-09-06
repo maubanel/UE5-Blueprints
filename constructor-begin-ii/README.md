@@ -63,7 +63,7 @@ Go into the **Event Graph** tab and click on an open space next to the **Event B
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Adjust the position of the nodes to keep then neet. Attach the pin from **Event Begin Play** to the **Set Text** node. Now the **Begin Play** will only fire once when you run the game. So anything you connect to this pin will only run when you press the play button. Change the message to reflect that this will run when the **Begin Play** event is triggered. I put `I am the <br>BeginPlay Script node.`.  Notice that **<br>** is a carriage return (new line) that is the same syntax used in **HTML**.
+Adjust the position of the nodes to keep then neet. Attach the pin from **Event Begin Play** to the **Set Text** node. Now the **Begin Play** will only fire once when you run the game. So anything you connect to this pin will only run when you press the play button. Change the message to reflect that this will run when the **Begin Play** event is triggered. I put `I am the <br>BeginPlay Script node!`.  Notice that **<br>** is a carriage return (new line) that is the same syntax used in **HTML**.
 
 ![connect begin play](images/ConnectBeginPlayToSetTextExPins.jpg)
 
@@ -101,7 +101,7 @@ When you stop the game, it goes back to its prior state of just having **Text** 
 
 So **Begin Play** only runs when we run the game and it runs **ONCE**. Now we saw that the **Construction Script** ran when we compiled the blueprint. It also changes when that object changes in the level even before the game is run.
 
-Go to **BP_TextInConstructor** and change the **Make Literal Text** to a **Make Literal String**. Put the same text in the String that we in the previous node. Add a **Random Integer in Range** node and add two values that the game will randomly generate. Connect these to an **Append** node that will concatonate the two strings together joining the message and the random number. Send the output of the **Append** node to the **Value** input pin in **Set Text**.
+Go to **BP_TextInConstructor** and *delete* the **Make Literal Text**. Replace it with **Make Literal String**. Add to the **Value** box `I am the <br>BeginPlay Script node!`. Add a **Random Integer in Range** node and add two values that the game will randomly generate. Connect these to an **Append** node that will concatonate the two strings together joining the message and the random number. Send the output of the **Append** node to the **Value** input pin in **Set Text**.
 
 ![add random integer to end of string](images/image_04.jpg)
 
