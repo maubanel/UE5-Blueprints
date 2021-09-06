@@ -78,7 +78,7 @@ Execution pins determines the order of operations.  In a normal text script it g
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on an empty part of the graph and type `Text Render | SetText(TextInRoom1)` as we want the set text node. Notice that the function also includes the name of the **Text** component we just named (TextInRoom1).
+*Right click* on an empty part of the graph and type `Text Render | SetText(TextInRoom1)` as we want the set text node. Notice that the function also includes the name of the **Text** component we just named (TextInRoom1).
 
 ![add SetText node](images/SetTextNode.jpg)
 
