@@ -101,7 +101,7 @@ When you stop the game, it goes back to its prior state of just having **Text** 
 
 So **Begin Play** only runs when we run the game and it runs **ONCE**. Now we saw that the **Construction Script** ran when we compiled the blueprint. It also changes when that object changes in the level even before the game is run.
 
-Go to **BP_TextInConstructor** and *delete* the **Make Literal Text**. Replace it with **Make Literal String**. Add to the **Value** box `I am the <br>BeginPlay Script node!`. Add a **Random Integer in Range** node and add two values that the game will randomly generate. Connect these to an **Append** node that will concatonate the two strings together joining the message and the random number. Send the output of the **Append** node to the **Value** input pin in **Set Text**.
+Go to **BP_TextInConstructor** and *delete* the **Make Literal Text**. Replace it with **Make Literal String**. Add to the **Value** box `I am the <br>BeginPlay Script node!`. Add a **Random Integer in Range** node and add two values that the game will randomly generate. I used `20` and `50`. Connect these to an **Append** node that will concatonate the two strings together joining the message and the random number. Send the output of the **Append** node to the **Value** input pin in **Set Text**.
 
 ![add random integer to end of string](images/image_04.jpg)
 
