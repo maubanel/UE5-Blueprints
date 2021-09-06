@@ -39,9 +39,6 @@ Call it `BP_TextInConstructor`.
 
 ![call blueprint BP_TextInConstructor](images/BPTextOnConstructor.jpg)
 
-I created it in the wrong folder so I drag and drop it into the **Room1** folder we just created. It gives me an option and I select **Move**.
-
-![make sure blueprint is inside Room1 folder](images/DragToFolder.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
