@@ -116,7 +116,7 @@ Now select your default game mode: **BP_Gamemode**. This will select our charact
 
 ##### `Step 13.`\|`ITL`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go back to the **Blueprints** folder and press the <kbd>Add New</kbd> button and select **New Folder**. Call it `Room1`.
+Go back to the **Blueprints** folder and press the <kbd>Add/Import</kbd> button and select **New Folder**. Call it `Room1`.
 
 ![add Room1 folder to Blueprints](images/NewFolderInBlueprints.jpg)
 
