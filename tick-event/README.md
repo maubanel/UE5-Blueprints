@@ -23,7 +23,7 @@ Go back to **Maps** and load **IntroToBlueprint2**. The level will not have any 
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Scoot over to **Room 7**. Add a new folder in **Blueprints** and call it `Room7`. Press the <kbd>Add New</kbd> button and then select **Blueprint Class**. Select class **Actor**. Call it `BP_Timer`.
+Scoot over to **Room 7**. Add a new folder in **Blueprints** and call it `Room7`. Press the <kbd>Add/Import</kbd> button and then select **Blueprint Class**. Select class **Actor**. Call it `BP_Timer`.
 
 ![add blueprint bp_timer of actor class](images/AddNewBPActorRm7.jpg)
 
