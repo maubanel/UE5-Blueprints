@@ -119,7 +119,7 @@ Run the game and move towards where the box is (we can't see it). You should see
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go back to the blueprint and move the box component so the text is at the bottom left rear of the collision volume (behind if you like). Select the **Box** component and make sure the **Hidden In Game** box is `deselected`. Normally in a game we would hide our collision volumes, but for debug purposes lets set it so that we can see it.
+Go back to the blueprint and move the box component so the text is at the bottom left rear of the collision volume (behind if you like). Select the **Box** component and make sure the **Hidden In Game** box is `deselected`. Normally in a game we would hide our collision volumes, but for debug purposes lets set it so that we can see it for testing our work.
 
 ![unhide collision volume](images/ThreeChangesRm2.jpg)
 
@@ -151,7 +151,7 @@ Right click on a blank section of the scene graph. Type in and select **EventAct
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Connect the execution pins from the **End Overlap** to the **Set Text**. Also change the **Value** to say `You are outside the box!`.
+Connect the execution pins from the **End Overlap** to the **Set Text**. Also change the **Value** to say `You are outside the box!`. Press the <kbd>Compile<kbd> button.
 
 ![change value to you rae inside the box and connect execution pins](images/ConnectPinsChangeMessageRm2.jpg)
 
