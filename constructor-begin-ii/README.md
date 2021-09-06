@@ -23,7 +23,7 @@ Go to the **Blueprints | Room1** folder and right click on **BP_TextOnConstructo
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Rename the file to `BP_TextOnBeginPlay`.
+Rename the file to `BP_TextInBeginPlay`.
 
 ![rename blueprint to BP_TextOnBeginPlay](images/RenameBeginPlayRm1.jpg)
 
