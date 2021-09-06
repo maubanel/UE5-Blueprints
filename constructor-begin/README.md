@@ -106,6 +106,8 @@ Now we need to feed this node some text to print. Right click on the open graph 
 
 Now add a short text message in the **Make Literal Text** node box. I added `I am the <br>Constructor Script`. Now feed the return value of this node to the input pin in the **Value** node. This will feed the TEXT we just created into the **Text Render** component we just added.
 
+`<br>` is an acceptable carriage return (new line) in the text fields in **E4**.  You might recognize this as it is **HTML** syntax.
+
 ![add text to make literal text box](images/MakeLiteralTextYoMarc.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
