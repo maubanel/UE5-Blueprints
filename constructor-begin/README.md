@@ -96,7 +96,7 @@ In this case the data coming in is a pointer to our **Text Render** component. T
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Now we need to feed this node some text to print. Right click on the open graph and type **Make Literal Text** and select it. This is an **[FText](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/ProgrammingWithCPP/UnrealArchitecture/StringHandling/FText/)** data type that is created by the **UE4** team for this engine. In other languages we might see this as a **[String](https://en.wikipedia.org/wiki/String_(computer_science))** type.
+Now we need to feed this node some text to print. Right click on the open graph and type **Utilities | Text | Make Literal Text** and select it. This is an **[FText](https://docs.unrealengine.com/4.27/en-US/ProgrammingAndScripting/ProgrammingWithCPP/UnrealArchitecture/StringHandling/FText/)** data type that is created by the **UE4** team for this engine. In other languages we might see this as a **[String](https://en.wikipedia.org/wiki/String_(computer_science))** type.
 
 ![make literal text node](images/MakeLiteralText.jpg)
 
