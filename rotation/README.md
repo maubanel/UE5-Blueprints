@@ -178,7 +178,7 @@ Now *drag* the **Degrees Since Last Frame** variable into the scene graph and se
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Add a comment to the latest work.
+Add a comment to the latest work by pressing the <kbd>C</kbd> key.
 
 ![add code comments](images/CommentSection1Rm8.jpg)
 
