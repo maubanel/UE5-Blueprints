@@ -97,7 +97,7 @@ Open up the Blueprint and place it next to the millisecond timer in the level so
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-That's it for **Room 7**. Press **Save All** and update **Github** by **committing** and **pushing** all the changes made. Next up we will be rotating and translating an object in 3D space.
+That's it for **Room 7**. Press **File | Save All** then go into **Source Control | Submit to Source Control**, add a message that you have completed room 1 and press the <kbd>Submit</kbd> button. Open up **GitHub Desktop** and **Push** changes to server. Select this to finish off this section.
 
 ![save, commit and push to github](images/Room7Github.jpg)
 
