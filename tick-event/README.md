@@ -177,7 +177,7 @@ Change the message in the **Sec Message** component to `Time in Seconds`.
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Now go back to the **Event Graph** and add a new **Variable** by pressing the **+** button. This time we will make it an integer. A **float** stores a fractional number, an **integer** stores a whole number. Since we are *counting* seconds whole numbers will do. Call it `Time in Seconds`, add a **Tooltip** and make sure that **Private** is set to `true`.
+Now go back to the **Event Graph** and add a new **Variable** by pressing the **+** button. This time we will make it an integer. A **float** stores a fractional number, an **integer** stores a whole number. Since we are *counting* seconds whole numbers will do. Set the variable to **Variable Type | Integer**. Call it `Time in Seconds`, add a **Tooltip** and make sure that **Private** is set to `true`.
 
 ![add an integer variable](images/TimeInSecondsIntRm7.jpg)
 
