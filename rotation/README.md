@@ -81,7 +81,7 @@ Drag the **Rotate On Z** boolean to the graph and select **Get**.
 
 Attach the Execution pins from Sequence 0 to Branch.
 
-![attach execution pin from sequence 0 to branch](images/RefToRotatingCubeRm8.jpg)
+![attach execution pin from sequence 0 to branch](images/ConnectThen0ToBranch.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
