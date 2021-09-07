@@ -46,7 +46,7 @@ Go back to the editor and *select* the **Blueprints | Room 8** folder in the **C
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
-You can *right click* on the **bRotateOn Z** variable and *duplicate* it. *Rename* it to `bRotateOnY` and adjust the **Tooltip**. Drag a **Get** reference to it on the chart and delete the old **Z** reference and drag it into the **Condition** on the **Branch**.
+You can *right click* on the **bRotateOn Z** variable and *duplicate* it. *Rename* it to `bRotateOnY` and adjust the **Tooltip** to `Pitch on Y Axis, Yaw, Shaking Head Yes/No`. Drag a **Get** reference to it on the chart and delete the old **Rotate on Z** node and drag it into the **Condition** on the **Branch**.
 
 ![duplicate rotate on z](images/DupeRotateOnZRm8.jpg)
 
@@ -86,7 +86,7 @@ You can *delete* the **Rotating Cube** reference as we will not be using it. *Ri
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-*Right click* on **Delta Rotation** and select **Split Struct Pin**:
+*Right click* on **Delta Rotation** and select **Split Struct Pin**.
 
 ![split struct pin on delta rotation](images/SplitSecondStructPinRm8.jpg)
 
