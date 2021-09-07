@@ -89,7 +89,7 @@ Attach the Execution pins from Sequence 0 to Branch.
 
 *Drag and drop* the **Rotating Cube** component into the scene graph to create a reference.
 
-![rotating cube reference](images/RefToRotatingCubeRm8-1.jpg)
+![rotating cube reference](images/RefToRotatingCubeRm8.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
