@@ -144,7 +144,7 @@ I just noticed that I forgot to categorize the variables. Go back to each variab
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Press* **Add Pin +** to **Sequence** node. *Attach* **Then 2** to the adjust roll **Branch** node. Your node graph should now look like:
+*Press* **Add Pin +** to **Sequence** node. *Attach* **Then 2** to the adjust roll **Branch** node. Your node graph should now be complete.  Press the <kbd>Compile</kbd> button.
 
 ![shot of full blueprint graph](images/FinalRotationNodeGraph.jpg)
 
