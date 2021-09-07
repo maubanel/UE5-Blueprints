@@ -25,6 +25,8 @@ Go back to the **Event Graph** tab in **BP_Timer**. Now to avoid having a very l
 
 *Right click* on an empty part of the graph and select **Delay** node. This will run the input every frame but only run the output pin after the delay has passed over and over again. Connect the output pin from the second **Sequence** node output to the input pin of **Delay**. Set the delay to `1.0` (it is set in seconds). Connect the execution pins of the **Sequence | Then 1** to the **Delay** node.
 
+What this sequence node does is run everything the **Then 0** pin *first*, when completed executes the **Then 1** pin.
+
 ![add delay node](images/AddDelayNode.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
@@ -47,7 +49,7 @@ Drag the **Time In Seconds** node and *drop* it on the node chart. Select **Get*
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Connect the execution pin from the **Delay** node to the **Set** node. Connect the output pin from the **Add** node to the Input fo the **Set** node.
+Connect the execution pin from the **Delay** node to the **Set** node. Connect the output pin from the **Add** node to the Input fo the **Set** node. Leave the default of `1` in the addition node as this will be adding 1 second every second.
 
 ![connect execution pins](images/ConnectIntPinsRm7.jpg)
 
@@ -79,7 +81,7 @@ Connect the execution pin from the **Delay** node to the **Set** node. Connect t
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add comments to your latest work.
+Add comments to your latest work. Press the <kbd>Compile</kbd> button.
 
 ![add code comments](images/FinalCommentsRm7.jpg)
 
