@@ -120,7 +120,7 @@ Lets do the final axis of rotation along the **X** axis for **Roll**. *Copy* the
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Delete the **Rotate On Z** boolean reference and duplicate it to create another boolean called `bRotateOnX`.
+Delete the **Rotate On Z** boolean reference and *duplicate* it to create another boolean called `bRotateOnX`.
 
 ![create brotateonx variable](images/DeleteRotateOnZRm8.jpg)
 
@@ -136,7 +136,7 @@ I just noticed that I forgot to categorize the variables. Go back to each variab
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Drag* a copy of the **Rotate On X** variable as a **Get** onto the graph and *send* it to the **Condition** input on the **Branch** node. Also, *connect* the **Degrees Since Last Frame** output to the **Delta Rotation X (Roll)** on the **Add Relative Rotation** node.
+*Drag* a copy of the **Rotate On X** variable as a **Get** onto the graph and *send* it to the **Condition** input on the **Branch** node. Also, *connect* the **Degrees Since Last Frame** output to the **Delta Rotation X (Roll)** on the **Add Relative Rotation** node. Disconnect the attachment to **Delta Rotation Y (Pitch)**.
 
 ![re-connect pins](images/RotateOnXPinsRm8.jpg)
 
