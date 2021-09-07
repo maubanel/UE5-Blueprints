@@ -160,9 +160,9 @@ Go into the game and try different values and combinations both positive and neg
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the **File | Save All** then press the **Submit to Source Control...** and push in **Github Desktop**.
+Press **File | Save All** then go into **Source Control | Submit to Source Control**, add a message that you have completed room 1 and press the <kbd>Submit</kbd> button. Open up **GitHub Desktop** and **Push** changes to server. Select this to finish off this section.
 
-![add, commit and push to github](images/.jpg)
+![add, commit and push to github](images/Github.jpg)
 
 ___
 
