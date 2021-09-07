@@ -138,7 +138,7 @@ Drag and drop the **Degrees Per Second** variable to the graph and select **Get*
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Connect* the **Delta Seconds** from the **Event Node** to the **Multiply** node, and the output of **Degrees Per Second** to the **Multiply** node. *Add* a **Set Degree Since Last Frame** node reference to the variable. *Send* the result of this multiplication to the setter input for the **Set** node.
+*Connect* the **Delta Seconds** from the **Event Tick** node to the **Multiply** node, and the output of **Degrees Per Second** to the **Multiply** node. *Add* a **Set Degree Since Last Frame** node reference to the variable. *Send* the result of this multiplication to the setter input for the **Set** node.
 
 ![connect pins and add set degree since last frame](images/ConnectSpeedPinsRm8.jpg)
 
