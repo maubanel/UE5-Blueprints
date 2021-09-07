@@ -23,7 +23,7 @@ We will be rotating an object in 3-D space through blueprints. Now there are two
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-*Add* a **Static Mesh** component to the blueprint. *Change* the **View Options** to see **Engine Content**. *Select* the **Cube** static mesh:
+*Add* a **Static Mesh** component to the blueprint. *Change* the **View Options** to see **Engine Content**. *Select* the **Cube** static mesh. You will have to turn on engine content to see the shape.
 
 ![add static mesh component](images/StaticMeshCubeRm8.jpg)
 
@@ -47,7 +47,7 @@ We will be rotating an object in 3-D space through blueprints. Now there are two
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Now go to the **Event Graph** tab. We will be rotating on the **Z**, **X** and **Y** axis. So lets put in a **Sequence** node to keep our graph neet. Since this needs to animate every frame we will use the **Tick Event** and connect its execution pin to the **Sequence** node:
+Now go to the **Event Graph** tab. We will be rotating on the **Z**, **X** and **Y** axis. So lets put in a **Sequence** node to keep our graph neat. Since this needs to animate every frame we will use the **Tick Event** and connect its execution pin to the **Sequence** node:
 
 ![add sequence node](images/SequenceNodeForRotation.jpg)
 
