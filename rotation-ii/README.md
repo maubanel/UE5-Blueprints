@@ -95,7 +95,7 @@ You can *delete* the **Rotating Cube** reference as we will not be using it. *Ri
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-*Send* the output of **Degrees Since Last Frame** to **Delta Rotation Y (Pitch)**.
+*Send* the output of **Degrees Since Last Frame** to **Delta Rotation Y (Pitch)**. Press the <kbd>Compile</kbd> button.
 
 ![connect degrees to delta rotation](images/DegreesToPitchRm8.jpg)
 
