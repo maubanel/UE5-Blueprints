@@ -31,7 +31,7 @@ Open the new blueprint and *add* a new **Static Mesh** by *pressing* the **Add C
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Rename* static mesh component to `Lightbulb` and *drag* it on its parent making it the root object. *Change* the scale to `10.0` on the **X,Y & Z** axis.
+*Rename* static mesh component to `Lightbulb` and *drag* it on its parent making it the root object. *Change* the scale to `10.0` on the **X,Y & Z** axis. Press the <kbd>Compile</kbd> button.
 
 ![rename and rescale lightbulb](images/ScaleLightbulb.jpg)
 
