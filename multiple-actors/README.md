@@ -144,7 +144,10 @@ Add a `Turn Light On` comment by highlighting the nodes and pressing the <kbd>C<
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Lets test this function before moving forward. Go back to the **Event Graph** and add a function call by *right clicking* and adding a **Switch Light** node and connect it to begin play. *Play* the game with the **Turn On** boolean set to `false`. *Play* it in game and the lights should be off. Now do the same thing with the **Turn On** boolean set to `True`. *Run* the game the light should be on. Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
+Lets test this function before moving forward. Go back to the **Event Graph** and add a function call by *right clicking* and adding a **Switch Light** node and connect it to begin play. Press the <kbd>Compile</kbd> button.
+
+
+ *Play* the game with the **Turn On** boolean set to `false`. *Play* it in game and the lights should be off. Now do the same thing with the **Turn On** boolean set to `True`. *Run* the game the light should be on. Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
 
 ![test light in game by switching Turn On off and on](images/TestTurnOnOffUnct.gif)
 
