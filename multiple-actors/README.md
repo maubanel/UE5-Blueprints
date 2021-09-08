@@ -69,7 +69,7 @@ We need to add a dynamic materail to the **Construction Script**. To switch the 
 
 *Add* a new **Variable** and call it `DynamicMaterial`. *Choose* variable type **Material Instance Dynamic | Object Reference**. *Add* a **Tooltip** that says `Holds reference to material`. Put it in category `Lightbulb` and make it `Private`. *Drag* a **Set Dynamic Material** node to the graph and plug the **Return Value** from the **Create Dynamic Material Node** to the input pin of the **Set DynamicMaterial Variable**.
 
-![add dynamci material variable and set it](images/SaveDynamicMaterial.jpg)
+![add dynamci material variable and set it](images/SaveDynamicMaterialZ.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
