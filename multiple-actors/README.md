@@ -51,8 +51,8 @@ Open up **BP_LightbulbMulti**. Add a new component **Point Light** so that the b
 
 ![add point light component](images/AddPointLight.jpg)
 
-Now in game we have a shadow of the lightbulb which isn't realistic.  We want to kill the shadow.  Go to the **Blueprint** and select the **Lighting** component and `deselect` **Cast Shadow**.
- 
+Now in game we have a shadow of the lightbulb which isn't realistic.  We want to kill the shadow.  Go to the **Blueprint** and select the **Lighting** component and `deselect` **Cast Shadows**.
+
 ![turn off cast shadow](images/TurnOffCastShadow.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
