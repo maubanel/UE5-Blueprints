@@ -73,6 +73,8 @@ How do we get access to each instance of each lightbulb in the array and not the
 
 *Pull off* of the **Array Element** pin and trigger the **Switch Light** function in each light. Conect the output of the **Flip Flop | Is A** node to the **Switch Light** node's **Is On** pin. Connect the execution pin from **Loop Body** to **Switch Light**.
 
+*Press** the <kbd>Compile</kbd> button.
+
 **IsA** gives the current state.  So every time the **Flip Flop** node is triggered this goes between **True** and **False**.  **IsA** outputs the switched state (so if it was **True** before and when triggered becomes **False**).
 
 ![connect isA to Turn On](images/SwitchLightOnOff.jpg)
@@ -81,7 +83,7 @@ How do we get access to each instance of each lightbulb in the array and not the
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to **BP_LightbulbMulti** and the **Event Graph** *add* a **Switch Light** node and set it to `false` so that the lights ALWAYS start turned off.
+Go to **BP_LightbulbMulti** and the **Event Graph** *add* a **Switch Light** node and set it to `false` so that the lights ALWAYS start turned off. *Press* the <kbd>Compile</kbd> button.
 
 ![call switch light in begin play with lights off](images/image_09.jpg)
 
