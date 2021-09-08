@@ -47,7 +47,7 @@ Add a comment by pressing the <kbd>C</kbd> and call it `Toggle`.
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-*Drag* a copy of the **RefToLightbulbs** variable onto the graph.
+*Drag* a copy of the **Get RefToLightbulbs** variable onto the graph.
 
 ![add ref to lightbulbs to graph](images/DragRefToLightbulbs.jpg)
 
