@@ -93,7 +93,7 @@ Call this new function `SwitchLight`. We need to add an **Input** and call it `b
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-*Add* a **Branch Node** to the node graph. *Attach* the execution pins from **Switch Light** to **Turn On**.  Connect the  **Turn On** output pin to the **Condition** pin in the **Branch** Node. We will handle the turn on light logic from the **True** output pin and the turn off logic from the **False** pin.
+*Add* a **Branch Node** to the node graph. *Attach* the execution pins from **Switch Light** to **Turn On**.  *Connect* the  **Turn On** output pin to the **Condition** pin in the **Branch** Node. We will handle the turn on light logic from the **True** output pin and the turn off logic from the **False** pin.
 
 ![add branch node](images/AddBranchtoFunct.jpg)
 
@@ -102,6 +102,8 @@ Call this new function `SwitchLight`. We need to add an **Input** and call it `b
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
 *Click* on the **Point Light** in the **Components** menu. Lets look at the **Details** panel. A **Variable** called **Intensity** can be used to turn the acutal light on and off. We can set it to `0` when off and `5000` when on. Drag the **Point Light** to the graph and pull off its pin and select **Set Intensity** to change this value. Since this is for turning on set the **New Intensity** to `5000`.
+
+Set the execution pin from **Branch | True** to **Set Intensity**.
 
 ![set intensity to 5000](images/SetPointLightIntensity.jpg)
 
