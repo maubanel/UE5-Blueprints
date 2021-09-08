@@ -140,7 +140,7 @@ Notice that it changes all references to it as well. So we have our renamed mesh
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Hook up the execution pins from the **Branch** node to the **Add Relative Location** node.
+Hook up the execution pins from the **Branch | True** node to the **Add Relative Location** node.
 
 ![connect execution pins](images/BranchRelativePinsRm8.jpg)
 
