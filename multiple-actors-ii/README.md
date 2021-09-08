@@ -71,7 +71,7 @@ How do we get access to each instance of each lightbulb in the array and not the
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Pull off* of the **Array Element** pin and trigger the **Switch Light** function in each light. Conect the output of the **Flip Flop | Is A** node to the **Switch Light** node's **Is On** pin.
+*Pull off* of the **Array Element** pin and trigger the **Switch Light** function in each light. Conect the output of the **Flip Flop | Is A** node to the **Switch Light** node's **Is On** pin. Connect the execution pin from **Loop Body** to **Switch Light**.
 
 **IsA** gives the current state.  So every time the **Flip Flop** node is triggered this goes between **True** and **False**.  **IsA** outputs the switched state (so if it was **True** before and when triggered becomes **False**).
 
