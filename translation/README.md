@@ -39,7 +39,7 @@ Rename it to `BP_Translate_Object`.
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Open* up **BP_Translate_Object**. *Change* **Degress Since Last Frame** to `Total Time`, **bRotateOnX** to `bTranslateOnX` and repeat for the **Y** and **Z** axis. *Change* the category from **Translation** to `Rotation` and adjust the **tooltips**.
+*Open* up **BP_Translate_Object**. *Change* **Degress Since Last Frame** to `Total Time`, **bRotateOnX** to `bTranslateOnX` and repeat for the **Y** and **Z** axis (change two remaining booleans to `bTranslateOnY` and `bTranslateOnZ`). *Change* the category from **Rotation** to `Translation`. Adjust the **tooltips**.
 
 *Double click* the blueprint to enter the editor. We will not need the speed variable as we will not be adjusting the speed. *Delete* the **Degrees Per Second** variable.
 
