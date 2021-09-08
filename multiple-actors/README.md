@@ -23,7 +23,7 @@ Add a `Blueprints | Room9` folder to your project. Press the <kbd>Add New</kbd> 
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Open the new blueprint and *add* a new **Static Mesh** by *pressing* the **Add Component** button. Add a **Static Mesh** `SM_Lightbulb`.
+Open the new blueprint and *add* a new **Static Mesh** by *pressing* the **Add Component** button. Add a **Static Mesh** `Lightbulb`.
 
 ![add static mesh component](images/ExportStaticMeshRm9.jpg)
 
