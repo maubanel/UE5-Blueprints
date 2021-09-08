@@ -55,7 +55,7 @@ Add a comment by pressing the <kbd>C</kbd> and call it `Toggle`.
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-How do we get access to each instance of each lightbulb in the array and not the entire array? We use a **For Each** loop. *Right click* and add a **For Each** Loop to the graph.
+How do we get access to each instance of each lightbulb in the array and not the entire array? We use a **For Each** loop. *Right click* and add a **For Each Loop** to the graph.
 
 ![add for each loop](images/ConnectActorToForEachRm10.jpg)
 
