@@ -51,7 +51,7 @@ Rename it to `BP_Translate_Object`.
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-*Delete* all nodes on the chart and we will start over in the **Event Graph** tab. Drag the **Total Time** node onto the graph and select **Set**.
+*Delete* all nodes on the chart that are attached to **Event Tick** (don't delte the tick event) and we will start over in the **Event Graph** tab. Drag the **Total Time** node onto the graph and select **Set**.
 
 ![add set total time node after deleting all nodes](images/SetTotalTimeRm8.jpg)
 
