@@ -47,7 +47,7 @@ Scoot over to **Room 9** and *add* a whole bunch of lightbulbs in the room.
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Open up **BP_Lightbulb**. Add a new component **Point Light** so that the bulbs actually light up the room. Make sure it is a child to the static mesh by dragging it over it. This way when you move the lightbult the light moves with it. Check that in the level it is casting light.
+Open up **BP_LightbulbMulti**. Add a new component **Point Light** so that the bulbs actually light up the room. Make sure it is a child to the static mesh by dragging it over it. This way when you move the lightbult the light moves with it. Check that in the level it is casting light.
 
 ![add point light component](images/AddPointLight.jpg)
 
