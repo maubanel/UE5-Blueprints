@@ -188,7 +188,7 @@ Add a comment on all the nodes after the **Sequence** and type `Translate on Z`.
 
 ##### `Step 22.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag* the execution pin from **Sequence Then 1** to **Branch** input pin. Also *delete* the **Translate On Z** getter and drag and drop a **Get Translate On X** and connect the output pin to the input pin on the **Branch** node.
+*Drag* the execution pin from **Sequence Then 1** to **Branch** input pin. Also *delete* the **Translate On Z** getter and drag and drop a **Get Translate On X** and connect the output pin to the input **Condition** pin on the **Branch** node.
 
 ![add translate on z to graph](images/XExecutionPinAndBoolRm8.jpg)
 
