@@ -116,7 +116,7 @@ Drag a **Get** node from the **Translate On Z** boolean onto the graph:
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now *add* a node called **Add Relative Location** to the scene graph by *right cliking* on a blank area and type the name of the node.
+*Pull off* of the **Rotating Cube** pin and *add* a node called **Add Relative Location** to the scene graph by *right cliking* on a blank area and type the name of the node.
 
 ![add relative location](images/AddRelativeLocationZRm8.jpg)
 
