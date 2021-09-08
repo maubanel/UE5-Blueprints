@@ -93,7 +93,7 @@ Call this new function `SwitchLight`. We need to add an **Input** and call it `b
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-*Add* a **Branch Node** to the node graph. *Attach* the execution pins and the **Turn On** output pin from **Switch Light** to the input pin in the **Branch** Node. We will handle the turn on light logic from the **True** output pin and the turn off logic from the **False** pin.
+*Add* a **Branch Node** to the node graph. *Attach* the execution pins from **Switch Light** to **Turn On**.  Connect the  **Turn On** output pin to the **Condition** pin in the **Branch** Node. We will handle the turn on light logic from the **True** output pin and the turn off logic from the **False** pin.
 
 ![add branch node](images/AddBranchtoFunct.jpg)
 
