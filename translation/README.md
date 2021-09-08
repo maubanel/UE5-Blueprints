@@ -67,7 +67,7 @@ Rename it to `BP_Translate_Object`.
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-**Total Time** will just keep track of the room time in milliseconds. *Take* the **Delta Time** output of the **Event Tick** and add it to the ouput of **Total Time**. *Send* this addition to the **Set** node to cumulatively add the time together.
+**Total Time** will just keep track of the room time in milliseconds. *Take* the **Delta Time** output of the **Event Tick** and add it to the other input of the **+** node. *Send* this addition to the **Set** node to cumulatively add the time together.
 
 ![set total time node](images/SetTotalTimeWithDeltaTime.jpg)
 
