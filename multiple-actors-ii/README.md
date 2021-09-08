@@ -95,8 +95,6 @@ Now run the game and enter and leave the room. The lights should toggle on and o
 
 ![run game and trigger lights on and off](images/TurnOnOffLights.gif)
 
-![alt_text](images/.jpg)
-
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
