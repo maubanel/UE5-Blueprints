@@ -55,7 +55,7 @@ Drag a **Trigger Volume** to the level. Scale it to be in front where you can wa
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-We are going to now create a special blueprint that will bridge multiple object. Press Add New and select **Blueprints | Blueprint Interface**. This is not like a regular blueprint class but creates an interface that multiple blueprints can share common functions.
+We are going to now create a special blueprint that will bridge multiple object. Go to **Blueprints | Room 10** and *press* **Add/Immport** and *select* **Blueprints | Blueprint Interface**. This is not like a regular blueprint class but creates an interface that multiple blueprints can share common functions.
 
 > A [Blueprint Interface](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Types/Interface/) is a collection of one or more functions - name only, no implementation - that can be added to other Blueprints. Any Blueprint that has the Interface added is guaranteed to have those functions. The functions of the Interface can be given functionality in each of the Blueprints that added it. This is essentially like the concept of an interface in general programming, which allows multiple different types of Objects to all share and be accessed through a common interface. Put simply, Blueprint Interfaces allow different Blueprints to share with and send data to one another. - UE4 manual
 
