@@ -71,7 +71,7 @@ How do we get access to each instance of each lightbulb in the array and not the
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Pull off* of the **Array Element** pin and trigger the **Switch Light** function in each light. Conect the output of the **Flip Flop | Is A** node to the **Switch Light** node's **Is On** pin. Connect the execution pin from **Loop Body** to **Switch Light**.
+*Pull off* of the **Array Element** pin and trigger the **Switch Light** function in each light. Connect the output of the **Flip Flop | Is A** node to the **Switch Light** node's **Is On** pin. Connect the execution pin from **Loop Body** to **Switch Light**.
 
 *Press** the <kbd>Compile</kbd> button.
 
