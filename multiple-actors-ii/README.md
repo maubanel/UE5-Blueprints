@@ -99,7 +99,7 @@ Now run the game and enter and leave the room. The lights should toggle on and o
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-That's it for **Room 9**. *Press* **Save All** and update **Github** by committing and pushing all the changes made. Next up we will be using a broadcast event to access the on off switch on classes of different types.
+That's it for **Room 9**. Press **Save All** and update **Github** by **committing** and **pushing** all the changes made using **Unreal Source Control** and **GitHub Desktop**. 
 
 ![save, commit and push to github](images/Room9GitHub.jpg)
 
