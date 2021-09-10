@@ -15,7 +15,7 @@ What if we wanted a single event in the game interact with different objects dif
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Scooch the camera over to **Room 10**. Add a `Room10` folder to the **Content Browser**.
+Scooch the camera over to **Room 10**. Add a `Blueprints | Room10` folder to the **Content Browser**.
 
 ![add room 10 folder](images/CreateRoom10Folder.jpg)
 
