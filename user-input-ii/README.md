@@ -23,7 +23,7 @@ Now lets get an event that is called when the **L** key is pressed. *Right click
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-See that the event node has two execution pins. One for **Pressed** and one for Rel**eased. *Drag* off the Pr**e**ssed key and add a **Set Rotating Clockwise** node:
+See that the event node has two execution pins. One for **Pressed** and one for **Released**. *Drag* off the Pr**e**ssed key and add a **Set Rotating Clockwise** node:
 
 ![add set rotating clockwise node](images/SetClockWiseBoolRm16.jpg)
 
