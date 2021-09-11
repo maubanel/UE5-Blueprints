@@ -180,7 +180,7 @@ Go to the **My Blueprints** panel and select the **bRotatingClockwise** with the
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-*Rename* the **Variable** to `RotatingCounterClockwise` and update the **Tooltip**:
+*Rename* the **Variable** to `bRotatingCounterClockwise` and update the **Tooltip**:
 
 ![rename to rotatingcounterclockwise](images/RenameCCRm16.jpg)
 
