@@ -154,7 +154,7 @@ Now at the end of the **Begin Play** event *off* the last **Set** node execution
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a Set **RefToRotateInterface** node and connect the execution and array pins to the **Get All Actors Of Class** node.
+Add a **Set RefToRotateInterface** node and connect the execution and array pins to the **Get All Actors Of Class** node.
 
 ![connect pins between get all acors of class and setter](images/RefToRotateExecute.jpg)
 
