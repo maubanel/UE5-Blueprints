@@ -71,7 +71,7 @@ Add a **Get Target to Rotate Around** node and attach it to the **Target** pin o
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets draw the radius of this rotation in debug to visualize it. Add another **Boolean** variable called `Draw Debug Radius`. Make it **Instance Editable** and **Private** with a **Tooltip** and **Category** `Debug`.
+Now lets draw the radius of this rotation in debug to visualize it. Add another **Boolean** variable called `bDrawRadius`. Make it **Instance Editable** and **Private** with a **Tooltip** and **Category** `Debug`.
 
 ![add boolean draw debug radius](images/AddDrawDebugRadiusRm15.jpg)
 
