@@ -71,7 +71,7 @@ Open up the BP_Rotate_Rm10 blueprint. *Delete* all the Pitch and Roll nodes to l
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
- *Delete* all three booleans in this blueprint. We will be turning it on off in code and not in the game menu. So these variables are not necessary.
+ *Delete* all three booleans in this blueprint (**bRotateOnZ**, **bRotateOnY**, **bRotateOnX**). We will be turning it on off in code and not in the game menu. So these variables are not necessary.
 
 ![delete three booleans in bp](images/DeleteThreeBooleans.jpg)
 
