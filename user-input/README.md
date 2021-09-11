@@ -87,7 +87,7 @@ Change the **Text** to `Press K Key to Rotate Counter Clockwise`. Adjust the loc
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Go to the game and hit **run**. Look and see if you are happy with the position. Make any size adjustments you need to. Rotate the actor in the map by 180 degrees if the text is backwards.
+Go to the game and hit **run**. Look and see if you are happy with the position. Make any size adjustments you need to. 
 
 ![test text in game](images/TestInGameRm16.jpg)
 
@@ -97,7 +97,7 @@ Go to the game and hit **run**. Look and see if you are happy with the position.
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Go to the **Event Graph** and* pull off* of the **Event Actor Begin Overlap** and *drag off* of the execution pin. *Select* a **Sequence** node:
+Go to the **Event Graph** and *pull off* of the **Event Actor Begin Overlap** and *drag off* off the execution pin. *Select* a **Sequence** node:
 
 
 ![Add sequence node](images/OverlapSequenceRm16.jpg)
