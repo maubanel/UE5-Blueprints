@@ -79,7 +79,7 @@ Now lets draw the radius of this rotation in debug to visualize it. Add another 
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now add a **Get** reference to this variable on the graph and send it to a **Branch** node.
+Now add a **Get Draw Radius** & a **Branch** node. Send the output of the **Draw Radius** to the the **Branch | Condition** pin.
 
 ![add a branch node](images/DrawDebugRadiusBranchRb15.jpg)
 
