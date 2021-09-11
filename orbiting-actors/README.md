@@ -153,7 +153,7 @@ Go back to the blueprint and see if you can figure it out. Look at the **In Stri
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Clean up the nodes so that they are neat.
+Clean up the nodes so that they are neat. *Press* the <kbd>Compile</kbd> button.
 
 ![cleaned up node graph](images/CleanUpNodes1Rm15.jpg)
 
