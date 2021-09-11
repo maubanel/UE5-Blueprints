@@ -25,7 +25,7 @@ Now we want to call the event that the **BP_LightbulbMultiInterface** subscribed
 
 *Connect* the outside execution pins from the output of the** Flip Flop** node to the input pin in **Turns Room 10 Switches on Off**. *Connect* the **Is A** pin form **Flip Flop** to **Is On** pin from **Turns Room 10 Switches on Off**. *Connect* the **RefToLibhbulbsInterface** to the **Target** pin. This will call this event in all actors in this array.
 
-![connect pins on flipflop, interface and turn off method](images/TurnRoom10OnOff.jpg)
+![connect pins on flipflop, interface and turn off method](images/FinishInterfaceCall.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
