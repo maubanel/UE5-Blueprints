@@ -152,7 +152,7 @@ Run the game and voila, a line drawing the radius of the rotation.
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now the rotation is always clockwise. What if we wanted the sphere to rotate counter-clockwise? We would need to send a negative rotation number instead of a positive one. Lets start by adding a **Boolean** variable called `Clockwise`. Make it **Instance Editable** and **Private**. Put it in **Category** `Rotation` and add a **Tooltip**:
+Now the rotation is always clockwise. What if we wanted the sphere to rotate counter-clockwise? We would need to send a negative rotation number instead of a positive one. Lets start by adding a **Boolean** variable called `bTurnClockwise`. Make it **Instance Editable** and **Private**. Put it in **Category** `Rotation` and add a **Tooltip**:
 
 ![add boolean clockwise](images/ClockwiseVariableRm15.jpg)
 
