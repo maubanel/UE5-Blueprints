@@ -31,7 +31,7 @@ Add a **Static Mesh** component to the blueprint. Call it `Cube`. Assign the **S
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Add* a **Box Collision** component and make the **Box Extent** `200.0`, `600.0`, `100.0`. *Move* the collider in front of the box.
+*Add* a **Box Collision** *Component* and make the **Box Extent** `200.0`, `600.0`, `100.0`. *Move* the collider in behind the box (opposite of **Red X** axis ).
 
 ![scale box collider](images/BoxxCollisionRm16.jpg)
 
