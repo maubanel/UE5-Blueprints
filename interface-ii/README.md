@@ -146,19 +146,13 @@ Name it `RefToRotateInterface` and change the type to **BP_RotateRoom10 | Object
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Now at the end of the **Begin Play** event *off* the last **Set** node execution pin and *add* a **Get All Actors Of Class** node and change the Actor Class to **BP_RotateRm10**.
 
 ![get all actors of class bp_rotaterm10 node](images/GetActorOfClassThree.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Add a Set **RefToRotateInterface** node and connect the execution and array pins to the **Get All Actors Of Class** node.
 
@@ -166,7 +160,7 @@ Add a Set **RefToRotateInterface** node and connect the execution and array pins
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now to rotate we need to keep calling the cube every frame the player is in the collision volume. There is only an enter and and exit event so we will need to add a boolean. First add an **Event Tick** node to call. Add a new **Variable** called `bRotateCube` and make it **Variable Type** called **Boolean**. *Set it* to **Private** and set it ot the **Room10Lightbulb** Category.
 
@@ -174,7 +168,7 @@ Now to rotate we need to keep calling the cube every frame the player is in the 
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
 *Drag and drop *a Get **bRotateCube** variable onto the **Event Graph**.
 
@@ -182,7 +176,7 @@ Now to rotate we need to keep calling the cube every frame the player is in the 
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 22.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
 Drag and drop a Get **RefToRotateInterface** variable to the chart. Add a **Turn Room 10 Switches on Off** node and connect the array output to the **Target** input.
 
@@ -190,7 +184,7 @@ Drag and drop a Get **RefToRotateInterface** variable to the chart. Add a **Turn
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 23.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 22.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Connect* the **Event Tick** execution pins and the **Rotate Cube** output boolean pin to the **Turn Room 10 Switches on Of**f node.
 
@@ -198,7 +192,7 @@ Drag and drop a Get **RefToRotateInterface** variable to the chart. Add a **Turn
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 24.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 23.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now in the Overlap events we need to turn the **bRotateCube** boolean on and off. Go to the end and add a **Set bRotateCube** node. *Attach* the execution pin from the **Turns Room 10 Switches on Off** and *connect* it to the **Set** node. *Connect* the output **IsA** pin from the **Flip Flop** node to the** Rotate Cube** input in the **Set** node.
 
@@ -206,7 +200,7 @@ Now in the Overlap events we need to turn the **bRotateCube** boolean on and off
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 25.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond:
+##### `Step 24.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now go to the game and play it. Notice that the single interface can trigger two completely different type of events!
 
@@ -214,14 +208,13 @@ Now go to the game and play it. Notice that the single interface can trigger two
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 26.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
+##### `Step 25.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond:
 
 That's it for **Room 10**. Press **Save All** and update Github by committing and pushing all the changes made. Next up we will be rotating around an actor.
 
 ![save, commit and push to github](images/GithibRm12.jpg)
 
 ___
-
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
