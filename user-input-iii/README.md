@@ -128,7 +128,7 @@ Copy and paste the **Set Relative Rotation** node and *connect* the output of th
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Since we are targetting just the **Static Mesh** by connecting to the **Set Relative Rotation | Target**.
+Since we are targetting just the **Static Mesh** by connecting to the **Set Relative Rotation | Target**. *Connect* the **Set Current Angle Deg** execution pin to **Set Relative Rotation**.
 
 ![connect cube to target](images/CubeToTargetRm16.jpg)
 
