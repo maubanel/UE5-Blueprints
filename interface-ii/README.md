@@ -15,9 +15,9 @@ Communicate through a blueprint interface part II
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-*Connect* the execution pins of both the **Enter** and **End** overlap events to the input of the **Flip Flop** node. *Drag* a **Get RefToLightbulbsInterface** to the graph. *Right click* and call the interface by calling **Turns Room 10 Switches on Off**.
+Now we want to call the event that the **BP_LightbulbMultiInterface** subscribed to.  *Pull* off of the ****.
 
-![get reference to interface then call the off method](images/AssignLightbulbsToVariable.jpg)
+![get reference to interface then call the off method](images/EventCall.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
