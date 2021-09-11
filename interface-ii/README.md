@@ -186,7 +186,7 @@ Add an **Event Tick** node.  *Drag and drop* a **Get RefToRotateInterface** vari
 
 ##### `Step 22.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Connect* the **Event Tick** execution pin to the **Turn Room 10 Switches on Off** pin and *connect* the **Rotate Cube** output boolean pin to the **Turn Room 10 Switches on Of**f node.
+*Connect* the **Event Tick** execution pin to the **Turn Room 10 Switches on Off** pin and *connect* the **Rotate Cube** output boolean pin to the **Turn Room 10 Switches On and Off | IsOn** node.
 
 ![connect event tick rotate cube and interface method's pins](images/FinishUpCall.jpg)
 
