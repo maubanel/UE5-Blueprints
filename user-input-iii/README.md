@@ -87,7 +87,7 @@ Now *run* it in game and the cube should rotate clockwise when you press the <kb
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Lets add counter clockwise movement. Now we need to add two nodes a **Get Rotating Counter Clockwise** and **Branch** . This checks to see if the counter clockwise <kbd>K</kbd> button is pressed.
+Lets add counter clockwise movement. Now we need to add two nodes a **Get Rotating Counter Clockwise** and **Branch** . This checks to see if the counter clockwise <kbd>K</kbd> button is pressed. Connect the execution pin from **Sequence | Then1** to the **Branch** node.  Connect the **RotatingCounterClockwise** pin to the **Branch | Condition** pin. 
 
 ![add get rotating counter clockwise and a branch node](images/CheckCounterClockWiseMovementRm16.jpg)
 
