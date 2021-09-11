@@ -15,7 +15,7 @@ Communicate through a blueprint interface part II
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Now we want to call the event that the **BP_LightbulbMultiInterface** subscribed to.  *Pull* off of the ****.
+Now we want to call the event that the **BP_LightbulbMultiInterface** subscribed to.  *Pull* off of the **Array Element** pin from the **For Each Loop** node and add a call to **Turn Room 10 Switches On And Off**.  This array element pin is accessing a reference to each lightbulb in the loop and running the nodes that are part of the interface definition in that blueprint (BP_LightbulbMultiInterface).
 
 ![get reference to interface then call the off method](images/EventCall.jpg)
 
