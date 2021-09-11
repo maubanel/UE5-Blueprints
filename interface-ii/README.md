@@ -79,17 +79,17 @@ Open up the BP_Rotate_Rm10 blueprint. *Delete* all the Pitch and Roll nodes to l
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Right click* on the graph and add a **Event Turns Room 10 Switches on Off** node.
+Select **Class Settings** then press **Interfaces | Add** and add the **BP_RoomSwitchInterface**. Press the <kbd>Compile</kbd> button.
 
-![add event turn room 10 switches on and off node](images/AddRoomSwitchOnOff.jpg)
+![add interface to blueprint](images/image_11.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Select **Class Settings** then press **Interfaces | Add** and add the **BP_RoomSwitchInterface**. Press the <kbd>Compile</kbd> button.
+*Right click* on the graph and add a **Event Turns Room 10 Switches on Off** node.
 
-![add interface to blueprint](images/image_11.jpg)
+![add event turn room 10 switches on and off node](images/AddRoomSwitchOnOff.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
