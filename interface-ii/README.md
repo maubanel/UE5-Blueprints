@@ -95,7 +95,7 @@ Select **Class Settings** then press **Interfaces | Add** and add the **BP_RoomS
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Now remove the **Event Tick** node and replace it with this new event node you just added. Connect the **IsOn** pin to the **Branch** pin.
+Now remove the **Event Tick** node *connect* the output of the **BP_RoomSwitchInterface** execution pin to the **Set Degrees Since Las Frame** node.
 
 ![replace event tick with interface node](images/ReplaceEventNode.jpg)
 
@@ -144,7 +144,7 @@ Go to the **Level Blueprint** for **IntroToBlueprints2** and *right click* on **
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Name it `RefToRotateInterface` and change the type to **BPRoom10 | Object Reference**. Update the **Tooltip**.
+Name it `RefToRotateInterface` and change the type to **BP_RotateRoom10 | Object Reference**. Update the **Tooltip**.
 
 ![rename dupe node to reftorotateinterface](images/ReferenceToCubes.jpg)
 
