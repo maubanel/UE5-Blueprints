@@ -140,7 +140,7 @@ Make a new variable of type **Float** called `Radius`. Make sure it is **Instanc
 
 *Press* the <kbd>Compile</kbd> button.
 
-*Set* the **default value** of the **Radius** to `300` and press the <kbd>Compile</kbd>.
+*Set* the **default value** of the **Radius** to `300` and press the <kbd>Compile</kbd> again.
 
 ![set radius to 300](images/RadiusVariableRm15.jpg)
 
@@ -156,7 +156,7 @@ Now *drag and drop* a **Get Radius** to the graph and we need to figure out how 
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *drag* a **Get** reference to the **Target To Rotate Around** variable and attack it to the **Target** input of **Get Actor Right Vector**. We are rotating around the referenced object, not ourselves. Now we want to scale this normalized vector by adding a **Vector * Float** node and attaching the pins accordingly.
+Now *drag* a **Get** reference to the **Target To Rotate Around** variable and attack it to the **Target** input of **Get Actor Right Vector**. We are rotating around the referenced object, not ourselves. Now we want to scale this normalized vector by adding a **Vector * Float** node and attaching the return value of **Get Actor Right Vector** to the top pin of the **Multiplication** node and the **Radius** to the bottom pin of the **Multipllication node**.
 
 ![add target to rotate around and connect to righ vector](images/VectorTimesFloatRm15.jpg)
 
@@ -172,7 +172,7 @@ Send the output of this **Multiply** into the **In Vect** pin of the **Rotate Ve
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-We can also add variables without dragging and dropping. We can click on an open part of the graph and type **Current Angle In Degrees** and select **Get**:.
+We can also add variables without dragging and dropping. We can click on an open part of the graph and type **Get Current Angle In Degrees**.
 
 ![add get current angle in degrees node](images/GetRefToAngleInDegRm15.jpg)
 
