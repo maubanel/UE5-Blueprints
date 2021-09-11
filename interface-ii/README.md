@@ -122,7 +122,7 @@ Now we are missing the **Delta Seconds** that was fed by the **Event Tick** node
 
 *Connect* the **Is On** output pin from the **Event** node and connect it to the **Condition** pin in the **Branch** node.
 
-*Press* the <kbe>Compile</kbd> button.
+*Press* the <kbd>Compile</kbd> button.
 
 ![connect is on to branch node](images/ConnetEventToBranch.jpg)
 
