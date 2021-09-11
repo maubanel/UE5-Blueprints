@@ -71,7 +71,7 @@ Now we need a variable to store the current angle that the actor is in relative 
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets program our current angle. *Drag* the **Degrees Per Second** variable to the **Event Graph** and select **Get**. *Drag off* of the pin and we now want a **Float * Float** node:
+Select the **Event Graph** tab. Lets program our current angle. *Drag* the **Degrees Per Second** variable to the **Event Graph** and select **Get**. *Drag off* of the pin and we now want a **Float * Float** node:
 
 ![get degrees per second and multiplication node](images/DegreesThenFloatRm15.jpg)
 
