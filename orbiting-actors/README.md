@@ -145,7 +145,7 @@ Go to the game and drag a copy of the blueprint into the scene next to the box. 
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the blueprint and see if you can figure it out. Look at the **In String** box and you see **Hello**. We want this to read the current angle. *Drag* the output pin from **Set Current Angle In Degrees** node to the** In String** pin on **Print String**. **UE4** will pick a conversion node to go from **Float** to **String**.
+Go back to the blueprint and see if you can figure it out. Look at the **In String** box and you see **Hello**. We want this to read the current angle. *Drag* the output pin from **Set Current Angle In Degrees** node to the **In String** pin on **Print String**. **UE4** will pick a conversion node to go from **Float** to **String**.
 
 ![connect angle to print string](images/CurrAngleToPrintRm15.jpg)
 
