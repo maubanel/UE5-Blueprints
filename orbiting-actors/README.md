@@ -23,7 +23,7 @@ Move the camera to room 11. *Add* a new Folder called **Blueprints | Room11**. *
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-*Drag* a **Cube** into the middle of the room. Give it space as we will have a blueprint orbit around it. Call it in the **World Outliner** `Rotate Around Me`.
+*Drag* a **Cube** into the middle of the room. Give it space as we will have a blueprint orbit around it. Call it in the **World Outliner** `Rotate Around Me`. *Drag* it into the **Room11** folder. 
 
 ![drag the blueprint into the room](images/DropBoxInRm15.jpg)
 
