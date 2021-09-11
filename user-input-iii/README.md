@@ -95,7 +95,7 @@ Lets add counter clockwise movement. Now we need to add two nodes a **Get Rotati
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Now the only difference for counter clockwise movement is that the rotation is negative. So *highjack* the output of the **Speed of Rotation** and **Delta Seconds** node's Multiplication output and add a **Float * Float** node beneath.
+Now the only difference for counter clockwise movement is that the rotation is negative. So *highjack* the output of the **Multiplication** output and add a **Float * Float** node beneath.
 
 ![add float multiplication node](images/HighJackMultRm16.jpg)
 
