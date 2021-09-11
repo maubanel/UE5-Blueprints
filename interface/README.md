@@ -182,9 +182,9 @@ Make sure you still have the Trigger Volume selected in game. *Right click* on t
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-*Right click* on the graph and add a **Flip Flop** node.
+*Right click* on the graph and add a **Get Ref to Ligthbulbs Interface** node. Pull off the *array* pin and select a **For Each Loop** node to go into each lightbulb to turn it on and off.
 
-![add flip flop node](images/SameForTurningOffMessageRm12.jpg)
+![add a lightbulb ref and for each loop](images/SameForTurningOffMessageRm12.jpg)
 
 ___
 
