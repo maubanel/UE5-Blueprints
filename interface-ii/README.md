@@ -170,7 +170,7 @@ Now to rotate we need to keep calling the cube every frame the player is in the 
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-*Drag and drop* a Get **bRotateCube** variable onto the **Event Graph**.
+*Drag and drop* a **Get bRotateCube** variable onto the **Event Graph**.
 
 ![add get boolena to graph](images/AddRotateCubeToGraph.jpg)
 
