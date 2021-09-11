@@ -31,7 +31,7 @@ Now again this is relative to the box. So take the output of the **Target To Rot
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we can get to the meat of this room. We have calculated where in world coordinates our blueprint needs to be relative to the object we are rotating around. *Right click* and select **Set Actor Location**. *Connect* the **Return Value** output pin of the **Rotate Vector Around Axis** node to the **New Location** pin in the **Set Actor Location** node. *Highjack* the **Is Valid** pin from the **Is Valid** node and *connect* it ot the input execution pin in the **Set Actor Location** node. *Delete* this **Print String** node as we no longer need it.
+Now we can get to the meat of this room. We have calculated where in world coordinates our blueprint needs to be relative to the object we are rotating around. *Right click* and select **Set Actor Location**. *Connect* the **Return Value** output pin of the **Rotate Vector Around Axis** node to the **New Location** pin in the **Set Actor Location** node. *Highjack* the **Is Valid** pin from the **Is Valid** node and *connect* it ot the input execution pin in the **Set Actor Location** node. *Delete* the dangling **Print String** node as we no longer need it.
 
 ![add set actor location node](images/SetActorLocationRm15.jpg)
 
@@ -47,7 +47,7 @@ We will leave the error print as this will warn us if we have not assigned a tar
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Before we try it in game, I just realized I made an error. The vector is in local space to the cube. What I need to do is to get this into world coordinates. I do this by adding my current location to this vector. Add a **Get Actor Location** node and an **Vector + Vector** node adding the output of the **Return Vector Around Axis** node *BEFORE* getting sent to **New Location** in the **Set Actor Location** node:
+Before we try it in game, I just realized I made an error. The vector is in local space to the cube. What I need to do is to get this into world coordinates. I do this by adding my current location to this vector. Add a **Get Actor Location** node and an **Vector + Vector** node adding the output of the **Return Vector Around Axis** node.  Then send the output of the **Addition** node to the **New Location** in the **Set Actor Location** node:
 
 ![put rotation in world coordinates](images/PutItInWorldCoordsRm15.jpg)
 
