@@ -104,21 +104,13 @@ Now remove the **Event Tick** node *connect* the output of the **BP_RoomSwitchIn
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-So your graph should look like this:
-
-![blueprint graph](images/SwitvchesOnOffReplacesTick.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
 Now we are missing the **Delta Seconds** that was fed by the **Event Tick** node. No problem we can get this value by *right clicking* and adding a **Get World Delta Seconds** node.
 
 ![get world delta seconds](images/GetWorldDeltaSeconds.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 *Connect* the output of the **Get World Delta Seconds** node to the empty **Multiplication** node.
 
@@ -126,7 +118,7 @@ Now we are missing the **Delta Seconds** that was fed by the **Event Tick** node
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Connect the **Is On** output pin from the **Event** node and connect it to the **Condition** pin in the **Branch** node.
 
@@ -134,7 +126,7 @@ Connect the **Is On** output pin from the **Event** node and connect it to the *
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
 Go to the **Level Blueprint** for **IntroToBlueprints2** and *right click* on **RefToLightbulbsInterface** and select **Duplicate**.
 
@@ -142,11 +134,17 @@ Go to the **Level Blueprint** for **IntroToBlueprints2** and *right click* on **
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Name it `RefToRotateInterface` and change the type to **BP_RotateRoom10 | Object Reference**. Update the **Tooltip**.
 
 ![rename dupe node to reftorotateinterface](images/ReferenceToCubes.jpg)
+
+<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+
+##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
