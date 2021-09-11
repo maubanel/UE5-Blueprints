@@ -63,7 +63,7 @@ This is a class that we have not customized but default is used in the game (you
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we don't want to pull off of the **Toggle Visibility** execution pins as this gets called every time and handles toggling on and off. Connect these to the **Begin Play** execution node.
+Now we don't want to pull off of the **Toggle Visibility** execution pins as this gets called every time and handles toggling on and off. Connect these to the **Begin Play** execution node. *Press* the <kbd>Compile</kbd> button.
 
 ![add pin to sequence node](images/SequenceToEnableCommentRm16.jpg)
 
