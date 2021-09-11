@@ -137,7 +137,7 @@ Connect the output **Set** execution pin to the **Print String** input pin. *Pre
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Go to the game and drag a copy of the blueprint into the scene next to the box. Make sure **Show Debug Ange In Degrees** is set to `true`. *Run* the game and we get **Hello**. This is not what we wanted, we wanted to see the current angle in degrees!
+Go to the game and drag a copy of the blueprint into the scene next to the box. Make sure **Show Debug** is set to `true`. *Run* the game and we get **Hello**. This is not what we wanted, we wanted to see the current angle in degrees!
 
 ![in game hello](images/RunGameHelloErrorRm15.jpg)
 
