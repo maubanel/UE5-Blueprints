@@ -112,7 +112,7 @@ Multiply this number by `-1.0`
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Copy and paste* the Get **Current Angle Deg**, **Addition** and **Set Current Angle Deg** nodes and paste below. *Connect* the output of the **Multiplication** by -1 node to the input of the **+** node. *Connect* the **Execution** pin of the **Set Rotating Clockwise** node to the execution pin of the **Branch True** node.
+*Copy and paste* the Get **Current Angle Deg**, **Addition** and **Set Current Angle Deg** nodes and paste below. *Connect* the output of the **Multiplication** by -1 node to the input of the **+** node. *Connect* the **Execution** pin of the **Branch True*** node to the execution pin of the **Set Current Angle Deg* node.
 
 ![connect pins](images/CopyCurrentAngleRm16.jpg)
 
