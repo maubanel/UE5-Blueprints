@@ -39,7 +39,7 @@ Now we have the bluprint calling the interface and passing all the lights in the
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-The power of this interface is that other objects can react to the same event and do something different. Lets add a cube that rotates when the player is in the collision volume. Go to **Room 8** and *right click* on **BP_RotateObject** and select **Duplicate**.
+The power of this interface is that other objects can define the interface to do a different action.  So turning on might a light for a light switch, but could also have a TV that implements turning on by showing a movie on the screen. Lets add a cube that rotates when turned on and stops when turned off. Go to **Room 8** and *right click* on **BP_RotateObject** and select **Duplicate**.
 
 ![duplicate bp_rotateobject](images/DupeRotateObject.jpg)
 
