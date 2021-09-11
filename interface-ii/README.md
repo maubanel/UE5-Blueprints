@@ -75,6 +75,12 @@ Open up the BP_Rotate_Rm10 blueprint. *Delete* all the Pitch and Roll nodes to l
 
 ![delete three booleans in bp](images/DeleteThreeBooleans.jpg)
 
+
+Now to the **Degrees Per Second** variable and set the **Default Value** to `70.0`.
+
+![set degrees per second to 70](images/SetDefaultDegreesPerSecond.jpg)
+
+
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
