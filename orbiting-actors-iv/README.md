@@ -112,7 +112,7 @@ Drag off of the pin and select the **Get Actor Location** node which returns the
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Connect the output execution pin of the **Draw Debug Line** node to the input execution pin of the **Set Actor Rotation** node:
+Connect the output execution pin of the **Draw Debug Line** node to the input execution pin of the **Set Actor Rotation** node. Also connect the **Branch | False** before the debug line to the execution pin of the **Set Actor Rotation** node as well. *Press* the <kbd>Compile</kbd> button.
 
 ![connect execution pins for draw debug line to set actor rotation](images/SetActorLocationToRotationPinsRm15.jpg)
 
