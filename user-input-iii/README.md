@@ -63,7 +63,7 @@ This is a class that we have not customized but default is used in the game (you
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we don't want to pull off of the **Toggle Visibility** execution pins as this gets called every time and handles toggling on and off. This is an enable node and doesn't toggle. So go back to the **Sequence** node and *press* **Add pin** then take the Then 2 execution pin and attach it to the input execution of the Enable Input node. Add a comment to this new portion `Toggle Input On and Off`.
+Now we don't want to pull off of the **Toggle Visibility** execution pins as this gets called every time and handles toggling on and off. Connect these to the **Begin Play** execution node.
 
 ![add pin to sequence node](images/SequenceToEnableCommentRm16.jpg)
 
@@ -71,21 +71,13 @@ Now we don't want to pull off of the **Toggle Visibility** execution pins as thi
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Repeat this process for an added Disable Input node for when the player leaves the collision volume:
-
-![repeat for disable input](images/RepeatForDisableInput.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Now go to the game and select the **BP_RotateCube** instance in the level and change the **Auto Receive Input** to `Player 0`.
 
 ![change auto receive input to player 0](images/AutoReceivePlayer0.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 10.`\|`ITB`| :large_blue_diamond:
+##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *run* it in game and the cube should rotate clockwise when you press the <kbd>L</kbd> key.
 
@@ -93,7 +85,7 @@ Now *run* it in game and the cube should rotate clockwise when you press the <kb
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
 Lets add counter clockwise movement. Now we need to add two nodes a **Get Rotating Counter Clockwise** and **Branch** . This checks to see if the counter clockwise <kbd>K</kbd> button is pressed.
 
@@ -101,8 +93,7 @@ Lets add counter clockwise movement. Now we need to add two nodes a **Get Rotati
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-
-##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
 Now the only difference for counter clockwise movement is that the rotation is negative. So *highjack* the output of the **Speed of Rotation** and **Delta Seconds** node's Multiplication output and add a **Float * Float** node beneath.
 
@@ -110,7 +101,8 @@ Now the only difference for counter clockwise movement is that the rotation is n
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Multiply this number by `-1.0`
 
@@ -118,7 +110,7 @@ Multiply this number by `-1.0`
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 *Copy and paste* the Get **Current Angle Deg**, **Addition** and **Set Current Angle Deg** nodes and paste below. *Connect* the output of the **Multiplication** by -1 node to the input of the **+** node. *Connect* the **Execution** pin of the **Set Rotating Clockwise** node to the execution pin of the **Branch True** node.
 
@@ -126,22 +118,23 @@ Multiply this number by `-1.0`
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Copy and paste the **Set Relative Rotation** node and *connect* the output of the second **Set** node to the **New Rotation Z (Yaw)** pin of this node:
+Copy and paste the **Set Relative Rotation** node and *connect* the output of the second **Set** node to the **New Rotation Z (Yaw)** pin of this node.
+
 ![copy set relative rotation node](images/CopySetRelativeLocationRm16.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Since we are targetting just the **Cube** mesh component make sure that the **Cube** is connected to the **Target**:
+Since we are targetting just the **Cube** mesh component make sure that the **Cube** is connected to the **Target**.
 
 ![connect cube to target](images/CubeToTargetRm16.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 *Run* the game and test it. Now it works OK as the <kbd>L</kbd> and <kbd>K</kbd> button both work. But there is a design flaw. What I press the L button while pressing the K button without releasing it. Now two booleans are true and they cancel each other out. I want to cancel the other rotation as soon as a new one is detected.
 
@@ -149,7 +142,7 @@ Since we are targetting just the **Cube** mesh component make sure that the **Cu
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 So in the Button Events add a **Set Rotating Counter Clockwise** to `false` after the <kbd>L</kbd> button is pressed and a **Set Rotating Clockwise** to `false` when the <kbd>K</kbd> button is pressed:
 
@@ -157,7 +150,7 @@ So in the Button Events add a **Set Rotating Counter Clockwise** to `false` afte
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *run* the game and walk into the collision volume. This should finish up this room.
 
@@ -165,11 +158,12 @@ Now *run* the game and walk into the collision volume. This should finish up thi
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
-##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 That's it for **Room 12** and this entire level and walk through. *Press* **Save All** and update **Github** by committing and pushing all the changes made.
 
 ![save, commit and push to github](images/GithubRm16.jpg)
+
 
 | `intro.blueprints`\|`THE END`| 
 | :--- |
