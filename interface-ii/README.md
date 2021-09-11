@@ -162,7 +162,7 @@ Add a **Set RefToRotateInterface** node and connect the execution and array pins
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now to rotate we need to keep calling the cube every frame the player is in the collision volume. There is only an enter and and exit event so we will need to add a boolean. First add an **Event Tick** node to call. Add a new **Variable** called `bRotateCube` and make it **Variable Type** called **Boolean**. *Set it* to **Private** and set it ot the **Room10Lightbulb** Category. *Make sure* it is a single variable and not an array (no group of squares icon next to the **Variable Type**).
+Now to rotate we need to keep calling the cube every frame the player is in the collision volume. There is only an enter and and exit event so we will need to add a boolean. First add an **Event Tick** node to call. Add a new **Variable** called `bRotateCube` and make it **Variable Type** called **Boolean**. *Set it* to **Private** and set it ot the **Room10Lightbulbs** Category. *Make sure* it is a single variable and not an array (no group of squares icon next to the **Variable Type**).
 
 ![add event tick and boolean variable](images/AddTickAndRotateBool.jpg)
 
@@ -170,7 +170,7 @@ Now to rotate we need to keep calling the cube every frame the player is in the 
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-*Drag and drop *a Get **bRotateCube** variable onto the **Event Graph**.
+*Drag and drop* a Get **bRotateCube** variable onto the **Event Graph**.
 
 ![add get boolena to graph](images/AddRotateCubeToGraph.jpg)
 
