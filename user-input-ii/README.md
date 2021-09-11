@@ -97,6 +97,10 @@ Add the comment `Button Pressed Booleans` to the neds around the **L** and *K* e
 
 We need a variable to adjust the speed of the rotation. *Add* a new variable called `Speed of Rotation` of Type **Float** and make it **Instance Editable** and **Private**. Set the Category to `Controls`. Set the Tooltip to `Set speed in degrees per second`.
 
+*Press* the <kbd>Compile</kbd> button.
+
+Set the **Default Value** to `30.0`.
+
 ![add float variable speed of rotation](images/SpeedOfRotationVarRm16.jpg)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
