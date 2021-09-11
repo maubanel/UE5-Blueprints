@@ -99,7 +99,7 @@ We need a variable to adjust the speed of the rotation. *Add* a new variable cal
 
 *Press* the <kbd>Compile</kbd> button.
 
-Set the **Default Value** to `30.0`.
+Set the **Default Value** to `45.0`.
 
 ![add float variable speed of rotation](images/SpeedOfRotationVarRm16.jpg)
 
