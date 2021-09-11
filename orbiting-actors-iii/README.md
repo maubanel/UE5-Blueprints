@@ -128,7 +128,7 @@ Connect the output **Execution** pin from the **Set Actor Location** node to the
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-For the **Draw Debug Line** set the Duration to` 0.0` and the line Thickness to `3.0`. *Press* the <kbd>Compile</kbd> button.
+For the **Draw Debug Line** set the Duration to` 0.0` and the line Thickness to `3.0`. *Press* the <kbd>Compile</kbd> button. *Press* the <kbd>Compile</kbd> button.
 
 ![set draw debug line to duration of 0 and thickness of 3](images/SetDurationThicknessRm15.jpg)
 
