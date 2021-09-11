@@ -120,7 +120,7 @@ Connect the output **Execution** pin from the **Set Actor Location** node to the
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Connect* the output pin of **Get Actor Location** for the cube to the **Line End** input pin of the **Draw Debug Line** node. *Connect* the **True** execution pin from **Branch to Draw Debug Line** execution pin.
+*Connect* the output pin of **Get Actor Location | Return Value** pin for the cube to the **Line End** input pin of the **Draw Debug Line** node. *Connect* the **True** execution pin from **Branch to Draw Debug Line** execution pin.
 
 ![connect to line end](images/ConnectToLineEndRm15.jpg)
 
