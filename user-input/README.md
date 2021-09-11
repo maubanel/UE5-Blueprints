@@ -172,7 +172,7 @@ Now there is an event trigger for when a button is pressed and released. There i
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-Go to the **My Blueprints** panel and select the **Rotating Clockwise** with the *right mouse button* and select **Duplicate**:
+Go to the **My Blueprints** panel and select the **bRotatingClockwise** with the *right mouse button* and select **Duplicate**:
 
 ![duplicate rotating clockwise](images/RIghtClickDupeRm16.jpg)
 
