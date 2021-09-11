@@ -31,7 +31,7 @@ Connect the execution pins.
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Adjust the default Speed of Rotation variable to 45.0 and press the <kbd>Compile</kbd> button.
+Adjust the default Speed of Rotation variable to 45.0 and press the <kbd>Compile</kbd> button. *Press* the <kbd>Compile</kbd> button.
 
 ![change speed of rotation to 45](images/SpeedOfRotation45.jpg)
 
