@@ -15,7 +15,7 @@ What if we wanted a single event in the game interact with different objects dif
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Scooch the camera over to **Room 10**. Add a `Room10` folder to the **Content Browser**.
+Scooch the camera over to **Room 10**. Add a `Blueprints | Room10` folder to the **Content Browser**.
 
 ![add room 10 folder](images/CreateRoom10Folder.jpg)
 
@@ -47,7 +47,7 @@ Scooch the camera over to **Room 10**. Add a `Room10` folder to the **Content Br
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Drag a **Trigger Volume** to the level. Scale it to be in front where you can walk in and out of it in the room. *Clean* up the **World Outliner** by dragging all blueprints and the trigger volume into **Room 10**.
+Drag a **Trigger Volume** to the level. Scale it to be in front where you can walk in and out of it in the room. *Clean* up the **World Outliner** by dragging all blueprints and the trigger volume into **Room 10**. Adjust the **Brush Settings** so that the volume takes up the front part of the room that the player can walk in and out of.
 
 ![add and scale trigger volume in room 10](images/DupeRoom9SwitchRm12.jpg)
 
@@ -55,7 +55,7 @@ Drag a **Trigger Volume** to the level. Scale it to be in front where you can wa
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-We are going to now create a special blueprint that will bridge multiple object. Press Add New and select **Blueprints | Blueprint Interface**. This is not like a regular blueprint class but creates an interface that multiple blueprints can share common functions.
+We are going to now create a special blueprint that will bridge multiple object. Go to **Blueprints | Room 10** and *press* **Add/Immport** and *select* **Blueprints | Blueprint Interface**. This is not like a regular blueprint class but creates an interface that multiple blueprints can share common functions.
 
 > A [Blueprint Interface](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Types/Interface/) is a collection of one or more functions - name only, no implementation - that can be added to other Blueprints. Any Blueprint that has the Interface added is guaranteed to have those functions. The functions of the Interface can be given functionality in each of the Blueprints that added it. This is essentially like the concept of an interface in general programming, which allows multiple different types of Objects to all share and be accessed through a common interface. Put simply, Blueprint Interfaces allow different Blueprints to share with and send data to one another. - UE4 manual
 
@@ -73,7 +73,7 @@ We are going to now create a special blueprint that will bridge multiple object.
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open this new blueprint. Notice it is read only. It is a virtual interface so you will define it in the actors. This is completely blank. But we can add parameters. *Press* the **+** button next to **Inputs** and call this variable `bIsOn` and make it type **Boolean**. Leave its default value at `false`.
+Open this new blueprint. Notice it is read only. It is a virtual interface so you will define it in the actors. This is completely blank. But we can add parameters. *Select* **NewFunction_0** on the graph and *press* the **+** button next to **Inputs** and call this variable `bIsOn` and make it type **Boolean**. Leave its default value at `false`.
 
 All other blueprints that subscribe to this interface will be able to access this boolean.
 
@@ -83,7 +83,7 @@ All other blueprints that subscribe to this interface will be able to access thi
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets call the function something more meaningful. Rename it to `Turn Room 10 Switches On and Off`.
+Lets call the function something more meaningful. Rename it to `Turn Room 10 Switches On and Off`. *Press* the <kbd>Compile</kbd> button.
 
 ![add function Turn Room 10 Switches On and Off](images/RenameFunctionAddDescriptRm12.jpg)
 
@@ -116,7 +116,7 @@ Each actor that subscribes to it can create its own definition. This means that 
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now add a **Switch Light** node and connect the execution pins and the boolens for **Is On** to **Turn On**. This will run the function we previously wrote to turn the light on and off.
+Now add a **Switch Light** node and *attach* the execution pins and the boolean pins between **Is On** to **Turn On**. This will run the function we previously wrote to turn the light on and off. *Press* the <kbd>Compile</kbd> button.
 
 ![trigger switch light](images/SwitchLightOnOff2.jpg)
 
