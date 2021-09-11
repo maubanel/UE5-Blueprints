@@ -15,7 +15,7 @@ Orbiting actors continued...
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Now multiply the output of the multiplication of the degrees per second times the tick by 1 or -1. Press **Add pin +** on the **Multiplication** node after D**egrees Per Second**. *Attach* the output of the **Select A Float** node into the third pin of the **Multiplication** node.
+Now multiply the output of the multiplication of the degrees per second times the tick by 1 or -1. Press **Add pin +** on the **Multiplication** node after D**egrees Per Second**. *Attach* the output of the **Select A Float | Return Value** pin into the third pin of the **Multiplication** node.
 
 ![connect pins as shown](images/ConnectPinsAsShownRm15.jpg)
 
