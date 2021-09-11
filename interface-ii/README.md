@@ -170,7 +170,7 @@ Now to rotate we need to keep calling the cube every frame the player is in the 
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-*Drag and drop* a **Get bRotateCube** variable onto the **Event Graph**.
+*Drag and drop* a **Get bRotateCube** variable onto the bottom of the **Event Graph**.
 
 ![add get boolena to graph](images/AddRotateCubeToGraph.jpg)
 
@@ -178,7 +178,7 @@ Now to rotate we need to keep calling the cube every frame the player is in the 
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-*Drag and drop* a **Get RefToRotateInterface** variable to the chart. Add a **Turn Room 10 Switches on Off** node and connect the array output to the **Target** input.
+Add an **Event Tick** node.  *Drag and drop* a **Get RefToRotateInterface** variable to the chart. Add a **Turn Room 10 Switches on Off** node and connect the array output to the **Target** input.
 
 ![add turn room on off node](images/TurnRoom.jpg)
 
