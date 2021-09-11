@@ -200,7 +200,7 @@ Now to rotate we need to keep calling the cube every frame the player is in the 
 
 ##### `Step 23.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now in the Overlap events we need to turn the **bRotateCube** boolean on and off. Go to the end and add a **Set bRotateCube** node. *Attach* the execution pin from the **Turns Room 10 Switches on Off** and *connect* it to the **Set** node. *Connect* the output **IsA** pin from the **Flip Flop** node to the** Rotate Cube** input in the **Set** node.
+Now in the Overlap events we need to turn the **bRotateCube** boolean on and off. Go to the end and add two **Set bRotateCube** nodes. *Attach* the execution pin from both **Turns Room 10 Switches on Off** nodes and *connect* it to the **Set** nodes. Set the **RotateCube** boolean to `true` on the begin overlap and to `false` on the end overlap pathway.
 
 ![connect execution pin and flip flop is on](images/SetBoolenForCube.jpg)
 
