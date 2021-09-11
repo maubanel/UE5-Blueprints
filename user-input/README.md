@@ -164,7 +164,7 @@ Just ensure that visibility is off when we start open the blueprint and make sur
 
 Now there is an event trigger for when a button is pressed and released. There is not a trigger for a button being held. So we will create a boolean that sets when a key is held. We need to add two booleans. 
 
-*Add* a new **Boolean** variable called `Rotating Clockwise`, make it **Private** and set the **Category** to `Controls`. *Add* a **Tooltip** that says `Bool to tell us if clockwise button is pressed`.
+*Add* a new **Boolean** variable called `bRotatingClockwise`, make it **Private** and set the **Category** to `Controls`. *Add* a **Tooltip** that says `Bool to tell us if clockwise button is pressed`.
 
 ![add rotating clockwise variable](images/RotatingClockwiseVarRm16.jpg)
 
