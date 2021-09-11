@@ -23,7 +23,7 @@ Now we want to call the event that the **BP_LightbulbMultiInterface** subscribed
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-*Connect* the outside execution pins from the output of the** Flip Flop** node to the input pin in **Turns Room 10 Switches on Off**. *Connect* the **Is A** pin form **Flip Flop** to **Is On** pin from **Turns Room 10 Switches on Off**. *Connect* the **RefToLibhbulbsInterface** to the **Target** pin. This will call this event in all actors in this array.
+*Connect* the  execution pins from **Begin Overlap** node to the **For Each Loop** to the **Turn Room 10 Switches On And Off** nodes.  Make sure that the **Is On** pin is set to `true` (ticked) as this is the turning on state.  Then copy the **For Each** and **Turn Room 10 Switches On And Off** nodes and connect them to the **End Overlap** node and make **IsOn** `false` (un-ticked) as it is turning the light off.
 
 ![connect pins on flipflop, interface and turn off method](images/FinishInterfaceCall.jpg)
 
