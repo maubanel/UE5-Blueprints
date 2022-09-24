@@ -19,9 +19,9 @@ Lets get going by setting up the project so we can start using blueprints.
 
 ##### `Step 1.`\|`ITL`|:small_blue_diamond:
 
-After you accept the [GitHub UE5 Bluprints Starter](https://github.com/LSU-UE5/UE5-Intro-To-Blueprints-Starter) invitation, go to the new **GitHub** repository and click on the green Code button and select open with **GitHub Desktop** then confirm that you will open in desktop then pick a directory and press the <kbd>Clone</kbd> button.
+Navigate on your broswer to [GitHub UE5 Bluprints Starter](https://github.com/LSU-UE5/UE5-Intro-To-Blueprints-Starter). Right click on <kbd>Code</kbd> and select **Download Zip**.  Then when it finishes downloading right click on the zip file and select **Extract Here**. This will unzip the file.  Any attempt to run unreal inside a zipped folder will **not** work.
 
-![github classroom invite to blueprints](images/downloadExtract.png)
+![download starter project and unzip](images/downloadExtract.png)
 
 ![](../images/line2.png)
 
