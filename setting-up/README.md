@@ -15,13 +15,13 @@ Lets get going by setting up the project so we can start using blueprints.
 
 | `required.software`\|`UE4 Lighting`| 
 | :--- |
-| :floppy_disk: &nbsp; &nbsp; You will need to install the latest version of _UE4 4.26.x_ by downloading the [Epic Games Launcher](https://www.epicgames.com/store/en-US/download). You will also need a [GitHub](https://github.com/) account which is free to sign up for as we will be using version control. You will also need a mac or PC that is powerful enough to run unreal. If you are on a PC you will have to download and install [git](https://git-scm.com/downloads) (on a mac it may prompt you to install git as well but you can do it through the terminal). We will also install [Github Desktop](https://desktop.github.com) as it provides a GUI interface so you don't have to worry about command line. Once git is installed you will also need to download and install the [Git LFS (Large File System)](https://git-lfs.github.com) as well for both PC and mac.  You will also need access to Maya 2020..\n\nLets make sure you can see hidden folders. On the PC follow these [Windows 10 Turn on Hidden Folders](https://support.microsoft.com/en-us/help/4028316/windows-view-hidden-files-and-folders-in-windows-10) directions. On the Mac it is a bit more involved so go and [turn on hidden folders on Mac](https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks).|
+| :floppy_disk: &nbsp; &nbsp; You will need to install the latest version of _UE5 5.0.X_ by downloading the [Epic Games Launcher](https://www.epicgames.com/store/en-US/download). You will also need a [P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) account which is free to sign up for as we will be using version control. Lets make sure you can see hidden folders. On the PC follow these [Windows 10 Turn on Hidden Folders](https://support.microsoft.com/en-us/help/4028316/windows-view-hidden-files-and-folders-in-windows-10) directions.|
 
 ##### `Step 1.`\|`ITL`|:small_blue_diamond:
 
-After you accept the [GitHub Classroom](https://classroom.github.com/a/HDRB55xp) invitation, go to the new **GitHub** repository and click on the green Code button and select open with **GitHub Desktop** then confirm that you will open in desktop then pick a directory and press the <kbd>Clone</kbd> button.
+After you accept the [GitHub UE5 Bluprints Starter](https://github.com/LSU-UE5/UE5-Intro-To-Blueprints-Starter) invitation, go to the new **GitHub** repository and click on the green Code button and select open with **GitHub Desktop** then confirm that you will open in desktop then pick a directory and press the <kbd>Clone</kbd> button.
 
-![github classroom invite to blueprints](images/IntroductionToBlueprintsClassroom.jpg)
+![github classroom invite to blueprints](images/downloadExtract.png)
 
 ![](../images/line2.png)
 
@@ -29,7 +29,7 @@ After you accept the [GitHub Classroom](https://classroom.github.com/a/HDRB55xp)
 
 Go to your new GitHub repository and press the <kbd>Code</kbd> button and select **Open with GitHub Desktop**. Then you can then select a folder and **Clone** the project to your hard drive.
 
-![accept and clone blueprints project](images/image_01.jpg)
+![accept and clone blueprints project](images/image_01.png)
 
 ![](../images/line2.png)
 
@@ -37,7 +37,7 @@ Go to your new GitHub repository and press the <kbd>Code</kbd> button and select
 
 This will give you access to a folder called **UE4IntroToBlueprints** that will hold the UE4 project. Enter the folder double click the **UE4** project `IntroToBlueprints.uproject` to load it. Make sure you have Unreal 14.26.x installed.
 
-![foler structure of blueprints project](images/InitialFolderStructure.jpg)
+![foler structure of blueprints project](images/InitialFolderStructure.png)
 
 ![](../images/line2.png)
 
@@ -45,7 +45,7 @@ This will give you access to a folder called **UE4IntroToBlueprints** that will 
 
 The project should load up in the Room/Level **IntroToBlueprints1** room. Scoot the camera over to **Room 1**. You will also most likely see a dark room that has not been lit. You need to hit the <kbd>Build</kbd> button and wait for the lighting to build for the level. After this it should look normal again.
 
-![room1 in game](images/IntroToBlueprints1Room.jpg)
+![room1 in game](images/IntroToBlueprints1Room.png)
 
 ![](../images/line2.png)
 
@@ -53,7 +53,7 @@ The project should load up in the Room/Level **IntroToBlueprints1** room. Scoot 
 
 Go to the content browser and look at the folders that are provided. Go to the first **Blueprints** folder. You should see two files, one is a GameMode blueprint and the other is a character controller blueprint.
 
-![character and gamemode blueprint](images/GameModeCharacterBlueprints.jpg)
+![character and gamemode blueprint](images/GameModeCharacterBlueprints.png)
 
 ![](../images/line2.png)
 
@@ -61,7 +61,7 @@ Go to the content browser and look at the folders that are provided. Go to the f
 
 Go to the **Maps** folder and you should see two levels:
 
-![maps folder showing two levels](images/ThreeRoomsMapFolder.jpg)
+![maps folder showing two levels](images/ThreeRoomsMapFolder.png)
 
 ![](../images/line2.png)
 
@@ -69,7 +69,7 @@ Go to the **Maps** folder and you should see two levels:
 
 You will now go to the **Materials** folder and I have provided some materials for these exercises. The **Supplied** folder has materials used for the room. The remaining ones will be used in blueprints you will be creating.
 
-![contents of materials and supplied folder](images/MaterialsForBlueprints.jpg)
+![contents of materials and supplied folder](images/MaterialsForBlueprints.png)
 
 ![](../images/line2.png)
 
@@ -77,7 +77,7 @@ You will now go to the **Materials** folder and I have provided some materials f
 
 In the **StaticMeshes** folder we have some models we will be using:
 
-![contents of staticmeshes folder](images/StaticMeshes.jpg)
+![contents of staticmeshes folder](images/StaticMeshes.png)
 
 ![](../images/line2.png)
 
@@ -85,7 +85,7 @@ In the **StaticMeshes** folder we have some models we will be using:
 
 And finally we have a **Textures** folder with the textures for the spotlight we will be using:
 
-![content of textures folder](images/TexturesForBPs.jpg)
+![content of textures folder](images/TexturesForBPs.png)
 
 ![](../images/line2.png)
 
@@ -93,7 +93,7 @@ And finally we have a **Textures** folder with the textures for the spotlight we
 
 Go into **Settings | Project Settings | Description** tab and fill in the requisite information:
 
-![project settings description](images/ProjectSettingsDescription.jpg)
+![project settings description](images/ProjectSettingsDescription.png)
 
 ![](../images/line2.png)
 
@@ -101,7 +101,7 @@ Go into **Settings | Project Settings | Description** tab and fill in the requis
 
 Go into the **Maps and Modes** tab. Notice the start up maps that we are booting to and meant to start with.
 
-![default levels to load in maps and modes](images/MapsAndModes.jpg)
+![default levels to load in maps and modes](images/MapsAndModes.png)
 
 ![](../images/line2.png)
 
@@ -110,7 +110,7 @@ Go into the **Maps and Modes** tab. Notice the start up maps that we are booting
 
 Now select your default game mode: **BP_Gamemode**. This will select our character controller that we will be using:
 
-![select BP_Gamemode](images/SelectDefaultGamemode.jpg)
+![select BP_Gamemode](images/SelectDefaultGamemode.png)
 
 ![](../images/line2.png)
 
@@ -118,7 +118,7 @@ Now select your default game mode: **BP_Gamemode**. This will select our charact
 
 Go back to the **Blueprints** folder and press the <kbd>Add/Import</kbd> button and select **New Folder**. Call it `Room1`.
 
-![add Room1 folder to Blueprints](images/NewFolderInBlueprints.jpg)
+![add Room1 folder to Blueprints](images/NewFolderInBlueprints.png)
 
 ![](../images/line2.png)
 
