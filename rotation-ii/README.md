@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Rotation II
 
 <sub>[previous](../rotation/README.md#user-content-rotation) • [home](../README.md#user-content-ue4-blueprints) • [next](../translation/README.md#user-content-translation)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Rotations continued...
 
@@ -19,7 +19,7 @@ Go back to the editor and *select* the **Blueprints | Room 8** folder in the **C
 
 ![drag blueprint rotate object into room 8](images/RotateObjectOnZInGameRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ Go back to the editor and *select* the **Blueprints | Room 8** folder in the **C
 
 ![run game and look at cube rotate on z axis](images/RotatingCubeOnZ.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +35,7 @@ Go back to the editor and *select* the **Blueprints | Room 8** folder in the **C
 
 ![copy and paste adjust yaw content](images/CopyAndPasteYawRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,14 +43,14 @@ Go back to the editor and *select* the **Blueprints | Room 8** folder in the **C
 
 ![make changes to nodes](images/AdjustPitchAlteration1Rm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 You can *right click* on the **bRotateOn Z** variable and *duplicate* it. *Rename* it to `bRotateOnY` and adjust the **Tooltip** to `Pitch on Y Axis, Yaw, Shaking Head Yes/No`. Drag a **Get** reference to it on the chart and delete the old **Rotate on Z** node and drag it into the **Condition** on the **Branch**.
 
 ![duplicate rotate on z](images/DupeRotateOnZRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
@@ -58,7 +58,7 @@ Now connect the output of **Sequence Then 1** node to the **Branch** node.
 
 ![connect sequence to branch node](images/ConnectSequence1PinRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -66,7 +66,7 @@ Go to the game and *deselect* the **Rotate On Z** and *select* the **Rotate on Y
 
 ![cube gets stuck with gimble lock](images/GimbleLock.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -74,7 +74,7 @@ Go back to the **Blueprint** and remove the **Add Relative Rotation** node on **
 
 ![remove add relative rotation in pitch section](images/RemovePitchRotationDueToLockRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -82,7 +82,7 @@ You can *delete* the **Rotating Cube** reference as we will not be using it. *Ri
 
 ![add actor local rotation](images/AddActorLocalRotation.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
@@ -91,7 +91,7 @@ You can *delete* the **Rotating Cube** reference as we will not be using it. *Ri
 ![split struct pin on delta rotation](images/SplitSecondStructPinRm8.jpg)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -99,7 +99,7 @@ You can *delete* the **Rotating Cube** reference as we will not be using it. *Ri
 
 ![connect degrees to delta rotation](images/DegreesToPitchRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -108,7 +108,7 @@ Now go back to the game and try it out. No more gimble lock, the object rotates 
 
 ![no gimble lock in game](images/NoGimbleLock.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -116,7 +116,7 @@ Lets do the final axis of rotation along the **X** axis for **Roll**. *Copy* the
 
 ![copy and paste nodes from yaw](images/CopyPasteYawRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -124,7 +124,7 @@ Delete the **Rotate On Z** boolean reference and *duplicate* it to create anothe
 
 ![create brotateonx variable](images/DeleteRotateOnZRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -132,7 +132,7 @@ I just noticed that I forgot to categorize the variables. Go back to each variab
 
 ![add category rotation to all variables](images/CategorizeRotationRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -140,7 +140,7 @@ I just noticed that I forgot to categorize the variables. Go back to each variab
 
 ![re-connect pins](images/RotateOnXPinsRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -148,7 +148,7 @@ I just noticed that I forgot to categorize the variables. Go back to each variab
 
 ![shot of full blueprint graph](images/FinalRotationNodeGraph.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -156,7 +156,7 @@ Go into the game and try different values and combinations both positive and neg
 
 ![rotate on all three axes](images/Rotate3Axis.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -164,13 +164,13 @@ Press **File | Save All** then go into **Source Control | Submit to Source Contr
 
 ![add, commit and push to github](images/Github.jpg)
 
-___
+![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Translation"> -->
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Translation">
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../rotation/README.md#user-content-rotation)| [home](../README.md#user-content-ue4-blueprints) | [next](../translation/README.md#user-content-translation)|
 |---|---|---|

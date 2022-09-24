@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Translation
 
 <sub>[previous](../rotation-ii/README.md#user-content-rotation-ii) • [home](../README.md#user-content-ue4-blueprints) • [next](../multiple-actors/README.md#user-content-dynamically-alter-multiple-classes)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 We will be translating an object in 3-D space through blueprints. If rotation is moving along the origin of the model, translation is moving it **X,Y,Z** space in the game engine.  
 
@@ -19,7 +19,7 @@ Go to the **Blueprints** folder and *duplicate* the **BP_Rotate_Object** bluepri
 
 ![duplicate bp_rotate_object blueprint](images/DuplicateBPRotateObjectRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ Rename it to `BP_Translate_Object`.
 
 ![rename to bp_translate_object](images/RenameBPTranslate.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +35,7 @@ Rename it to `BP_Translate_Object`.
 
 ![drag and drop the blueprint in room 8](images/DragIntoRightSideOfRoom8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -47,7 +47,7 @@ Rename it to `BP_Translate_Object`.
 
 ![delete degrees per second](images/DeleteDegreesPerSecondRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
@@ -55,7 +55,7 @@ Rename it to `BP_Translate_Object`.
 
 ![add set total time node after deleting all nodes](images/SetTotalTimeRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
@@ -63,7 +63,7 @@ Rename it to `BP_Translate_Object`.
 
 ![add float plus float node](images/TotalTimeAddRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -71,7 +71,7 @@ Rename it to `BP_Translate_Object`.
 
 ![set total time node](images/SetTotalTimeWithDeltaTime.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -79,7 +79,7 @@ Rename it to `BP_Translate_Object`.
 
 ![add sin wave radians](images/SineWaveNode.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -87,7 +87,7 @@ Now we will want to feed three translations. To keep the graph neat we will *add
 
 ![add sequence node](images/SequenceNodeForTranslationRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
@@ -95,7 +95,7 @@ Drag a **Get** node from the **Translate On Z** boolean onto the graph:
 
 ![get translate on z](images/GetTranslateOnZRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -103,7 +103,7 @@ Drag a **Get** node from the **Translate On Z** boolean onto the graph:
 
 ![add branch node](images/ZToBranchRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -112,7 +112,7 @@ Drag a **Get** node from the **Translate On Z** boolean onto the graph:
 
 ![reference to rotating cube](images/DragAndDropRotatingCube.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -120,7 +120,7 @@ Drag a **Get** node from the **Translate On Z** boolean onto the graph:
 
 ![add relative location](images/AddRelativeLocationZRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -128,7 +128,7 @@ Now would be a good time to rename our static mesh. It is no longer part of a ro
 
 ![rename rotation to translation](images/RenameRotateTranslateRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -136,7 +136,7 @@ Notice that it changes all references to it as well. So we have our renamed mesh
 
 ![now renamed graph](images/ChangesEverywhereRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -144,7 +144,7 @@ Hook up the execution pins from the **Branch | True** node to the **Add Relative
 
 ![connect execution pins](images/BranchRelativePinsRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -152,7 +152,7 @@ Hook up the execution pins from the **Branch | True** node to the **Add Relative
 
 ![split struct pin](images/SplitStructPinsTranslateZRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -160,7 +160,7 @@ Take the output pin of the **SIN** node and *plug* it into the **Delta Location 
 
 ![output sin to delta location z](images/OutputOfSineDeltaZRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -168,7 +168,7 @@ Add a comment on all the nodes after the **Sequence** and type `Translate on Z`.
 
 ![add code comments](images/AddTranslateOnZComment.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
@@ -176,7 +176,7 @@ Add a comment on all the nodes after the **Sequence** and type `Translate on Z`.
 
 ![cube moves up and down in game](images/TranslateOnZ.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -184,7 +184,7 @@ Add a comment on all the nodes after the **Sequence** and type `Translate on Z`.
 
 ![copoy and recomment](images/CopyPasteTranslateZRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 22.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -193,7 +193,7 @@ Add a comment on all the nodes after the **Sequence** and type `Translate on Z`.
 ![add translate on z to graph](images/XExecutionPinAndBoolRm8.jpg)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 23.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -201,7 +201,7 @@ Take the output of the **SIN** node and *plug* it into the input pin **Delta Loc
 
 ![attach SIN to Delta Location X](images/OuputSinDeltaXRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 24.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -209,7 +209,7 @@ Take the output of the **SIN** node and *plug* it into the input pin **Delta Loc
 
 ![copy and paste translate on z nodes](images/CopyPasteTranslateOnZAgainRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 25.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond:
 
@@ -217,7 +217,7 @@ Change the **Comment** to `Translate on Y`. Look at the **Sequence** node. If th
 
 ![connect translate pins for y axis](images/ConnectPinsTranslateYRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 26.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
 
@@ -225,7 +225,7 @@ Change the **Comment** to `Translate on Y`. Look at the **Sequence** node. If th
 
 ![connect SIN to delta location Y](images/SinDeltaYRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 27.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -233,7 +233,7 @@ Now this is what your final node graph should look like. *Press* the <kbd>Compil
 
 ![complete node chart blueprint](images/FinalNodeChartCompile.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 28.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -241,21 +241,20 @@ Go into the game and turhning each axis on and off. Also, look at your blueprint
 
 ![in game cube moves on three axes](images/TranslateOnXYZ.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 29.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 That's it for **Room 8** and this entire map/level. Press **Save All** and update **Github** by **committing** and **pushing** all the changes made using **Unreal Source Control** and **GitHub Desktop**. 
 
 ![save all, commit and push to github](images/Room8Github.jpg)
-___
 
+![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Dynamically Alter Multiple Classes"> -->
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Dynamically Alter Multiple Classes">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../rotation-ii/README.md#user-content-rotation-ii)| [home](../README.md#user-content-ue4-blueprints) | [next](../multiple-actors/README.md#user-content-dynamically-alter-multiple-classes)|
 |---|---|---|

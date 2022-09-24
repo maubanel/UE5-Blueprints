@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Grouping Meshes
 
 <sub>[previous](../collision/README.md#user-content-collision-events) • [home](../README.md#user-content-ue4-blueprints) • [next](../dynamic-materials/README.md#user-content-dynamic-materials)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Now **blueprints** are not just for logic. We can use them to create a more complex object with multiple meshes and components and save them as one blueprint. Then you can make multiple instances of them and they will be replicated. You can also build it in the game world first, then create a bluprint after. Lets create a spotlight and see how this works.
 
@@ -12,14 +12,13 @@ Now **blueprints** are not just for logic. We can use them to create a more comp
 
 ---
 
-
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
 Go to **Room 3** and go to the **StaticMeshes** folder. Drag the **spotlight_bracket** into the room. Rotate it so it faces the front of the room.
 
 ![drag spotlight in room 3](images/DragBracketRm3.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +26,7 @@ Move the object in the **World Outliner** into the **Room 3** folder. Then press
 
 ![move to room 3 folder and add component](images/MoveToRoom3.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +34,7 @@ Select another **Static Mesh** component.
 
 ![add another static mesh component](images/AddSecondStaticMeshRm3.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +42,7 @@ Assign the **spotlight_lamp** mesh to this component
 
 ![assing lamp to static mesh](images/AssignLampToStaticMeshRm3.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
@@ -51,7 +50,7 @@ Add a third static mesh component by pressing the <kbd>Add Component</kbd> butto
 
 ![add component](images/Assign3rdStaticMeshComponent.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
@@ -59,7 +58,7 @@ Assign the **Lightbulb** static mesh.
 
 ![assign lightbulb static mesh](images/AssignLightbulbRm3.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -67,7 +66,7 @@ Rotate lightbulb so that the bulb faces down and move it to the proper location.
 
 ![rotate lightbulb](images/image_07.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -75,7 +74,7 @@ Rename the **Actor** to `Spotlight`.
 
 ![rename actor to spotlight](images/RenameActorToSpotlightRm3.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -83,7 +82,7 @@ Add another component but this time an actual Spotlight so it can project an in 
 
 ![add spot light component](images/AddSpotLightComponent.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
@@ -91,7 +90,7 @@ Now make sure that your **Spotlight** is selected in the **World Outliner**. The
 
 ![turn mesh into blueprint](images/TurnSpotlightIntoBPRm3.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -99,7 +98,7 @@ Open the **BP_Spotlight** blueprint and select the **Spotlight**. You will see t
 
 ![rotate spotlight to match light](images/RotateLightRm3.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -108,7 +107,7 @@ Make sure it is rotated in the same direction as the lamp.
 
 ![match direction with rotation](images/RotateLight.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -120,7 +119,7 @@ Select the **Lamp** component and rotate the lamp so that it doesn't point strai
 
 ![rotate lamp to your liking](images/RotateLampToOffsetIt.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -128,7 +127,7 @@ Select the **Spotlight** then set the light color to your preference. I picked g
 
 ![change spotlight color](images/ChangeSpotlightColor.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -136,7 +135,7 @@ Check the lamp out in game. Make sure the light bulb mesh is not casting a shado
 
 ![check in game that light is correct](images/CheckInGameLightBehindBulb.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -144,7 +143,7 @@ Now by having it as a blueprint I can just drop it in the room multiple times an
 
 ![drop multiple blueprints in room](images/DropBlueprintInMultipleLocations.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -152,7 +151,7 @@ Now this is what it could look like in game.
 
 ![final lights game](images/InGameFinalLook.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -160,14 +159,13 @@ That's it for **Room 3**. Press **Save All** then go into **Source Control | Sub
 
 ![save, commit and push to github](images/GItHubRoom3.jpg)
 
-___
+![](../images/line.png)
 
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Dynamic Materials"> -->
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Dynamic Materials">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../collision/README.md#user-content-collision-events)| [home](../README.md#user-content-ue4-blueprints) | [next](../dynamic-materials/README.md#user-content-dynamic-materials)|
 |---|---|---|

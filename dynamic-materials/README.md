@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Dynamic Materials
 
 <sub>[previous](../grouping-meshes/README.md#user-content-grouping-meshes) • [home](../README.md#user-content-ue4-blueprints) • [next](../private-variables/README.md#user-content-private-variables)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 What if we want to change a property in the material dynamincally through the blueprint? What if we want to change the property of a component like the spotlight color? We will be looking at both of these in the upcoming exercise.
 
@@ -21,7 +21,7 @@ Go to the **Blueprints** folder and duplicate **BP_Spotlight**. Call it `BP_Spot
 
 ![add three BP_SpotlightDynamic actors to room](images/BpSpotDynamicRm4.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -29,7 +29,7 @@ Open up **BP_SpotlightDynamic**. Now we want to affect the color of the glow in 
 
 ![open m_spotlight_master](images/FindOutLampMaterial.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -37,7 +37,7 @@ Look for the parameter that adjusts the light color. Just before the **Emissive*
 
 ![look for light color](images/LightColorParameterRm4.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -45,7 +45,7 @@ Go to the **blueprint** and into the **Construction Script** tab. *Drag* a refer
 
 ![drag lamp reference](images/DragLampReference.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
@@ -55,7 +55,7 @@ We need to make the material dynamic in the constructor. This will allow us to a
 
 ![create dynamic instance material](images/CreateDynamicInstance.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
@@ -63,7 +63,7 @@ Connect the execution pins.
 
 ![connect execution pins](images/ConnectFirstExecutionPinsRm4.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -71,7 +71,7 @@ Drag off the **Create Dynamic Material Instance | Return Value** pin to help the
 
 ![set vector parameter values](images/SetVectorParameterValueRm4.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -79,7 +79,7 @@ Go to the material and find out how the Parameter name is spelled with spaces an
 
 ![parameter name light color](images/ParameterNameRm4.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -87,7 +87,7 @@ Hover over the **Value** pin in the **Set Vector Parameter Value** input node. N
 
 ![tooltip](images/HoveOverValueRm4.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
@@ -95,7 +95,7 @@ Drag off the left pin, let go and enter **Linear Color**. Select the **Make Line
 
 ![add make linear color](images/MakeLinearColor.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -103,7 +103,7 @@ Make this node pure blue with a solid alpha. Press the <kbd>Compile</kbd> button
 
 ![make a blue node](images/PureBlueSolidAlphaRm4.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -112,7 +112,7 @@ Go into the game and checkout the color of the light. The actual light is still 
 
 ![blue lightbulb glow in game](images/ColorOfLight.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -120,7 +120,7 @@ Now go back to the **blueprint** and *drag* a reference from the light called **
 
 ![drag spotlight reference](images/DragSpotLightReference.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -128,7 +128,7 @@ Now drag off the Spotlight pin and type **lightcolor**. Out of the options **Set
 
 ![set light color](images/SetLightColorRm4.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -136,7 +136,7 @@ We will make the color of the light the same as the color of the bulb glow. Grab
 
 ![connet linear color to set color](images/OutputSecondLinearColorRm4.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -144,7 +144,7 @@ Nothing will happen with this light until the *execution pins* are *connected*. 
 
 ![connect execution and compile](images/SetExecutionPinThenCompileRm4.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -152,7 +152,7 @@ Make sure the compile is succesful by checking to see that there is a green chec
 
 ![compile button has checkmark](images/GreenCheckmarkCompile.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -160,7 +160,7 @@ Now go back to the game and hit run. You will see that both the bulb and the col
 
 ![bulb in game glowing white](images/BlueLightAndGround.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -168,7 +168,7 @@ Repeat creating a **Dynamic Material Instance** with **SM_Lightbulb**. Go look a
 
 https://user-images.githubusercontent.com/5504953/132038111-ba9730c2-cba5-4700-b76c-c8151d931e3d.mp4
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
@@ -176,14 +176,13 @@ Press **File | Save All** then go into **Source Control | Submit to Source Contr
 
 ![save, commit and push to github](images/Room4Github.jpg)
 
-___
+![](../images/line.png)
 
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Private Variables"> -->
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Private Variables">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../grouping-meshes/README.md#user-content-grouping-meshes)| [home](../README.md#user-content-ue4-blueprints) | [next](../private-variables/README.md#user-content-private-variables)|
 |---|---|---|

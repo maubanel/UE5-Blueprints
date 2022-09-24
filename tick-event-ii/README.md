@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Tick Event II
 
 <sub>[previous](../tick-event/README.md#user-content-tick-event) • [home](../README.md#user-content-ue4-blueprints) • [next](../rotation/README.md#user-content-rotation)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Tick event continued...
 
@@ -19,7 +19,7 @@ Go back to the **Event Graph** tab in **BP_Timer**. Now to avoid having a very l
 
 ![connect nodes](images/SequenceNodeRm7.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -29,7 +29,7 @@ What this sequence node does is run everything the **Then 0** pin *first*, when 
 
 ![add delay node](images/AddDelayNode.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -37,7 +37,7 @@ Drag the **Time In Seconds** node and *drop* it on the node chart. Select **Get*
 
 ![add get time in seconds](images/AddToIntRm7.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -45,7 +45,7 @@ Drag the **Time In Seconds** node and *drop* it on the node chart. Select **Get*
 
 ![addition and time in seconds node](images/AddAndSet.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
@@ -53,7 +53,7 @@ Connect the execution pin from the **Delay** node to the **Set** node. Connect t
 
 ![connect execution pins](images/ConnectIntPinsRm7.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
@@ -61,7 +61,7 @@ Connect the execution pin from the **Delay** node to the **Set** node. Connect t
 
 ![add get sec timer](images/RefSecTimerRm7.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -69,7 +69,7 @@ Connect the execution pin from the **Delay** node to the **Set** node. Connect t
 
 ![add set text node](images/SecTimerSetTextRm7.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -77,7 +77,7 @@ Connect the execution pin from the **Delay** node to the **Set** node. Connect t
 
 ![connect execution and data pins](images/ConnectFinalPinsRm7.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -85,7 +85,7 @@ Add comments to your latest work. Press the <kbd>Compile</kbd> button.
 
 ![add code comments](images/FinalCommentsRm7.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
@@ -93,7 +93,7 @@ Open up the Blueprint and place it next to the millisecond timer in the level so
 
 ![run game with timer in seconds](images/SecondTimer.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -101,14 +101,12 @@ That's it for **Room 7**. Press **File | Save All** then go into **Source Contro
 
 ![save, commit and push to github](images/Room7Github.jpg)
 
-___
+![](../images/line.png)
 
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Rotation"> -->
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
-
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Rotation">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../tick-event/README.md#user-content-tick-event)| [home](../README.md#user-content-ue4-blueprints) | [next](../rotation/README.md#user-content-rotation)|
 |---|---|---|

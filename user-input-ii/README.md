@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### User Input II
 
 <sub>[previous](../user-input/README.md#user-content-user-input) • [home](../README.md#user-content-ue4-blueprints) • [next](../user-input-iii/README.md#user-content-user-input-iii)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 User input continued...
 
@@ -19,7 +19,7 @@ Now lets get an event that is called when the **L** key is pressed. *Right click
 
 ![add L keyboard event](images/EventKeyboardLRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ See that the event node has two execution pins. One for **Pressed** and one for 
 
 ![add set rotating clockwise node](images/SetClockWiseBoolRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +35,7 @@ Set the **Rotating Clockwise** boolean to `true`.
 
 ![set rotating clockwise to true](images/SetClockwiseBoolTrueRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +43,7 @@ Repeat the same thing for the **Release** pin but set the **Rotating Clockwise**
 
 ![set rotating clockwise to false](images/ReleaseNodeRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
@@ -51,7 +51,7 @@ Repeat the same thing for the **Release** pin but set the **Rotating Clockwise**
 
 ![add K keyboard event](images/EventKeyboardKRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
@@ -59,7 +59,7 @@ Add two **Set Rotating CounterClockwise**. For the **Pressed** execution pin, se
 
 ![add two set rotating counterclockwise nodes](images/SetCounterclockwiseControlsBoolRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -67,7 +67,7 @@ Add the comment `Button Pressed Booleans` to the neds around the **L** and *K* e
 
 ![add code comments](images/Comment2Rm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -75,7 +75,7 @@ Add the comment `Button Pressed Booleans` to the neds around the **L** and *K* e
 
 ![add get rotating clockwise node](images/GetRotatingClockwiseBoolRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -83,7 +83,7 @@ Add the comment `Button Pressed Booleans` to the neds around the **L** and *K* e
 
 ![add branch node](images/SendToBranchRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
@@ -91,7 +91,7 @@ Add the comment `Button Pressed Booleans` to the neds around the **L** and *K* e
 
 ![add sequence node](images/AttachExecutionPinsSequenceRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -103,7 +103,7 @@ Set the **Default Value** to `45.0`.
 
 ![add float variable speed of rotation](images/SpeedOfRotationVarRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -112,7 +112,7 @@ We also need a variable to store the current angle of rotation. Add a new variab
 
 ![add float variable current angle deg](images/CurrentAngleDegreesRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -120,7 +120,7 @@ We also need a variable to store the current angle of rotation. Add a new variab
 
 ![get speed of rotation node](images/Rm16GetSpeedOfRotationNodeRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -129,7 +129,7 @@ We also need a variable to store the current angle of rotation. Add a new variab
 
 ![add float times float multiplication node](images/FloatByFloatMultiply.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -137,7 +137,7 @@ Connect the output **Delta Seconds** from the **Event Tick** to the other end of
 
 ![connect delta seconds to multiplication node](images/ConnectWithDeltaSecondsRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -145,7 +145,7 @@ Then we need to add this to the existing angle. Place a **Get Current Angle Deg*
 
 ![add get current angle deg node](images/AddCurrentAngleDegRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -153,7 +153,7 @@ Then put a **Float + Float** node and add the output of the **Multiplication** n
 
 ![add multiplication and current angle deg in addition node](images/FloatPFloatRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -161,7 +161,7 @@ Then put a **Float + Float** node and add the output of the **Multiplication** n
 
 ![add set current angle deg node](images/SetCurrentAngleVarRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -169,7 +169,7 @@ Pull of of the **Float + Float** output pin and add a **Set Current Angle Deg** 
 
 ![connect execution pins](images/SetCurrentAngDegRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
@@ -177,7 +177,7 @@ Now we don't want to use **Set Actor Rotation** or the entire actor which includ
 
 ![alt_text](images/GetCubeComponentRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -185,14 +185,12 @@ Now do not have an entire rotation on all axis. We have a float to rotate around
 
 ![split strut pin on set relative rotation node](images/SplitStructPinRm26.jpg)
 
-___
+![](../images/line.png)
 
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - User Input III"> -->
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
-
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - User Input III">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../user-input/README.md#user-content-user-input)| [home](../README.md#user-content-ue4-blueprints) | [next](../user-input-iii/README.md#user-content-user-input-iii)|
 |---|---|---|

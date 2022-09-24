@@ -11,8 +11,8 @@ Blueprints are meant to be used by programmers as well as level designers and ot
 Lets get started looking into how to create some game logic.
   
 
-* Tested on UE4 4.26
-* Required to install: Github, GitHub Desktop, Git, Git LFS, and Unreal Engine
+* Tested on UE4 5.0.X
+* Required to install: P4V and Unreal Engine
 
 <!-- TOC -->
 ## Table of Contents

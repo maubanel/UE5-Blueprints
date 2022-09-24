@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Dynamically Alter Multiple Classes
 
 <sub>[previous](../translation/README.md#user-content-translation) • [home](../README.md#user-content-ue4-blueprints) • [next](../multiple-actors-ii/README.md#user-content-dynamically-alter-multiple-classes-ii)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Now you don't always have to assign the reference to the variable. You can access multiple instances of an object of the same class dynamically at run time as opposed to storing it in a variable at compile time. We can do this with a special node called **Get All Actors From Class**.
 
@@ -12,14 +12,13 @@ Now you don't always have to assign the reference to the variable. You can acces
 
 ---
 
-
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
 Add a `Blueprints | Room9` folder to your project. Press the <kbd>Add New</kbd> button and select **Blueprint Class**. Select type **Actor** class and call it `BP_LightbulbMulti`.
 
 ![add room 9 folder and add blueprint called BP_LightbulbMulti](images/AddBPRoom9.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +26,7 @@ Open the new blueprint and *add* a new **Static Mesh** by *pressing* the **Add C
 
 ![add static mesh component](images/ExportStaticMeshRm9.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +34,7 @@ Open the new blueprint and *add* a new **Static Mesh** by *pressing* the **Add C
 
 ![rename and rescale lightbulb](images/ScaleLightbulb.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +42,7 @@ Scoot over to **Room 9** and *add* a whole bunch of lightbulbs in the room.
 
 ![add many lightbulbs to room](images/RenameBPLightbulbMultRm10.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
@@ -55,7 +54,7 @@ Now in game we have a shadow of the lightbulb which isn't realistic.  We want to
 
 ![turn off cast shadow](images/TurnOffCastShadow.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
@@ -63,7 +62,7 @@ We need to add a dynamic materail to the **Construction Script**. To switch the 
 
 ![add lightbulb and dynamic material to construction script](images/CreateDynamicMaterial.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -71,7 +70,7 @@ We need to add a dynamic materail to the **Construction Script**. To switch the 
 
 ![add dynamci material variable and set it](images/SaveDynamicMaterialZ.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -79,7 +78,7 @@ We need to add a dynamic materail to the **Construction Script**. To switch the 
 
 ![connect pins](images/image_08.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -89,7 +88,7 @@ Call this new function `SwitchLight`. We need to add an **Input** and call it `b
 
 ![add switch light function](images/SwitchLigthFunction.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
@@ -97,7 +96,7 @@ Call this new function `SwitchLight`. We need to add an **Input** and call it `b
 
 ![add branch node](images/AddBranchtoFunct.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -107,7 +106,7 @@ Set the execution pin from **Branch | True** to **Set Intensity**.
 
 ![set intensity to 5000](images/SetPointLightIntensity.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -116,7 +115,7 @@ Open up the **M_Glass** material. Look at what is going into the **Emissive Colo
 
 ![m_glow material graph](images/GlowMultiplier.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -124,7 +123,7 @@ Open up the **M_Glass** material. Look at what is going into the **Emissive Colo
 
 ![set scalar parameter value](images/MultiplyGlow.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -132,7 +131,7 @@ Add a `Turn Light On` comment by highlighting the nodes and pressing the <kbd>C<
 
 ![add code comments](images/TurnLightOnComment.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -140,7 +139,7 @@ Add a `Turn Light On` comment by highlighting the nodes and pressing the <kbd>C<
 
 ![copy and paste nodes for turning lights off](images/TurnOffBulbs.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -155,7 +154,7 @@ Lets test this function before moving forward. Go back to the **Event Graph** an
 
 ![test light in game by switching Turn On off and on](images/TestTurnOnOffUnct.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -163,7 +162,7 @@ In previous rooms we have put the trigger volume in the blueprint. In most cases
 
 ![add trigger volume to level](images/UseLevelTriggerVolume.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -171,7 +170,7 @@ Now do we get access to any object that is in the room? This is easy go to the g
 
 ![select trigger volume in editor](images/BreakPinConnRm10.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -183,7 +182,7 @@ Press the **Blueprints** button and select **Open Level Blueprint**. Please note
 
 ![open level blueprint](images/NameFileBPRm10Switch.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
@@ -191,7 +190,7 @@ Press the **Blueprints** button and select **Open Level Blueprint**. Please note
 
 ![add reference to trigger volume in level bp](images/RefToLightbulbVariable.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -199,14 +198,13 @@ Now we need to get all the instances of the lightbulbs in the room. Add an **Eve
 
 ![get all actors of class](images/DeleteLightReferenceVariable.jpg)
 
-___
+![](../images/line.png)
 
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Dynamically Alter Multiple Classes II"> -->
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Dynamically Alter Multiple Classes II">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../translation/README.md#user-content-translation)| [home](../README.md#user-content-ue4-blueprints) | [next](../multiple-actors-ii/README.md#user-content-dynamically-alter-multiple-classes-ii)|
 |---|---|---|

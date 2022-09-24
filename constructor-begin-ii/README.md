@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Constructor & Begin Play II
 
 <sub>[previous](../constructor-begin/README.md#user-content-constructor--begin-play) • [home](../README.md#user-content-ue4-blueprints) • [next](../collision/README.md#user-content-collision-events)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 The Constructor runs in different scenarios.  The **Begin Play** event **ONLY** runs when you press **Run** in the editor.  It always runs **AFTER** the construction script runs.
 
@@ -19,7 +19,7 @@ Go to the **Blueprints | Room1** folder and right click on **BP_TextOnConstructo
 
 ![duplicate BP_TextOnConstructor](images/DuplicateBPRm1.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ Rename the file to `BP_TextInBeginPlay`.
 
 ![rename blueprint to BP_TextOnBeginPlay](images/RenameBeginPlayRm1.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +35,7 @@ Drag the new **BP_TextOnBeginPlay** blueprint into the room, next to the other t
 
 ![drag BP_TextOnBeginPlay in room](images/DragBPInRoom1.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +43,7 @@ Drag and drop the blueprint instances from the level into the **Room 1** folder 
 
 ![put both blueprints in Room folder in world outliner](images/WorldOutlinerCleanupRm1.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
@@ -51,7 +51,7 @@ Drag and drop the blueprint instances from the level into the **Room 1** folder 
 
 ![copy and delete construction script nodes](images/CopyAndDeleteConstructionNodes.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
@@ -59,7 +59,7 @@ Go into the **Event Graph** tab and click on an open space next to the **Event B
 
 ![paste nodes in event graph](images/PasteInEventGraphRm1.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -67,7 +67,7 @@ Adjust the position of the nodes to keep then neet. Attach the pin from **Event 
 
 ![connect begin play](images/ConnectBeginPlayToSetTextExPins.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -75,7 +75,7 @@ Press the <kbd>Compile</kbd> button until you get the green check mark.
 
 ![press compile](images/PressCompileRm1.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -83,7 +83,7 @@ Go into the game and notice that it now says **Text**. This is the default value
 
 ![look at blueprint in game](images/image_02.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
@@ -95,7 +95,7 @@ When you stop the game, it goes back to its prior state of just having **Text** 
 
 ![stop game text disapears](images/BackToText.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -109,7 +109,7 @@ Send the output of the **Append** node to the **Value** input pin in **Set Text*
 
 ![add random integer to end of string](images/image_04.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -119,7 +119,7 @@ Now you can change the random number and run that node every time you compile th
 https://user-images.githubusercontent.com/5504953/132024649-72889840-7518-45a7-adb6-55a6aa6d1edf.mp4
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -127,7 +127,7 @@ Lets connect Unreal with our GitHub repository. Click on **Source Control | Conn
 
 ![connect to source control with git](images/image_05.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -137,16 +137,13 @@ Press **File | Save All** then go into **Source Control | Submit to Source Contr
 
 ![push in github desktop](images/RmOneGithub.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
-___
+![](../images/line.png)
 
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Collision Events"> -->
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
-
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Collision Events">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![next up next tile](images/banner.png)
 
 | [previous](../constructor-begin/README.md#user-content-constructor--begin-play)| [home](../README.md#user-content-ue4-blueprints) | [next](../collision/README.md#user-content-collision-events)|
 |---|---|---|

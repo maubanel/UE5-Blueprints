@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Dynamically Alter Multiple Classes II
 
 <sub>[previous](../multiple-actors/README.md#user-content-dynamically-alter-multiple-classes) • [home](../README.md#user-content-ue4-blueprints) • [next](../interface/README.md#user-content-communicate-through-interface)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Controlling multiple actors through level blueprints continued...
 
@@ -12,14 +12,13 @@ Controlling multiple actors through level blueprints continued...
 
 ---
 
-
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
 Connect the execution pins from **Begin Play** to **Get All Actors of Class**. Select the actor you want to get from the level for the **Get All Actors From Class | Actor Class** to`BP_LightbulbMulti`. Now drag a copy of **Set Lightbulb Reference** and connect the output array pin to the input array pin of these nodes as shown. Connect the execution pin from **Get All Actors of Class** to **Set Lightbulb** nodes.
 
 ![add set lightbulb ref to graph](images/SayYesRm10.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +26,7 @@ Make sure you still have the trigger volume selected in the editor. Right click 
 
 ![add begin and end overlap event types](images/GetAllActorsOfClass.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +34,7 @@ Make sure you still have the trigger volume selected in the editor. Right click 
 
 ![add flip flop node](images/ActorClassBPSelectRm10.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +42,7 @@ Add a comment by pressing the <kbd>C</kbd> and call it `Toggle`.
 
 ![add code comments](images/ActorArrayOut.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
@@ -51,7 +50,7 @@ Add a comment by pressing the <kbd>C</kbd> and call it `Toggle`.
 
 ![add ref to lightbulbs to graph](images/DragRefToLightbulbs.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
@@ -59,7 +58,7 @@ How do we get access to each instance of each lightbulb in the array and not the
 
 ![add for each loop](images/ConnectActorToForEachRm10.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -67,7 +66,7 @@ How do we get access to each instance of each lightbulb in the array and not the
 
 ![connect array to for each loop pins](images/ArrayElementSwitchLightRm10.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -79,7 +78,7 @@ How do we get access to each instance of each lightbulb in the array and not the
 
 ![connect isA to Turn On](images/SwitchLightOnOff.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -87,7 +86,7 @@ Go to **BP_LightbulbMulti** and the **Event Graph** *add* a **Switch Light** nod
 
 ![call switch light in begin play with lights off](images/image_09.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
@@ -95,7 +94,7 @@ Now run the game and enter and leave the room. The lights should toggle on and o
 
 ![run game and trigger lights on and off](images/TurnOnOffLights.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -103,14 +102,13 @@ That's it for **Room 9**. Press **Save All** and update **Github** by **committi
 
 ![save, commit and push to github](images/Room9GitHub.jpg)
 
-___
+![](../images/line.png)
 
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Communicate Through Interface"> -->
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Communicate Through Interface">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../multiple-actors/README.md#user-content-dynamically-alter-multiple-classes)| [home](../README.md#user-content-ue4-blueprints) | [next](../interface/README.md#user-content-communicate-through-interface)|
 |---|---|---|

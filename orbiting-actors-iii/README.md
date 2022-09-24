@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Orbiting Actors III
 
 <sub>[previous](../orbiting-actors-ii/README.md#user-content-orbiting-actors-ii) • [home](../README.md#user-content-ue4-blueprints) • [next](../orbiting-actors-iv/README.md#user-content-orbiting-actors-iv)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Orbiting actors continued.
 
@@ -19,7 +19,7 @@ Now we want to rotate around the relative Z axis of the box. So we will r*ight c
 
 ![add get actor up vector](images/GetActorUpVectorRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ Now again this is relative to the box. So take the output of the **Target To Rot
 
 ![connect pins](images/ConnectAxisRotation.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +35,7 @@ Now we can get to the meat of this room. We have calculated where in world coord
 
 ![add set actor location node](images/SetActorLocationRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +43,7 @@ We will leave the error print as this will warn us if we have not assigned a tar
 
 ![add code comments](images/AddCommenstRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
@@ -51,7 +51,7 @@ Before we try it in game, I just realized I made an error. The vector is in loca
 
 ![put rotation in world coordinates](images/PutItInWorldCoordsRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
@@ -59,7 +59,7 @@ Add a **Get Target to Rotate Around** node and attach it to the **Target** pin o
 
 ![add get target to rotate around node](images/AddRotateTarget.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -67,7 +67,7 @@ Add a **Get Target to Rotate Around** node and attach it to the **Target** pin o
 
 ![sphere rotating around cube in game](images/SingleRotateClock.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -75,7 +75,7 @@ Now lets draw the radius of this rotation in debug to visualize it. Add another 
 
 ![add boolean draw debug radius](images/AddDrawDebugRadiusRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -83,7 +83,7 @@ Now add a **Get Draw Radius** & a **Branch** node. Send the output of the **Draw
 
 ![add a branch node](images/DrawDebugRadiusBranchRb15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
@@ -91,7 +91,7 @@ Right click on the open graph and select the node **Draw Debug Line**:
 
 ![add draw debug line node](images/RightClickDrawDebugLineRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -99,7 +99,7 @@ Right click on the open graph and select the node **Draw Debug Line**:
 
 ![addition to draw debug line node](images/GrabPlayerPosPinRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -108,7 +108,7 @@ Now the line will go to the center of the box we are rotating around. *Grab* a g
 
 ![add target rotate around and attach to actdor location node](images/GetTargetLocadtionRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -116,7 +116,7 @@ Connect the output **Execution** pin from the **Set Actor Location** node to the
 
 ![attach execution pin from set actor location to branch](images/ConnectSetActorLocPinRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -124,7 +124,7 @@ Connect the output **Execution** pin from the **Set Actor Location** node to the
 
 ![connect to line end](images/ConnectToLineEndRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -132,7 +132,7 @@ For the **Draw Debug Line** set the Duration to` 0.0` and the line Thickness to 
 
 ![set draw debug line to duration of 0 and thickness of 3](images/SetDurationThicknessRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -140,7 +140,7 @@ Now go into the game and make sure the boolean for the drawing of the radius is 
 
 ![set draw debug radius to true](images/RadiusDrawingInGameRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -148,7 +148,7 @@ Run the game and voila, a line drawing the radius of the rotation.
 
 ![debug line drawn in game](images/SingleRotateClockRadius.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -156,7 +156,7 @@ Now the rotation is always clockwise. What if we wanted the sphere to rotate cou
 
 ![add boolean clockwise](images/ClockwiseVariableRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -164,7 +164,7 @@ Go back to the nodes where you are setting the rotation in degrees. Add a **Get 
 
 ![add get clockwise node](images/GetClockwiseVarRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
@@ -172,7 +172,7 @@ Go back to the nodes where you are setting the rotation in degrees. Add a **Get 
 
 ![add select float node](images/SelectFloatNodeRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -180,14 +180,14 @@ Make sure the **Clockwise** pin connects to the **Pick A** input on the **Select
 
 ![add 1 to A and -1 to B](images/SelectFloatNegativeOneRm15.jpg)
 
-___
+![](../images/line.png)
 
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Oribiting Actors IV"> -->
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Oribiting Actors IV">
+![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
 | [previous](../orbiting-actors-ii/README.md#user-content-orbiting-actors-ii)| [home](../README.md#user-content-ue4-blueprints) | [next](../orbiting-actors-iv/README.md#user-content-orbiting-actors-iv)|
 |---|---|---|

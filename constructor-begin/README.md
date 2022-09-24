@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Constructor & Begin Play
 
 <sub>[previous](../setting-up/README.md#user-content-setting-up) • [home](../README.md#user-content-ue4-blueprints) • [next](../constructor-begin-ii/README.md#user-content-constructor--begin-play-ii)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 In **UE4** the **Construction Script** is the first thing that a blueprint runs when a class is instantiated. What does this mean? If we have something running inside the level that the game boots up to it will run the code that is in its **Construction Script** as the editor boots up. Also any time an object is changed in the editor the **Construction Script**  runs again..  Remember it only runs once!
 
@@ -14,14 +14,13 @@ In **UE4** the **Construction Script** is the first thing that a blueprint runs 
 
 ---
 
-
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
 In the **Blueprints | Room1** folder press the <kdbd>Add/Import</kbd> button and add a new **Blueprint Class**:
 
 ![add new blueprint to blueprints folder](images/AddBlueprintClass.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -31,7 +30,7 @@ All other classes inherit from the **Actor** class object.  [Inheritance](https:
 
 ![select actor class](images/ActorBaseClass.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -40,7 +39,7 @@ Call it `BP_TextInConstructor`.
 ![call blueprint BP_TextInConstructor](images/BPTextOnConstructor.jpg)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -48,7 +47,7 @@ Double click on the newly created Blueprint.
 
 ![double click blueprint](images/DoubleClick.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
@@ -56,7 +55,7 @@ Now you are going to press the <kbd>Add Component</kbd> button (make sure you ar
 
 ![add text render component](images/TextRenderComponent.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
@@ -64,7 +63,7 @@ Rename the component to `TextInRoom1`.
 
 ![rename component to TextInRoom1](images/TestInRoom1.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -74,7 +73,7 @@ Execution pins determines the order of operations.  In a normal text script it g
 
 ![construction scrip tab](images/ConstructionScriptTab.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -82,7 +81,7 @@ Execution pins determines the order of operations.  In a normal text script it g
 
 ![add SetText node](images/SetTextNode.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -92,7 +91,7 @@ In this case the data coming in is a pointer to our **Text Render** component. T
 
 ![set text node](images/AddTextNode.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
@@ -100,7 +99,7 @@ Now we need to feed this node some text to print. Right click on the open graph 
 
 ![make literal text node](images/MakeLiteralText.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -110,7 +109,7 @@ Now add a short text message in the **Make Literal Text** node box. I added `I a
 
 ![add text to make literal text box](images/MakeLiteralTextYoMarc.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -119,7 +118,7 @@ Press the <kbd>Compile</kbd> button. No changes to blueprints will be seen until
 
 ![press compile button](images/PressCompileButton.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -127,7 +126,7 @@ Now go to the game window and drag and drop this new blueprint **BP_Text_In_Cons
 
 ![drag blueprint in room](images/DragAndDrop.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -135,7 +134,7 @@ The text is a bit small, lets make the font bigger. Go back into the blueprint a
 
 ![change text component to a world size of 74](images/ChangeTextSizeRm1.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -143,7 +142,7 @@ Press the <kbd>Compile</kbd> button then go back to the game. You wil notice tha
 
 ![larger font in game](images/FontLargerInGameRm1.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -151,7 +150,7 @@ Go back to the blueprint and *change* the **Text Render Color** to contrast with
 
 ![change font color in component](images/PlayGameFirstFontRm1.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -159,7 +158,7 @@ Lets make a change and show when the constructor runs. Go back to the **blueprin
 
 ![change text in blueprint but don't compile](images/ChangeTextDontCompile.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -167,7 +166,7 @@ Go to the game screen and it is not updated, it still has the old spelling.
 
 ![text not updated in game](images/GameScreenNotUpdatedRm1.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -175,7 +174,7 @@ Go back to the blueprint and press <kbd>Compile</kbd>. You will see that if it c
 
 ![press compile in blueprint](images/CompileAgainRm1.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
@@ -183,14 +182,11 @@ Go to the game and you can see that when the compile completed it ran the constr
 
 ![text updated in editor](images/ConstructorRan.jpg)
 
-___
+![](../images/line.png)
 
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Begin Play II"> -->
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
-
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Constructor - Begin Play II">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![next up next tile](images/banner.png)
 
 | [previous](../setting-up/README.md#user-content-setting-up)| [home](../README.md#user-content-ue4-blueprints) | [next](../constructor-begin-ii/README.md#user-content-constructor--begin-play-ii)|
 |---|---|---|

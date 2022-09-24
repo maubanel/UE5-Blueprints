@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### User Input
 
 <sub>[previous](../orbiting-actors-iv/README.md#user-content-orbiting-actors-iv) • [home](../README.md#user-content-ue4-blueprints) • [next](../)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Lets add user input to a basic **Actor** class. We will be using the **L** and **K** button to rotate a cube.
 
@@ -19,7 +19,7 @@ Lets add user input to a basic **Actor** class. We will be using the **L** and *
 
 ![add room12 folder and actor blueprint BP_RotateCube](images/BPRotateCubeActorRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ Add a **Static Mesh** component to the blueprint. Call it `Cube`. Assign the **S
 
 ![add static mesh component with cube and steel material](images/AssignMeshCubeMaterialRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +35,7 @@ Add a **Static Mesh** component to the blueprint. Call it `Cube`. Assign the **S
 
 ![scale box collider](images/BoxxCollisionRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +43,7 @@ Add **BP_Rotate_Cube** to the **Room 12** and center it. Make sure the collision
 
 ![add BP_Rotate_Cube behond collision box in room 12](images/AddBPToRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
@@ -51,7 +51,7 @@ For housekeeping move this game object into the **Room 12** folder:
 
 ![move blueprint to Room 12 folder in world outliner](images/MoveObjectToFolderRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
@@ -59,7 +59,7 @@ For housekeeping move this game object into the **Room 12** folder:
 
 ![add text render component](images/AddTextRenderComponentRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -67,7 +67,7 @@ Change the **Text** to `Press L Key to Rotate Clockwise`. I had to rotate the co
 
 ![name text, center and change color](images/PressLKeyToRClockRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -75,7 +75,7 @@ Right click on **Press L Rotate** Component and press *Duplicate*. Call the new 
 
 ![duplicate text render and call Press K Rotate](images/PressRToRotateRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -83,7 +83,7 @@ Change the **Text** to `Press K Key to Rotate Counter Clockwise`. Adjust the loc
 
 ![name second text counter-clockwise](images/PressKRepositionRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
@@ -93,7 +93,7 @@ Go to the game and hit **run**. Look and see if you are happy with the position.
 
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -102,7 +102,7 @@ Go to the **Event Graph** and *pull off* of the **Event Actor Begin Overlap** an
 
 ![Add sequence node](images/OverlapSequenceRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
@@ -110,7 +110,7 @@ Go to the **Event Graph** and *pull off* of the **Event Actor Begin Overlap** an
 
 ![Add toggle visibility node](images/AddToggleVisibilityRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -118,7 +118,7 @@ Go to the **Event Graph** and *pull off* of the **Event Actor Begin Overlap** an
 
 ![add toggle visibility press k rotate node](images/ToggleVisibillityCounterRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -126,7 +126,7 @@ Go to the **Event Graph** and *pull off* of the **Event Actor Begin Overlap** an
 
 ![add end overlap node](images/AddActorEndOverlapRm16-1.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -134,7 +134,7 @@ Go to the **Event Graph** and *pull off* of the **Event Actor Begin Overlap** an
 
 ![add second sequence node](images/AddSecondSequenceRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -142,7 +142,7 @@ Add a comment to this group of nodes called `Toggle Text On and Off`.
 
 ![add code comments](images/AddComment1Rm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -150,7 +150,7 @@ Add a comment to this group of nodes called `Toggle Text On and Off`.
 
 ![text backwards in game](images/BackwardsText.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -158,7 +158,7 @@ Just ensure that visibility is off when we start open the blueprint and make sur
 
 ![set visibility to false on two text components](images/TurnVisibleOff.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -168,7 +168,7 @@ Now there is an event trigger for when a button is pressed and released. There i
 
 ![add rotating clockwise variable](images/RotatingClockwiseVarRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
@@ -176,7 +176,7 @@ Go to the **My Blueprints** panel and select the **bRotatingClockwise** with the
 
 ![duplicate rotating clockwise](images/RIghtClickDupeRm16.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -184,14 +184,13 @@ Go to the **My Blueprints** panel and select the **bRotatingClockwise** with the
 
 ![rename to rotatingcounterclockwise](images/RenameCCRm16.jpg)
 
-___
+![](../images/line.png)
 
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - User Input II"> -->
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - User Input II">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
 | [previous](../orbiting-actors-iv/README.md#user-content-orbiting-actors-iv)| [home](../README.md#user-content-ue4-blueprints) | [next](../user-input-ii/README.md#user-content-user-input-ii)|
 |---|---|---|

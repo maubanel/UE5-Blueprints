@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Orbiting Actors
 
 <sub>[previous](../interface-ii/README.md#user-content-communicate-through-interface-ii) • [home](../README.md#user-content-ue4-blueprints) • [next](../orbiting-actors-ii/README.md#user-content-orbiting-actors-ii)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Now lets do something a bit more complicated. We will be adding debug information to help us check out work along the way. We will do a bit of vector manipulation and basic vector arithmetic. Lets orbit (move and rotate) multiple objects around annother object.
 
@@ -19,7 +19,7 @@ Move the camera to room 11. *Add* a new Folder called **Blueprints | Room11**. *
 
 ![add folder room11 and blueprint actor class bp_rotatearoundpoint](images/CreateNewActorRotateAroundPtRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ Move the camera to room 11. *Add* a new Folder called **Blueprints | Room11**. *
 
 ![drag the blueprint into the room](images/DropBoxInRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +35,7 @@ Move the camera to room 11. *Add* a new Folder called **Blueprints | Room11**. *
 
 ![add static mesh to blueprint](images/AddStaticMeshToBPRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +43,7 @@ Go to the **Details** panel and *press* **View Options** and select **Engine Con
 
 ![add sphere from engine content](images/EngineContentSphereRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
@@ -51,7 +51,7 @@ Go to the **Details** panel and *press* **View Options** and select **Engine Con
 
 ![assign M_Metal_Burnished_Steel material](images/EngineContentSphereRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
@@ -59,7 +59,7 @@ Now we need to figure out how fast we want to orbit around the actor. We will me
 
 ![add float degrees per second variable](images/AddDegreesPerSecondRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -67,7 +67,7 @@ Now we need a variable to store the current angle that the actor is in relative 
 
 ![add float current angle in degrees](images/CurrentAngleInDegreesRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -75,7 +75,7 @@ Select the **Event Graph** tab. Lets program our current angle. *Drag* the **Deg
 
 ![get degrees per second and multiplication node](images/DegreesThenFloatRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -83,7 +83,7 @@ Now since we need to do this every frame we will do the from the **Tick Event** 
 
 ![multiply degrees per second by delta seconds](images/MultiplyDegreesByDeltaRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
@@ -91,7 +91,7 @@ That will give us the rotation amount in degrees this frame. So we need to add i
 
 ![get current angle in degrees and addition node](images/AddToCurrentAngleRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -99,7 +99,7 @@ That will give us the rotation amount in degrees this frame. So we need to add i
 
 ![set current angle in degrees to addition node](images/SetNewCurrentAngleRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -108,7 +108,7 @@ Add the comment `Set Current Rotation in Degrees` to the group of nodes coming a
 
 ![add code comment](images/AddCommentSetRotationRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -116,7 +116,7 @@ Now it is a good idea to test our work after each step. There is a fair amount t
 
 ![add show debug angle in degrees boolean](images/ShowDebugDegreesRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -124,7 +124,7 @@ Now it is a good idea to test our work after each step. There is a fair amount t
 
 ![print debug string](images/PrintDebugTimerRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -133,7 +133,7 @@ Connect the output **Set** execution pin to the **Print String** input pin. *Pre
 ![output angle to print and make the duration 0](images/ConnectExecSetToZeroRm15.jpg)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -141,7 +141,7 @@ Go to the game and drag a copy of the blueprint into the scene next to the box. 
 
 ![in game hello](images/RunGameHelloErrorRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -149,7 +149,7 @@ Go back to the blueprint and see if you can figure it out. Look at the **In Stri
 
 ![connect angle to print string](images/CurrAngleToPrintRm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -157,7 +157,7 @@ Clean up the nodes so that they are neat. *Press* the <kbd>Compile</kbd> button.
 
 ![cleaned up node graph](images/CleanUpNodes1Rm15.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -165,7 +165,7 @@ Make sure that **Degrees Per Seconds** is set to `30`. Go back to the game and s
 
 ![degrees per second is 30 and set showdebuaangleindegrees to true](images/SelectYourBlueprintSetDebugOn.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
@@ -173,7 +173,7 @@ Now the debug menu we are printing shows a number going up. There is only one pr
 
 ![in game angle goes beyond 360](images/AngleGetsTooLarge.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -183,14 +183,13 @@ This is exactly what I want. Right click and start typing **Modulo** and select 
 
 ![add modulo to graph](images/ModuloClampRm15.jpg)
 
-___
+![](../images/line.png)
 
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Oribiting Actors II"> -->
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Orbiting Actors II">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../interface-ii/README.md#user-content-communicate-through-interface-ii)| [home](../README.md#user-content-ue4-blueprints) | [next](../orbiting-actors-ii/README.md#user-content-orbiting-actors-ii)|
 |---|---|---|

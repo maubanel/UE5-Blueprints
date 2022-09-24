@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Rotation
 
 <sub>[previous](../tick-event-ii/README.md#user-content-tick-event-ii) • [home](../README.md#user-content-ue4-blueprints) • [next](../rotation-ii/README.md#user-content-rotation-ii)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 We will be rotating an object in 3-D space through blueprints. Now there are two common ways of representing rotations in games.  One is with **[Eulers](https://en.wikipedia.org/wiki/Euler_angles)** and the other is with **[Quaternions](https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation)**. In the editor the rotations are represented as **Eulers** with the **XYZ** axis rotation in **degrees**.
 
@@ -19,7 +19,7 @@ We will be rotating an object in 3-D space through blueprints. Now there are two
 
 ![create rrom 8 folder add a new blueprint](images/NewBluePrintActorClassRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ We will be rotating an object in 3-D space through blueprints. Now there are two
 
 ![add static mesh component](images/StaticMeshCubeRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +35,7 @@ We will be rotating an object in 3-D space through blueprints. Now there are two
 
 ![assign M_Metal_Burnished_Steel](images/AssignMatRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +43,7 @@ We will be rotating an object in 3-D space through blueprints. Now there are two
 
 ![rename to rotating cube](images/RenameComponentRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
@@ -51,7 +51,7 @@ Now go to the **Event Graph** tab. We will be rotating on the **Z**, **X** and *
 
 ![add sequence node](images/SequenceNodeForRotation.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
@@ -59,7 +59,7 @@ Now we want a switch in the editor to turn each rotating in each axis on or off.
 
 ![adjust variable settings](images/RotateOnZRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -67,7 +67,7 @@ Drag the **Rotate On Z** boolean to the graph and select **Get**.
 
 ![add rotate on z](images/GetZRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -75,7 +75,7 @@ Drag the **Rotate On Z** boolean to the graph and select **Get**.
 
 ![add branch node](images/BranchOffRotateZRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -83,7 +83,7 @@ Attach the Execution pins from Sequence 0 to Branch.
 
 ![attach execution pin from sequence 0 to branch](images/ConnectThen0ToBranch.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
@@ -91,7 +91,7 @@ Attach the Execution pins from Sequence 0 to Branch.
 
 ![rotating cube reference](images/RefToRotatingCubeRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -99,7 +99,7 @@ Attach the Execution pins from Sequence 0 to Branch.
 
 ![add relative rotatation](images/AddRelativeRotation.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -108,7 +108,7 @@ Attach the Execution pins from Sequence 0 to Branch.
 
 ![connect execution pins](images/SetRotateTruePinsRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -116,7 +116,7 @@ We need another variable to track how many degrees per second the object will ro
 
 ![call variable degrees per second](images/DegreesPerSecond.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -126,7 +126,7 @@ We need a variable to keep this number in. *Create* a new **Float** variable cal
 
 ![create new float variable degrees since last frame](images/DegreesSinceLastFrame.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -134,7 +134,7 @@ Drag and drop the **Degrees Per Second** variable to the graph and select **Get*
 
 ![add degrees per second and float times float node](images/GetDegreesPerSecRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -142,7 +142,7 @@ Drag and drop the **Degrees Per Second** variable to the graph and select **Get*
 
 ![connect pins and add set degree since last frame](images/ConnectSpeedPinsRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -150,7 +150,7 @@ Now *break* the pins between the **Tick** event and **Sequence**. *Route* this e
 
 ![route execution pin through set node](images/ReconnectSetterRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -158,7 +158,7 @@ Now go back to the **Add Relative Rotation** node and *right click* on **Delta R
 
 ![split struc pin](images/SplitRotationStructPinsRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -166,7 +166,7 @@ Now *drag* the **Degrees Since Last Frame** variable into the scene graph and se
 
 ![add get degrees since last frame](images/DegreesLastFrameGetterRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
@@ -174,7 +174,7 @@ Now *drag* the **Degrees Since Last Frame** variable into the scene graph and se
 
 ![connect output of degrees since last frame](images/ConnectOuputRm8.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -182,14 +182,13 @@ Add a comment to the latest work by pressing the <kbd>C</kbd> key. Press the <kb
 
 ![add code comments](images/CommentSection1Rm8.jpg)
 
-___
+![](../images/line.png)
 
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Rotation II"> -->
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Rotation II">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../tick-event-ii/README.md#user-content-tick-event-ii)| [home](../README.md#user-content-ue4-blueprints) | [next](../rotation-ii/README.md#user-content-rotation-ii)|
 |---|---|---|

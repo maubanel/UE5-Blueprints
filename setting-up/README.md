@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Setting Up
 
 <sub>[home](../README.md#user-content-ue4-blueprints) • [next](../constructor-begin/README.md#user-content-constructor--begin-play)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 
 Lets get going by setting up the project so we can start using blueprints.
@@ -23,7 +23,7 @@ After you accept the [GitHub Classroom](https://classroom.github.com/a/HDRB55xp)
 
 ![github classroom invite to blueprints](images/IntroductionToBlueprintsClassroom.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -31,7 +31,7 @@ Go to your new GitHub repository and press the <kbd>Code</kbd> button and select
 
 ![accept and clone blueprints project](images/image_01.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITL`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -39,7 +39,7 @@ This will give you access to a folder called **UE4IntroToBlueprints** that will 
 
 ![foler structure of blueprints project](images/InitialFolderStructure.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITL`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -47,7 +47,7 @@ The project should load up in the Room/Level **IntroToBlueprints1** room. Scoot 
 
 ![room1 in game](images/IntroToBlueprints1Room.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITL`| :small_orange_diamond:
 
@@ -55,7 +55,7 @@ Go to the content browser and look at the folders that are provided. Go to the f
 
 ![character and gamemode blueprint](images/GameModeCharacterBlueprints.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITL`| :small_orange_diamond: :small_blue_diamond:
 
@@ -63,7 +63,7 @@ Go to the **Maps** folder and you should see two levels:
 
 ![maps folder showing two levels](images/ThreeRoomsMapFolder.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITL`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -71,7 +71,7 @@ You will now go to the **Materials** folder and I have provided some materials f
 
 ![contents of materials and supplied folder](images/MaterialsForBlueprints.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITL`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -79,7 +79,7 @@ In the **StaticMeshes** folder we have some models we will be using:
 
 ![contents of staticmeshes folder](images/StaticMeshes.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITL`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -87,7 +87,7 @@ And finally we have a **Textures** folder with the textures for the spotlight we
 
 ![content of textures folder](images/TexturesForBPs.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITL`| :large_blue_diamond:
 
@@ -95,7 +95,7 @@ Go into **Settings | Project Settings | Description** tab and fill in the requis
 
 ![project settings description](images/ProjectSettingsDescription.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITL`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -103,7 +103,7 @@ Go into the **Maps and Modes** tab. Notice the start up maps that we are booting
 
 ![default levels to load in maps and modes](images/MapsAndModes.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITL`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -112,7 +112,7 @@ Now select your default game mode: **BP_Gamemode**. This will select our charact
 
 ![select BP_Gamemode](images/SelectDefaultGamemode.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITL`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -120,16 +120,15 @@ Go back to the **Blueprints** folder and press the <kbd>Add/Import</kbd> button 
 
 ![add Room1 folder to Blueprints](images/NewFolderInBlueprints.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
-___
+![](../images/line.png)
 
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Next Up - Constructor and Begin Play"> -->
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Constructor - Begin Play">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [home](../README.md#user-content-ue4-blueprints) | [next](../constructor-begin/README.md#user-content-constructor--begin-play)|
 |---|---|

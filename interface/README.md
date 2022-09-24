@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Communicate Through Interface
 
 <sub>[previous](../multiple-actors-ii/README.md#user-content-dynamically-alter-multiple-classes-ii) • [home](../README.md#user-content-ue4-blueprints) • [next](../interface-ii/README.md#user-content-communicate-through-interface-ii)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 What if we wanted a single event in the game interact with different objects differently (run different functions)? We can use an interface to implement as we like in each blueprint class. Interfaces (or abstract classes in C++) are very useful in game development. It enforces a structure on multiple objects so that we can call events and functions in all of them. I will show you a very simple use of an interface in this example. This is another way we can interface between actors. This allows us to communicate to multiple actor classes with one paradigm.
 
@@ -19,7 +19,7 @@ Scooch the camera over to **Room 10**. Add a `Blueprints | Room10` folder to the
 
 ![add room 10 folder](images/CreateRoom10Folder.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +27,7 @@ Scooch the camera over to **Room 10**. Add a `Blueprints | Room10` folder to the
 
 ![duplicate bp_lightbulbmulti](images/DupeBPLightbulbRm12.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +35,7 @@ Scooch the camera over to **Room 10**. Add a `Blueprints | Room10` folder to the
 
 ![rename bp and move to room 10](images/Add5LightsToRm12.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +43,7 @@ Scooch the camera over to **Room 10**. Add a `Blueprints | Room10` folder to the
 
 ![add multiple copies of bp_lightbulginterface into room 10](images/AddRoom12SwitchToRoom.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
@@ -51,7 +51,7 @@ Drag a **Trigger Volume** to the level. Scale it to be in front where you can wa
 
 ![add and scale trigger volume in room 10](images/DupeRoom9SwitchRm12.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
@@ -61,7 +61,7 @@ We are going to now create a special blueprint that will bridge multiple object.
 
 ![add blueprint interface](images/CreateBPInterfaceRm12.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -69,7 +69,7 @@ We are going to now create a special blueprint that will bridge multiple object.
 
 ![BP_RoomSwitchInterface](images/ActorReferencesActorRm12.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -79,7 +79,7 @@ All other blueprints that subscribe to this interface will be able to access thi
 
 ![add bIsOn boolean to interface](images/image_10.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -87,7 +87,7 @@ Lets call the function something more meaningful. Rename it to `Turn Room 10 Swi
 
 ![add function Turn Room 10 Switches On and Off](images/RenameFunctionAddDescriptRm12.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
@@ -95,7 +95,7 @@ Open up **BP_LightbulbMultiInterface** as we are going to subcribe to the **Inte
 
 ![subscribe to interface](images/SubscribeToInterface.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -103,7 +103,7 @@ Now lets add an event to this blueprint that will run when this event is trigger
 
 ![call interface's method](images/CallInterfaceEvent.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -112,7 +112,7 @@ Each actor that subscribes to it can create its own definition. This means that 
 
 ![interface method node](images/PrivateTooltipRm12.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -120,7 +120,7 @@ Now add a **Switch Light** node and *attach* the execution pins and the boolean 
 
 ![trigger switch light](images/SwitchLightOnOff2.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -128,7 +128,7 @@ Select **TriggerVolume2** that is in room 10. Then press the **Blueprints** butt
 
 ![open level blueprint](images/NameItBPSwitchInterface.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -136,7 +136,7 @@ Press the **+** button next to **Variables** and add a new variable called `RefT
 
 ![add rerefece to lightbulbmultiinterface](images/SelectFunctionAddInput.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -146,7 +146,7 @@ An [array](https://en.wikipedia.org/wiki/Array_programming) is a list of variabl
 
 ![change variable to array](images/ImplementInterfaceBPEventGraph.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -154,7 +154,7 @@ Add a **Tooltip** with `Keeps array of all room 10 lightbulbs`. Set **Private** 
 
 ![variable settings](images/HookUpExecutionAndBoolRm12.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -162,7 +162,7 @@ In the **Event Graph** *add* to the nodes that are attached to **Begin Play**. A
 
 ![get a reference to all actors that subscribe to the interface](images/CompileImplementedInterface.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -170,7 +170,7 @@ Drag a copy of **RefToLightbulbsInterface** and add a **Set** node. Connect the 
 
 ![set the array with all subscribers](images/CallInterfaceFromSwitchRm12.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
@@ -178,7 +178,7 @@ Make sure you still have the Trigger Volume selected in game. *Right click* on t
 
 ![add begin and end overlap message](images/SendMessageToArrayRm12.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -186,14 +186,13 @@ Make sure you still have the Trigger Volume selected in game. *Right click* on t
 
 ![add a lightbulb ref and for each loop](images/SameForTurningOffMessageRm12.jpg)
 
-___
+![](../images/line.png)
 
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Communicate Through Interface II"> -->
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Communicate Through Interface II">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../multiple-actors-ii/README.md#user-content-dynamically-alter-multiple-classes-ii)| [home](../README.md#user-content-ue4-blueprints) | [next](../interface-ii/README.md#user-content-communicate-through-interface-ii)|
 |---|---|---|

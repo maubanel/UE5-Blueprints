@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Collision Events
 
 <sub>[previous](../constructor-begin-ii/README.md#user-content-constructor--begin-play-ii) • [home](../README.md#user-content-ue4-blueprints) • [next](../grouping-meshes/README.md#user-content-grouping-meshes)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Now we can have a few types of collisions in **Unreal**. We can have a blocking collision that will stop two volumes from penetrating each other. Imagine a ball hitting a wall. We can also have a trigger collision where you can enter the collision volume and it will trigger a script. This is often when the player enters an invisible volume that they can't see. This is how we can access functionality in a script when a player is in a specific location in the level. This is the first type we will look at:
 
@@ -12,14 +12,13 @@ Now we can have a few types of collisions in **Unreal**. We can have a blocking 
 
 ---
 
-
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
 Create a new folder called `Room2` and put it in the **Blueprints** folder. Move the camera over to **Room 2** and press the <kbd>Add/Import</kbd> button and select **Blueprint Class**.
 
 ![add blueprint class to blueprints folder](images/BlueprintClassRm2.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +26,7 @@ We will be using this blueprint in a level so we will make it the base class of 
 
 ![select actor class](images/InheritFromActorBlueprint.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +34,7 @@ Call it `BP_TextOnCollision`. *Drag* it into the room. In the **World Outliner**
 
 ![drag BP_Text_OnCollision into room 2](images/NameAndPlaceBPRm2.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +42,7 @@ Double click the **blueprint**. Press the <kbd>Add Component</kbd> button and se
 
 ![add text render component](images/AddTextRenderComponentRm2.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
@@ -51,7 +50,7 @@ Now press **Add Component** again and this time we want a collision box. We can 
 
 ![add box collision component](images/CollisionComponentRm2.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
@@ -59,7 +58,7 @@ Rename the text component to `TextInRoom2`. Drag and drop this on top of the **D
 
 ![rename component and make world size 74 and recolor](images/RenameMakeParentRoot.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -67,7 +66,7 @@ With the **Box** component selected go to the **Details** panel and change the *
 
 ![change shape of collision box](images/ChangeBoxShape.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -75,7 +74,7 @@ Now go into the game and reposition so the collision box is above the floor and 
 
 ![reposition collisoin box in room](images/RepositionCollisionBoxRm2.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -83,7 +82,7 @@ Go back to the **blueprint**. Make sure you are in the **Event Graph** tab. *Dra
 
 ![drag text reference and add set text node](images/DragTextRefAndPinRm2.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
@@ -91,7 +90,7 @@ Since we added a **Collision** component the event graph shows a **Begin Overlap
 
 ![Connect set text execution pin to begin overlap](images/BeginOverlapPinConnectRm2.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -99,7 +98,7 @@ Left click and drag off the **Value** node from **Set Text**. Let go and start t
 
 ![add make literal text](images/DragOffValueNodeRm2.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 Select the **Make Literal Text** node and add the text: `You are inside the box!` to this node. Make sure the Return Value pin is connected to the Value pin on the **Set Text** node.
 
@@ -107,7 +106,7 @@ Select the **Make Literal Text** node and add the text: `You are inside the box!
 
 ![add text to literal text](images/MakeLiteralTextInsideBoxRm2.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -115,7 +114,7 @@ Run the game and move towards where the box is (we can't see it). You should see
 
 ![you are inside the box text in game](images/RunGame.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -123,7 +122,7 @@ Go back to the blueprint and move the box component so the text is at the bottom
 
 ![unhide collision volume](images/ThreeChangesRm2.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -131,7 +130,7 @@ Run the game and step into the box. The text is more obvious and better position
 
 ![Run game and now you see the box](images/RunTheGameRm2B.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -139,7 +138,7 @@ Run the game and step into the box. The text is more obvious and better position
 
 ![copy and paste three nodes in BP_TextOnCollision](images/CopyPasteThreeNodesRm2.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -147,7 +146,7 @@ Right click on a blank section of the scene graph. Type in and select **EventAct
 
 ![add eventactorendoverlap node](images/ActorEndOverlapRm2.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -155,7 +154,7 @@ Connect the execution pins from the **End Overlap** to the **Set Text**. Also ch
 
 ![change value to you rae inside the box and connect execution pins](images/ConnectPinsChangeMessageRm2.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -163,7 +162,7 @@ Run the game and move inside and outside the collision volume and look at your b
 
 ![alt_text](images/CollisionText.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
@@ -171,7 +170,7 @@ Lets look at the player blueprint quickly. Go to the **Blueprints** folder and d
 
 ![root component of player](images/PlayerBPRm2.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -179,7 +178,7 @@ Run the game again but this time keep the blueprint tab open and out of the way.
 
 https://user-images.githubusercontent.com/5504953/132032366-f8bbba20-0f9d-456f-97f2-ad4af02cff25.mp4
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 22.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -187,14 +186,13 @@ That's it for **Room 2**. *Press* **Save All** then go into **Source Control | S
 
 ![save all, commit and push to github](images/Room2Github.jpg)
 
-___
+![](../images/line.png)
 
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Grouping Meshes"> -->
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Grouping Meshes">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../constructor-begin-ii/README.md#user-content-constructor--begin-play-ii)| [home](../README.md#user-content-ue4-blueprints) | [next](../grouping-meshes/README.md#user-content-grouping-meshes)|
 |---|---|---|

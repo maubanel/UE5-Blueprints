@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Components
 
 <sub>[previous](../private-variables/README.md#user-content-private-variables) • [home](../README.md#user-content-ue4-blueprints) • [next](../tick-event/README.md#user-content-tick-event)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Up until this point we have hard coded [Components](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/ProgrammingWithCPP/UnrealArchitecture/Actors/Components/) into our blueprint object classes. What if we want to dynamically spawn a component in code maybe even gameplay? In this exercise we will spawn a component dynamically and use a trick to force a recompile so that it takes effect through the constructor.
 
@@ -21,7 +21,7 @@ Go to the **Blueprints** folder and add a `Room6` folder. Press the <kbd>Add/Imp
 
 ![add blueprint to room 6 folder](images/NewBPClass.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -29,7 +29,7 @@ Since this is going into the level select the base **Actor** as the inherited bl
 
 ![select actor base class](images/SelectActor.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -37,7 +37,7 @@ Name the new blueprint `BP_DynamicComponent`.
 
 ![name blueprint BP_DynamicComponent](images/BPDynamicComponentRm6.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -45,7 +45,7 @@ Open the new blueprint and press the **Add Component** button. Select **Static M
 
 ![add static mesh component](images/AddStaticMeshComponentRm6.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
@@ -53,7 +53,7 @@ Rename the component to `Sphere` and drag and drop it on top of **DefaultSceneRo
 
 ![rename component](images/RenameMakeRootRm6.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
@@ -61,7 +61,7 @@ Now click on the **Static Mesh** in the **Details Panel** and we want to find th
 
 ![select view options](images/ViewOptionsRm6.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -69,7 +69,7 @@ Click on Show **Engine Content** as this is hidden by default:
 
 ![show engine content](images/ClickOnShowEngineContentRm6.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -77,7 +77,7 @@ Click on Show **Engine Content** as this is hidden by default:
 
 ![select sphere](images/StaticMeshSphereEngineContent.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -85,7 +85,7 @@ Go to *select* a **Material** in the details panel. *Select* it and you will see
 
 ![turn engine content off](images/TurnEngineContentOff.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
@@ -93,7 +93,7 @@ Go to *select* a **Material** in the details panel. *Select* it and you will see
 
 ![apply succesful](images/ApplyCompiles.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -101,7 +101,7 @@ Go back to the blueprint **BP_Dynamic_Component** and now you should see the mes
 
 ![steel mesh](images/BPWithSteelMatRm6.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -109,7 +109,7 @@ We will now be going to the **Construction Script** tab. We want to *add* a vari
 
 ![add light component](images/AddLightComponentVariable.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -117,7 +117,7 @@ Now drag the variable from the **MyBlueprint** tab into the scene graph. It give
 
 ![add light component to graph](images/DragVariableOntoGraph.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond:  :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: 🔹
 
@@ -125,7 +125,7 @@ Drag off of the boolean's pin and type **Branch**.
 
 ![select branch node](images/BranchFromLightCompRm6.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:
 
@@ -137,7 +137,7 @@ A branch node is the equivalent of an if() and else() statement in most programm
 
 ![pull true pin from branch](images/BranchGraphRm6.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
 
@@ -145,7 +145,7 @@ So start typing `Point Light` and *select* the **Add Point Light Component**.
 
 ![add point light component](images/PointLightComponent.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -153,7 +153,7 @@ Now look at the input pins. It asks for relative transform. Relative is in relat
 
 ![split struct pin](images/SplitStructPin.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -161,7 +161,7 @@ Lets have it light the top of the ball so move it by `100` on the **Z** in **Loc
 
 ![set z to 100](images/MovdUpOnZ100Rm6.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
  
@@ -169,7 +169,7 @@ Lets have it light the top of the ball so move it by `100` on the **Z** in **Loc
 
 ![add comment to nodes](images/CommentNodesRm6.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
@@ -177,7 +177,7 @@ Now go to the game. Add this blueprint to **Room6**. You can switch the boolean 
 
 ![alt_text](images/FInalLightBall.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -185,16 +185,13 @@ That's it for **Room 6**. Press **File | Save All** then go into **Source Contro
 
 ![save, commit and push to github](images/Room6Github.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line.png)
 
-___
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Tick Event"> -->
 
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
-
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Tick Event">
-
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../private-variables/README.md#user-content-private-variables)| [home](../README.md#user-content-ue4-blueprints) | [next](../tick-event/README.md#user-content-tick-event)|
 |---|---|---|

@@ -1,10 +1,10 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 ### Communicate Through Interface II
 
 <sub>[previous](../interface/README.md#user-content-communicate-through-interface) • [home](../README.md#user-content-ue4-blueprints) • [next](../orbiting-actors/README.md#user-content-orbiting-actors)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
 
 Communicate through a blueprint interface part II
 
@@ -12,14 +12,13 @@ Communicate through a blueprint interface part II
 
 ---
 
-
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
 Now we want to call the event that the **BP_LightbulbMultiInterface** subscribed to.  *Pull* off of the **Array Element** pin from the **For Each Loop** node and add a call to **Turn Room 10 Switches On And Off**.  This array element pin is accessing a reference to each lightbulb in the loop and running the nodes that are part of the interface definition in that blueprint (BP_LightbulbMultiInterface).
 
 ![get reference to interface then call the off method](images/EventCall.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
@@ -27,7 +26,7 @@ Now we want to call the event that the **BP_LightbulbMultiInterface** subscribed
 
 ![connect pins on flipflop, interface and turn off method](images/FinishInterfaceCall.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -35,7 +34,7 @@ Now we have the bluprint calling the interface and passing all the lights in the
 
 ![lights turn on and off in game](images/TurnLightsInInterface.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -43,7 +42,7 @@ The power of this interface is that other objects can define the interface to do
 
 ![duplicate bp_rotateobject](images/DupeRotateObject.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
@@ -51,7 +50,7 @@ Call it `BP_RotateRm10` and *drag it* into the **Room10** folder.
 
 ![call blueprint bp_rotaterm10](images/Room10MoveRotateObject.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
@@ -59,7 +58,7 @@ Drag two **BP_Rotate_Rm10** in the room.
 
 ![drag two bp_rotaterm10 into the level](images/DragTwoCubesInRoom.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -67,7 +66,7 @@ Open up the BP_Rotate_Rm10 blueprint. *Delete* all the Pitch and Roll nodes to l
 
 ![delete pitch and roll nodes](images/DeletePitchRoll.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -81,7 +80,7 @@ Now to the **Degrees Per Second** variable and set the **Default Value** to `70.
 ![set degrees per second to 70](images/SetDefaultDegreesPerSecond.jpg)
 
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -89,7 +88,7 @@ Select **Class Settings** then press **Interfaces | Add** and add the **BP_RoomS
 
 ![add interface to blueprint](images/image_11.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
@@ -97,7 +96,7 @@ Select **Class Settings** then press **Interfaces | Add** and add the **BP_RoomS
 
 ![add event turn room 10 switches on and off node](images/AddRoomSwitchOnOff.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
@@ -105,7 +104,7 @@ Now remove the **Event Tick** node *connect* the output of the **BP_RoomSwitchIn
 
 ![replace event tick with interface node](images/ReplaceEventNode.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
@@ -114,7 +113,7 @@ Now we are missing the **Delta Seconds** that was fed by the **Event Tick** node
 
 ![get world delta seconds](images/GetWorldDeltaSeconds.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -122,7 +121,7 @@ Now we are missing the **Delta Seconds** that was fed by the **Event Tick** node
 
 ![connect get world delta seconds with multiplication node](images/ConnectToMultiplyNode.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
@@ -132,7 +131,7 @@ Now we are missing the **Delta Seconds** that was fed by the **Event Tick** node
 
 ![connect is on to branch node](images/ConnetEventToBranch.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
@@ -140,7 +139,7 @@ Go to the **Level Blueprint** for **IntroToBlueprints2** and *right click* on **
 
 ![duplicate interface reference](images/DupeLevelBPArray.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -148,7 +147,7 @@ Name it `RefToRotateInterface` and change the type to **BP_RotateRoom10 | Object
 
 ![rename dupe node to reftorotateinterface](images/ReferenceToCubes.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -156,7 +155,7 @@ Now at the end of the **Begin Play** event *off* the last **Set** node execution
 
 ![get all actors of class bp_rotaterm10 node](images/GetActorOfClassThree.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -164,7 +163,7 @@ Add a **Set RefToRotateInterface** node and connect the execution and array pins
 
 ![connect pins between get all acors of class and setter](images/RefToRotateExecute.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -172,7 +171,7 @@ Now to rotate we need to keep calling the cube every frame the player is in the 
 
 ![add event tick and boolean variable](images/AddTickAndRotateBool.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
@@ -180,7 +179,7 @@ Now to rotate we need to keep calling the cube every frame the player is in the 
 
 ![add get boolena to graph](images/AddRotateCubeToGraph.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
@@ -188,7 +187,7 @@ Now to rotate we need to keep calling the cube every frame the player is in the 
 
 ![add turn room on off node](images/TurnRoom.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 22.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -196,7 +195,7 @@ Now to rotate we need to keep calling the cube every frame the player is in the 
 
 ![connect event tick rotate cube and interface method's pins](images/FinishUpCall.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 23.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -204,7 +203,7 @@ Now in the Overlap events we need to turn the **bRotateCube** boolean on and off
 
 ![connect execution pin and flip flop is on](images/SetBoolenForCube.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 24.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
@@ -212,7 +211,7 @@ Now go to the game and play it. Notice that the single interface can trigger two
 
 ![play game and two object types are impacted by the same interface](images/OneEventTwoReactions.gif)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 ##### `Step 25.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond:
 
@@ -220,13 +219,13 @@ That's it for **Room 10**. Press **Save All** and update Github by committing an
 
 ![save, commit and push to github](images/GithibRm12.jpg)
 
-___
+![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Orbiting Actors"> -->
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Orbiting Actors">
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
 | [previous](../interface/README.md#user-content-communicate-through-interface)| [home](../README.md#user-content-ue4-blueprints) | [next](../orbiting-actors/README.md#user-content-orbiting-actors)|
 |---|---|---|
