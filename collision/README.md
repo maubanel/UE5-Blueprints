@@ -54,7 +54,7 @@ Now press **Add Component** again and this time we want a collision box. We can 
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Rename the text component to `TextInRoom2`. Drag and drop this on top of the **DefaultSceneRoot** component. This will make the text box the root (parent) component. Make the **Text Render Color** more visible on a white background and change the **World Size** to `74`.
+Rename the text component to `TextInRoom2`. Drag and drop this on top of the **DefaultSceneRoot** component. This will make the text box the root (parent) component. Make the **Text Render Color** more visible on a white background and change the **World Size** to `74` and make the text color **Green**.
 
 ![rename component and make world size 74 and recolor](images/RenameMakeParentRoot.png)
 
@@ -62,7 +62,7 @@ Rename the text component to `TextInRoom2`. Drag and drop this on top of the **D
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-With the **Box** component selected go to the **Details** panel and change the **Box Extent** to `600` on the **X**, `400` on the **Y** and `200` on the **Z**. Also make sure the text element is at the rear of the collision box. Press the <kbd>Compile</kbd> button.
+With the **Box** component selected go to the **Details** panel and change the **Box Extent** to `600` on the **X**, `1400` on the **Y** and `200` on the **Z**. Also make sure the text element is at the rear of the collision box. Press the <kbd>Compile</kbd> button.
 
 ![change shape of collision box](images/ChangeBoxShape.jpg)
 
