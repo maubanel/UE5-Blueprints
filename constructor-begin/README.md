@@ -117,9 +117,9 @@ Add a short text message in the **Make Literal Text** node box. I added `I am th
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Press the <kbd>Compile</kbd> button. No changes to blueprints will be seen until it is compiled. This changes it from the node graph to usable machine code that the game engine can run.
+Press the <kbd>Compile</kbd> button. No changes to blueprints will be seen until it is compiled. This changes it from the node graph to usable machine code that the game engine can run. If it has no errors you will see a green check mark.
 
-![press compile button](images/PressCompileButton.jpg)
+![press compile button](images/PressCompileButton.png)
 
 ![](../images/line2.png)
 
