@@ -18,7 +18,7 @@ In **UE5** the **[Construction Script](https://docs.unrealengine.com/5.0/en-US/c
 
 In the **Blueprints | Room1** folder press the <kdbd>Add/Import</kbd> button and add a new **Blueprint Class**:
 
-![add new blueprint to blueprints folder](images/AddBlueprintClass.jpg)
+![add new blueprint to blueprints folder](images/AddBlueprintClass.png)
 
 ![](../images/line2.png)
 
