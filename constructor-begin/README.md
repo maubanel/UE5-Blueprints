@@ -143,7 +143,7 @@ The text is a bit small, lets make the font bigger. Go back into the blueprint a
 
 Press the <kbd>Compile</kbd> button then go back to the game. You wil notice that the font is now a lot larger:
 
-![larger font in game](images/FontLargerInGameRm1.jpg)
+![larger font in game](images/FontLargerInGameRm1.png)
 
 ![](../images/line2.png)
 
