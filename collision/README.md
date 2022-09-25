@@ -46,9 +46,9 @@ Double click the **blueprint**. Press the <kbd>+ Add</kbd> component button and 
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Now press **Add Component** again and this time we want a collision box. We can add multiple components to the same blueprints. If you type `collision` into the menu you will see three shapes: **Box**, **Sphere** and **Cylinder.** We will pick the **Box Collision**:
+Now press **Add Component** again and this time we want a collision box. We can add multiple components to the same blueprints. If you type `collision` into the menu you will see three shapes: **Box**, **Sphere** and **Cylinder.** We will pick the **Box Collision**.
 
-![add box collision component](images/CollisionComponentRm2.jpg)
+![add box collision component](images/CollisionComponentRm2.png)
 
 ![](../images/line2.png)
 
