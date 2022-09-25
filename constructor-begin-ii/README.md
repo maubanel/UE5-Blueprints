@@ -57,7 +57,7 @@ Drag and drop the blueprint instances from the **Outliner** into the **Room 1** 
 
 Go into the **Event Graph** tab and click on an open space next to the **Event Begin Play** that is greyed out and press *paste*.
 
-![paste nodes in event graph](images/PasteInEventGraphRm1.jpg)
+![paste nodes in event graph](images/PasteInEventGraphRm1.png)
 
 ![](../images/line2.png)
 
