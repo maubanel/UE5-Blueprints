@@ -188,5 +188,7 @@ Go to the game and you can see that when the compile completed it ran the constr
 
 ![next up next tile](images/banner.png)
 
+![](../images/line.png)
+
 | [previous](../setting-up/README.md#user-content-setting-up)| [home](../README.md#user-content-ue4-blueprints) | [next](../constructor-begin-ii/README.md#user-content-constructor--begin-play-ii)|
 |---|---|---|
