@@ -113,7 +113,6 @@ We want to trigger this change when you enter and leave the collision volume.  D
 
 Run the game and move towards where the box is (we can't see it). You should see the text appear. It doesn't dissapear when you leave the box. Lets make some changes and improve this.
 
-![you are inside the box text in game](images/RunGame.jpg)
 
 ![](../images/line2.png)
 
