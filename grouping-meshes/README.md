@@ -32,7 +32,7 @@ Move the object in the **World Outliner** into the **Room 3** folder. Then press
 
 Select another **Static Mesh** component.
 
-![add another static mesh component](images/AddSecondStaticMeshRm3.jpg)
+![add another static mesh component](images/AddSecondStaticMeshRm3.png)
 
 ![](../images/line2.png)
 
