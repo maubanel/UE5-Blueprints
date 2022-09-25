@@ -53,7 +53,7 @@ Double click on the newly created Blueprint.
 
 Now you are going to press the <kbd>Add Component</kbd> button (make sure you are in the Viewport tab). Look for **Text Render** (you can start tyuping it in the search bar). This node will render 2D text for us in the game engine.
 
-![add text render component](images/TextRenderComponent.jpg)
+![add text render component](images/TextRenderComponent.png)
 
 ![](../images/line2.png)
 
