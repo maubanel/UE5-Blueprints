@@ -24,7 +24,7 @@ Go to **Room 3** and go to the **StaticMeshes** folder. Drag the **spotlight_bra
 
 Move the object in the **World Outliner** into the **Room 3** folder. Then press the **Add Component** button.
 
-![move to room 3 folder and add component](images/MoveToRoom3.jpg)
+![move to room 3 folder and add component](images/MoveToRoom3.png)
 
 ![](../images/line2.png)
 
