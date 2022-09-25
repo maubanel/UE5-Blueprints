@@ -109,16 +109,16 @@ Now we need to feed this node some text to print. Right click on the open graph 
 
 ![make literal text node](images/MakeLiteralText.jpg)
 
+![](../images/line2.png)
+
+
+##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
 Now add a short text message in the **Make Literal Text** node box. I added `I am the <br>Constructor Script`. Now *feed* the return value of this node to the input pin in the **Value** node. This will feed the TEXT we just created into the **Text Render** component we just added.
 
 `<br>` is an acceptable carriage return (new line) in the text fields in **E4**.  You might recognize this as it is **HTML** syntax.
 
 ![add text to make literal text box](images/MakeLiteralTextYoMarc.jpg)
-
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Press the <kbd>Compile</kbd> button. No changes to blueprints will be seen until it is compiled. This changes it from the node graph to usable machine code that the game engine can run.
 
