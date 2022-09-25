@@ -94,7 +94,9 @@ Left click and drag off the **Value** node from **Set Text**. Let go and start t
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
+Now the messages stays the same regardless as we have it connected to the **Begin Play**.  So it displays the message whether we are in or outside the collision volume.
 
+https://user-images.githubusercontent.com/5504953/192165730-18fe4d05-aad9-480e-a5cf-b3be5580f7e9.mp4
 
 ![](../images/line2.png)
 
