@@ -127,7 +127,7 @@ Press the <kbd>Compile</kbd> button. No changes to blueprints will be seen until
 
 Now go to the game window and drag and drop this new blueprint **BP_Text_In_Constructor** into the first room. Notice you can see the text we entered which shows us that the construction script has run.
 
-![drag blueprint in room](images/DragAndDrop.jpg)
+![drag blueprint in room](images/DragAndDrop.png)
 
 ![](../images/line2.png)
 
