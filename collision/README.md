@@ -38,9 +38,9 @@ Call it `BP_TextOnCollision`. *Drag* it into the room. In the **World Outliner**
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Double click the **blueprint**. Press the <kbd>Add Component</kbd> button and select a **Text Render**.
+Double click the **blueprint**. Press the <kbd>+ Add</kbd> component button and select a **Text Render**.
 
-![add text render component](images/AddTextRenderComponentRm2.jpg)
+![add text render component](images/AddTextRenderComponentRm2.png)
 
 ![](../images/line2.png)
 
