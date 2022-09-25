@@ -63,7 +63,7 @@ Now you are going to press the <kbd>+ Add</kbd> Component button (make sure you 
 
 Rename the component to `TextInRoom1`.
 
-![rename component to TextInRoom1](images/TestInRoom1.jpg)
+![rename component to TextInRoom1](images/TestInRoom1.png)
 
 ![](../images/line2.png)
 
