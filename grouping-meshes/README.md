@@ -40,7 +40,7 @@ Select another **Static Mesh** component.
 
 Assign the **spotlight_lamp** mesh to this component
 
-![assing lamp to static mesh](images/AssignLampToStaticMeshRm3.jpg)
+![assing lamp to static mesh](images/AssignLampToStaticMeshRm3.png)
 
 ![](../images/line2.png)
 
