@@ -119,7 +119,7 @@ Go back to the blueprintand select the **Box** component and make sure the **Hid
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Run the game and move towards where the box is. You should see the text appear. It doesn't dissapear when you leave the box. Lets make some changes and improve this.
+Run the game and move towards where the box is. You should see the text appear. It doesn't dissapear when you leave the box. Lets make some changes and improve this. Lets change the message when the player leaves the box.
 
 https://user-images.githubusercontent.com/5504953/192166015-35f5768d-96de-44b1-9c8a-031744ac7ef3.mp4
 
@@ -127,19 +127,16 @@ https://user-images.githubusercontent.com/5504953/192166015-35f5768d-96de-44b1-9
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
+*Copy and paste* the three nodes in the blueprint at the bottom.
 
+![copy and paste three nodes in BP_TextOnCollision](images/CopyPasteThreeNodesRm2.jpg)
 
-Run the game and step into the box. The text is more obvious and better positioned. Make any necessary adjustments here. Now lets change the message when the player leaves the box.
-
-![Run game and now you see the box](images/RunTheGameRm2B.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Copy and paste* the three nodes in the blueprint at the bottom.
 
-![copy and paste three nodes in BP_TextOnCollision](images/CopyPasteThreeNodesRm2.jpg)
 
 ![](../images/line2.png)
 
