@@ -160,25 +160,21 @@ Run the game and move inside and outside the collision volume and look at your b
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-
-![alt_text](images/CollisionText.gif)
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
-
 Lets look at the player blueprint quickly. Go to the **Blueprints** folder and double click **BP_PlayerCharacter**. Look at the components. It root component is a Capsule Collision component. This acts the same as the box component but is the shape of a capsule (a pill on its end). This is roughly the shape of a bipedal upright human. It also has a FirstPersonCamera where the head would be. Notice the collision volume goes above the player's virtual head. This is a first person controller so the Mesh is empty. It is just a collision volume with a camera that moves around. When this capsule overlaps the box collider in the blueprint it triggers the overlap events.
 
 ![root component of player](images/PlayerBPRm2.jpg)
 
 ![](../images/line2.png)
 
+##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
+
+
+
+![](../images/line2.png)
+
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Run the game again but this time keep the blueprint tab open and out of the way. Zoom so you can see the entire node graph. When you play the game you can see the execution pin connectors light up when it is triggered. This shows you what is hapenning and is incredibly useful for debugging.
 
-https://user-images.githubusercontent.com/5504953/132032366-f8bbba20-0f9d-456f-97f2-ad4af02cff25.mp4
 
 ![](../images/line2.png)
 
