@@ -76,10 +76,13 @@ In **P4V** double click **UE5Blueprints**.
 
 ##### `Step 8.`\|`ITL`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+The project should load up in the Room/Level **IntroToBlueprints1** room. Scoot the camera over to **Room 1**. 
 
-The project should load up in the Room/Level **IntroToBlueprints1** room. Scoot the camera over to **Room 1**. You will also most likely see a dark room that has not been lit. You need to hit the <kbd>Build</kbd> button and wait for the lighting to build for the level. After this it should look normal again.
+![room1 in game](images/room1.png)
 
-![room1 in game](images/IntroToBlueprints1Room.png)
+![](../images/line2.png)
+
+##### `Step 9.`\|`ITL`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Go to the content browser and look at the folders that are provided. Go to the first **Blueprints** folder. You should see two files, one is a GameMode blueprint and the other is a character controller blueprint.
 
@@ -97,10 +100,6 @@ You will now go to the **Materials** folder and I have provided some materials f
 In the **StaticMeshes** folder we have some models we will be using:
 
 ![contents of staticmeshes folder](images/StaticMeshes.png)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`ITL`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 And finally we have a **Textures** folder with the textures for the spotlight we will be using:
 
