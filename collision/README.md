@@ -119,7 +119,7 @@ Go back to the blueprintand select the **Box** component and make sure the **Hid
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Run the game and move towards where the box is (we can't see it). You should see the text appear. It doesn't dissapear when you leave the box. Lets make some changes and improve this.
+Run the game and move towards where the box is. You should see the text appear. It doesn't dissapear when you leave the box. Lets make some changes and improve this.
 
 https://user-images.githubusercontent.com/5504953/192166015-35f5768d-96de-44b1-9c8a-031744ac7ef3.mp4
 
