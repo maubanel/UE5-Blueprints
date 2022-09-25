@@ -81,7 +81,7 @@ Execution pins determines the order of operations.  In a normal text script it g
 
 *Right click* on an empty part of the graph and type `Text Render | SetText(TextInRoom1)` as we want the set text node. Notice that the function also includes the name of the **Text** component we just named (TextInRoom1) so we know we are targeting only this component, which is what we want.
 
-![add SetText node](images/SetTextNode.jpg)
+![add SetText node](images/SetTextNode.png)
 
 ![](../images/line2.png)
 
