@@ -97,13 +97,22 @@ Go to the **Maps** folder and you should see two levels:
 
 ##### `Step 10.`\|`ITL`| :large_blue_diamond:
 
-You will now go to the **Materials** folder and I have provided some materials for these exercises. The **Supplied** folder has materials used for the room. The remaining ones will be used in blueprints you will be creating.
+You will now go to the **Materials | Supplied** folder and I have provided some materials for these exercises. T
 
-![contents of materials and supplied folder](images/MaterialsForBlueprints.png)
+![contents of materials and supplied folder](images/materials.png)
 
-In the **StaticMeshes** folder we have some models we will be using:
+![](../images/line2.png)
 
-![contents of staticmeshes folder](images/StaticMeshes.png)
+##### `Step 11.`\|`ITL`| :large_blue_diamond: :small_blue_diamond: 
+
+In the **StaticMeshes | Supplied** folder we have some models we will be using for the exercise including the environment we are in.
+
+![contents of staticmeshes folder](images/meshes.png)
+
+![](../images/line2.png)
+
+
+##### `Step 12.`\|`ITL`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 And finally we have a **Textures** folder with the textures for the spotlight we will be using:
 
@@ -113,18 +122,9 @@ Go into **Settings | Project Settings | Description** tab and fill in the requis
 
 ![project settings description](images/ProjectSettingsDescription.png)
 
-![](../images/line2.png)
-
-##### `Step 11.`\|`ITL`| :large_blue_diamond: :small_blue_diamond: 
-
 Go into the **Maps and Modes** tab. Notice the start up maps that we are booting to and meant to start with.
 
 ![default levels to load in maps and modes](images/MapsAndModes.png)
-
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`ITL`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Now select your default game mode: **BP_Gamemode**. This will select our character controller that we will be using:
 
