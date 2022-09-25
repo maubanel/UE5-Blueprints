@@ -33,15 +33,15 @@ Rename the file to `BP_TextInBeginPlay`.
 
 Drag the new **BP_TextOnBeginPlay** blueprint into the room, next to the other text blueprint.
 
-![drag BP_TextOnBeginPlay in room](images/DragBPInRoom1.jpg)
+![drag BP_TextOnBeginPlay in room](images/DragBPInRoom1.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Drag and drop the blueprint instances from the level into the **Room 1** folder in the **World Outliner**.
+Drag and drop the blueprint instances from the **Outliner** into the **Room 1** folder.
 
-![put both blueprints in Room folder in world outliner](images/WorldOutlinerCleanupRm1.jpg)
+![put both blueprints in Room folder in world outliner](images/WorldOutlinerCleanupRm1.png)
 
 ![](../images/line2.png)
 
