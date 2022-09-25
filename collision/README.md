@@ -56,7 +56,7 @@ Now press **Add Component** again and this time we want a collision box. We can 
 
 Rename the text component to `TextInRoom2`. Drag and drop this on top of the **DefaultSceneRoot** component. This will make the text box the root (parent) component. Make the **Text Render Color** more visible on a white background and change the **World Size** to `74`.
 
-![rename component and make world size 74 and recolor](images/RenameMakeParentRoot.jpg)
+![rename component and make world size 74 and recolor](images/RenameMakeParentRoot.png)
 
 ![](../images/line2.png)
 
