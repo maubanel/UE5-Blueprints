@@ -140,7 +140,6 @@ Right click on a blank section of the scene graph. Type in and select **EventAct
 
 ![add eventactorendoverlap node](images/ActorEndOverlapRm2.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
@@ -155,6 +154,8 @@ Connect the execution pins from the **End Overlap** to the **Set Text**. Also ch
 
 Run the game and move inside and outside the collision volume and look at your blueprints being triggered when entering and leaving the box.
 
+  https://user-images.githubusercontent.com/5504953/192166564-7a6886dc-d010-4851-9ef4-d53976d42ee1.mp4
+  
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
