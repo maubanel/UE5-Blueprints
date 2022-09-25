@@ -119,9 +119,9 @@ https://user-images.githubusercontent.com/5504953/192163148-c63ee5f2-422c-44d4-8
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Lets connect Unreal with our GitHub repository. Click on **Source Control | Connect to Source Control...** and select the provider **Git (beta version)**. Click on the <kbd>Accept Settings</kbd> button.
+Lets connect Unreal with our Perforce repository. Click on **Source Control | Connect to Source Control...** and select the provider **Git (beta version)**. Click on the <kbd>Accept Settings</kbd> button.
 
-![connect to source control with git](images/image_05.jpg)
+![connect to source control with git](images/connectToSource.png)
 
 ![](../images/line2.png)
 
