@@ -154,7 +154,7 @@ Connect the execution pins from the **End Overlap** to the **Set Text**. Also ch
 
 Run the game and move inside and outside the collision volume and look at your blueprints being triggered when entering and leaving the box.
 
-  https://user-images.githubusercontent.com/5504953/192166564-7a6886dc-d010-4851-9ef4-d53976d42ee1.mp4
+https://user-images.githubusercontent.com/5504953/192166564-7a6886dc-d010-4851-9ef4-d53976d42ee1.mp4
   
 ![](../images/line2.png)
 
@@ -162,7 +162,7 @@ Run the game and move inside and outside the collision volume and look at your b
 
 Lets look at the player blueprint quickly. Go to the **Blueprints** folder and double click **BP_PlayerCharacter**. Look at the components. It root component is a Capsule Collision component. This acts the same as the box component but is the shape of a capsule (a pill on its end). This is roughly the shape of a bipedal upright human. It also has a FirstPersonCamera where the head would be. Notice the collision volume goes above the player's virtual head. This is a first person controller so the Mesh is empty. It is just a collision volume with a camera that moves around. When this capsule overlaps the box collider in the blueprint it triggers the overlap events.
 
-![root component of player](images/PlayerBPRm2.jpg)
+![root component of player](images/PlayerBPRm2.png)
 
 ![](../images/line2.png)
 
@@ -174,15 +174,10 @@ Lets look at the player blueprint quickly. Go to the **Blueprints** folder and d
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
+Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
+![save all and submit to perforce in P4V](images/submitP4.png)
 
-![](../images/line2.png)
-
-##### `Step 22.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-That's it for **Room 2**. *Press* **Save All** then go into **Source Control | Submit to Source Control...**, add a message that you have completed room 2 and press the <kbd>Submit</kbd> button. Now go to **GitHub Desktop** and **Push** changes to server. 
-
-![save all, commit and push to github](images/Room2Github.jpg)
 
 ![](../images/line.png)
 
