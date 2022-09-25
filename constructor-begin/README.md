@@ -173,17 +173,12 @@ Go to the game screen and it is not updated, it still has the old spelling.
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the blueprint and press <kbd>Compile</kbd>. You will see that if it compiles without errors you see a green checkmark.
+Go back to the blueprint and press <kbd>Compile</kbd>. You will see that if it compiles without errors you see a green checkmark. Now play the game and notice that the exclamation mark is now added. You did not have to press run to see it update.  The editor updated it because that blueprint changed when it compiled which ran the **Constructor** script.
 
-![press compile in blueprint](images/CompileAgainRm1.jpg)
+https://user-images.githubusercontent.com/5504953/192142985-47051a9e-cbc9-4022-8f8e-930ffe30220f.mp4
 
 ![](../images/line2.png)
 
-##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
-
-Go to the game and you can see that when the compile completed it ran the constructor.  You did not have to press run to see it update.  The editor updated it because that blueprint changed when it compiled which ran the **Constructor** script.
-
-![text updated in editor](images/ConstructorRan.jpg)
 
 ![](../images/line.png)
 
