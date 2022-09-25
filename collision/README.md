@@ -24,7 +24,7 @@ Create a new folder called `Room2` and put it in the **Blueprints** folder. Move
 
 We will be using this blueprint in a level so we will make it the base class of **Actor**.
 
-![select actor class](images/InheritFromActorBlueprint.jpg)
+![select actor class](images/InheritFromActorBlueprint.png)
 
 ![](../images/line2.png)
 
@@ -32,7 +32,7 @@ We will be using this blueprint in a level so we will make it the base class of 
 
 Call it `BP_TextOnCollision`. *Drag* it into the room. In the **World Outliner** *drag* this newly created game object into the **Room 2** folder.
 
-![drag BP_Text_OnCollision into room 2](images/NameAndPlaceBPRm2.jpg)
+![drag BP_Text_OnCollision into room 2](images/NameAndPlaceBPRm2.png)
 
 ![](../images/line2.png)
 
