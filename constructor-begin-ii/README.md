@@ -49,7 +49,7 @@ Drag and drop the blueprint instances from the **Outliner** into the **Room 1** 
 
 *Open* **BP_TextInBeginPlay**, enter the **Construction Script** tab and *copy* and *delete* all the nodes to the right of the **Construction Script** node.
 
-![copy and delete construction script nodes](images/CopyAndDeleteConstructionNodes.jpg)
+![copy and delete construction script nodes](images/CopyAndDeleteConstructionNodes.png)
 
 ![](../images/line2.png)
 
