@@ -35,9 +35,9 @@ Change the name of the folder to `UE5 Intro To Blueprints`. Open the folder and 
 
 ##### `Step 3.`\|`ITL`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now copy and paste the entire ****
+Now copy and paste the entire **UE5-Intro-To-Blueprints** bolder to your root of your **Perforce** directory.
 
-![foler structure of blueprints project](images/workspaceFolder.png)
+![drag UE5-Intro-To-Blueprints to p4 workspace](images/workspaceFolder.png)
 
 ![](../images/line2.png)
 
