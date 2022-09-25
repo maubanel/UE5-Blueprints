@@ -153,13 +153,13 @@ Connect the execution pins from the **End Overlap** to the **Set Text**. Also ch
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+Run the game and move inside and outside the collision volume and look at your blueprints being triggered when entering and leaving the box.
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Run the game and move inside and outside the collision volume and look at your blueprints being triggered.
+
 
 ![alt_text](images/CollisionText.gif)
 
