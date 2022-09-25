@@ -98,9 +98,9 @@ https://user-images.githubusercontent.com/5504953/192156895-d0db3923-c6f4-4c94-b
 
 So **Begin Play** only runs when we run the game and it runs **ONCE**. Now we saw that the **Construction Script** ran when we compiled the blueprint. It also changes when that object changes in the level even before the game is run. Lets do one final demonstration of this.
 
-Go back and open **BP_TextInConstructor** and add a **Random Integer in Range** node. Change the two values that the game will randomly generate to`20` and `50`. Add to the **Value** box `I am the <br>BeginPlay Script node!`. 
+Go back and open **BP_TextInConstructor** and add a **Random Integer in Range** node. Change the two values that the game will randomly generate to`20` and `50`. Change the **Make Litereal Text | Value** box `I am the <br>BeginPlay Script node! `. 
 
-Add a **String | Append** node and connect **Make Literal String** into the **A** of the **Append** node and the **Random Integer In Range | Return Value** to the **B** side of the **Append** node. This adds an integer to string conversion node for you. This will concatonate the two strings together joining the message and the random number. 
+Add a **String | Append** node and connect **Make Literal Text** into the **A** of the **Append** node and the **Random Integer In Range | Return Value** to the **B** side of the **Append** node. This adds an integer to string conversion node for you. Make sure the is a space after the `!` in the This will concatonate the two strings together joining the message and the random number. 
 
 Send the output of the **Append** node to the **Value** input pin in **Set Text** (it will add a **ToText(string)** conversion node for you).
 
