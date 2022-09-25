@@ -111,34 +111,51 @@ In the **StaticMeshes | Supplied** folder we have some models we will be using f
 
 ![](../images/line2.png)
 
-
 ##### `Step 12.`\|`ITL`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 And finally we have a **Textures** folder with the textures for the spotlight we will be using:
 
-![content of textures folder](images/TexturesForBPs.png)
-
-Go into **Settings | Project Settings | Description** tab and fill in the requisite information:
-
-![project settings description](images/ProjectSettingsDescription.png)
-
-Go into the **Maps and Modes** tab. Notice the start up maps that we are booting to and meant to start with.
-
-![default levels to load in maps and modes](images/MapsAndModes.png)
-
-Now select your default game mode: **BP_Gamemode**. This will select our character controller that we will be using:
-
-![select BP_Gamemode](images/SelectDefaultGamemode.png)
+![content of textures folder](images/textures.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITL`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Go into **Settings | Project Settings | Description** tab and fill in the requisite information, especially the license file.  I use the [MIT License](https://www.google.com/search?client=safari&rls=en&q=mit+open+source+licnese+text&ie=UTF-8&oe=UTF-8).
+
+![project settings description](images/projectDescription.png)
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Go into the **Maps and Modes** tab. Notice the start up maps that we are booting to and meant to start with.
+
+![default levels to load in maps and modes](images/mapsAndModes.png)
+
+![](../images/line2.png)
+
+##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
 Go back to the **Blueprints** folder and press the <kbd>Add/Import</kbd> button and select **New Folder**. Call it `Room1`.
 
 ![add Room1 folder to Blueprints](images/NewFolderInBlueprints.png)
 
 ![](../images/line2.png)
+
+##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
+
+
+
+
 
 ![](../images/line.png)
 
