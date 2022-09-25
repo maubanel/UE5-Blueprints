@@ -103,11 +103,9 @@ https://user-images.githubusercontent.com/5504953/192165730-18fe4d05-aad9-480e-a
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Since we added a **Collision** component the event graph we can right click on the open graph and choose a **Begin Overlap** event. This will trigger only one time when two objects overlap. In our case it will be the player's collision volume with this blueprint. It will only trigger a second time if the object leaves the collision volume then re-enters. Connect the execution pin from the **EventActorBeginOverlap** greyed out node to the **Set Text** node you just created.
+We want to trigger this change when you enter and leave the collision volume.  Delete the **Event Begin Play** node. Since we added a **Collision** component the event graph we can right click on the open graph and choose a **Event Actor Begin Overlap**. This will trigger only one time when two objects overlap. In our case it will be the player's collision volume with this blueprint. It will only trigger a second time if the object leaves the collision volume then re-enters. Connect the execution pin from the **EventActorBeginOverlap** greyed out node to the **Set Text** node you just created.
 
 ![Connect set text execution pin to begin overlap](images/BeginOverlapPinConnectRm2.png)
-
-![add text to literal text](images/MakeLiteralTextInsideBoxRm2.jpg)
 
 ![](../images/line2.png)
 
