@@ -157,9 +157,9 @@ Go back to the blueprint and *change* the **Text Render Color** to contrast with
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets make a change and show when the constructor runs. Go back to the **blueprint** and change the text, I added an `!` at the end of the text. Notice that the compile button has a question mark on it. **Don't press compile**.
+Lets make a change and show when the constructor runs. Go back to the **blueprint** and change the text, I added an `! ` (exclamation mark and space) at the end of the text. Notice that the compile button has a question mark on it. **Don't press compile**.
 
-![change text in blueprint but don't compile](images/ChangeTextDontCompile.jpg)
+![change text in blueprint but don't compile](images/ChangeTextDontCompile.png)
 
 ![](../images/line2.png)
 
