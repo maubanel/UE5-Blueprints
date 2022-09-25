@@ -51,7 +51,9 @@ Double click on the newly created Blueprint.
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Now you are going to press the <kbd>Add Component</kbd> button (make sure you are in the Viewport tab). Look for **Text Render** (you can start tyuping it in the search bar). This node will render 2D text for us in the game engine.
+Now in actors we can add components to it that add common game functionality to an object.
+
+Now you are going to press the <kbd>+ Add</kbd> Component button (make sure you are in the Viewport tab). Look for **Text Render** (you can start typing it in the search bar). This node will render 2D text for us in the game engine.
 
 ![add text render component](images/TextRenderComponent.png)
 
