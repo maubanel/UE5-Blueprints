@@ -56,35 +56,43 @@ Open up **P4V** and select the folder **UE5-Intro-To-Blueprints**.  Press the <k
 ![add new files from blueprints project to depot](images/addToP4.png)
 
 
-
-
-Go to the content browser and look at the folders that are provided. Go to the first **Blueprints** folder. You should see two files, one is a GameMode blueprint and the other is a character controller blueprint.
-
-![character and gamemode blueprint](images/GameModeCharacterBlueprints.png)
-
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITL`| :small_orange_diamond: :small_blue_diamond:
 
-The project should load up in the Room/Level **IntroToBlueprints1** room. Scoot the camera over to **Room 1**. You will also most likely see a dark room that has not been lit. You need to hit the <kbd>Build</kbd> button and wait for the lighting to build for the level. After this it should look normal again.
+Press the <kbd>Submit</kbd> button and enter a message.  Then in the pop-up press the <kbd>Submit</kbd> button.
 
-![room1 in game](images/IntroToBlueprints1Room.png)
-
-Go to the **Maps** folder and you should see two levels:
-
-![maps folder showing two levels](images/ThreeRoomsMapFolder.png)
+![submit p4 changelist](images/submit.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITL`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-You will now go to the **Materials** folder and I have provided some materials for these exercises. The **Supplied** folder has materials used for the room. The remaining ones will be used in blueprints you will be creating.
+In **P4V** double click **UE5Blueprints**.
 
-![contents of materials and supplied folder](images/MaterialsForBlueprints.png)
+![in P4V double click UE5Blueprints](images/startGame.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITL`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+The project should load up in the Room/Level **IntroToBlueprints1** room. Scoot the camera over to **Room 1**. You will also most likely see a dark room that has not been lit. You need to hit the <kbd>Build</kbd> button and wait for the lighting to build for the level. After this it should look normal again.
+
+![room1 in game](images/IntroToBlueprints1Room.png)
+
+Go to the content browser and look at the folders that are provided. Go to the first **Blueprints** folder. You should see two files, one is a GameMode blueprint and the other is a character controller blueprint.
+
+![character and gamemode blueprint](images/GameModeCharacterBlueprints.png)
+
+
+Go to the **Maps** folder and you should see two levels:
+
+![maps folder showing two levels](images/ThreeRoomsMapFolder.png)
+
+You will now go to the **Materials** folder and I have provided some materials for these exercises. The **Supplied** folder has materials used for the room. The remaining ones will be used in blueprints you will be creating.
+
+![contents of materials and supplied folder](images/MaterialsForBlueprints.png)
 
 In the **StaticMeshes** folder we have some models we will be using:
 
