@@ -144,18 +144,9 @@ Go back to the **Blueprints** folder and press the <kbd>Add/Import</kbd> button 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> button.  Then press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
-
-
-
+![save all and submit to perforce in P4V](images/submitP4.png)
 
 ![](../images/line.png)
 
