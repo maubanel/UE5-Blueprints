@@ -102,7 +102,11 @@ Go to **BP_TextInConstructor** and *delete* the **Make Literal Text**. Replace i
 
 Add a **String | Append** node and connect **Make Literal String** into the **A** of the **Append** node and the **Random Integer In Range | Return Value** to the **B** side of the **Append** node. This adds an integer to string conversion node for you. This will concatonate the two strings together joining the message and the random number. 
 
-Send the output of the **Append** node to the **Value** input pin in **Set Text** (it will add a **ToText(string)** conversion node for you).![](../images/line2.png)
+Send the output of the **Append** node to the **Value** input pin in **Set Text** (it will add a **ToText(string)** conversion node for you).
+
+https://user-images.githubusercontent.com/5504953/192158241-10e4607b-7094-4097-aec5-86e3c5d35802.mp4
+
+(../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
