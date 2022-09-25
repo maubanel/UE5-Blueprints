@@ -43,6 +43,7 @@ Now copy and paste the entire **UE5-Intro-To-Blueprints** bolder to your root of
 
 ##### `Step 4.`\|`ITL`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Add a [.p4ignore](https://github.com/maubanel/p4v-unreal/blob/main/files/ue5/.p4ignore) file by  clicking on the link and right clicking on **Raw** and select download as and call it `.p4ignore`. Put it in the same folder as your `.uproject` file.
 
 ![add .p4ignore to workspace](images/addP4Ignore.png)
 
