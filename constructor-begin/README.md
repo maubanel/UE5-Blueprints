@@ -45,7 +45,7 @@ Call it `BP_TextInConstructor`.
 
 Double click on the newly created Blueprint.
 
-![double click blueprint](images/DoubleClick.jpg)
+![double click blueprint](images/DoubleClick.png)
 
 ![](../images/line2.png)
 
