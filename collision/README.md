@@ -80,7 +80,7 @@ Now go into the game and reposition so the collision box is above the floor and 
 
 Go back to the **blueprint**. Make sure you are in the **Event Graph** tab. *Drag and drop* the **TextInRoom2** component into the scene graph. Left click the blue pin from this node and let go. This will now make sure that the context sensitive search will be items that are compatible with this reference. Start typing in **Text Render | Set Text** to get the **Set Text** node.
 
-![drag text reference and add set text node](images/DragTextRefAndPinRm2.jpg)
+![drag text reference and add set text node](images/DragTextRefAndPinRm2.png)
 
 ![](../images/line2.png)
 
