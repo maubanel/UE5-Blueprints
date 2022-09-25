@@ -84,14 +84,18 @@ The project should load up in the Room/Level **IntroToBlueprints1** room. Scoot 
 
 ##### `Step 9.`\|`ITL`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the content browser and look at the folders that are provided. Go to the first **Blueprints** folder. You should see two files, one is a GameMode blueprint and the other is a character controller blueprint.
+Go to the content browser and look at the folders that are provided. Go to the first **Blueprints | Game** folder. You should see two files, one is a GameMode blueprint and the other is a character controller blueprint. The gamemode is used by **Project Settings** to load up the character in both levels in the game.
 
-![character and gamemode blueprint](images/GameModeCharacterBlueprints.png)
+![character and gamemode blueprint](images/blueprintsFolder.png)
 
 
 Go to the **Maps** folder and you should see two levels:
 
-![maps folder showing two levels](images/ThreeRoomsMapFolder.png)
+![maps folder showing two levels](images/levels.png)
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`ITL`| :large_blue_diamond:
 
 You will now go to the **Materials** folder and I have provided some materials for these exercises. The **Supplied** folder has materials used for the room. The remaining ones will be used in blueprints you will be creating.
 
@@ -104,10 +108,6 @@ In the **StaticMeshes** folder we have some models we will be using:
 And finally we have a **Textures** folder with the textures for the spotlight we will be using:
 
 ![content of textures folder](images/TexturesForBPs.png)
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`ITL`| :large_blue_diamond:
 
 Go into **Settings | Project Settings | Description** tab and fill in the requisite information:
 
