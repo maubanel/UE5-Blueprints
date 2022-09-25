@@ -35,7 +35,7 @@ Change the name of the folder to `UE5 Intro To Blueprints`. Open the folder and 
 
 ##### `Step 3.`\|`ITL`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now copy and paste the entire **UE5-Intro-To-Blueprints** bolder to your root of your **Perforce** directory.
+Now copy and paste the entire **UE5-Intro-To-Blueprints** bolder to your root of your **Perforce** directory. Delete the folder in the **Downloads** folder.
 
 ![drag UE5-Intro-To-Blueprints to p4 workspace](images/workspaceFolder.png)
 
@@ -44,14 +44,16 @@ Now copy and paste the entire **UE5-Intro-To-Blueprints** bolder to your root of
 ##### `Step 4.`\|`ITL`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
+![add .p4ignore to workspace](images/addP4Ignore.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITL`| :small_orange_diamond:
 
-The project should load up in the Room/Level **IntroToBlueprints1** room. Scoot the camera over to **Room 1**. You will also most likely see a dark room that has not been lit. You need to hit the <kbd>Build</kbd> button and wait for the lighting to build for the level. After this it should look normal again.
+![add new files from blueprints project to depot](images/addToP4.png)
 
-![room1 in game](images/IntroToBlueprints1Room.png)
+
+
 
 Go to the content browser and look at the folders that are provided. Go to the first **Blueprints** folder. You should see two files, one is a GameMode blueprint and the other is a character controller blueprint.
 
@@ -60,6 +62,10 @@ Go to the content browser and look at the folders that are provided. Go to the f
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITL`| :small_orange_diamond: :small_blue_diamond:
+
+The project should load up in the Room/Level **IntroToBlueprints1** room. Scoot the camera over to **Room 1**. You will also most likely see a dark room that has not been lit. You need to hit the <kbd>Build</kbd> button and wait for the lighting to build for the level. After this it should look normal again.
+
+![room1 in game](images/IntroToBlueprints1Room.png)
 
 Go to the **Maps** folder and you should see two levels:
 
