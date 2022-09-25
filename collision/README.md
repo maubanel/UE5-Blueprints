@@ -86,7 +86,7 @@ Go back to the **blueprint**. Make sure you are in the **Event Graph** tab. *Dra
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Left click and drag off the **Value** node from **Set Text**. Let go and start typing **Make Literal Text**. Select the **Make Literal Text** node and add the text: `You are inside the box!` to this node. Make sure the Return Value pin is connected to the Value pin on the **Set Text** node.
+Left click and drag off the **Value** node from **Set Text**. Let go and start typing **Make Literal Text**. Select the **Make Literal Text** node and add the text: `You are inside the box!` to this node. Make sure the **Return Value** pin is connected to the **Value** pin on the **Set Text** node.
 
 ![add make literal text](images/DragOffValueNodeRm2.png)
 
