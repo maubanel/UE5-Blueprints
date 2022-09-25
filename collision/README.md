@@ -111,21 +111,23 @@ We want to trigger this change when you enter and leave the collision volume.  D
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Go back to the blueprintand select the **Box** component and make sure the **Hidden In Game** box is `deselected`. Normally in a game we would hide our collision volumes, but for debug purposes lets set it so that we can see it for testing our work.
+
+![unhide collision volume](images/turnOffHidden.png)
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
 Run the game and move towards where the box is (we can't see it). You should see the text appear. It doesn't dissapear when you leave the box. Lets make some changes and improve this.
 
 https://user-images.githubusercontent.com/5504953/192166015-35f5768d-96de-44b1-9c8a-031744ac7ef3.mp4
 
 ![](../images/line2.png)
 
-##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-Go back to the blueprint and move the box component so the text is at the bottom left rear of the collision volume (behind if you like). Select the **Box** component and make sure the **Hidden In Game** box is `deselected`. Normally in a game we would hide our collision volumes, but for debug purposes lets set it so that we can see it for testing our work.
-
-![unhide collision volume](images/ThreeChangesRm2.jpg)
-
-![](../images/line2.png)
-
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
+
+
 
 Run the game and step into the box. The text is more obvious and better positioned. Make any necessary adjustments here. Now lets change the message when the player leaves the box.
 
