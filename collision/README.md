@@ -129,7 +129,7 @@ https://user-images.githubusercontent.com/5504953/192166015-35f5768d-96de-44b1-9
 
 *Copy and paste* the three nodes in the blueprint at the bottom.
 
-![copy and paste three nodes in BP_TextOnCollision](images/CopyPasteThreeNodesRm2.jpg)
+![copy and paste three nodes in BP_TextOnCollision](images/CopyPasteThreeNodesRm2.png)
 
 
 ![](../images/line2.png)
