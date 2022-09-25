@@ -119,7 +119,7 @@ https://user-images.githubusercontent.com/5504953/192163148-c63ee5f2-422c-44d4-8
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Lets connect Unreal with our Perforce repository. Click on **Source Control | Connect to Source Control...** and select the provider **Git (beta version)**. Click on the <kbd>Accept Settings</kbd> button.
+Lets connect Unreal with our Perforce repository. Click on **Source Control | Change Source Control Settings...** and select the provider **Perforce**. Click on the <kbd>Accept Settings</kbd> button.
 
 ![connect to source control with git](images/connectToSource.png)
 
@@ -127,13 +127,11 @@ Lets connect Unreal with our Perforce repository. Click on **Source Control | Co
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Press **File | Save All** then go into **Source Control | Submit to Source Control**, add a message that you have completed room 1 and press the <kbd>Submit</kbd> button. Open up **GitHub Desktop** and **Push** changes to server. The first time you do this it will say **Publish Branch**.  Select this to finish off this section.
+Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
-![commit to source control in unreal](images/image_06.jpg)
 
-![push in github desktop](images/RmOneGithub.jpg)
+![commit to source control in unreal](images/p4Submit.png)
 
-![](../images/line2.png)
 
 ![](../images/line.png)
 
