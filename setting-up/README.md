@@ -37,7 +37,7 @@ Change the name of the folder to `UE5 Intro To Blueprints`. Open the folder and 
 
 This will give you access to a folder called **UE4IntroToBlueprints** that will hold the UE4 project. Enter the folder double click the **UE4** project `IntroToBlueprints.uproject` to load it. Make sure you have Unreal 14.26.x installed.
 
-![foler structure of blueprints project](images/InitialFolderStructure.png)
+![foler structure of blueprints project](images/workspaceFolder.png)
 
 ![](../images/line2.png)
 
@@ -45,7 +45,7 @@ This will give you access to a folder called **UE4IntroToBlueprints** that will 
 
 Now copy and paste the entire ****
 
-![foler structure of blueprints project](images/workspaceFolder.png)
+![foler structure of blueprints project](images/.png)
 
 ![](../images/line2.png)
 
