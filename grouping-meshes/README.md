@@ -14,7 +14,7 @@ Now **blueprints** are not just for logic. We can use them to create a more comp
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Go to **Room 3** and go to the **StaticMeshes** folder. Drag the **spotlight_bracket** into the room. Rotate it so it faces the front of the room.
+Go to **Room 3** and go to the **StaticMeshes** folder. Drag the **spotlight_bracket** into the room. Position it so it faces the front left of the room.
 
 ![drag spotlight in room 3](images/DragBracketRm3.png)
 
