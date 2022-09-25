@@ -36,7 +36,7 @@ All other classes inherit from the **Actor** class object.  [Inheritance](https:
 
 Call it `BP_TextInConstructor`.
 
-![call blueprint BP_TextInConstructor](images/BPTextOnConstructor.jpg)
+![call blueprint BP_TextInConstructor](images/BPTextOnConstructor.png)
 
 
 ![](../images/line2.png)
