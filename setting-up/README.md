@@ -51,7 +51,7 @@ Add a [.p4ignore](https://github.com/maubanel/p4v-unreal/blob/main/files/ue5/.p4
 
 ##### `Step 5.`\|`ITL`| :small_orange_diamond:
 
-Open up **P4V** and select the folder **UE5-Intro-To-Blueprints**.  Press the <kbd>+ Add</kbd> button.
+Open up **P4V** and select the folder **UE5-Intro-To-Blueprints**.  Press the <kbd>+ Add</kbd> button. Leave it on the **Default** changelist and press the <kbd>OK</kbd> button.
 
 ![add new files from blueprints project to depot](images/addToP4.png)
 
