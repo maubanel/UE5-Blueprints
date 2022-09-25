@@ -73,7 +73,7 @@ Adjust the position of the nodes to keep then neet. Attach the pin from **Event 
 
 Press the <kbd>Compile</kbd> button until you get the green check mark.
 
-![press compile](images/PressCompileRm1.jpg)
+![press compile](images/PressCompileRm1.png)
 
 ![](../images/line2.png)
 
