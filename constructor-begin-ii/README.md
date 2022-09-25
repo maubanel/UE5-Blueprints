@@ -65,7 +65,7 @@ Go into the **Event Graph** tab and click on an open space next to the **Event B
 
 Adjust the position of the nodes to keep then neet. Attach the pin from **Event Begin Play** to the **Set Text** node. Now the **Begin Play** will only fire once when you run the game. So anything you connect to this pin will only run when you press the play button. Change the message to reflect that this will run when the **Begin Play** event is triggered. I put `I am the <br>BeginPlay Script node!`.  Notice that **<br>** is a carriage return (new line) that is the same syntax used in **HTML**.
 
-![connect begin play](images/ConnectBeginPlayToSetTextExPins.jpg)
+![connect begin play](images/ConnectBeginPlayToSetTextExPins.png)
 
 ![](../images/line2.png)
 
