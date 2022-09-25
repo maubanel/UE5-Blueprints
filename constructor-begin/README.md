@@ -167,7 +167,7 @@ Lets make a change and show when the constructor runs. Go back to the **blueprin
 
 Go to the game screen and it is not updated, it still has the old spelling.
 
-![text not updated in game](images/GameScreenNotUpdatedRm1.jpg)
+![text not updated in game](images/GameScreenNotUpdatedRm1.png)
 
 ![](../images/line2.png)
 
