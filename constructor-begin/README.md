@@ -151,7 +151,7 @@ Press the <kbd>Compile</kbd> button then go back to the game. You wil notice tha
 
 Go back to the blueprint and *change* the **Text Render Color** to contrast with the background. 
 
-![change font color in component](images/PlayGameFirstFontRm1.jpg)
+![change font color in component](images/PlayGameFirstFontRm1.png)
 
 ![](../images/line2.png)
 
