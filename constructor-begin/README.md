@@ -73,7 +73,7 @@ Press the **Construction Script** tab to get access to the constructor. This scr
 
 Execution pins determines the order of operations.  In a normal text script it goes from line 1 then subsequently through each block in order from top to bottom.  In **Blueprints** it follows the execution pin. All blueprints contains nodes that just have an execution pin (in this case **Construction Script**).  This is where the execution starts.  It then follows the chain of white connectors to determine the order that each block is run in.  This could go in any direction in the blueprint (so a node can be anywhere, it is the execution pin connector that determines order).
 
-![construction scrip tab](images/ConstructionScriptTab.jpg)
+![construction scrip tab](images/ConstructionScriptTab.png)
 
 ![](../images/line2.png)
 
