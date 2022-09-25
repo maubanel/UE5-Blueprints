@@ -106,7 +106,7 @@ Send the output of the **Append** node to the **Value** input pin in **Set Text*
 
 https://user-images.githubusercontent.com/5504953/192158241-10e4607b-7094-4097-aec5-86e3c5d35802.mp4
 
-(../images/line2.png)
+![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
