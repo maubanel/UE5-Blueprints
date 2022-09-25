@@ -113,7 +113,7 @@ https://user-images.githubusercontent.com/5504953/192158241-10e4607b-7094-4097-a
 
 Now you can change the random number and run that node every time you compile the blueprint or change that blueprint object in the editor. It only runs in these two conditions and will not run during the game. If you hit play that text will always be the same for as long as the game is running.
 
-https://user-images.githubusercontent.com/5504953/132024649-72889840-7518-45a7-adb6-55a6aa6d1edf.mp4
+https://user-images.githubusercontent.com/5504953/192163093-291af2aa-7e12-44e8-ad35-33a9084ee170.mp4
 
 ![](../images/line2.png)
 
