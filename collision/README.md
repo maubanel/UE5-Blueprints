@@ -72,7 +72,7 @@ With the **Box** component selected go to the **Details** panel and change the *
 
 Now go into the game and reposition so the collision box is above the floor and centered in the room.
 
-![reposition collisoin box in room](images/RepositionCollisionBoxRm2.jpg)
+![reposition collisoin box in room](images/RepositionCollisionBoxRm2.png)
 
 ![](../images/line2.png)
 
