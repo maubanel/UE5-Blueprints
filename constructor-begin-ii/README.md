@@ -17,7 +17,7 @@ The Constructor runs in different scenarios.  The **Begin Play** event **ONLY** 
 
 Go to the **Blueprints | Room1** folder and right click on **BP_TextOnConstructor** and select **Duplicate**:
 
-![duplicate BP_TextOnConstructor](images/DuplicateBPRm1.jpg)
+![duplicate BP_TextOnConstructor](images/DuplicateBPRm1.png)
 
 ![](../images/line2.png)
 
@@ -25,7 +25,7 @@ Go to the **Blueprints | Room1** folder and right click on **BP_TextOnConstructo
 
 Rename the file to `BP_TextInBeginPlay`.
 
-![rename blueprint to BP_TextOnBeginPlay](images/RenameBeginPlayRm1.jpg)
+![rename blueprint to BP_TextOnBeginPlay](images/RenameBeginPlayRm1.png)
 
 ![](../images/line2.png)
 
