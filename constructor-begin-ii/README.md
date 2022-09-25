@@ -81,7 +81,7 @@ Press the <kbd>Compile</kbd> button until you get the green check mark.
 
 Go into the game and notice that it now says **Text**. This is the default value of that **Text** node that you could change in the blueprint if you wish.
 
-![look at blueprint in game](images/image_02.jpg)
+![look at blueprint in game](images/image_02.png)
 
 ![](../images/line2.png)
 
