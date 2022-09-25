@@ -87,13 +87,10 @@ Go into the game and notice that it now says **Text**. This is the default value
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Press the <kbd>Play</kbd> button and voila the text changes.
+Press the <kbd>Play</kbd> button and voila the text changes. When you stop the game, it goes back to its prior state of just having **Text** on the screen. So **Begin Play** only runs when you press play and all its changes reset when you stop the editor. The **Construction** script affects the editor when changes are made and the **Event Graph** only runs when the play button is pressed.  The begin play is the first thing that runs and it only runs **once**.
 
-![press play and see text change](images/image_03.jpg)
+https://user-images.githubusercontent.com/5504953/192156895-d0db3923-c6f4-4c94-bd30-4962ed210a39.mp4
 
-When you stop the game, it goes back to its prior state of just having **Text** on the screen.
-
-![stop game text disapears](images/BackToText.jpg)
 
 ![](../images/line2.png)
 
