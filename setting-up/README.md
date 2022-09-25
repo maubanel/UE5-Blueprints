@@ -27,9 +27,9 @@ Navigate on your broswer to [GitHub UE5 Bluprints Starter](https://github.com/LS
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Go to your new GitHub repository and press the <kbd>Code</kbd> button and select **Open with GitHub Desktop**. Then you can then select a folder and **Clone** the project to your hard drive.
+Change the name of the folder to
 
-![accept and clone blueprints project](images/image_01.png)
+![accept and clone blueprints project](images/changeNameDel.png)
 
 ![](../images/line2.png)
 
