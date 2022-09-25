@@ -27,9 +27,9 @@ Navigate on your broswer to [GitHub UE5 Bluprints Starter](https://github.com/LS
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Change the name of the folder to
+Change the name of the folder to `UE5 Intro To Blueprints`. Open the folder and delete `.gitattributes`, `.gitignore`, and `README.md`.
 
-![accept and clone blueprints project](images/changeNameDel.png)
+![change name and delete files](images/changeNameDel.png)
 
 ![](../images/line2.png)
 
