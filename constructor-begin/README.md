@@ -28,7 +28,7 @@ Pick an Actor as the base class. This is the most basic class that you can use f
 
 All other classes inherit from the **Actor** class object.  [Inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)) is an object oriented programming concept.
 
-![select actor class](images/ActorBaseClass.jpg)
+![select actor class](images/ActorBaseClass.png)
 
 ![](../images/line2.png)
 
