@@ -145,7 +145,7 @@ Right click on a blank section of the scene graph. Type in and select **EventAct
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Connect the execution pins from the **End Overlap** to the **Set Text**. Also change the **Value** to say `You are outside the box!`. Add back the **Envent Begin Play** and attach it to the second set of text as you do start outside the box. Press the <kbd>Compile<kbd> button.
+Connect the execution pins from the **End Overlap** to the **Set Text**. Also change the **Value** to say `You are outside the box!`. Add back the **Envent Begin Play** and attach it to the second set of text as you do start outside the box. Clean up the node chart and select both groups of nodes and press the <kbd>C</kbd> button to add comment boxes. Press the <kbd>Compile<kbd> button.
 
 ![change value to you rae inside the box and connect execution pins](images/ConnectPinsChangeMessageRm2.png)
 
