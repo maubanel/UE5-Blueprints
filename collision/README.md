@@ -136,23 +136,24 @@ https://user-images.githubusercontent.com/5504953/192166015-35f5768d-96de-44b1-9
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Right click on a blank section of the scene graph. Type in and select **EventActorEndOverlap** node. This will only run once when a collision volume exits this blueprint collision volume. In this case it will be the players collision.
+
+![add eventactorendoverlap node](images/ActorEndOverlapRm2.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on a blank section of the scene graph. Type in and select **EventActorEndOverlap** node. This will only run once when a collision volume exits this blueprint collision volume. In this case it will be the players collision.
+Connect the execution pins from the **End Overlap** to the **Set Text**. Also change the **Value** to say `You are outside the box!`. Add back the **Envent Begin Play** and attach it to the second set of text as you do start outside the box. Press the <kbd>Compile<kbd> button.
 
-![add eventactorendoverlap node](images/ActorEndOverlapRm2.jpg)
+![change value to you rae inside the box and connect execution pins](images/ConnectPinsChangeMessageRm2.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Connect the execution pins from the **End Overlap** to the **Set Text**. Also change the **Value** to say `You are outside the box!`. Press the <kbd>Compile<kbd> button.
 
-![change value to you rae inside the box and connect execution pins](images/ConnectPinsChangeMessageRm2.jpg)
 
 ![](../images/line2.png)
 
