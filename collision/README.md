@@ -96,15 +96,14 @@ Left click and drag off the **Value** node from **Set Text**. Let go and start t
 
 
 
-Since we added a **Collision** component the event graph shows a **Begin Overlap** event. This will trigger only one time when two objects overlap. In our case it will be the player's collision volume with this blueprint. It will only trigger a second time if the object leaves the collision volume then re-enters. Connect the execution pin from the **EventActorBeginOverlap** greyed out node to the **Set Text** node you just created.
-
-![Connect set text execution pin to begin overlap](images/BeginOverlapPinConnectRm2.jpg)
-
 ![](../images/line2.png)
 
 
-
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+Since we added a **Collision** component the event graph shows a **Begin Overlap** event. This will trigger only one time when two objects overlap. In our case it will be the player's collision volume with this blueprint. It will only trigger a second time if the object leaves the collision volume then re-enters. Connect the execution pin from the **EventActorBeginOverlap** greyed out node to the **Set Text** node you just created.
+
+![Connect set text execution pin to begin overlap](images/BeginOverlapPinConnectRm2.jpg)
 
 ![add text to literal text](images/MakeLiteralTextInsideBoxRm2.jpg)
 
