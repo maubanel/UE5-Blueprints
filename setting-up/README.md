@@ -139,7 +139,7 @@ Go into the **Maps and Modes** tab. Notice the start up maps that we are booting
 
 Go back to the **Blueprints** folder and press the <kbd>Add/Import</kbd> button and select **New Folder**. Call it `Room1`.
 
-![add Room1 folder to Blueprints](images/NewFolderInBlueprints.png)
+![add Room1 folder to Blueprints](images/bpRoom1.png)
 
 ![](../images/line2.png)
 
