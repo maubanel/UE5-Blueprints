@@ -78,7 +78,7 @@ Now go into the game and reposition so the collision box is above the floor and 
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the **blueprint**. Make sure you are in the **Event Graph** tab. *Drag and drop* the **TextInRoom2** component into the scene graph. Left click the blue pin from this node and let go. This will now make sure that the context sensitive search will be items that are compatible with this reference. Start typing in **Text Render | Set Text** to get the **Set Text** node.
+Go back to the **blueprint**. Make sure you are in the **Event Graph** tab. *Drag and drop* the **TextInRoom2** component into the scene graph. Left click the blue pin from this node and let go. This will now make sure that the context sensitive search will be items that are compatible with this reference. Start typing in **Text Render | Set Text** to get the **Set Text** node. COnnect the **Event Begin Play** execution pin to **Set Text**.
 
 ![drag text reference and add set text node](images/DragTextRefAndPinRm2.png)
 
@@ -86,21 +86,23 @@ Go back to the **blueprint**. Make sure you are in the **Event Graph** tab. *Dra
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
+Left click and drag off the **Value** node from **Set Text**. Let go and start typing **Make Literal Text**. Select the **Make Literal Text** node and add the text: `You are inside the box!` to this node. Make sure the Return Value pin is connected to the Value pin on the **Set Text** node.
+
+![add make literal text](images/DragOffValueNodeRm2.png)
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
+
+
+
 Since we added a **Collision** component the event graph shows a **Begin Overlap** event. This will trigger only one time when two objects overlap. In our case it will be the player's collision volume with this blueprint. It will only trigger a second time if the object leaves the collision volume then re-enters. Connect the execution pin from the **EventActorBeginOverlap** greyed out node to the **Set Text** node you just created.
 
 ![Connect set text execution pin to begin overlap](images/BeginOverlapPinConnectRm2.jpg)
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Left click and drag off the **Value** node from **Set Text**. Let go and start typing **Make Literal Text**:
-
-![add make literal text](images/DragOffValueNodeRm2.jpg)
-
-![](../images/line2.png)
-
-Select the **Make Literal Text** node and add the text: `You are inside the box!` to this node. Make sure the Return Value pin is connected to the Value pin on the **Set Text** node.
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
