@@ -25,17 +25,15 @@ https://user-images.githubusercontent.com/5504953/192381780-30645c21-4a4b-4406-9
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
+In the **World Outliner** drag and drop the variable into **Room 5**.
 
-
-![drag blueprint to room](images/DragCopyOfObjectInLeftSideOfRoom.jpg)
+![organize world outliner](images/DragAndDropIntoRm5.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-In the **World Outliner** drag and drop the variable into **Room 5**.
 
-![organize world outliner](images/DragAndDropIntoRm5.jpg)
 
 ![](../images/line2.png)
 
