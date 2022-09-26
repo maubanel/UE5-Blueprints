@@ -49,15 +49,15 @@ https://user-images.githubusercontent.com/5504953/192383464-737a5665-3780-459d-b
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
+Right now I don't plan on allowing other blueprints to alter this variable. So if even if I don't know if it will be editable it is best practice to set variables as **Private** which you do by clicking the radio button in the **Details** panel.
 
+![make variable private](images/MakeVariablePrivate.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Right now I don't plan on allowing other blueprints to alter this variable. So if even if I don't know if it will be editable it is best practice to set variables as **Private** which you do by clicking the radio button in the **Details** panel.
 
-![make variable private](images/MakeVariablePrivate.jpg)
 
 ![](../images/line2.png)
 
