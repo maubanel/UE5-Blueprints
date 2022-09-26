@@ -91,13 +91,17 @@ Now go back to the game engine and put a duplicate the blueprint putting the lig
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
+Now you can selet this second light and set it to a different color.  Since you set this variable to **Instance Editable** now each light in the scene can have a different color.  I set the second light to a green color.
 
+![change color of light](images/changeColorOfLight.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-\
+Repeat this and create 5 lights with different colors.
+
+![change color of light](images/repeatLights.png)
 
 ![](../images/line2.png)
 
