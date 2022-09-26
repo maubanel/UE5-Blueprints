@@ -24,7 +24,7 @@ https://user-images.githubusercontent.com/5504953/192262596-dda6161e-3853-4a67-a
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Open up **BP_SpotlightDynamic**. Now we want to affect the color of the glow in the lamp **Material**. *Click* on the **Lamp** component and look for the material. *Double click* the icon to load it up. Make sure you are opening **M_Spotlight_Master**.
+Open up **BP_SpotlightDynamic**. Now we want to affect the color of the glow in the lamp **Material**. *Click* on the **Lamp** static mesh component and rename the component to `Lamp`. Look for the material and *double click* the icon to load it up. Make sure you are opening **M_Spotlight_Master**.
 
 ![open m_spotlight_master](images/FindOutLampMaterial.png)
 
