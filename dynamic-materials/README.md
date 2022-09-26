@@ -147,17 +147,15 @@ Nothing will happen with this light until the *execution pins* are *connected*. 
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Make sure the compile is succesful by checking to see that there is a green checkmark by the compile button.
+Now go back to the game and hit run. You will see that both the bulb and the color of the light are set dynamically in the blueprint! But the lightbulb is still glowing white. Lets fix that.
 
-![compile button has checkmark](images/GreenCheckmarkCompile.jpg)
+![bulb in game glowing white](images/BlueLightAndGround.jpg)
+
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now go back to the game and hit run. You will see that both the bulb and the color of the light are set dynamically in the blueprint! But the lightbulb is still glowing white. Lets fix that.
-
-![bulb in game glowing white](images/BlueLightAndGround.jpg)
 
 ![](../images/line2.png)
 
