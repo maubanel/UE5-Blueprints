@@ -95,28 +95,33 @@ Now make sure that the parent child relationship is correct.  We want the **Spot
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
+Select the **Lamp** component and rotate the lamp so that it doesn't point straight down. Tune it to your liking. Select the **Spotlight** then set the light color to your preference. I picked green. Also set the **Intensity** to be a bit brighter.
+
+![rotate lamp to your liking](images/RotateLampToOffsetIt.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Check the lamp out in game. Make sure the light bulb mesh is not casting a shadow from the light. If it is *move* the **Spot Light** component further away from the light bulb and check in game to where it no longer is shadowed or occluded by the light bulb mesh.
+
+![check in game that light is correct](images/CheckInGameLightBehindBulb.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now lets duplicate the light three times and rotate it at different angles to fill the room with colored light.
 
-Select the **Lamp** component and rotate the lamp so that it doesn't point straight down. Tune it to your liking:
-
-![rotate lamp to your liking](images/RotateLampToOffsetIt.jpg)
+![dupclicate light 3 times](images/dupe3.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Select the **Spotlight** then set the light color to your preference. I picked green.
+
 
 ![change spotlight color](images/ChangeSpotlightColor.jpg)
 
@@ -124,9 +129,7 @@ Select the **Spotlight** then set the light color to your preference. I picked g
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Check the lamp out in game. Make sure the light bulb mesh is not casting a shadow from the light. If it is *move* the **Spot Light** component further away from the light bulb and check in game to where it no longer is shadowed or occluded by the light bulb mesh.
 
-![check in game that light is correct](images/CheckInGameLightBehindBulb.jpg)
 
 ![](../images/line2.png)
 
