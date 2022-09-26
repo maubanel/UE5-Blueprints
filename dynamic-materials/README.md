@@ -58,7 +58,7 @@ We need to make the material dynamic in the constructor. This will allow us to a
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Connect the execution pins.
+Connect the execution pins from the **Construction Script** node.
 
 ![connect execution pins](images/ConnectFirstExecutionPinsRm4.png)
 
@@ -76,7 +76,7 @@ Drag off the **Create Dynamic Material Instance | Return Value** pin to help the
 
 Go to the material and find out how the Parameter name is spelled with spaces and caps. You have to enter this exactly in the **Parameter Name** box `Light Color`. Make sure it is the same as it is in the material with a space between the two words.
 
-![parameter name light color](images/ParameterNameRm4.jpg)
+![parameter name light color](images/ParameterNameRm4.png)
 
 ![](../images/line2.png)
 
