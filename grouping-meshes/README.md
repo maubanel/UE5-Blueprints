@@ -54,15 +54,15 @@ Add a third static mesh component by pressing the <kbd>Add Component</kbd> butto
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Assign the **Lightbulb** static mesh.
+Assign the **Lightbulb** static mesh. Rotate lightbulb so that the bulb faces down and move it to the proper location.
 
-![assign lightbulb static mesh](images/AssignLightbulbRm3.jpg)
+![assign lightbulb static mesh](images/AssignLightbulbRm3.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Rotate lightbulb so that the bulb faces down and move it to the proper location.
+
 
 ![rotate lightbulb](images/image_07.jpg)
 
@@ -72,7 +72,7 @@ Rotate lightbulb so that the bulb faces down and move it to the proper location.
 
 Rename the **Actor** to `Spotlight`.
 
-![rename actor to spotlight](images/RenameActorToSpotlightRm3.jpg)
+![rename actor to spotlight](images/RenameActorToSpotlightRm3.png)
 
 ![](../images/line2.png)
 
@@ -80,13 +80,13 @@ Rename the **Actor** to `Spotlight`.
 
 Add another component but this time an actual Spotlight so it can project an in game spotlight. Pressing <kbd>Add Component</kbd> button then select **Spot Light**.
 
-![add spot light component](images/AddSpotLightComponent.jpg)
+![add spot light component](images/AddSpotLightComponent.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Now make sure that your **Spotlight** is selected in the **World Outliner**. Then press the <kbd>Blueprint/Add Script</kbd> button to turn this from a actor to a reusable blueprint. Add it to the **Blueprints** folder and call it `BP_Spotlight`. Make sure **New Subclass** is selected then press the <kbd>Select</kbd> button. Create a new folder called `Room3` and move the new blueprint into the folder.
+Create a new folder called **Room3** in the **Blueprints** folder. Now make sure that your **Spotlight** is selected in the **Outliner**. Then press the <kbd>Convert to Blueprint</kbd> button to turn this from a level instance to a reusable blueprint. Add it to the **Blueprints | Room3** folder and call it `BP_Spotlight`. Make sure **New Subclass** is selected then press the <kbd>Select</kbd> button. 
 
 ![turn mesh into blueprint](images/TurnSpotlightIntoBPRm3.jpg)
 
