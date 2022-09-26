@@ -43,6 +43,7 @@ https://user-images.githubusercontent.com/5504953/192383110-08e62a28-6c9a-4fa4-b
 
 Name the variable something that describes what it does. I called it `ColorOfLight`. I also put it in a **Category** called `Light` (this will not show up by default, you can just type it in and it will add it in the future in this blueprint as a category). It is always best practice to also leave a **Tooltip** in the details panel. This way anytime a user hovers over the variable name a full explanation can be given. This allows you to use shorter less descriptive variable names and still provide a full description. My tooltip was `Sets color of lightbulb and spotlight beam in game`.
 
+https://user-images.githubusercontent.com/5504953/192383464-737a5665-3780-459d-b01a-51cb0ce7e28d.mp4
 
 ![](../images/line2.png)
 
