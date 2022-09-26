@@ -27,7 +27,7 @@ https://user-images.githubusercontent.com/5504953/192381780-30645c21-4a4b-4406-9
 
 In the **World Outliner** drag and drop the variable into **Room 5**.
 
-![organize world outliner](images/DragAndDropIntoRm5.png])
+![organize world outliner](images/DragAndDropIntoRm5.png)
 
 ![](../images/line2.png)
 
