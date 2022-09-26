@@ -157,6 +157,7 @@ https://user-images.githubusercontent.com/5504953/192375375-83a8bfec-e30e-40cf-9
 
 Now go back to the game and hit run. You will see that both the bulb and the color of the light are set dynamically in the blueprint! But the lightbulb is still glowing white. Lets fix that.
 
+https://user-images.githubusercontent.com/5504953/192376016-505ac9c8-9798-4d5a-85b4-959d21dc0967.mp4
 
 ![](../images/line2.png)
 
