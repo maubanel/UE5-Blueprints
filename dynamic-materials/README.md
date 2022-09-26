@@ -133,7 +133,7 @@ Now drag off the Spotlight pin and type **lightcolor**. Out of the options **Set
 
 We will make the color of the light the same as the color of the bulb glow. Grab the output pin from the **Make Linear Color** node and connect it to the **New Light Color** input pin on the **Set Light Color** node.
 
-![connet linear color to set color](images/OutputSecondLinearColorRm4.])
+![connet linear color to set color](images/OutputSecondLinearColorRm4.png)
 
 ![](../images/line2.png)
 
