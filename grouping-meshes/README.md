@@ -137,27 +137,9 @@ https://user-images.githubusercontent.com/5504953/192174713-0b6c6328-d23a-42a8-a
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-I have a game object that I can instance as much as I want with the functionality I need!
+Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
-![drop multiple blueprints in room](images/DropBlueprintInMultipleLocations.jpg)
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now this is what it could look like in game.
-
-![final lights game](images/InGameFinalLook.jpg)
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-That's it for **Room 3**. Press **Save All** then go into **Source Control | Submit to Source Control...**, add a message that you have completed room 3 and press the <kbd>Submit</kbd> button. Now go to **GitHub Desktop** and **Push** changes to server. 
-
-![save, commit and push to github](images/GItHubRoom3.jpg)
-
-![](../images/line.png)
+![save all and submit to perforce in P4V](images/submitP4.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Dynamic Materials"> -->
 
