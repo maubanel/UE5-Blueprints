@@ -84,7 +84,7 @@ Go to the material and find out how the Parameter name is spelled with spaces an
 
 Hover over the **Value** pin in the **Set Vector Parameter Value** input node. Notice that it wants a **Linear Color Structure**. This gives us a *hint*.
 
-![tooltip](images/HoveOverValueRm4.jpg)
+![tooltip](images/HoveOverValueRm4.png)
 
 ![](../images/line2.png)
 
@@ -92,7 +92,7 @@ Hover over the **Value** pin in the **Set Vector Parameter Value** input node. N
 
 Drag off the left pin, let go and enter **Linear Color**. Select the **Make Linear Color** node.
 
-![add make linear color](images/MakeLinearColor.jpg)
+![add make linear color](images/MakeLinearColor.png)
 
 ![](../images/line2.png)
 
@@ -100,7 +100,7 @@ Drag off the left pin, let go and enter **Linear Color**. Select the **Make Line
 
 Make this node pure blue with a solid alpha. Press the <kbd>Compile</kbd> button.
 
-![make a blue node](images/PureBlueSolidAlphaRm4.jpg)
+![make a blue node](images/PureBlueSolidAlphaRm4.png)
 
 ![](../images/line2.png)
 
