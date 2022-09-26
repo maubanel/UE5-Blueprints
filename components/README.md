@@ -27,7 +27,7 @@ Go to the **Blueprints** folder and add a `Room6` folder. Press the <kbd>Add/Imp
 
 Since this is going into the level select the base **Actor** as the inherited blueprint class:
 
-![select actor base class](images/SelectActor.jpg)
+![select actor base class](images/SelectActor.png)
 
 ![](../images/line2.png)
 
