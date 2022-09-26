@@ -61,8 +61,7 @@ We also want to edit the color in the game screen so that each instance can have
 
 Now we no longer need the **Make Linear Color** node as we will be replacing it with a variable. Delete this node and drag and drop the **ColorOfLight** variable in its place. We are getting the value and not setting is so select **Get** with the pop up menu.  In the future I will just refer to this as **Get ColorOfLight**.
 
-![replace linear color with color of light](images/DeleteLinearColorDragVariableRm5.jpg)
-
+https://user-images.githubusercontent.com/5504953/192384929-6898b4f5-6f62-43d6-9ac0-285a65cdcce7.mp4
 
 ![](../images/line2.png)
 
