@@ -42,7 +42,7 @@ Look for the parameter that adjusts the light color. Just before the **Emissive*
 
 Go to the **blueprint** and into the **Construction Script** tab. *Drag* a reference to the **Lamp** component which contains that material we just looked at.
 
-![drag lamp reference](images/DragLampReference.jpg)
+![drag lamp reference](images/DragLampReference.png)
 
 ![](../images/line2.png)
 
@@ -60,7 +60,7 @@ We need to make the material dynamic in the constructor. This will allow us to a
 
 Connect the execution pins.
 
-![connect execution pins](images/ConnectFirstExecutionPinsRm4.jpg)
+![connect execution pins](images/ConnectFirstExecutionPinsRm4.png)
 
 ![](../images/line2.png)
 
@@ -68,7 +68,7 @@ Connect the execution pins.
 
 Drag off the **Create Dynamic Material Instance | Return Value** pin to help the node suggestions. Let go of the left mouse button and start to type **Set Vector Parameter Value**. You can see that this is in the **Material** section which gives us a good hint that this is what we want.
 
-![set vector parameter values](images/SetVectorParameterValueRm4.jpg)
+![set vector parameter values](images/SetVectorParameterValueRm4.png)
 
 ![](../images/line2.png)
 
