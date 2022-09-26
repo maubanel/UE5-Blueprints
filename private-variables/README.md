@@ -110,6 +110,8 @@ Repeat this and create 5 lights with different colors.
 
 Now make sure all the blueprints are in the **Room 5** folder.  Move the **Player Start** node to the front of room 5.  Press the <kbd>Play</kbd> button and make sure the ligths and the glow are all set to unique colors.
 
+https://user-images.githubusercontent.com/5504953/192387219-4c4e6e08-ae43-4395-942e-260296013159.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
