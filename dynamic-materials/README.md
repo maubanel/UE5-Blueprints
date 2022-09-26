@@ -163,11 +163,9 @@ https://user-images.githubusercontent.com/5504953/192376016-505ac9c8-9798-4d5a-8
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-If we select the **Lightbulb** static mesh we see it has two materials.  The glow shader
+If we select the **Lightbulb** static mesh we see it has two materials.  The glow shader is in **Material | Element 1** in **M_Glass**.  It is the vector **ColorGlow** that sets the color of the glow for the lightbulb.
 
 ![connect execution and compile](images/lightBulbEmissive.png)
-
-
 
 ![](../images/line2.png)
 
