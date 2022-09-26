@@ -149,6 +149,7 @@ Nothing will happen with this light until the *execution pins* are *connected*. 
 
 Duplicate the lights so that you have 5 lights in room 4.  Then move the **Blueprints** into the **Outliner | Room4** folder. Rotate the **Player Start** to face room 4.
 
+https://user-images.githubusercontent.com/5504953/192375375-83a8bfec-e30e-40cf-98d3-a314819ab036.mp4
 
 ![](../images/line2.png)
 
