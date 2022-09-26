@@ -75,45 +75,42 @@ Now where do we enter the value for this variable? We go to the default section 
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now run the game and notice that the color is set withing the blueprint through the variable.
+
+![run game look at color](images/VariableControlsColorOfLightRm5.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now go back to the game engine and put a copy of the light
 
+![change color of light](images/NewLightInSceneEditableRm5.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Now run the game and notice that the color is set withing the blueprint through the variable.
 
-![run game look at color](images/VariableControlsColorOfLightRm5.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-There is another useful feature with variables while still keeping them private. We can expose them so that they don't have to be edited within the blueprint. We can edit them within the room and allow each object to have a different color! To do this right click the **BP_Variable_Private** and select **Duplicate**. Name this new blueprint `BP_Variable_Editable`.
-
-![duplicate blueprint bp_variable_private](images/DuplicateVariablePrivateRm5.jpg)
+\
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Open the Blueprint. There are two places you can make the variable editable. In the **MyBlueprints | Color of Light** variable there is a closed or open eyball next to the variable name. If it is open then it is editable. Also in the **Details** panel is has a radio box called **Instance Editable**. The word instance here is important as you can have a separate instance for each object in the room!
 
-![set instance editable](images/InstanceEditableRm5.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now go back to the game engine and put a copy of **BP_Variable_Private** in the room. Select this actor in the **World Outliner**. Go to the **Details** panel and you will see an option to adjust the **Editable** variable we just created. I changed it to yellow and it changes right away in game as any change runs the construction script.
 
-![change color of light](images/NewLightInSceneEditableRm5.jpg)
 
 ![](../images/line2.png)
 
