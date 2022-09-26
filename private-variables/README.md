@@ -116,39 +116,10 @@ https://user-images.githubusercontent.com/5504953/192387219-4c4e6e08-ae43-4395-9
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
+![save all and submit to perforce in P4V](images/submitP4.png)
 
-![](../images/line2.png)
-
-##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-Clean up the **World Outliner** by dragging the object into the **Room 5** folder.
-
-![drag actor into room 5 folder](images/CleanUpRm5.jpg)
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
-
-Now add another light and double click this color in the details panel. Adjust the color. One of benefits of this instance editable variable is we don't have to recompile. We can see the color update as we change it allowing for more effetive tuning in game.
-
-![edit color of light](images/LiveEditColorOfLightRm5.jpg)
-
-![](../images/line2.png)
-
-##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-Put as many lights with different colors in this room as you like!
-
-![add lights to room](images/ThreeLightRm5.jpg)
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-That's it for **Room 5**. Press **File | Save All** then go into **Source Control | Submit to Source Control**, add a message that you have completed room 1 and press the <kbd>Submit</kbd> button. Open up **GitHub Desktop** and **Push** changes to server. Select this to finish off this section.
-
-![add, commit and push to github](images/Room5GitHub.jpg)
 
 ![](../images/line.png)
 
