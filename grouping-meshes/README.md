@@ -87,17 +87,14 @@ Create a new folder called **Room3** in the **Blueprints** folder. Now make sure
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Open the **BP_Spotlight** blueprint and select the **Spotlight**. You will see that its rotation may not match the light.
+Now make sure that the parent child relationship is correct.  We want the **SpotlightLamp** to be at the top with a child of **Lightbulb** and grand child of **Spot Light**. This way when you move or rotate the object everything moves with it.
 
-![rotate spotlight to match light](images/RotateLightRm3.jpg)
+![proper parent child hiearchy](images/ParentChild.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Make sure it is rotated in the same direction as the lamp.
-
-![match direction with rotation](images/RotateLight.jpg)
 
 ![](../images/line2.png)
 
@@ -110,9 +107,6 @@ Make sure it is rotated in the same direction as the lamp.
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now make sure that the parent child relationship is correct.  We want the **SpotlightLamp** to be at the top with a child of **Lightbulb** and grand child of **Spot Light**. This way when you move or rotate the object everything moves with it.
-
-![proper parent child hiearchy](images/ParentChild.jpg)
 
 Select the **Lamp** component and rotate the lamp so that it doesn't point straight down. Tune it to your liking:
 
