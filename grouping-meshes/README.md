@@ -129,7 +129,7 @@ Move all four **BP_Spotlight** actors into the **Room3** folder in the **Outline
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-
+https://user-images.githubusercontent.com/5504953/192174713-0b6c6328-d23a-42a8-abc6-7ec9a9bf24c2.mp4
 
 ![](../images/line2.png)
 
