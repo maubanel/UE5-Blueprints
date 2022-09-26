@@ -17,15 +17,15 @@ It is best to keep variables **private** if possible. This is called **[encapsul
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Right click **BP_Spotlight_Dynamic** and select **Duplicate**. Call the new blueprint `BP_Variable_Private`. *Add* a new folder called `Blueprints | Room5`. *Drag* this new blueprint into the folder.
+*Add* a new folder called `Blueprints | Room5`. *Drag* this new blueprint into the folder. Right click **BP_Spotlight_Dynamic** and select **Duplicate**. Call the new blueprint `BP_Variable_Private`. Drag a copy of the new blueprint into the left side of **Room 5**.
 
-![duplicate bp_spotlight_dynamic](images/DuplicateBPRm5.jpg)
+https://user-images.githubusercontent.com/5504953/192381780-30645c21-4a4b-4406-97a5-71daaec3c983.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Drag a copy of the new blueprint into the left side of **Room 5**.
+
 
 ![drag blueprint to room](images/DragCopyOfObjectInLeftSideOfRoom.jpg)
 
