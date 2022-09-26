@@ -26,7 +26,7 @@ https://user-images.githubusercontent.com/5504953/192262596-dda6161e-3853-4a67-a
 
 Open up **BP_SpotlightDynamic**. Now we want to affect the color of the glow in the lamp **Material**. *Click* on the **Lamp** component and look for the material. *Double click* the icon to load it up. Make sure you are opening **M_Spotlight_Master**.
 
-![open m_spotlight_master](images/FindOutLampMaterial.jpg)
+![open m_spotlight_master](images/FindOutLampMaterial.png)
 
 ![](../images/line2.png)
 
