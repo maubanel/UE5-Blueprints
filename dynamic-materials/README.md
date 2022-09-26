@@ -34,7 +34,7 @@ Open up **BP_SpotlightDynamic**. Now we want to affect the color of the glow in 
 
 Look for the parameter that adjusts the light color. Just before the **Emissive** color we have a **Vector Parameter** called **Light Color**. This is the color we want to change in code in the blueprint.
 
-![look for light color](images/LightColorParameterRm4.jpg)
+![look for light color](images/LightColorParameterRm4.png)
 
 ![](../images/line2.png)
 
