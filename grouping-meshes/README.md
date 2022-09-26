@@ -66,7 +66,6 @@ Rename the **Actor** to `Spotlight`.
 
 ![rename actor to spotlight](images/RenameActorToSpotlightRm3.png)
 
-![rotate lightbulb](images/image_07.png)
 
 ![](../images/line2.png)
 
