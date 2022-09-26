@@ -52,7 +52,7 @@ Now we need to reference just the material attached to the lamp component. To do
 
 We need to make the material dynamic in the constructor. This will allow us to access parameters within the material. Leave **Element Index** at `0`. If there were more than one material attached to the static mesh then you would select the one you want to access (it always starts counting from material 0). For **Source Material**, select **M_Spotlight_Master** which is the material we want to alter (we just looked at it).
 
-![create dynamic instance material](images/CreateDynamicInstance.jpg)
+![create dynamic instance material](images/CreateDynamicInstance.png)
 
 ![](../images/line2.png)
 
