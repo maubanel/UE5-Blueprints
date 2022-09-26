@@ -117,7 +117,7 @@ Go into the game and checkout the color of the light. The actual light is still 
 
 Now go back to the **blueprint** and *drag* a reference from the light called **Spotlight** to the main graph area.
 
-![drag spotlight reference](images/DragSpotLightReference.jpg)
+![drag spotlight reference](images/DragSpotLightReference.png)
 
 ![](../images/line2.png)
 
