@@ -48,7 +48,7 @@ Assign the **spotlight_lamp** mesh to this component
 
 Add a third static mesh component by pressing the <kbd>Add Component</kbd> button:
 
-![add component](images/Assign3rdStaticMeshComponent.jpg)
+![add component](images/Assign3rdStaticMeshComponent.png)
 
 ![](../images/line2.png)
 
@@ -62,21 +62,15 @@ Assign the **Lightbulb** static mesh. Rotate lightbulb so that the bulb faces do
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-
-![rotate lightbulb](images/image_07.jpg)
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Rename the **Actor** to `Spotlight`.
 
 ![rename actor to spotlight](images/RenameActorToSpotlightRm3.png)
 
+![rotate lightbulb](images/image_07.png)
+
 ![](../images/line2.png)
 
-##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Add another component but this time an actual Spotlight so it can project an in game spotlight. Pressing <kbd>Add Component</kbd> button then select **Spot Light**.
 
@@ -84,15 +78,15 @@ Add another component but this time an actual Spotlight so it can project an in 
 
 ![](../images/line2.png)
 
-##### `Step 10.`\|`ITB`| :large_blue_diamond:
+##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Create a new folder called **Room3** in the **Blueprints** folder. Now make sure that your **Spotlight** is selected in the **Outliner**. Then press the <kbd>Convert to Blueprint</kbd> button to turn this from a level instance to a reusable blueprint. Add it to the **Blueprints | Room3** folder and call it `BP_Spotlight`. Make sure **New Subclass** is selected then press the <kbd>Select</kbd> button. 
 
-![turn mesh into blueprint](images/TurnSpotlightIntoBPRm3.jpg)
+![turn mesh into blueprint](images/TurnSpotlightIntoBPRm3.png)
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
 Open the **BP_Spotlight** blueprint and select the **Spotlight**. You will see that its rotation may not match the light.
 
@@ -100,12 +94,18 @@ Open the **BP_Spotlight** blueprint and select the **Spotlight**. You will see t
 
 ![](../images/line2.png)
 
-
-##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
 Make sure it is rotated in the same direction as the lamp.
 
 ![match direction with rotation](images/RotateLight.jpg)
+
+![](../images/line2.png)
+
+
+##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+
 
 ![](../images/line2.png)
 
