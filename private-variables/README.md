@@ -83,9 +83,9 @@ Now run the game and notice that the color is set withing the blueprint through 
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now go back to the game engine and put a copy of the light
+Now go back to the game engine and put a duplicate the blueprint putting the light next to the original to the right.
 
-![change color of light](images/NewLightInSceneEditableRm5.jpg)
+![change color of light](images/dupeBP.png)
 
 ![](../images/line2.png)
 
