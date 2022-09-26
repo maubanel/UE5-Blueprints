@@ -113,7 +113,7 @@ Check the lamp out in game. Make sure the light bulb mesh is not casting a shado
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now lets duplicate the light three times and rotate it at different angles to fill the room with colored light.
+Now by having it as a blueprint I can just drop it in the room multiple times and rotate it in different direcions. Lets duplicate the light three times and rotate it at different angles to fill the room with colored light.
 
 ![dupclicate light 3 times](images/dupe3.png)
 
@@ -121,9 +121,9 @@ Now lets duplicate the light three times and rotate it at different angles to fi
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Move all four **BP_Spotlight** actors into the **Room3** folder in the **Outliner**.
 
-
-![change spotlight color](images/ChangeSpotlightColor.jpg)
+![move blueprints to room 3](images/moveToRoom3F.png)
 
 ![](../images/line2.png)
 
@@ -135,7 +135,7 @@ Now lets duplicate the light three times and rotate it at different angles to fi
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now by having it as a blueprint I can just drop it in the room multiple times and rotate it in different direcions. I have a game object that I can instance as much as I want with the functionality I need!
+I have a game object that I can instance as much as I want with the functionality I need!
 
 ![drop multiple blueprints in room](images/DropBlueprintInMultipleLocations.jpg)
 
