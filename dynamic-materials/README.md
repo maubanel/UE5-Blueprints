@@ -171,13 +171,16 @@ If we select the **Lightbulb** static mesh we see it has two materials.  The glo
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-Repeat creating a **Dynamic Material Instance** with **SM_Lightbulb**. Go look at the static mesh and notice that the **M_Glass** in **Element Index** `1`. Add another **Vector Parameter Value** to it. The parameter we want to change is called `ColorGlow`. Run in game and you can see that the light, casing glow and lightbulb glow are all the same color.
+Repeat creating a **Dynamic Material Instance** with **SM_Lightbulb**. Go look at the static mesh and notice that the **M_Glass** in **Element Index** `1`. Add another **Vector Parameter Value** to it. The parameter we want to change is called `ColorGlow`. Run in game and you can see that the light, casing glow and lightbulb glow are all the same color. Press the <kbd>Compile</kbd> button and run the game.  Now everything glows blue.
 
-https://user-images.githubusercontent.com/5504953/132038111-ba9730c2-cba5-4700-b76c-c8151d931e3d.mp4
+![](../images/line2.png)
 
-Press **File | Save All** then go into **Source Control | Submit to Source Control**, add a message that you have completed room 1 and press the <kbd>Submit</kbd> button. Open up **GitHub Desktop** and **Push** changes to server. The first time you do this it will say **Publish Branch**.  Select this to finish off this section.
+##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![save, commit and push to github](images/Room4Github.jpg)
+Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
+
+![save all and submit to perforce in P4V](images/submitP4.png)
+
 
 ![](../images/line.png)
 
