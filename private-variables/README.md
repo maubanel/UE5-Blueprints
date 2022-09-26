@@ -35,7 +35,7 @@ In the **World Outliner** drag and drop the variable into **Room 5**.
 
 We want to use a variable to store the light color. Open the blueprint and press the **+** button next to **Variables** in the **MyBlueprint** menu. In the details panel type `Linear Color`. Select this as the type of variable.
 
-
+https://user-images.githubusercontent.com/5504953/192383110-08e62a28-6c9a-4fa4-bbf2-2721a93e270c.mp4
 
 ![](../images/line2.png)
 
