@@ -141,7 +141,7 @@ We will make the color of the light the same as the color of the bulb glow. Grab
 
 Nothing will happen with this light until the *execution pins* are *connected*. Then press the <kbd>Compile</kbd> button so that the changes can run in engine.
 
-![connect execution and compile](images/SetExecutionPinThenCompileRm4.jpg)
+![connect execution and compile](images/SetExecutionPinThenCompileRm4.png)
 
 ![](../images/line2.png)
 
