@@ -109,7 +109,7 @@ Make this node pure blue with a solid alpha. Press the <kbd>Compile</kbd> button
 
 Go into the game and checkout the color of the light. The actual light is still green but the light bulb glow is now blue.
 
-![blue lightbulb glow in game](images/ColorOfLight.jpg)
+![blue lightbulb glow in game](images/ColorOfLight.png)
 
 ![](../images/line2.png)
 
