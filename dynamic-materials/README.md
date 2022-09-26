@@ -16,9 +16,9 @@ This is not as straight forward as changing a value to an existing material.  We
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Go to the **Blueprints** folder and duplicate **BP_Spotlight**. Call it `BP_SpotlightDynamic`. Create a new folder called `Room 4`. Drag **BP_Spotlight_Dynamic** into this folder. Put three of these blueprints in **Room 4** and rotate them to your liking:
+Create a new folder called `Room 4` in the **Blueprints** folder. Go to the **Blueprints | Room3** folder and duplicate **BP_Spotlight**. Call it `BP_SpotlightDynamic`. Drag **BP_Spotlight_Dynamic** into the **Room 4** folder. Now when files you should always right click on the root folder and select **put**. Put three of these blueprints in **Room 4** and rotate them to your liking:
 
-![add three BP_SpotlightDynamic actors to room](images/BpSpotDynamicRm4.jpg)
+https://user-images.githubusercontent.com/5504953/192262596-dda6161e-3853-4a67-ad32-c0277ab8f4b6.mp4
 
 ![](../images/line2.png)
 
