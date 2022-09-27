@@ -127,7 +127,7 @@ A branch node is the equivalent of an if() and else() statement in most programm
 
 *Drag off* of the **true** pin and we will add a light component.
 
-![pull true pin from branch](images/BranchGraphRm6.jpg)
+![pull true pin from branch](images/BranchGraphRm6.png)
 
 ![](../images/line2.png)
 
