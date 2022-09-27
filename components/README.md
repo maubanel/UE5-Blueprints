@@ -51,7 +51,7 @@ Open the new blueprint and press the **+ Add** component button. Select **Static
 
 Rename the component to `Sphere` and drag and drop it on top of **DefaultSceneRoot** to make this the root component:
 
-![rename component](images/RenameMakeRootRm6.jpg)
+![rename component](images/RenameMakeRootRm6.png)
 
 ![](../images/line2.png)
 
