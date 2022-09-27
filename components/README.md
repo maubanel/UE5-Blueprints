@@ -73,31 +73,31 @@ Now click on the **Static Mesh** in the **Details Panel** and we want to find th
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Go to *select* a **Material** in the details panel. *Select* it and you will see a lot of engine materials. Press the **View** eyeball and turn **Show Engine Content** `off`:
 
+![turn engine content off](images/TurnEngineContentOff.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to *select* a **Material** in the details panel. *Select* it and you will see a lot of engine materials. Press the **View** eyeball and turn **Show Engine Content** `off`:
+*Select* the **M_Metal_Burnished_Steel** material. The ball should look like it is a steel ball with a burnished finish.
 
-![turn engine content off](images/TurnEngineContentOff.jpg)
+![apply succesful](images/ApplyCompiles.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-*Select* the **M_Metal_Burnished_Steel** material. The ball should look like it is a steel ball with a burnished finish.
+Go back to the blueprint **BP_Dynamic_Component** and now you should see the mesh with a proper material:
 
-![apply succesful](images/ApplyCompiles.jpg)
+![steel mesh](images/BPWithSteelMatRm6.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Go back to the blueprint **BP_Dynamic_Component** and now you should see the mesh with a proper material:
 
-![steel mesh](images/BPWithSteelMatRm6.jpg)
 
 ![](../images/line2.png)
 
