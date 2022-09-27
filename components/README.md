@@ -41,9 +41,9 @@ Name the new blueprint `BP_DynamicComponent`.
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open the new blueprint and press the **Add Component** button. Select **Static Mesh**.
+Open the new blueprint and press the **+ Add** component button. Select **Static Mesh**.
 
-![add static mesh component](images/AddStaticMeshComponentRm6.jpg)
+![add static mesh component](images/AddStaticMeshComponentRm6.png)
 
 ![](../images/line2.png)
 
