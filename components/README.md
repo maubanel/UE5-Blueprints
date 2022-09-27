@@ -99,6 +99,8 @@ Go back to the blueprint **BP_Dynamic_Component** and now you should see the mes
 
 We will now be going to the **Construction Script** tab. We want to *add* a variable by pressing the **+** button next to **Variable** in the **MyBlueprint** panel. We want to keep it as the default variable type **boolean**. This type of variable has two values, true or false. It shows up in unreal as a check box (checked is true and unchecked is false). Call this variable `bAdd Light Component`. Make sure it's **Type** is `Boolean`. *Set* the **Instance Editable** to `true`. *Add* a **Tooltip** `If true, a light is turned on above the sphere`. Make sure **Private** is set to `true`.
 
+https://user-images.githubusercontent.com/5504953/192565412-ae77a332-5d89-40c0-8151-c32d63729f9b.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
