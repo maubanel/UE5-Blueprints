@@ -65,7 +65,7 @@ Now click on the **Static Mesh** in the **Details Panel** and we want to find th
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Type* in **Sphere** and *select* the static mesh that *just* says **Sphere**. Look at the path in the editor and select the first one.
+*Type* in **Sphere** and *select* the static mesh that *just* says **Sphere**. Look at the path in the editor and select the first one. Now please note we never want to edit this static mesh as it will change it for every other game.  Be careful when using **Engine Content** that you really shoul NOT be altering it in any way.
 
 ![select sphere](images/StaticMeshSphereEngineContent.png)
 
