@@ -35,7 +35,7 @@ Since this is going into the level select the base **Actor** as the inherited bl
 
 Name the new blueprint `BP_DynamicComponent`.
 
-![name blueprint BP_DynamicComponent](images/BPDynamicComponentRm6.jpg)
+![name blueprint BP_DynamicComponent](images/BPDynamicComponentRm6.png)
 
 ![](../images/line2.png)
 
