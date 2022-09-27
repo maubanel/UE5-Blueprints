@@ -153,25 +153,26 @@ Lets have it light the top of the ball so move it by `100` on the **Z** in **Loc
 
 ![add comment to nodes](images/CommentNodesRm6.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 18`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now go to room 6 and fix the spelling mistake on the subtitle on the wall.  It is `scripts` and not `sscripts`.  Also, drag
 
+![add comment to nodes](images/fixTextAddBP.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
  
+Now go to the game. Add this blueprint to **Room6**. You can switch the boolean on and off and see the light turn on and off. Now if you play the game you can no longer switch the light. The constructor DOES NOT run during gameplay. This is a way to cheat the constructor to run in the editor so that you can add a component, but it will not be changable through this interface in game.
+
+![alt_text](images/FInalLightBall.gif)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-Now go to the game. Add this blueprint to **Room6**. You can switch the boolean on and off and see the light turn on and off. Now if you play the game you can no longer switch the light. The constructor DOES NOT run during gameplay. This is a way to cheat the constructor to run in the editor so that you can add a component, but it will not be changable through this interface in game.
-
-![alt_text](images/FInalLightBall.gif)
 
 ![](../images/line2.png)
 
