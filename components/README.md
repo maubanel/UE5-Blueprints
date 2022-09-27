@@ -105,15 +105,15 @@ https://user-images.githubusercontent.com/5504953/192565412-ae77a332-5d89-40c0-8
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now drag the variable from the **MyBlueprint** tab into the scene graph. It gives us the option to write (set) to the variable or read (get) it. We want to read it so we will be selecting **Get Add Light Component**.
 
+![add light component to graph](images/DragVariableOntoGraph.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now drag the variable from the **MyBlueprint** tab into the scene graph. It gives us the option to write (set) to the variable or read (get) it. We want to read it so we will be selecting **Get Add Light Component**.
 
-![add light component to graph](images/DragVariableOntoGraph.jpg)
 
 ![](../images/line2.png)
 
