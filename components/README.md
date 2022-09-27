@@ -157,7 +157,7 @@ Lets have it light the top of the ball so move it by `100` on the **Z** in **Loc
 
 ##### `Step 18`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now go to room 6 and fix the spelling mistake on the subtitle on the wall.  It is `scripts` and not `sscripts`.  Also, drag
+Now go to room 6 and fix the spelling mistake on the subtitle on the wall.  It is `scripts` and not `sscripts`.  Also, drag **BP_DynamicComponent** blueprint into **Room 6**.
 
 ![add comment to nodes](images/fixTextAddBP.png)
 
