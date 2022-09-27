@@ -143,12 +143,15 @@ Now look at the input pins. It asks for relative transform. Relative is in relat
 
 Lets have it light the top of the ball so move it by `100` on the **Z** in **Location**.
 
-![set z to 100](images/MovdUpOnZ100Rm6.jpg)
+![set z to 100](images/MovdUpOnZ100Rm6.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Add* two comments by group selecting the nodes then pressing the <kbd>C</kbd> key. Select the **Branch** and the comment `Every time a change is made this is run`. *Select* the light component and add the comment: `Adds point light to the same location and rotation and scale as the sphere`.
+
+![add comment to nodes](images/CommentNodesRm6.png)
 
 
 ![](../images/line2.png)
@@ -161,9 +164,6 @@ Lets have it light the top of the ball so move it by `100` on the **Z** in **Loc
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
  
-*Add* two comments by group selecting the nodes then pressing the <kbd>C</kbd> key. Select the **Branch** and the comment `Every time a change is made this is run`. *Select* the light component and add the comment: `Adds point light to the same location and rotation and scale as the sphere`.
-
-![add comment to nodes](images/CommentNodesRm6.jpg)
 
 ![](../images/line2.png)
 
