@@ -133,21 +133,19 @@ A branch node is the equivalent of an if() and else() statement in most programm
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:
 
+Now look at the input pins. It asks for relative transform. Relative is in relation to this actor and is in local space. World position would be where in the level that actor is located. So we are looking at it as relative position to the Sphere mesh root component. *Right click* on **Relative Transform** and select **Split Struct Pin**. Remember a **Transform** consists of a **Location**, **Rotation** and **Scale** (3 x Vector 3 which each contain 3 floating point values).
+
+![split struct pin](images/SplitStructPin.jpg)
+
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
-
-So start typing `Point Light` and *select* the **Add Point Light Component**.
-
-![add point light component](images/PointLightComponent.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now look at the input pins. It asks for relative transform. Relative is in relation to this actor and is in local space. World position would be where in the level that actor is located. So we are looking at it as relative position to the Sphere mesh root component. *Right click* on **Relative Transform** and select **Split Struct Pin**. Remember a **Transform** consists of a **Location**, **Rotation** and **Scale** (3 x Vector 3 which each contain 3 floating point values).
 
-![split struct pin](images/SplitStructPin.jpg)
 
 ![](../images/line2.png)
 
