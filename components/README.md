@@ -125,7 +125,7 @@ Connect the execution pin from **Construction Script** to **Branch**.
 
 A branch node is the equivalent of an if() and else() statement in most programming languages. If the condition is **true** ( if() ) then the **True** execution pin runs. If the condition is **false** ( else() ) then the **False** execution pin runs. 
 
-*Drag off* of the **true** pin and we will add a light component.
+*Drag off* of the **true** pin and we will search for a **Add Point Light Component**.
 
 ![pull true pin from branch](images/BranchGraphRm6.png)
 
