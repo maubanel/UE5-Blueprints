@@ -57,25 +57,23 @@ Rename the component to `Sphere` and drag and drop it on top of **DefaultSceneRo
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Now click on the **Static Mesh** in the **Details Panel** and we want to find the default sphere that we can get from the brush menu in game. It doesn't show up though. We need to click on the **View Options** eyeball at the bottom:
+Now click on the **Static Mesh** in the **Details Panel** and we want to find the default sphere that we can get from the brush menu in game.  Click on the drop down and select the **Gear** inside the menu and choose **Engine Content**.
 
-![select view options](images/ViewOptionsRm6.jpg)
+![select view options engine content](images/ViewOptionsRm6.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Click on Show **Engine Content** as this is hidden by default:
+*Type* in **Sphere** and *select* the static mesh that *just* says **Sphere**. Look at the path in the editor and select the first one.
 
-![show engine content](images/ClickOnShowEngineContentRm6.jpg)
+![select sphere](images/StaticMeshSphereEngineContent.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Type* in **Sphere** and *select* the static mesh that *just* says **Sphere**. Look at the path in the editor it should show **Path: /Engine/BasicShapes**.
 
-![select sphere](images/StaticMeshSphereEngineContent.jpg)
 
 ![](../images/line2.png)
 
