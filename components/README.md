@@ -167,7 +167,7 @@ Now go to room 6 and fix the spelling mistake on the subtitle on the wall.  It i
  
 Now go to the game. You can switch the boolean on and off and see the light turn on and off. Now if you play the game you can no longer switch the light. The constructor DOES NOT run during gameplay. This is a way to cheat the constructor to run in the editor so that you can add a component, but it will not be changeable through this interface in game.
 
-
+https://user-images.githubusercontent.com/5504953/192582361-fc590537-a4c0-47b9-8add-8d5a95da8087.mp4
 
 ![](../images/line2.png)
 
