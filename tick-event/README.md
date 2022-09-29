@@ -82,13 +82,15 @@ Now *place* an **Add** node which adds two numbers of any type together. *Take* 
 
 Drag the **Time In Milliseconds** variable into the graph and this time select **Set Time In Milliseconds** as we will write this addition to the variable:
 
-![set time in milliseconds](images/SetTimeInMSRm7.jpg)
+![set time in milliseconds](images/SetTimeInMSRm7.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
+*Connect* the Execution pins between the **Event Tick** node and the **Set** node. Also, *connect* the output of the **Addition** node to the input of the **Set Node**.
 
+![connect execution pin and addition to set node](images/SetExecutionAndMilliseconds.jpg)
 
 ![](../images/line2.png)
 
@@ -101,9 +103,7 @@ Drag the **Time In Milliseconds** variable into the graph and this time select *
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Connect* the Execution pins between the **Event Tick** node and the **Set** node. Also, *connect* the output of the **Addition** node to the input of the **Set Node**.
 
-![connect execution pin and addition to set node](images/SetExecutionAndMilliseconds.jpg)
 
 ![](../images/line2.png)
 
