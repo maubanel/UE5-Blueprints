@@ -67,15 +67,15 @@ Connect the execution pin from the **Delay** node to the **Set** node. Connect t
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag* off the **Sec Timer** pin and *select* the **Set Text** node:
+*Drag* off the **Sec Timer** pin and *select* the **Set Text** node. *Connect* the Execution pins from **Set** to **Set Text**. *Drag* the output of **Time In Seconds** from the **Set** node into the **Value** input of the **Set Text** node. A converter will automatically be added.
 
-![add set text node](images/SecTimerSetTextRm7.jpg)
+![add set text node](images/ConnectFinalPinsRm7.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Connect* the Execution pins from **Set** to **Set Text**. *Drag* the output of **Time In Seconds** from the **Set** node into the **Value** input of the **Set Text** node. A converter will automatically be added.
+
 
 ![connect execution and data pins](images/ConnectFinalPinsRm7.png)
 
