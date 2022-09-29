@@ -47,7 +47,7 @@ Open up the blueprint and *add* a **Text Render** component by *pressing* the **
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Add another **Text Render** component and call it `MS Message`. Change the color to yellow and alter the **Text** message to `Time in Milliseconds`. 
+Add another **Text Render** component and call it `MS Message`. Change the color to yellow and alter the **Text** message to `Time in Milliseconds`. Set the **Horizontal Alignment** to `Center` and the **Vertical Alignment** to `Text Center`.
 
 ![add second text render component ms message](images/TimeInMillisecondTextRm7.png)
 
