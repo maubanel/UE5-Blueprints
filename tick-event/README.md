@@ -135,7 +135,7 @@ Now go to the game and *drag* the **BP_Timer** blueprint into **Room 7**. If the
 
 Now run the game and the millisecond counter should count very quickly (hard to see the fractional numbers as they change so fast). We will create another one with just seconds.
 
-
+https://user-images.githubusercontent.com/5504953/193118883-b0b568e7-2ad4-46d2-8a4b-530830503c30.mp4
 
 ![](../images/line2.png)
 
