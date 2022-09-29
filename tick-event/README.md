@@ -39,7 +39,7 @@ Open up the blueprint and *add* a **Text Render** component by *pressing* the **
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Rename* the **Component** to `MS Timer`. *Press* the color and select a shade of green. Change the **World Size** to `120` and rename the **Text** message to the number `0`.
+*Rename* the **Component** to `MS Timer`. *Press* the color and select a shade of green. Change the **World Size** to `120` and rename the **Text** message to the number `0`. Set the **Horizontal Alignment** to `Center` and the **Vertical Alignment** to `Text Center`.
 
 ![rename component ms timer then change color](images/RenameRecolorRm7.png)
 
@@ -47,11 +47,10 @@ Open up the blueprint and *add* a **Text Render** component by *pressing* the **
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Add another **Text Render** component and call it `MS Message`. Change the color to yellow and alter the **Text** message to `Time in Milliseconds`. Set the **Horizontal Alignment** to `Center` and the **Vertical Alignment** to `Text Center`.
+Add another **Text Render** component and call it `MS Message`. Change the color to yellow and alter the **Text** message to `Time in Milliseconds`. 
 
-![add second text render component ms message](images/TimeInMillisecondTextRm7.jpg)
+![add second text render component ms message](images/TimeInMillisecondTextRm7.png)
 
-![set world size to 120 and text to 0](images/WorldSize120Text0Rm7.jpg)
 
 ![](../images/line2.png)
 
