@@ -15,7 +15,7 @@ Now the most common game event type is the **Tick Event**. This is what we run e
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Go back to **Maps** and load **IntroToBlueprint2**. The level will not have any lighting built. *Press* the <kbd>Build Button</kbd> to build lighting for the level.
+Go back to **Maps** and load **IntroToBlueprint2**. Scoot over to **Room 7** as this is where we will start!
 
 ![change to IntroToBlueprint2 map](images/ChangeRooms.png)
 
