@@ -53,7 +53,7 @@ Drag the **Time In Seconds** node and *drop* it on the node chart. Select **Get*
 
 Connect the execution pin from the **Delay** node to the **Set** node. Connect the output pin from the **Add** node to the Input fo the **Set** node. Change the addition to a single second by changing the value to `1` in the addition node as this will be adding 1 every second.
 
-![connect execution pins](images/ConnectIntPinsRm7.jpg)
+![connect execution pins](images/ConnectIntPinsRm7.png)
 
 ![](../images/line2.png)
 
