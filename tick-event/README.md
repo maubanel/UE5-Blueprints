@@ -17,7 +17,7 @@ Now the most common game event type is the **Tick Event**. This is what we run e
 
 Go back to **Maps** and load **IntroToBlueprint2**. The level will not have any lighting built. *Press* the <kbd>Build Button</kbd> to build lighting for the level.
 
-![change to IntroToBlueprint2 map](images/ChangeRooms.jpg)
+![change to IntroToBlueprint2 map](images/ChangeRooms.png)
 
 ![](../images/line2.png)
 
