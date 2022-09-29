@@ -80,7 +80,9 @@ Now *place* an **Add** node which adds two numbers of any type together. *Take* 
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Drag the **Time In Milliseconds** variable into the graph and this time select **Set Time In Milliseconds** as we will write this addition to the variable:
 
+![set time in milliseconds](images/SetTimeInMSRm7.jpg)
 
 ![](../images/line2.png)
 
@@ -92,9 +94,7 @@ Now *place* an **Add** node which adds two numbers of any type together. *Take* 
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Drag the **Time In Milliseconds** variable into the graph and this time select **Set Time In Milliseconds** as we will write this addition to the variable:
 
-![set time in milliseconds](images/SetTimeInMSRm7.jpg)
 
 ![](../images/line2.png)
 
