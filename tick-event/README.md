@@ -56,15 +56,15 @@ Add another **Text Render** component and call it `MS Message`. Change the color
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
+*Press* the **Compile** button. If no errors go to the **Event Graph** tab.
 
+![press compile button](images/CompileScriptRm7.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Press* the **Compile** button. If no errors go to the **Event Graph** tab.
 
-![press compile button](images/CompileScriptRm7.jpg)
 
 ![](../images/line2.png)
 
