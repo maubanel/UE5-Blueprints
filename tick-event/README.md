@@ -124,7 +124,7 @@ Add comments to explain the graph (highlight nodes and press the <kbd>C</kbd> ke
 
 Now go to the game and *drag* the **BP_Timer** blueprint into **Room 7**. If the text is backwards, *rotate* it to face the center of the room.
 
-![drag bp timer to room 7](images/BPTimerInRoom7.jpg)
+![drag bp timer to room 7](images/BPTimerInRoom7.png)
 
 
 ![add set text node](images/SetTextMsRm7.jpg)
@@ -132,6 +132,8 @@ Now go to the game and *drag* the **BP_Timer** blueprint into **Room 7**. If the
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
+
+Now run the game and the millisecond counter should count very quickly (hard to see the fractional numbers as they change so fast). We will create another one with just seconds.
 
 
 
@@ -144,9 +146,8 @@ Now go to the game and *drag* the **BP_Timer** blueprint into **Room 7**. If the
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now run the game and the millisecond counter should count very quickly (hard to see the fractional numbers as they change so fast).
 
-![clock runs in game](images/MillisecondTimer.gif)
+
 
 ![](../images/line2.png)
 
