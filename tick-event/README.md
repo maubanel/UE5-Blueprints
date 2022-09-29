@@ -177,7 +177,7 @@ Now go back to the **Event Graph** and add a new **Variable** by pressing the **
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-Go back to the **Event Graph** tab in **BP_Timer**. You can disconnect any pin by <kbd>Alt</kbd> left clickign on it. Delete the execution pin coming from **Event Tick**. Now to avoid having a very long Blueprint we can organize the graph by using a **Sequence** node. *Right click* and type **Sequence** then *connect* the execution pins between the **Tick Event** and the **Set** node through the **Then 0** pin.
+Go back to the **Event Graph** tab in **BP_Timer**. You can disconnect any pin by <kbd>Alt</kbd> left clicking on it. Delete the execution pin coming from **Event Tick**. Now to avoid having a very long Blueprint we can organize the graph by using a **Sequence** node. *Right click* and type **Sequence** then *connect* the execution pins between the **Tick Event** and the **Set** node through the **Then 0** pin.
 
 https://user-images.githubusercontent.com/5504953/193120853-36a6e2a0-916d-409a-a48c-e1b415e3e1c8.mp4
 
