@@ -72,9 +72,9 @@ What we want to do is every frame add the number of milliseconds that have passe
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now *add* a **Float + Float** node which adds two floats together. *Take* the output **Pin** from the **Event Tick** called **Delta Seconds** and *put* it in into the input of the **Addition** node. *Take* the output of the variable **Time in Milliseconds** and put it into the input of the **Addition** node.
 
-
-![add float variable time in milliseconds](images/TimeInMillFloatRm7.jpg)
+![add float + float node](images/AdTimeUpRm7.jpg)
 
 ![](../images/line2.png)
 
@@ -86,9 +86,7 @@ What we want to do is every frame add the number of milliseconds that have passe
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Now *add* a **Float + Float** node which adds two floats together. *Take* the output **Pin** from the **Event Tick** called **Delta Seconds** and *put* it in into the input of the **Addition** node. *Take* the output of the variable **Time in Milliseconds** and put it into the input of the **Addition** node.
 
-![add float + float node](images/AdTimeUpRm7.jpg)
 
 ![](../images/line2.png)
 
