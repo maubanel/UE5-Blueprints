@@ -90,13 +90,15 @@ Drag the **Time In Milliseconds** variable into the graph and this time select *
 
 *Connect* the Execution pins between the **Event Tick** node and the **Set** node. Also, *connect* the output of the **Addition** node to the input of the **Set Node**.
 
-![connect execution pin and addition to set node](images/SetExecutionAndMilliseconds.jpg)
+![connect execution pin and addition to set node](images/SetExecutionAndMilliseconds.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
+Now, what we want to do is take the output of this variable and have it print to screen. The **MS Timer** text component set to `0` is what we want to target. *Drag* the **MS Timer** component into the scene graph so we have a reference.
 
+![ms timer component on graph](images/MSTimerRefRm7.jpg)
 
 ![](../images/line2.png)
 
@@ -109,9 +111,7 @@ Drag the **Time In Milliseconds** variable into the graph and this time select *
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now, what we want to do is take the output of this variable and have it print to screen. The **MS Timer** text component set to `0` is what we want to target. *Drag* the **MS Timer** component into the scene graph so we have a reference.
 
-![ms timer component on graph](images/MSTimerRefRm7.jpg)
 
 ![](../images/line2.png)
 
