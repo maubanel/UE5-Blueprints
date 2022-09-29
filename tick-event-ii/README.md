@@ -15,19 +15,17 @@ Tick event continued...
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Go back to the **Event Graph** tab in **BP_Timer**. Now to avoid having a very long Blueprint we can organize the graph by using a **Sequence** node. *Right click* and type **Sequence** then *connect* the execution pins between the **Tick Event** and the **Set** node through the **Then 0** pin.
-
-![connect nodes](images/SequenceNodeRm7.jpg)
-
-![](../images/line2.png)
-
-##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
-
 *Right click* on an empty part of the graph and select **Delay** node. This will run the input every frame but only run the output pin after the delay has passed over and over again. Connect the output pin from the second **Sequence** node output to the input pin of **Delay**. Set the delay to `1.0` (it is set in seconds). Connect the execution pins of the **Sequence | Then 1** to the **Delay** node.
 
 What this sequence node does is run everything the **Then 0** pin *first*, when completed executes the **Then 1** pin.
 
 ![add delay node](images/AddDelayNode.jpg)
+
+![](../images/line2.png)
+
+##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+
+
 
 ![](../images/line2.png)
 
