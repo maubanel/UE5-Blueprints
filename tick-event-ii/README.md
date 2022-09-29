@@ -85,6 +85,8 @@ Add comments to your latest work. Press the <kbd>Compile</kbd> button.
 
 *Press* the <kbd>Play</kbd> button and notice that we have a timer with fractions of a second (milliseconds) and one with just integers and no fractional portion!
 
+https://user-images.githubusercontent.com/5504953/193125664-590cd9e7-8a0e-4163-b5f0-42523dffeb3a.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
