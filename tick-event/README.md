@@ -107,7 +107,7 @@ Now, what we want to do is take the output of this variable and have it print to
 
 *Connect* the output **Time in Milliseconds** pin from **Set** node to the **Value** pin in **Set Text**. This automatically adds a **Float to Text** node. *Connect* the execution pins from the same nodes. Add comments to explain the graph (highlight nodes and press the <kbd>C</kbd> key). I split it into the two components that make sense to me. Press the <kbd>Compile</kbd> button:
 
-![connect pins and compile](images/AddCommentsPressCompileRm7Ms.jpg)
+![connect pins and compile](images/AddCommentsPressCompileRm7Ms.png)
 
 ![](../images/line2.png)
 
