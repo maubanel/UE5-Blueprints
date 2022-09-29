@@ -51,7 +51,7 @@ Drag the **Time In Seconds** node and *drop* it on the node chart. Select **Get*
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Connect the execution pin from the **Delay** node to the **Set** node. Connect the output pin from the **Add** node to the Input fo the **Set** node. Leave the default of `1` in the addition node as this will be adding 1 second every second.
+Connect the execution pin from the **Delay** node to the **Set** node. Connect the output pin from the **Add** node to the Input fo the **Set** node. Change the addition to a single second by changing the value to `1` in the addition node as this will be adding 1 every second.
 
 ![connect execution pins](images/ConnectIntPinsRm7.jpg)
 
