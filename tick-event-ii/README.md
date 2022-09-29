@@ -61,7 +61,7 @@ Connect the execution pin from the **Delay** node to the **Set** node. Connect t
 
 *Drag* the **Sec Timer** component into the graph and get a *reference* to it:
 
-![add get sec timer](images/RefSecTimerRm7.jpg)
+![add get sec timer](images/RefSecTimerRm7.png)
 
 ![](../images/line2.png)
 
@@ -77,7 +77,7 @@ Connect the execution pin from the **Delay** node to the **Set** node. Connect t
 
 *Connect* the Execution pins from **Set** to **Set Text**. *Drag* the output of **Time In Seconds** from the **Set** node into the **Value** input of the **Set Text** node. A converter will automatically be added.
 
-![connect execution and data pins](images/ConnectFinalPinsRm7.jpg)
+![connect execution and data pins](images/ConnectFinalPinsRm7.png)
 
 ![](../images/line2.png)
 
