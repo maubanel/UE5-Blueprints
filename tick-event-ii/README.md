@@ -19,7 +19,7 @@ Tick event continued...
 
 What this sequence node does is run everything the **Then 0** pin *first*, when completed executes the **Then 1** pin.
 
-![add delay node](images/AddDelayNode.jpg)
+![add delay node](images/AddDelayNode.png)
 
 ![](../images/line2.png)
 
