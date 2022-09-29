@@ -179,9 +179,6 @@ Now go back to the **Event Graph** and add a new **Variable** by pressing the **
 
 Go back to the **Event Graph** tab in **BP_Timer**. Now to avoid having a very long Blueprint we can organize the graph by using a **Sequence** node. *Right click* and type **Sequence** then *connect* the execution pins between the **Tick Event** and the **Set** node through the **Then 0** pin.
 
-![connect nodes](images/SequenceNodeRm7.jpg)
-
-
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Tick Event II"> -->
