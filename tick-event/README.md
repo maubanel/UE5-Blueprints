@@ -105,7 +105,7 @@ Now, what we want to do is take the output of this variable and have it print to
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Connect* the output **Time in Milliseconds** pin from **Set** node to the **Value** pin in **Set Text**. This automatically adds a **Float to Text** node. *Connect* the execution pins from the same nodes. Add comments to explain the graph (highlight nodes and press the <kbd>C</kbd> key). I split it into the two components that make sense to me. Press the <kbd>Compile</kbd> button:
+*Connect* the output **Time in Milliseconds** pin from **Set** node to the **Value** pin in **Set Text**. This automatically adds a **To Text (Double)** node. *Connect* the execution pins from the same nodes. 
 
 ![connect pins and compile](images/AddCommentsPressCompileRm7Ms.png)
 
@@ -113,12 +113,18 @@ Now, what we want to do is take the output of this variable and have it print to
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Add comments to explain the graph (highlight nodes and press the <kbd>C</kbd> key). I split it into the two sections that make sense to me. Press the <kbd>Compile</kbd> button.
+
+![add comments to blueprints](images/addComments.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now go to the game and *drag* the **BP_Timer** blueprint into **Room 7**. If the text is backwards, *rotate* it to face the center of the room.
+
+![drag bp timer to room 7](images/BPTimerInRoom7.jpg)
 
 
 ![add set text node](images/SetTextMsRm7.jpg)
@@ -133,9 +139,6 @@ Now, what we want to do is take the output of this variable and have it print to
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now go to the game and *drag* the **BP_Timer** blueprint into **Room 7**. If the text is backwards, *rotate* it to face the center of the room.
-
-![drag bp timer to room 7](images/BPTimerInRoom7.jpg)
 
 ![](../images/line2.png)
 
