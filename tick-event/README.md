@@ -25,7 +25,7 @@ Go back to **Maps** and load **IntroToBlueprint2**. Scoot over to **Room 7** as 
 
 Scoot over to **Room 7**. Add a new folder in **Blueprints** and call it `Room7`. Press the <kbd>Add/Import</kbd> button and then select **Blueprint Class**. Select class **Actor**. Call it `BP_Timer`.
 
-![add blueprint bp_timer of actor class](images/AddNewBPActorRm7.jpg)
+https://user-images.githubusercontent.com/5504953/193081327-68f5ef84-57a5-4fbb-96ff-79853550170b.mp4
 
 ![](../images/line2.png)
 
