@@ -153,37 +153,34 @@ Lets add the ability to count in whole seconds. Go back to the **BP_Timer** blue
 
 Duplicate MS Timer Message
 
+Now move the new copies to the right so they are next to each other. Change the names of the components to `Sec Timer` and `Sec Message`.
 
-
+![reneame to sec timer and sec message](images/MoveAndRenameRm7.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Change the message in the **Sec Message** component to `Time in Seconds`.
 
+![change message](images/SecMessageTimeInSecsRm7.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now move the new copies to the right so they are next to each other. Change the names of the components to `Sec Timer` and `Sec Message`.
+Now go back to the **Event Graph** and add a new **Variable** by pressing the **+** button. This time we will make it an integer. A **float** stores a fractional number, an **integer** stores a whole number. Since we are *counting* seconds whole numbers will do. Set the variable to **Variable Type | Integer**. Call it `Time in Seconds`, add a **Tooltip** and make sure that **Private** is set to `true`.
 
-![reneame to sec timer and sec message](images/MoveAndRenameRm7.jpg)
+![add an integer variable](images/TimeInSecondsIntRm7.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
-Change the message in the **Sec Message** component to `Time in Seconds`.
 
-![change message](images/SecMessageTimeInSecsRm7.jpg)
+Go back to the **Event Graph** tab in **BP_Timer**. Now to avoid having a very long Blueprint we can organize the graph by using a **Sequence** node. *Right click* and type **Sequence** then *connect* the execution pins between the **Tick Event** and the **Set** node through the **Then 0** pin.
 
-![](../images/line2.png)
+![connect nodes](images/SequenceNodeRm7.jpg)
 
-##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-Now go back to the **Event Graph** and add a new **Variable** by pressing the **+** button. This time we will make it an integer. A **float** stores a fractional number, an **integer** stores a whole number. Since we are *counting* seconds whole numbers will do. Set the variable to **Variable Type | Integer**. Call it `Time in Seconds`, add a **Tooltip** and make sure that **Private** is set to `true`.
-
-![add an integer variable](images/TimeInSecondsIntRm7.jpg)
 
 ![](../images/line.png)
 
