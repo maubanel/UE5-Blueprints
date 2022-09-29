@@ -64,7 +64,9 @@ Go to the **Event Graph** tab and in the **MyBlueprints** tab press **+** next t
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+What we want to do is every frame add the number of milliseconds that have passed to this variable. So we need to read it, then add the delta time since last frame. Drag the Variable into the graph and select **Get Time In Milliseconds**.
 
+![get time in milliseconds](images/GetTimeInMSRm7.jpg)
 
 ![](../images/line2.png)
 
@@ -78,9 +80,7 @@ Go to the **Event Graph** tab and in the **MyBlueprints** tab press **+** next t
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-What we want to do is every frame add the number of milliseconds that have passed to this variable. So we need to read it, then add the delta time since last frame. Drag the Variable into the graph and select **Get Time In Milliseconds**.
 
-![get time in milliseconds](images/GetTimeInMSRm7.jpg)
 
 ![](../images/line2.png)
 
