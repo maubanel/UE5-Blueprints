@@ -75,33 +75,29 @@ Connect the execution pin from the **Delay** node to the **Set** node. Connect t
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Add comments to your latest work. Press the <kbd>Compile</kbd> button.
 
-
-![connect execution and data pins](images/ConnectFinalPinsRm7.png)
+![add code comments](images/FinalCommentsRm7.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add comments to your latest work. Press the <kbd>Compile</kbd> button.
-
-![add code comments](images/FinalCommentsRm7.jpg)
+*Press* the <kbd>Play</kbd> button and notice that we have a timer with fractions of a second (milliseconds) and one with just integers and no fractional portion!
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Open up the Blueprint and place it next to the millisecond timer in the level so you can watch both at once. Observe that the millisecond node runs all the time. Note that the Timer blocks the second blueprint from running except for once a second.
-
-![run game with timer in seconds](images/SecondTimer.gif)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-That's it for **Room 7**. Press **File | Save All** then go into **Source Control | Submit to Source Control**, add a message that you have completed room 1 and press the <kbd>Submit</kbd> button. Open up **GitHub Desktop** and **Push** changes to server. Select this to finish off this section.
+Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
-![save, commit and push to github](images/Room7Github.jpg)
+![save all and submit to perforce in P4V](images/submitP4.png)
+
 
 ![](../images/line.png)
 
