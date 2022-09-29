@@ -44,8 +44,8 @@ Drag the **Time In Seconds** node and *drop* it on the node chart. Select **Get*
 
 *Drag* off of the **Time In Seconds** pin and select **Add** node. Now leave `1` as the default as we will be adding 1 every second. 
 
-![addition and time in seconds node](images/AddAndSet.png)
-addInt
+![addition and time in seconds node](images/addInt.png)
+
 
 ![](../images/line2.png)
 
