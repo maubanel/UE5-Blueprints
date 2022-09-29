@@ -96,16 +96,18 @@ Drag the **Time In Milliseconds** variable into the graph and this time select *
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Now, what we want to do is take the output of this variable and have it print to screen. The **MS Timer** text component set to `0` is what we want to target. *Drag* the **MS Timer** component into the scene graph so we have a reference.
+Now, what we want to do is take the output of this variable and have it print to screen. The **MS Timer** text component set to `0` is what we want to target. *Drag* the **MS Timer** component into the scene graph so we have a reference. *Drag* from the output pin and start typing **Set Text**. This will allow us to adjust the text component dynamically during gameplay.
 
-![ms timer component on graph](images/MSTimerRefRm7.jpg)
+![ms timer component on graph](images/MSTimerRefRm7.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+*Connect* the output **Time in Milliseconds** pin from **Set** node to the **Value** pin in **Set Text**. This automatically adds a **Float to Text** node. *Connect* the execution pins from the same nodes. Add comments to explain the graph (highlight nodes and press the <kbd>C</kbd> key). I split it into the two components that make sense to me. Press the <kbd>Compile</kbd> button:
 
+![connect pins and compile](images/AddCommentsPressCompileRm7Ms.jpg)
 
 ![](../images/line2.png)
 
@@ -117,7 +119,7 @@ Now, what we want to do is take the output of this variable and have it print to
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Drag* from the output pin and start typing **Set Text**. This is the node you want to add:
+
 
 ![add set text node](images/SetTextMsRm7.jpg)
 
@@ -125,9 +127,7 @@ Now, what we want to do is take the output of this variable and have it print to
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-*Connect* the output **Time in Milliseconds** pin from **Set** node to the **Value** pin in **Set Text**. This automatically adds a **Float to Text** node. *Connect* the execution pins from the same nodes. Add comments to explain the graph (highlight nodes and press the <kbd>C</kbd> key). I split it into the two components that make sense to me. Press the <kbd>Compile</kbd> button:
 
-![connect pins and compile](images/AddCommentsPressCompileRm7Ms.jpg)
 
 ![](../images/line2.png)
 
