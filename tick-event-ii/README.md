@@ -25,23 +25,27 @@ What this sequence node does is run everything the **Then 0** pin *first*, when 
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
+Drag the **Time In Seconds** node and *drop* it on the node chart. Select **Get**.
 
+![add get time in seconds](images/AddToIntRm7.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Drag the **Time In Seconds** node and *drop* it on the node chart. Select **Get**.
+*Drag* the **Time In Seconds** variable onto the graph and *select* **Set**.
 
-![add get time in seconds](images/AddToIntRm7.jpg)
+![addition and time in seconds node](images/AddAndSet.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag* off of the **Time In Seconds** pin and select **Int + Int** node. Now leave `1` as the default as we will be adding 1 every second. *Drag* the **Time In Seconds** variable onto the graph and *select* **Set**.
+*Drag* off of the **Time In Seconds** pin and select **Add** node. Now leave `1` as the default as we will be adding 1 every second. 
 
-![addition and time in seconds node](images/AddAndSet.jpg)
+![addition and time in seconds node](images/AddAndSet.png)
+addInt
 
 ![](../images/line2.png)
 
