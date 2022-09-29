@@ -141,10 +141,17 @@ https://user-images.githubusercontent.com/5504953/193118883-b0b568e7-2ad4-46d2-8
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Lets add the ability to count in whole seconds. Go back to the **BP_Timer** blueprint and *select* the **MS Timer** and **MS Message** components. *Right click* and *select* **Duplicate**.
+
+![duplicate ms timer and ms message](images/Lets add the ability to count in whole seconds. Go back to the **BP_Timer** blueprint and *select* the **MS Timer** and **MS Message** components. *Right click* and *select* **Duplicate**.
+
+![duplicate ms timer and ms message](images/DuplicateMSTimerMessageRm7.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Duplicate MS Timer Message
 
 
 
@@ -153,11 +160,7 @@ https://user-images.githubusercontent.com/5504953/193118883-b0b568e7-2ad4-46d2-8
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Duplicate MS Timer Message
 
-Lets add the ability to count in whole seconds. Go back to the **BP_Timer** blueprint and *select* the **MS Timer** and **MS Message** components. *Right click* and *select* **Duplicate**.
-
-![duplicate ms timer and ms message](images/DuplicateMSTimerMessageRm7.jpg)
 
 ![](../images/line2.png)
 
