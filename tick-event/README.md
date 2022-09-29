@@ -33,7 +33,7 @@ https://user-images.githubusercontent.com/5504953/193081327-68f5ef84-57a5-4fbb-9
 
 Open up the blueprint and *add* a **Text Render** component by *pressing* the **Add Component** button.
 
-![add text render component](images/AddTextRenderComponentRm7.jpg)
+![add text render component](images/AddTextRenderComponentRm7.png)
 
 ![](../images/line2.png)
 
