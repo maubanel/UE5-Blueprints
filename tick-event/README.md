@@ -47,7 +47,7 @@ Open up the blueprint and *add* a **Text Render** component by *pressing* the **
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Add another **Text Render** component and call it `MS Message`. Change the color to yellow and alter the **Text** message to `Time in Milliseconds`. Set the **Horizontal Alignment** to `Center` and the **Vertical Alignment** to `Text Center`.
+Add another **Text Render** component and call it `MS Message`. Change the color to yellow and alter the **Text** message to `Time in Milliseconds`. Set the **Horizontal Alignment** to `Center` and the **Vertical Alignment** to `Text Center`. *Press* the **Compile** button.
 
 ![add second text render component ms message](images/TimeInMillisecondTextRm7.png)
 
@@ -56,7 +56,7 @@ Add another **Text Render** component and call it `MS Message`. Change the color
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-*Press* the **Compile** button. If no errors go to the **Event Graph** tab.
+Go to the **Event Graph** tab and in the **MyBlueprints** tab press **+** next to **Variable** and add a **Float** called `Time in Milliseconds`. Add a **tooltip** with the message `Stores total time in level in milliseconds`. Make sure **Private** is set to `true`.
 
 ![press compile button](images/CompileScriptRm7.jpg)
 
@@ -70,7 +70,7 @@ Add another **Text Render** component and call it `MS Message`. Change the color
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-In the **MyBlueprints** tab press **+** next to **Variable** and add a **Float** called `Time in Milliseconds`. Add a **tooltip** with the message `Stores total time in level in milliseconds`. Make sure **Private** is set to `true`.
+
 
 ![add float variable time in milliseconds](images/TimeInMillFloatRm7.jpg)
 
