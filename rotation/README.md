@@ -26,7 +26,7 @@ https://user-images.githubusercontent.com/5504953/193430834-d522e56f-099f-44b8-8
 
 *Add* a **Static Mesh** component to the blueprint. *Change* the **View Options** to see **Engine Content**. *Select* the **Cube** static mesh. You will have to turn on engine content to see the shape.
 
-![add static mesh component](images/StaticMeshCubeRm8.jpg)
+![add static mesh component](images/StaticMeshCubeRm8.png)
 
 ![](../images/line2.png)
 
