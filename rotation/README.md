@@ -126,6 +126,9 @@ We need a variable to keep this number in. *Duplicate* the variable **DegreesPer
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+I forgot to assign a **Category** to all the variables.  So set the **Category** to `Rotations` for 
+
+![create new float variable degrees since last frame](images/setCatRotations.png)
 
 
 ![](../images/line2.png)
