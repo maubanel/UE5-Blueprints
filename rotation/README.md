@@ -108,7 +108,7 @@ Attach the Execution pins from **Sequence | The 0** to **Branch**.
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-We need another variable to track how many degrees per second the object will rotate in. We need to accept both positive and negative values. Flipping the sign will change the direction of rotation. Create a new **Variable** called `DegreesPerSecond` of type **Float** and set **Instance Editable** to `true` and **Private** to `true`. If you would like you could restrict the **Value Range** from `-360` to `360`.
+We need another variable to track how many degrees per second the object will rotate in. We need to accept both positive and negative values. Flipping the sign will change the direction of rotation. Create a new **Variable** called `DegreesPerSecond` of type **Float**. Make the **Description** `Degrees of Rotation per Second`.   Set **Instance Editable** to `true` and **Private** to `true`. If you would like you could restrict the **Value Range** from `-360` to `360`. 
 
 https://user-images.githubusercontent.com/5504953/193431472-7a13694a-a9bc-4347-ab12-e967e65f4c3c.mp4
 
@@ -116,17 +116,17 @@ https://user-images.githubusercontent.com/5504953/193431472-7a13694a-a9bc-4347-a
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
 Now we can set the speed of how many degrees per second that we would like to turn but how do we then know what each frame takes. Not all frames will be the same length so we can't just divide the **Degrees Per Second** by the frame rate. The easiest way is to multiply it by the delta time. Lets say this is 1/60th of a second or .01666. If we multiply our value of 45 (degrees per second) times .01666 we will get our time since last frame = .747 degrees.
 
 We need a variable to keep this number in. *Create* a new **Float** variable called` Degrees Since Last Frame` and set **Private** to `true`. Add a **Tooltip** such as `Degrees to turn this frame`.
 
 ![create new float variable degrees since last frame](images/DegreesSinceLastFrame.jpg)
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+
 
 ![](../images/line2.png)
 
