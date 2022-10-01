@@ -32,21 +32,19 @@ https://user-images.githubusercontent.com/5504953/193430834-d522e56f-099f-44b8-8
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Change* the **View Options** to see **Engine Content**. *Select* the **Cube** static mesh. You will have to turn on engine content to see the shape.
+*Change* the **View Type** to see **Engine Content**. *Select* the **Cube** static mesh. You will have to turn on engine content to see the shape.
 
 ![add cube to static mesh](images/addCube.png)
 
-*Assign* the **M_Metal_Burnished_Steel** Material.
 
-![assign M_Metal_Burnished_Steel](images/AssignMatRm8.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Rename* the static mesh to `Rotating Cube`.
+*Change* the **View Type** to hide **Engine Content**. *Assign* the **M_Metal_Burnished_Steel** Material. *Rename* the static mesh to `Rotating Cube`.
 
-![rename to rotating cube](images/RenameComponentRm8.jpg)
+![assign M_Metal_Burnished_Steel](images/AssignMatRm8.png)
 
 ![](../images/line2.png)
 
