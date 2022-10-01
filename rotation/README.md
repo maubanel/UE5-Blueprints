@@ -118,9 +118,9 @@ https://user-images.githubusercontent.com/5504953/193431472-7a13694a-a9bc-4347-a
 
 Now we can set the speed of how many degrees per second that we would like to turn but how do we then know what each frame takes. Not all frames will be the same length so we can't just divide the **Degrees Per Second** by the frame rate. The easiest way is to multiply it by the delta time. Lets say this is 1/60th of a second or .01666. If we multiply our value of 45 (degrees per second) times .01666 we will get our time since last frame = .747 degrees.
 
-We need a variable to keep this number in. *Create* a new **Float** variable called` Degrees Since Last Frame` and set **Private** to `true`. Add a **Tooltip** such as `Degrees to turn this frame`.
+We need a variable to keep this number in. *Duplicate* the variable **DegreesPerSecond** and creation another **Float** variable called `Current Angle` and set **Private** to `true`. Add a **Tooltip** such as `Current angle on axis`. Turn **Intance Editable** to `false`, and  empty out **Slider Range** and **Value Range**.
 
-![create new float variable degrees since last frame](images/DegreesSinceLastFrame.jpg)
+![create new float variable degrees since last frame](images/DegreesSinceLastFrame.png)
 
 ![](../images/line2.png)
 
