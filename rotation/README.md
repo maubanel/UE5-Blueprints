@@ -100,7 +100,7 @@ Attach the Execution pins from **Sequence | The 0** to **Branch**.
 
 *Drag* the execution pin from the **True** output of the Branch and *connect* it to the **Add Relative Rotation**. This will only run the rotation if this boolean is set to **True**.
 
-![connect execution pins](images/SetRotateTruePinsRm8.jpg)
+![connect execution pins](images/SetRotateTruePinsRm8.png)
 
 
 ![](../images/line2.png)
@@ -108,15 +108,15 @@ Attach the Execution pins from **Sequence | The 0** to **Branch**.
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+We need another variable to track how many degrees per second the object will rotate in. We need to accept both positive and negative values. Flipping the sign will change the direction of rotation. Create a new **Variable** called `Degrees Per Second` of type **Float** and set **Instance Editable** to `true` and **Private** to `true`. If you would like you could restrict the **Value Range** from `-360` to `360`.
 
+![call variable degrees per second](images/DegreesPerSecond.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-We need another variable to track how many degrees per second the object will rotate in. We need to accept both positive and negative values. Flipping the sign will change the direction of rotation. Create a new **Variable** called `Degrees Per Second` of type **Float** and set **Instance Editable** to `true` and **Private** to `true`. If you would like you could restrict the **Value Range** from `-360` to `360`.
 
-![call variable degrees per second](images/DegreesPerSecond.jpg)
 
 ![](../images/line2.png)
 
