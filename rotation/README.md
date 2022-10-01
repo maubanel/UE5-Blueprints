@@ -151,9 +151,9 @@ https://user-images.githubusercontent.com/5504953/193431775-6d0d88ca-ccb9-47a4-9
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Add* a **Set Degree Since Last Frame** node reference to the variable. 
+*Add* a **Set Current Angle** node reference to the variable. 
 
-![add set degree since last frame](images/setCurrentAngle.png)
+![add set current angle](images/setCurrentAngle.png)
 
 ![](../images/line2.png)
 
