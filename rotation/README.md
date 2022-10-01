@@ -126,7 +126,7 @@ We need a variable to keep this number in. *Duplicate* the variable **DegreesPer
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-I forgot to assign a **Category** to all the variables.  So set the **Category** to `Rotations` for 
+I forgot to assign a **Category** to all the variables.  So set the **Category** to `Rotations` for **RotationOnZ**, **CurrentAngle** and **DegreesPerSecond**.  The first one you will have to actuall type **Rotations** as it is not a menu option yet!
 
 ![create new float variable degrees since last frame](images/setCatRotations.png)
 
