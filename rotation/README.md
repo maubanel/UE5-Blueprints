@@ -161,6 +161,15 @@ https://user-images.githubusercontent.com/5504953/193431775-6d0d88ca-ccb9-47a4-9
 
 *Send* the result of this multiplication to the setter input for the **Set** node.
 
+![send output to mult](images/sendMult.png)
+
+
+
+
+![](../images/line2.png)
+
+##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Now *break* the pins between the **Tick** event and **Sequence**. *Route* this execution through the **Set** node.
 
 ![route execution pin through set node](images/ReconnectSetterRm8.jpg)
@@ -168,10 +177,6 @@ Now *break* the pins between the **Tick** event and **Sequence**. *Route* this e
 Now go back to the **Add Relative Rotation** node and *right click* on **Delta Rotation**. We just want to affect the *Z* axis so we will *select* **Split Struct Pin**:
 
 ![split struc pin](images/SplitRotationStructPinsRm8.jpg)
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *drag* the **Degrees Since Last Frame** variable into the scene graph and select **Get**.
 
