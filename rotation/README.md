@@ -137,7 +137,7 @@ I forgot to assign a **Category** to all the variables.  So set the **Category**
 
 Drag and drop the **Degrees Per Second** variable to the graph and select **Get**. *Right click* on the open graph and find a **Float * Float** node.
 
-![add degrees per second and float times float node](images/GetDegreesPerSecRm8.jpg)
+![add degrees per second and float times float node](images/GetDegreesPerSecRm8.png)
 
 ![](../images/line2.png)
 
