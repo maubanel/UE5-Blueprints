@@ -164,8 +164,6 @@ https://user-images.githubusercontent.com/5504953/193431775-6d0d88ca-ccb9-47a4-9
 ![send output to mult](images/sendMult.png)
 
 
-
-
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
@@ -174,6 +172,11 @@ Now *break* the pins between the **Tick** event and **Sequence**. *Route* this e
 
 ![route execution pin through set node](images/ReconnectSetterRm8.jpg)
 
+
+![](../images/line2.png)
+
+##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
+
 Now go back to the **Add Relative Rotation** node and *right click* on **Delta Rotation**. We just want to affect the *Z* axis so we will *select* **Split Struct Pin**:
 
 ![split struc pin](images/SplitRotationStructPinsRm8.jpg)
@@ -181,10 +184,6 @@ Now go back to the **Add Relative Rotation** node and *right click* on **Delta R
 Now *drag* the **Degrees Since Last Frame** variable into the scene graph and select **Get**.
 
 ![add get degrees since last frame](images/DegreesLastFrameGetterRm8.jpg)
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
 *Connect* the output of **Degrees Since Last Frame** with the input on the **Rotation** node into the **Delta Rotation Z (Yaw)** pin.
 
