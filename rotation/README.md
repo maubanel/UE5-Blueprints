@@ -90,26 +90,25 @@ Attach the Execution pins from **Sequence | The 0** to **Branch**.
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-*Drag and drop* the **Rotating Cube** component into the scene graph to create a reference.
+*Drag and drop* the **Rotating Cube** component into the scene graph to create a reference. *Drag off* of the **Rotating Cube** pin and find the **Add Relative Rotation** node and *add* it to the scene graph.
 
-![rotating cube reference](images/RefToRotatingCubeRm8.jpg)
+![add relative rotatation](images/AddRelativeRotation.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-*Drag off* of the **Rotating Cube** pin and find the **Add Relative Rotation** node and *add* it to the scene graph.
+*Drag* the execution pin from the **True** output of the Branch and *connect* it to the **Add Relative Rotation**. This will only run the rotation if this boolean is set to **True**.
 
-![add relative rotatation](images/AddRelativeRotation.jpg)
+![connect execution pins](images/SetRotateTruePinsRm8.jpg)
+
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Drag* the execution pin from the **True** output of the Branch and *connect* it to the **Add Relative Rotation**. This will only run the rotation if this boolean is set to **True**.
 
-![connect execution pins](images/SetRotateTruePinsRm8.jpg)
 
 ![](../images/line2.png)
 
