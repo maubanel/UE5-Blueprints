@@ -82,7 +82,7 @@ Drag the **Rotate On Z** boolean to the graph and select **Get**.
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Attach the Execution pins from Sequence 0 to Branch.
+Attach the Execution pins from **Sequence | The 0** to **Branch**.
 
 ![attach execution pin from sequence 0 to branch](images/ConnectThen0ToBranch.png)
 
