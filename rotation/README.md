@@ -181,6 +181,12 @@ Now go back to the **Add Relative Rotation** node and *right click* on **Delta R
 
 ![split struc pin](images/SplitRotationStructPinsRm8.jpg)
 
+
+
+![](../images/line2.png)
+
+##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
 Now *drag* the **Degrees Since Last Frame** variable into the scene graph and select **Get**.
 
 ![add get degrees since last frame](images/DegreesLastFrameGetterRm8.jpg)
@@ -188,10 +194,6 @@ Now *drag* the **Degrees Since Last Frame** variable into the scene graph and se
 *Connect* the output of **Degrees Since Last Frame** with the input on the **Rotation** node into the **Delta Rotation Z (Yaw)** pin.
 
 ![connect output of degrees since last frame](images/ConnectOuputRm8.jpg)
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
 Add a comment to the latest work by pressing the <kbd>C</kbd> key. Press the <kbd>Compile</kbd> button.
 
