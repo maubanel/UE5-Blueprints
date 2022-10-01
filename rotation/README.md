@@ -52,7 +52,7 @@ https://user-images.githubusercontent.com/5504953/193430834-d522e56f-099f-44b8-8
 
 Now go to the **Event Graph** tab. We will be rotating on the **Z**, **X** and **Y** axis. So lets put in a **Sequence** node to keep our graph neat. Since this needs to animate every frame we will use the **Tick Event** and connect its execution pin to the **Sequence** node:
 
-![add sequence node](images/SequenceNodeForRotation.jpg)
+![add sequence node](images/SequenceNodeForRotation.png)
 
 ![](../images/line2.png)
 
@@ -60,7 +60,6 @@ Now go to the **Event Graph** tab. We will be rotating on the **Z**, **X** and *
 
 Now we want a switch in the editor to turn each rotating in each axis on or off. We will use a **boolean** that is exposed to the editor to accomplish this. *Add* a new **Variable** by pressing the **+** button and call it `bRotateOnZ`. Make sure it is type **Boolean** and make sure that **Instance Editable** is set to `true`. Also since no other object will access this, set the **Private** access to `true`. *Add* a **tooltip** `Rotate on Z Axis, Yaw, Shaking Head No`.
 
-![adjust variable settings](images/RotateOnZRm8.jpg)
 
 ![](../images/line2.png)
 
