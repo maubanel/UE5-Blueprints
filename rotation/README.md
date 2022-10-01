@@ -108,9 +108,9 @@ Attach the Execution pins from **Sequence | The 0** to **Branch**.
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-We need another variable to track how many degrees per second the object will rotate in. We need to accept both positive and negative values. Flipping the sign will change the direction of rotation. Create a new **Variable** called `Degrees Per Second` of type **Float** and set **Instance Editable** to `true` and **Private** to `true`. If you would like you could restrict the **Value Range** from `-360` to `360`.
+We need another variable to track how many degrees per second the object will rotate in. We need to accept both positive and negative values. Flipping the sign will change the direction of rotation. Create a new **Variable** called `DegreesPerSecond` of type **Float** and set **Instance Editable** to `true` and **Private** to `true`. If you would like you could restrict the **Value Range** from `-360` to `360`.
 
-
+https://user-images.githubusercontent.com/5504953/193431472-7a13694a-a9bc-4347-ab12-e967e65f4c3c.mp4
 
 ![](../images/line2.png)
 
