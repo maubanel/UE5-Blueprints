@@ -68,7 +68,7 @@ https://user-images.githubusercontent.com/5504953/193431148-1f3d951d-0e1a-43a8-a
 
 Drag the **Rotate On Z** boolean to the graph and select **Get**.
 
-![add rotate on z](images/GetZRm8.jpg)
+![add rotate on z](images/GetZRm8.png)
 
 ![](../images/line2.png)
 
