@@ -60,6 +60,7 @@ Now go to the **Event Graph** tab. We will be rotating on the **Z**, **X** and *
 
 Now we want a switch in the editor to turn each rotating in each axis on or off. We will use a **boolean** that is exposed to the editor to accomplish this. *Add* a new **Variable** by pressing the **+** button and call it `RotateOnZ`. Make sure it is type **Boolean** and make sure that **Instance Editable** is set to `true`. Also since no other object will access this, set the **Private** access to `true`. *Add* a **tooltip** `Rotate on Z Axis, Yaw, Shaking Head No`. We want it to be in
 
+https://user-images.githubusercontent.com/5504953/193431148-1f3d951d-0e1a-43a8-a35d-61944ec5c2b7.mp4
 
 ![](../images/line2.png)
 
