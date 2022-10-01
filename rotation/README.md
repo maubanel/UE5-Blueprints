@@ -179,9 +179,7 @@ Now *break* the pins between the **Tick** event and **Sequence**. *Route* this e
 
 Now go back to the **Add Relative Rotation** node and *right click* on **Delta Rotation**. We just want to affect the *Z* axis so we will *select* **Split Struct Pin**:
 
-![split struc pin](images/SplitRotationStructPinsRm8.jpg)
-
-
+![split struc pin](images/SplitRotationStructPinsRm8.png)
 
 ![](../images/line2.png)
 
