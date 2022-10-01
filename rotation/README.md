@@ -145,6 +145,7 @@ Drag and drop the **Degrees Per Second** variable to the graph and select **Get*
 
 *Connect* the **Delta Seconds** from the **Event Tick** node to the **Multiply** node, and the output of **Degrees Per Second** to the **Multiply** node. *Add* a **Set Degree Since Last Frame** node reference to the variable. *Send* the result of this multiplication to the setter input for the **Set** node.
 
+https://user-images.githubusercontent.com/5504953/193431775-6d0d88ca-ccb9-47a4-9bce-3053bd225832.mp4
 
 ![](../images/line2.png)
 
