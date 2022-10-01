@@ -76,7 +76,7 @@ Drag the **Rotate On Z** boolean to the graph and select **Get**.
 
 *Grab* the pin coming of the **Rotate On Z** node and select **Branch**. Again this is the same as an if statement.
 
-![add branch node](images/BranchOffRotateZRm8.jpg)
+![add branch node](images/BranchOffRotateZRm8.png)
 
 ![](../images/line2.png)
 
@@ -84,7 +84,7 @@ Drag the **Rotate On Z** boolean to the graph and select **Get**.
 
 Attach the Execution pins from Sequence 0 to Branch.
 
-![attach execution pin from sequence 0 to branch](images/ConnectThen0ToBranch.jpg)
+![attach execution pin from sequence 0 to branch](images/ConnectThen0ToBranch.png)
 
 ![](../images/line2.png)
 
