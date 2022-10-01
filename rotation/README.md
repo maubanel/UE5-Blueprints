@@ -24,13 +24,17 @@ https://user-images.githubusercontent.com/5504953/193430834-d522e56f-099f-44b8-8
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-*Add* a **Static Mesh** component to the blueprint. *Change* the **View Options** to see **Engine Content**. *Select* the **Cube** static mesh. You will have to turn on engine content to see the shape.
+*Add* a **Static Mesh** component to the blueprint. 
 
 ![add static mesh component](images/StaticMeshCubeRm8.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+*Change* the **View Options** to see **Engine Content**. *Select* the **Cube** static mesh. You will have to turn on engine content to see the shape.
+
+![add cube to static mesh](images/addCube.png)
 
 *Assign* the **M_Metal_Burnished_Steel** Material.
 
