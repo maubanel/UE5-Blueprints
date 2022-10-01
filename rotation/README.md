@@ -17,7 +17,6 @@ We will be rotating an object in 3-D space through blueprints. Now there are two
 
 *Create* a new folder called `Room8`. *Add* a new **Blueprint Class** of type **Actor** and call it `BP_RotateObject`. *Open up* the **blueprint**:
 
-![create rrom 8 folder add a new blueprint](images/NewBluePrintActorClassRm8.jpg)
 
 ![](../images/line2.png)
 
