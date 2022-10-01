@@ -110,7 +110,7 @@ Attach the Execution pins from **Sequence | The 0** to **Branch**.
 
 We need another variable to track how many degrees per second the object will rotate in. We need to accept both positive and negative values. Flipping the sign will change the direction of rotation. Create a new **Variable** called `Degrees Per Second` of type **Float** and set **Instance Editable** to `true` and **Private** to `true`. If you would like you could restrict the **Value Range** from `-360` to `360`.
 
-![call variable degrees per second](images/DegreesPerSecond.jpg)
+
 
 ![](../images/line2.png)
 
