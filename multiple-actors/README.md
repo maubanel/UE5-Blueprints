@@ -22,7 +22,7 @@ Add a `Blueprints | Room9` folder to your project. Press the <kbd>+ Add</kbd> bu
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Open the new blueprint and *add* a new **Static Mesh** by *pressing* the **Add Component** button. Add a **Static Mesh** `Lightbulb`.
+Open the new blueprint and *add* a new **Static Mesh** by *pressing* the **Add Component** button. Add a **Static Mesh**.
 
 ![add static mesh component](images/ExportStaticMeshRm9.png)
 
@@ -30,9 +30,9 @@ Open the new blueprint and *add* a new **Static Mesh** by *pressing* the **Add C
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Rename* static mesh component to `Lightbulb` and *drag* it on its parent making it the root object. *Change* the scale to `10.0` on the **X,Y & Z** axis. Press the <kbd>Compile</kbd> button.
+*Rename* static mesh component to `Lightbulb` and *drag* it on its parent making it the root object. Add a **SM_Lightbulb** to the **Static Mesh** slot and the **M_Glass** as the **Material**. Press the <kbd>Compile</kbd> button.
 
-![rename and rescale lightbulb](images/ScaleLightbulb.jpg)
+![rename and rescale lightbulb](images/ScaleLightbulb.png)
 
 ![](../images/line2.png)
 
