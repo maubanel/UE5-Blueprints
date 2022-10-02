@@ -25,16 +25,15 @@ Rotations continued...
 
 Add a comment to the nodes on the left by pressing the <kbd>C</kbd> key. Press the <kbd>Compile</kbd> button. Press the <kbd>Compile</kbd> button.
 
-![add another comment and compile](images/ConnectOuputRm8.png)
-
-Go back to the editor and *select* the **Blueprints | Room 8** folder in the **Content Browser**. *Drag and drop* the **BP_Rotate_Object** into **Room 8**. *Position* it to the left hand side of the room and make sure that **Rotate on Z** is set to `true` and **Degrees Per Second** has a non 0 value between `-360` and `360` in the **Details** panel.
-
-![drag blueprint rotate object into room 8](images/addComment.png)
-
+![add another comment and compile](images/addComment.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Go back to the editor and *select* the **Blueprints | Room 8** folder in the **Content Browser**. *Drag and drop* the **BP_Rotate_Object** into **Room 8**. *Position* it to the left hand side of the room and make sure that **Rotate on Z** is set to `true` and **Degrees Per Second** has a non 0 value between `-360` and `360` in the **Details** panel.
+
+![drag blueprint rotate object into room 8](images/addComment.png)
 
 
 **Run** the game and the cube should rotate around the **Z** axis.
