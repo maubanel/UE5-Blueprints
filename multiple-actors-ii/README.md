@@ -14,6 +14,17 @@ Controlling multiple actors through level blueprints continued...
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
+Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
+ 
+Now do we get access to any object that is in the room? This is easy go to the game and select the **Trigger Volume** you just selected.
+
+*Add* a new **Variable** and make it **Variable Type** of **BP Lightbulb Multi | Object Reference** and call it `Lightbulb Reference` and make it **Private**. What is the difference between **Object Reference** and **Class Reference**? The latter refers to the class as a whole and the **Object Reference** refers to each instance that is running. In this case we want to access each individual instance seperately. Next to **Variable** type *click* on the **icon** and select the **Grid** icon to store an **array** of all lightbulbs.
+
+
+Now we need to get all the instances of the lightbulbs in the room. Add an **Event Begin Play** node. Right click and add a **Get All Actors of Class**. When you see a node that has **Get All** you know that it will most likely output an array of values.
+
+![get all actors of class](images/DeleteLightReferenceVariable.jpg)
+
 Connect the execution pins from **Begin Play** to **Get All Actors of Class**. Select the actor you want to get from the level for the **Get All Actors From Class | Actor Class** to`BP_LightbulbMulti`. Now drag a copy of **Set Lightbulb Reference** and connect the output array pin to the input array pin of these nodes as shown. Connect the execution pin from **Get All Actors of Class** to **Set Lightbulb** nodes.
 
 ![add set lightbulb ref to graph](images/SayYesRm10.jpg)

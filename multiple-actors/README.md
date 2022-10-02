@@ -187,26 +187,13 @@ In previous rooms we have put the trigger volume in the blueprint. In most cases
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
- Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
- 
-Now do we get access to any object that is in the room? This is easy go to the game and select the **Trigger Volume** you just selected.
-
-![select trigger volume in editor](images/BreakPinConnRm10.jpg)
-
 Now since a blueprint can be used in any level and that this trigger is unique to this level, there is a special kind of blueprint. Everytime you have created a new Map or Level the game has automatically created a [Level Blueprint](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Types/LevelBlueprint/). This blueprint gives you access to all the insances included in that level in the editor. 
 
 > A Level Blueprint is a specialized type of Blueprint that acts as a level-wide global event graph. Each level in your project has its own Level Blueprint created by default that can be edited within the Unreal Editor, however new Level Blueprints cannot be created through the editor interface.<br><br>Events pertaining to the level as a whole, or specific instances of Actors within the level, are used to fire off sequences of actions in the form of Function Calls or Flow Control operations. - UE4 manual
 
 Press the **Blueprints** button and select **Open Level Blueprint**. Please note that these *do not* show up in your Content folder as they can't be deleted. Their location is essentially hidden.
 
-![open level blueprint](images/NameFileBPRm10Switch.jpg)
-
-*Add* a new **Variable** and make it **Variable Type** of **BP Lightbulb Multi | Object Reference** and call it `Lightbulb Reference` and make it **Private**. What is the difference between **Object Reference** and **Class Reference**? The latter refers to the class as a whole and the **Object Reference** refers to each instance that is running. In this case we want to access each individual instance seperately. Next to **Variable** type *click* on the **icon** and select the **Grid** icon to store an **array** of all lightbulbs.
-
-
-Now we need to get all the instances of the lightbulbs in the room. Add an **Event Begin Play** node. Right click and add a **Get All Actors of Class**. When you see a node that has **Get All** you know that it will most likely output an array of values.
-
-![get all actors of class](images/DeleteLightReferenceVariable.jpg)
+![open level blueprint](images/openLevelBP.png)
 
 ![](../images/line.png)
 
