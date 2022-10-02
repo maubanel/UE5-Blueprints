@@ -101,7 +101,7 @@ Now lets add an event to this blueprint that will run when this event is trigger
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Each actor that subscribes to it can create its own definition. This means that the behavior can be customized PER actor class. This is an event so there is an execution pin.
+Each actor that subscribes to it can create its own definition. This means that the behavior can be customized PER actor class. Double click on the **Interface | Room 10 Switch**. This adds an event so there is an execution pin. Now add a **Switch Light** node.
 
 ![interface method node](images/PrivateTooltipRm12.png)
 
@@ -116,7 +116,7 @@ Each actor that subscribes to it can create its own definition. This means that 
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now add a **Switch Light** node and *attach* the execution pins and the boolean pins between **Is On** to **Turn On**. This will run the function we previously wrote to turn the light on and off. *Press* the <kbd>Compile</kbd> button.
+ and *attach* the execution pins and the boolean pins between **Is On** to **Turn On**. This will run the function we previously wrote to turn the light on and off. *Press* the <kbd>Compile</kbd> button.
 
 ![trigger switch light](images/SwitchLightOnOff2.jpg)
 
