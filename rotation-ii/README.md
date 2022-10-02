@@ -15,13 +15,19 @@ Rotations continued...
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-*Connect* the output of **Degrees Since Last Frame** with the input on the **Rotation** node into the **Delta Rotation Z (Yaw)** pin. Add a comment to the latest work by pressing the <kbd>C</kbd> key. Press the <kbd>Compile</kbd> button.
+*Connect* the output of **Degrees Since Last Frame** with the input on the **Rotation** node into the **Delta Rotation Z (Yaw)** pin. Add a comment to the latest work by pressing the <kbd>C</kbd> key. 
 
 ![connect output of degrees since last frame](images/ConnectOuputRm8.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+
+Add a comment to the nodes on the left by pressing the <kbd>C</kbd> key. Press the <kbd>Compile</kbd> button. Press the <kbd>Compile</kbd> button.
+
+![add another comment and compile](images/ConnectOuputRm8.png)
+
+addComment
 
 Go back to the editor and *select* the **Blueprints | Room 8** folder in the **Content Browser**. *Drag and drop* the **BP_Rotate_Object** into **Room 8**. *Position* it to the left hand side of the room and make sure that **Rotate on Z** is set to `true` and **Degrees Per Second** has a non 0 value between `-360` and `360` in the **Details** panel.
 
