@@ -154,6 +154,8 @@ https://user-images.githubusercontent.com/5504953/193450472-78f18c3d-9e1c-4fe0-b
 
 Go into the game and try different values and combinations both positive and negative. Also, look at your blueprint node chart as it runs to see how the booleans gate the operation flow. Now we will continue in this room but instead of rotation will be translating the cube instead.
 
+https://user-images.githubusercontent.com/5504953/193450552-d1175c4e-e326-41cb-a474-a16ebdb5a72a.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
