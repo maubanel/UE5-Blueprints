@@ -57,7 +57,7 @@ https://user-images.githubusercontent.com/5504953/193435298-39b520c6-b88a-4694-b
 
 *Change* the link from **Degrees Since Last Frame** to the **Delta Rotation Y (Pitch)** input in the **AddRelativeRotation** node. *Connect* the execution pin from **Sequence | Then 1** to this copied **Branch** node. *Adjust* the **comment** to `Adjust Pitch`.
 
-![make changes to nodes](images/AdjustPitchAlteration1Rm8.jpg)
+![make changes to nodes](images/AdjustPitchAlteration1Rm8.png)
 
 You can *right click* on the **bRotateOn Z** variable and *duplicate* it. *Rename* it to `bRotateOnY` and adjust the **Tooltip** to `Pitch on Y Axis, Yaw, Shaking Head Yes/No`. Drag a **Get** reference to it on the chart and delete the old **Rotate on Z** node and drag it into the **Condition** on the **Branch**.
 
