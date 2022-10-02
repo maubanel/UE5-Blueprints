@@ -122,6 +122,8 @@ You can *delete* the **Rotating Cube** reference as we will not be using it. Con
 
 Now go back to the game and try it out. No more gimble lock, the object rotates without stopping:
 
+https://user-images.githubusercontent.com/5504953/193435945-400d044c-e9eb-4eab-a5b6-fa4ff2476cd2.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
