@@ -162,7 +162,7 @@ https://user-images.githubusercontent.com/5504953/193453110-b3e8fe58-81ff-42d2-a
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Copy and paste* the entire section. Change the comment to `Translate On X`:
+*Copy and paste* the entire section.
 
 ![copoy and recomment](images/CopyPasteTranslateZRm8.jpg)
 
