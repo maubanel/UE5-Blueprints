@@ -24,6 +24,8 @@ Connect the output of the **Multiplication** pin to the **Delta Location Y** pin
 
 In the editor change it to only **Translate on Z** as `true` and the **CmOfTravel** to `2`. *Press* the <kbd>Play</kbd> button to see the box move in and out of the screen.
 
+https://user-images.githubusercontent.com/5504953/193455503-434b6730-87b7-4d61-861b-2abda5624914.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
