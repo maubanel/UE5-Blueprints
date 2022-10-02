@@ -45,19 +45,22 @@ Connect the output of the **Sin** node to the top input of the **Mutliplication*
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
- If there is no **Then 2** pin *press* the **Add pin +** button to add it. Then *pull* of the **Then 2** execution pin and place it into the **Branch** node you just copied. Also *delete* the **Translate On Z** getter in the graph and drag and drop **Translate On Y**. Connet the output to the **Branch | Condition** pin.
+
+*Pull* of the **Then 2** execution pin and place it into the **Branch** node you just to translate on x.
+
+![connect execution pin to branch](images/connectThen2.png)
+
+![](../images/line2.png)
+
+##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
+
+ If there is no **Then 2** pin *press* the **Add pin +** button to add it. Then  Also *delete* the **Translate On Z** getter in the graph and drag and drop **Translate On Y**. Connet the output to the **Branch | Condition** pin.
 
 *Connect* the output of the **SIN** node to the **Delta Location Y** on the **Delta Relative Location** node:
 
 Now this is what your final node graph should look like. *Press* the <kbd>Compile</kbd> button:
 
 Go into the game and turhning each axis on and off. Also, look at your blueprint node chart as it runs to see how the booleans gate the operation flow.
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
-
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
