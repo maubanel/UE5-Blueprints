@@ -62,11 +62,19 @@ Go to the **Event Tick** node and delete the **Degree Per Second** and **Multipl
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![drag total time and delete multipicatoin and degree per second nodes](images/addTime.png)
+Place an **Add** node to the graph and add up **Tick | Delta Seconds** with **Total Tile**.  Send the output of the **Add** node to the **Set Total Time** node.
+
+![add time](images/addTime.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![add time](images/updateComment.png)
+
+![](../images/line2.png)
+
+##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Double click* **BP_Translate_Object** to enter the editor. We will not need the speed variable as we will not be adjusting the speed. *Delete* the **Degrees Per Second** variable.
 
@@ -87,10 +95,6 @@ Go to the **Event Tick** node and delete the **Degree Per Second** and **Multipl
 *Drag off* of this **Set** output pin and look for the **Sin (Radians)** node. We will use a sine wave to translate the object and you need to use radians to do math to it as opposed to angles (remember your trig?).
 
 ![add sin wave radians](images/SineWaveNode.jpg)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now we will want to feed three translations. To keep the graph neat we will *add* a **Sequence** node and connect its execution pin to the *Set* node.
 
