@@ -141,18 +141,14 @@ Pull off the  **Point Light** pin and select **Set Intensity** to change the bri
 
 Set the execution pin from **Branch | True** to **Set Intensity**.
 
-Open up the **M_Glass** material. Look at what is going into the **Emissive Color** channel. We can use the **GlowMultiplier** Scalar Parameter to turn the glow on and off.
+*Add* a **Get Dynamic Material** node for the variable we just created. *Pull off* the output pin and select **Set Scalar Parameter Value** and change the **Parameter Name** to `GlowMultiplier`. Make sure it is EXACTLY the same as the material. Set the **Value** to `6.0`. *Connect* the execution pins from **Set Intensity** to **Set Scalar Parameter Value**. Add a `Turn Light On` comment by highlighting the nodes and pressing the <kbd>C</kbd> key.
 
-![m_glow material graph](images/GlowMultiplier.jpg)
+![set scalar parameter value](images/MultiplyGlow.png)
 
+![](../images/line2.png)
 
-*Add* a **Get Dynamic Material** node for the variable we just created. *Pull off* the output pin and select **Set Scalar Parameter Value** and change the **Parameter Name** to `GlowMultiplier`. Make sure it is EXACTLY the same as the material. Set the **Value** to `6.0`. *Connect* the execution pins from **Set Intensity** to **Set Scalar Parameter Value**.
+##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![set scalar parameter value](images/MultiplyGlow.jpg)
-
-Add a `Turn Light On` comment by highlighting the nodes and pressing the <kbd>C</kbd> key.
-
-![add code comments](images/TurnLightOnComment.jpg)
 
 *Copy and paste* all these nodes and change the comment to `Turn Light Off`. Set **New Intensity** and **Value** pins to `0.0`. *Connect* the **Set Intensity** execution pin to the **False** branch in the **Switch** node.
 
@@ -168,10 +164,6 @@ Lets test this function before moving forward. Go back to the **Event Graph** an
  Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
 
 ![test light in game by switching Turn On off and on](images/TestTurnOnOffUnct.gif)
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 In previous rooms we have put the trigger volume in the blueprint. In most cases we would have a trigger volum set in the level as it is always in a different place in the level and can sometimes control more than one blueprint. Go to **Volumes** and *drag* a **Trigger Volume** into the level. *Scale* it to add a box in front of the ligths so the player can walk into and out of it to trigger a lights on / lights off event.
 
