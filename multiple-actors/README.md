@@ -56,7 +56,7 @@ Open up **BP_LightbulbMulti**. Add a new component **Point Light** so that the b
 
 Now in game we have a shadow of the lightbulb which isn't realistic.  We want to kill the shadow.  Go to the **Blueprint** and select the **Lighting** component and `deselect` **Cast Shadows**.
 
-![turn off cast shadow](images/TurnOffCastShadow.jpg)
+![turn off cast shadow](images/TurnOffCastShadow.png)
 
 We need to add a dynamic materail to the **Construction Script**. To switch the light on and off we will need to turn the point light on and off as well as the material glow. Drag a reference of the **Lightbulb** static mesh onto the graph. Pull off the blue pin and select a **Create Dynamic Material Instance** node.
 
