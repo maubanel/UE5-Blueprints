@@ -185,7 +185,7 @@ Now go back to the **Add Relative Rotation** node and *right click* on **Delta R
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Now *drag* the **Degrees Since Last Frame** variable into the scene graph and select **Get**.
+Now *drag* the **Current Angle** variable into the scene graph and select **Get**.
 
 ![add get degrees since last frame](images/DegreesLastFrameGetterRm8.png)
 
