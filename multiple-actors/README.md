@@ -24,7 +24,7 @@ Add a `Blueprints | Room9` folder to your project. Press the <kbd>+ Add</kbd> bu
 
 Open the new blueprint and *add* a new **Static Mesh** by *pressing* the **Add Component** button. Add a **Static Mesh** `Lightbulb`.
 
-![add static mesh component](images/ExportStaticMeshRm9.jpg)
+![add static mesh component](images/ExportStaticMeshRm9.png)
 
 ![](../images/line2.png)
 
