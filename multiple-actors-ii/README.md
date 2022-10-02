@@ -14,7 +14,7 @@ Controlling multiple actors through level blueprints continued...
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Make sure you still have the trigger volume selected in the editor. Right click on the graph and see that we can now access events to this game object. Select **Add Event for Trigger Box 0 | Collision | Add on Actor Begin Overlap** AND a **Add Event for Trigger Box 0 | Collision | Add on Actor End Overlap** node. This will trigger the nodes when an actor enters and leaves the volume.
+Now do we get access to any object that is in the room? This is easy go to the game and select the **Trigger Volume** you just selected. Make sure you still have the trigger volume selected in the editor. Right click on the graph and see that we can now access events to this game object. Select **Add Event for Trigger Box 0 | Collision | Add on Actor Begin Overlap** AND a **Add Event for Trigger Box 0 | Collision | Add on Actor End Overlap** node. This will trigger the nodes when an actor enters and leaves the volume.
 
 ![add begin and end overlap event types](images/GetAllActorsOfClass.png)
 
@@ -31,13 +31,14 @@ So now you should have two events for when the player enters and leaves the volu
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
- 
-Now do we get access to any object that is in the room? This is easy go to the game and select the **Trigger Volume** you just selected.
-
 *Add* a new **Variable** and make it **Variable Type** of **BP Lightbulb Multi | Object Reference** and call it `Lightbulb Reference` and make it **Private**. What is the difference between **Object Reference** and **Class Reference**? The latter refers to the class as a whole and the **Object Reference** refers to each instance that is running. In this case we want to access each individual instance seperately. Next to **Variable** type *click* on the **icon** and select the **Grid** icon to store an **array** of all lightbulbs.
 
 
+![](../images/line2.png)
+
+##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
 Now we need to get all the instances of the lightbulbs in the room. Add an **Event Begin Play** node. Right click and add a **Get All Actors of Class**. When you see a node that has **Get All** you know that it will most likely output an array of values.
 
 ![get all actors of class](images/DeleteLightReferenceVariable.jpg)
@@ -50,9 +51,6 @@ Connect the execution pins from **Begin Play** to **Get All Actors of Class**. S
 
 ![add flip flop node](images/ActorClassBPSelectRm10.jpg)
 
-![](../images/line2.png)
-
-##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Add a comment by pressing the <kbd>C</kbd> and call it `Toggle`.
 
