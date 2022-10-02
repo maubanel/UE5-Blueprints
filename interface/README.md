@@ -39,9 +39,9 @@ Move **BP_LightbulbMultiInterface** to **Room10**.
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag and drop* several **BP_LightbulbMultiInterface** into room 10.
+*Drag and drop* around ten **BP_LightbulbMultiInterface** into room 10. Move the blueprints into the **Room 10** folder in the **Outliner**.
 
-![add multiple copies of bp_lightbulginterface into room 10](images/AddRoom12SwitchToRoom.jpg)
+![add multiple copies of bp_lightbulginterface into room 10](images/AddRoom12SwitchToRoom.png)
 
 ![](../images/line2.png)
 
