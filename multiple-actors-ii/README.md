@@ -31,7 +31,7 @@ So now you should have two events for when the player enters and leaves the volu
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Add* a new **Variable** and make it **Variable Type** of **BP_LightbulbMulti | Object Reference** and call it `LightbulbReference` and make it **Private**. What is the difference between **Object Reference** and **Class Reference**? The latter refers to the class as a whole and the **Object Reference** refers to each instance that is running. In this case we want to access each individual instance seperately. Next to **Variable** type *click* on the **icon** and select the **Grid** icon to store an **array** of all lightbulbs.
+*Add* a new **Variable** and make it **Variable Type** of **BP_LightbulbMulti | Object Reference** and call it `LightbulbReferences` and make it **Private**. What is the difference between **Object Reference** and **Class Reference**? The latter refers to the class as a whole and the **Object Reference** refers to each instance that is running. In this case we want to access each individual instance seperately. Next to **Variable** type *click* on the **icon** and select the **Grid** icon to store an **array** of all lightbulbs.
 
 https://user-images.githubusercontent.com/5504953/193477461-7465cd3c-1878-4e4b-91e3-4d9181c15ee6.mp4
 
@@ -39,10 +39,16 @@ https://user-images.githubusercontent.com/5504953/193477461-7465cd3c-1878-4e4b-9
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
 Now we need to get all the instances of the lightbulbs in the room. Add an **Event Begin Play** node. Right click and add a **Get All Actors of Class**. When you see a node that has **Get All** you know that it will most likely output an array of values.
 
-![get all actors of class](images/DeleteLightReferenceVariable.jpg)
+![get all actors of class](images/DeleteLightReferenceVariable.png)
+
+
+![](../images/line2.png)
+
+##### `Step 5.`\|`ITB`| :small_orange_diamond:
+
+Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
 
 Connect the execution pins from **Begin Play** to **Get All Actors of Class**. Select the actor you want to get from the level for the **Get All Actors From Class | Actor Class** to`BP_LightbulbMulti`. Now drag a copy of **Set Lightbulb Reference** and connect the output array pin to the input array pin of these nodes as shown. Connect the execution pin from **Get All Actors of Class** to **Set Lightbulb** nodes.
 
@@ -56,10 +62,6 @@ Connect the execution pins from **Begin Play** to **Get All Actors of Class**. S
 Add a comment by pressing the <kbd>C</kbd> and call it `Toggle`.
 
 ![add code comments](images/ActorArrayOut.jpg)
-
-![](../images/line2.png)
-
-##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
 *Drag* a copy of the **Get RefToLightbulbs** variable onto the graph.
 
