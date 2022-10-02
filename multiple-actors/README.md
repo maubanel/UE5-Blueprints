@@ -179,11 +179,16 @@ https://user-images.githubusercontent.com/5504953/193463571-230468da-1461-4a73-b
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
- Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
 In previous rooms we have put the trigger volume in the blueprint. In most cases we would have a trigger volum set in the level as it is always in a different place in the level and can sometimes control more than one blueprint. Go to **Volumes** and *drag* a **Trigger Volume** into the level. *Scale* it to add a box in front of the ligths so the player can walk into and out of it to trigger a lights on / lights off event.
 
-![add trigger volume to level](images/UseLevelTriggerVolume.jpg)
+![add trigger volume to level](images/UseLevelTriggerVolume.png)
 
+![](../images/line2.png)
+
+##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
+ Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
+ 
 Now do we get access to any object that is in the room? This is easy go to the game and select the **Trigger Volume** you just selected.
 
 ![select trigger volume in editor](images/BreakPinConnRm10.jpg)
@@ -198,9 +203,6 @@ Press the **Blueprints** button and select **Open Level Blueprint**. Please note
 
 *Add* a new **Variable** and make it **Variable Type** of **BP Lightbulb Multi | Object Reference** and call it `Lightbulb Reference` and make it **Private**. What is the difference between **Object Reference** and **Class Reference**? The latter refers to the class as a whole and the **Object Reference** refers to each instance that is running. In this case we want to access each individual instance seperately. Next to **Variable** type *click* on the **icon** and select the **Grid** icon to store an **array** of all lightbulbs.
 
-![](../images/line2.png)
-
-##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
 Now we need to get all the instances of the lightbulbs in the room. Add an **Event Begin Play** node. Right click and add a **Get All Actors of Class**. When you see a node that has **Get All** you know that it will most likely output an array of values.
 
