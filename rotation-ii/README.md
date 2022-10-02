@@ -73,7 +73,11 @@ You can *right click* on the **bRotateOn Z** variable and *duplicate* it. *Renam
 
 Now connect the output of **Sequence Then 1** node to the **Branch** node.
 
-![connect sequence to branch node](images/ConnectSequence1PinRm8.jpg)
+![connect sequence to branch node](images/ConnectSequence1PinRm8.png)
+
+![](../images/line2.png)
+
+##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Go to the game and *deselect* the **Rotate On Z** and *select* the **Rotate on Y**. The actor should now rotate on the Y axis when the game runs. There is a problem. The actor gets stuck and stops rotating. This is [gimble lock](https://en.wikipedia.org/wiki/Gimbal_lock) which is a problem when we use **euler angles** to rotate. We can find a work around.
 
@@ -82,10 +86,6 @@ Go to the game and *deselect* the **Rotate On Z** and *select* the **Rotate on Y
 Go back to the **Blueprint** and remove the **Add Relative Rotation** node on **Pitch**:
 
 ![remove add relative rotation in pitch section](images/RemovePitchRotationDueToLockRm8.jpg)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 You can *delete* the **Rotating Cube** reference as we will not be using it. *Right click* on open space in the graph and select: **Add Actor Local Rotation** node. Connect the execution pin from the output **True** of the **Branch** node.
 
