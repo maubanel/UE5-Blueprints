@@ -123,23 +123,9 @@ https://user-images.githubusercontent.com/5504953/193478516-fd17a586-e420-4272-a
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
-
-
-![connect isA to Turn On](images/SwitchLightOnOff.jpg)
-
-Go to **BP_LightbulbMulti** and the **Event Graph** *add* a **Switch Light** node and set it to `false` so that the lights ALWAYS start turned off. *Press* the <kbd>Compile</kbd> button.
-
-![call switch light in begin play with lights off](images/image_09.jpg)
-
-Now run the game and enter and leave the room. The lights should toggle on and off.
-
-![run game and trigger lights on and off](images/TurnOnOffLights.gif)
-
-That's it for **Room 9**. Press **Save All** and update **Github** by **committing** and **pushing** all the changes made using **Unreal Source Control** and **GitHub Desktop**. 
-
-![save, commit and push to github](images/Room9GitHub.jpg)
+![save all and submit to perforce in P4V](images/submitP4.png)
 
 ![](../images/line.png)
 
