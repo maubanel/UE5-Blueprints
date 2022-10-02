@@ -134,13 +134,13 @@ In the **Event Graph** *add* to the nodes that are attached to **Begin Play**. A
 
 Drag a copy of **RefToLightbulbsInterface** and add a **Set** node. Connect the execution pins and the **Out Actors** array node to the **RefToLightbulbsInterface** node.
 
-![set the array with all subscribers](images/CallInterfaceFromSwitchRm12.jpg)
+![set the array with all subscribers](images/CallInterfaceFromSwitchRm12.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-
+![variable settings](images/HookUpExecutionAndBoolRm12.jpg)
 
 ![](../images/line2.png)
 
@@ -153,7 +153,7 @@ Drag a copy of **RefToLightbulbsInterface** and add a **Set** node. Connect the 
 
 
 
-![variable settings](images/HookUpExecutionAndBoolRm12.jpg)
+
 
 ![](../images/line2.png)
 
