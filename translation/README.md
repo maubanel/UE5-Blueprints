@@ -170,11 +170,9 @@ https://user-images.githubusercontent.com/5504953/193453110-b3e8fe58-81ff-42d2-a
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
+Change the **Comment** to `Translate on Y`.  Connect the output of the **Sin** node to the top **Multiplication** pin of the new translate on Y section.
+
 ![copy](images/changeComm.png)
-
-
-![copy](images/changeComm.png)
-
 
 ![](../images/line2.png)
 
