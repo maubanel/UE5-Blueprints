@@ -14,7 +14,7 @@ Now you don't always have to assign the reference to the variable. You can acces
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Add a `Blueprints | Room9` folder to your project. Press the <kbd>Add New</kbd> button and select **Blueprint Class**. Select type **Actor** class and call it `BP_LightbulbMulti`.
+Add a `Blueprints | Room9` folder to your project. Press the <kbd>+ Add</kbd> button and select **Blueprint Class**. Select type **Actor** class and call it `BP_LightbulbMulti`.
 
 ![add room 9 folder and add blueprint called BP_LightbulbMulti](images/AddBPRoom9.png)
 
