@@ -25,7 +25,7 @@ Scooch the camera over to **Room 10**. Add a `Blueprints | Room10` folder to the
 
 *Right click* on **Room 9 | BP_LightbulbMulti** and *duplicate* it. *Call* the new blueprint `BP_LightbulbMultiInterface`. 
 
-![duplicate bp_lightbulbmulti](images/DupeBPLightbulbRm12.jpg)
+![duplicate bp_lightbulbmulti](images/DupeBPLightbulbRm12.png)
 
 ![](../images/line2.png)
 
