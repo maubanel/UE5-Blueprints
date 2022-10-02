@@ -17,7 +17,7 @@ What if we wanted a single event in the game interact with different objects dif
 
 Scooch the camera over to **Room 10**. Add a `Blueprints | Room10` folder to the **Content Browser**.
 
-![add room 10 folder](images/CreateRoom10Folder.jpg)
+![add room 10 folder](images/CreateRoom10Folder.png)
 
 ![](../images/line2.png)
 
