@@ -123,9 +123,15 @@ Call this new function `SwitchLight`. We need to add an **Input** and call it `T
 
 *Add* a **Branch Node** to the node graph. *Attach* the execution pins from **Switch Light** to **Turn On**.  *Connect* the  **Turn On** output pin to the **Condition** pin in the **Branch** Node. We will handle the turn on light logic from the **True** output pin and the turn off logic from the **False** pin.
 
-![add branch node](images/AddBranchtoFunct.jpg)
+*Click* on the **Point Light** in the **Components** menu. Lets look at the **Details** panel. A **Variable** called **Intensity** can be used to turn the acutal light on and off. We can set it to `0` when off and `5000` when on. Drag the **Point Light** to the graph and pull off its pin and select **Set Intensity** to change this value.
 
-*Click* on the **Point Light** in the **Components** menu. Lets look at the **Details** panel. A **Variable** called **Intensity** can be used to turn the acutal light on and off. We can set it to `0` when off and `5000` when on. Drag the **Point Light** to the graph and pull off its pin and select **Set Intensity** to change this value. Since this is for turning on set the **New Intensity** to `5000`.
+![add branch node](images/AddBranchtoFunct.png)
+
+![](../images/line2.png)
+
+##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
+
+ Since this is for turning on set the **New Intensity** to `5000`.
 
 Set the execution pin from **Branch | True** to **Set Intensity**.
 
@@ -144,10 +150,6 @@ Open up the **M_Glass** material. Look at what is going into the **Emissive Colo
 Add a `Turn Light On` comment by highlighting the nodes and pressing the <kbd>C</kbd> key.
 
 ![add code comments](images/TurnLightOnComment.jpg)
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
 *Copy and paste* all these nodes and change the comment to `Turn Light Off`. Set **New Intensity** and **Value** pins to `0.0`. *Connect* the **Set Intensity** execution pin to the **False** branch in the **Switch** node.
 
