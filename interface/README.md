@@ -126,7 +126,7 @@ Add a **Tooltip** with `Keeps array of all room 10 lightbulbs`. Set **Private** 
 
 In the **Event Graph** *add* to the nodes that are attached to **Begin Play**. Add a **Get All Actors of Class** node and select a **BP_LightbulbMultiInterface** class.
 
-![get a reference to all actors that subscribe to the interface](images/CompileImplementedInterface.jpg)
+![get a reference to all actors that subscribe to the interface](images/CompileImplementedInterface.png)
 
 ![](../images/line2.png)
 
