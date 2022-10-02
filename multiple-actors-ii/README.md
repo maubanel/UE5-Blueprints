@@ -16,7 +16,7 @@ Controlling multiple actors through level blueprints continued...
 
 Make sure you still have the trigger volume selected in the editor. Right click on the graph and see that we can now access events to this game object. Select **Add Event for Trigger Volume 1 | Collision | Add on Actor Begin Overlap** AND a **Add Event for Trigger Volume 1 | Collision | Add on Actor End Overlap** node. This will trigger the nodes when an actor enters and leaves the volume.
 
-![add begin and end overlap event types](images/GetAllActorsOfClass.jpg)
+![add begin and end overlap event types](images/GetAllActorsOfClass.png)
 
 ![](../images/line2.png)
 
