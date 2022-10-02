@@ -178,72 +178,26 @@ Change the **Comment** to `Translate on Y`.  Connect the output of the **Sin** n
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
+Change the **Translate on Z** node to the **Translate on Y** node.
 
+![change translate on z to y](images/changeTranslate.png)
 
 ![](../images/line2.png)
 
-##### `Step 22.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Drag* the execution pin from **Sequence Then 1** to **Branch** input pin. Also *delete* the **Translate On Z** getter and drag and drop a **Get Translate On X** and connect the output pin to the input **Condition** pin on the **Branch** node.
 
-![add translate on z to graph](images/XExecutionPinAndBoolRm8.jpg)
-
-
-![](../images/line2.png)
-
-##### `Step 23.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Take the output of the **SIN** node and *plug* it into the input pin **Delta Location X** on the **Delta Relative Location** node
-
-![attach SIN to Delta Location X](images/OuputSinDeltaXRm8.jpg)
-
-![](../images/line2.png)
-
-##### `Step 24.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Copy and paste* all the nodes from the **Translate On Z** section again.
 
-![copy and paste translate on z nodes](images/CopyPasteTranslateOnZAgainRm8.jpg)
-
-![](../images/line2.png)
-
-##### `Step 25.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond:
-
 Change the **Comment** to `Translate on Y`. Look at the **Sequence** node. If there is no **Then 2** pin *press* the **Add pin +** button to add it. Then *pull* of the **Then 2** execution pin and place it into the **Branch** node you just copied. Also *delete* the **Translate On Z** getter in the graph and drag and drop **Translate On Y**. Connet the output to the **Branch | Condition** pin.
-
-![connect translate pins for y axis](images/ConnectPinsTranslateYRm8.jpg)
-
-![](../images/line2.png)
-
-##### `Step 26.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
 
 *Connect* the output of the **SIN** node to the **Delta Location Y** on the **Delta Relative Location** node:
 
-![connect SIN to delta location Y](images/SinDeltaYRm8.jpg)
-
-![](../images/line2.png)
-
-##### `Step 27.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Now this is what your final node graph should look like. *Press* the <kbd>Compile</kbd> button:
 
-![complete node chart blueprint](images/FinalNodeChartCompile.jpg)
-
-![](../images/line2.png)
-
-##### `Step 28.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Go into the game and turhning each axis on and off. Also, look at your blueprint node chart as it runs to see how the booleans gate the operation flow.
-
-![in game cube moves on three axes](images/TranslateOnXYZ.gif)
-
-![](../images/line2.png)
-
-##### `Step 29.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-That's it for **Room 8** and this entire map/level. Press **Save All** and update **Github** by **committing** and **pushing** all the changes made using **Unreal Source Control** and **GitHub Desktop**. 
-
-![save all, commit and push to github](images/Room8Github.jpg)
 
 ![](../images/line.png)
 
