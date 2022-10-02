@@ -146,7 +146,9 @@ Add a **Multiplication** node to the graph.  Also add a **Get Cm Of Travel** nod
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Add a comment on all the nodes after the **Sequence** and type `Translate on Z`. This is the up and down axis in the room.
 
+![add code comments](images/AddTranslateOnZComment.png)
 
 ![](../images/line2.png)
 
@@ -158,9 +160,7 @@ Add a **Multiplication** node to the graph.  Also add a **Get Cm Of Travel** nod
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a comment on all the nodes after the **Sequence** and type `Translate on Z`. This is the up and down axis in the room.
 
-![add code comments](images/AddTranslateOnZComment.jpg)
 
 ![](../images/line2.png)
 
