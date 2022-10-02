@@ -2,7 +2,7 @@
 
 ### Translation II
 
-<sub>[previous](../) • [home](../README.md#user-content-ue5-blueprints) • [next](../)</sub>
+<sub>[previous](../translation/README.md#user-content-translation) • [home](../README.md#user-content-ue5-blueprints) • [next](../multiple-actors/README.md#user-content-dynamically-alter-multiple-classes)</sub>
 
 ![](../images/line3.png)
 
@@ -11,7 +11,6 @@ Lets finish up translating the cube on the Y and X axis.
 <br>
 
 ---
-
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
@@ -145,5 +144,5 @@ Lets finish up translating the cube on the Y and X axis.
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-ue5-blueprints) | [next](../)|
+| [previous](../translation/README.md#user-content-translation)| [home](../README.md#user-content-ue5-blueprints) | [next](../multiple-actors/README.md#user-content-dynamically-alter-multiple-classes)|
 |---|---|---|
