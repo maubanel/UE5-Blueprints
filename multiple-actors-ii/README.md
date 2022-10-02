@@ -14,7 +14,7 @@ Controlling multiple actors through level blueprints continued...
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Make sure you still have the trigger volume selected in the editor. Right click on the graph and see that we can now access events to this game object. Select **Add Event for Trigger Volume 1 | Collision | Add on Actor Begin Overlap** AND a **Add Event for Trigger Volume 1 | Collision | Add on Actor End Overlap** node. This will trigger the nodes when an actor enters and leaves the volume.
+Make sure you still have the trigger volume selected in the editor. Right click on the graph and see that we can now access events to this game object. Select **Add Event for Trigger Box 0 | Collision | Add on Actor Begin Overlap** AND a **Add Event for Trigger Box 0 | Collision | Add on Actor End Overlap** node. This will trigger the nodes when an actor enters and leaves the volume.
 
 ![add begin and end overlap event types](images/GetAllActorsOfClass.png)
 
@@ -22,6 +22,14 @@ Make sure you still have the trigger volume selected in the editor. Right click 
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
+
+So now you should have two events for when the player enters and leaves the volume.
+
+![two volume triggered events](images/bothEvents.png)
+
+![](../images/line2.png)
+
+##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
  
@@ -37,11 +45,6 @@ Now we need to get all the instances of the lightbulbs in the room. Add an **Eve
 Connect the execution pins from **Begin Play** to **Get All Actors of Class**. Select the actor you want to get from the level for the **Get All Actors From Class | Actor Class** to`BP_LightbulbMulti`. Now drag a copy of **Set Lightbulb Reference** and connect the output array pin to the input array pin of these nodes as shown. Connect the execution pin from **Get All Actors of Class** to **Set Lightbulb** nodes.
 
 ![add set lightbulb ref to graph](images/SayYesRm10.jpg)
-
-
-![](../images/line2.png)
-
-##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Add* a **Flip Flop** node to the chart. This node when triggered toggles between true and false. Connect it to both the **Overlap** nodes. This way the first time you enter the volue it will switch on, then when you leave swtich off. This will continue this behavior during the game. What will happen is that the **IsA** boolean on the **Flip Flop** pin will change from **True** to **False** and back.
 
