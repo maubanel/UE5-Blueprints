@@ -162,7 +162,9 @@ https://user-images.githubusercontent.com/5504953/193453110-b3e8fe58-81ff-42d2-a
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Copy and paste* the entire section. Change the comment to `Translate On X`:
 
+![copoy and recomment](images/CopyPasteTranslateZRm8.jpg)
 
 ![](../images/line2.png)
 
@@ -174,9 +176,7 @@ https://user-images.githubusercontent.com/5504953/193453110-b3e8fe58-81ff-42d2-a
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-*Copy and paste* the entire section. Change the comment to `Translate On X`:
 
-![copoy and recomment](images/CopyPasteTranslateZRm8.jpg)
 
 ![](../images/line2.png)
 
