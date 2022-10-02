@@ -167,15 +167,18 @@ So now your node chart should look like this:
 
 Lets test this function before moving forward. Go back to the **Event Graph** and add a function call by *right clicking* and adding a **Switch Light** node and connect it to begin play. Press the <kbd>Compile</kbd> button.
 
+Move your **Player Start** node to **Room 9**.
 
- *Play* the game with the **Turn On** boolean set to `false`. *Play* it in game and the lights should be off. 
+*Play* the game with the **Turn On** boolean set to `true`. Press the <kbd>Compile</kbd> button. *Play* it in game and the lights should be on. 
  
- Now do the same thing with the **Turn On** boolean set to `True`. Press the <kbd>Compile</kbd> button. *Run* the game the light should be on. 
- 
+Now do the same thing with the **Turn On** boolean set to `false`. Press the <kbd>Compile</kbd> button. *Run* the game the light should be on. 
+
+
+![](../images/line2.png)
+
+##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
+
  Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
-
-![test light in game by switching Turn On off and on](images/TestTurnOnOffUnct.gif)
-
 In previous rooms we have put the trigger volume in the blueprint. In most cases we would have a trigger volum set in the level as it is always in a different place in the level and can sometimes control more than one blueprint. Go to **Volumes** and *drag* a **Trigger Volume** into the level. *Scale* it to add a box in front of the ligths so the player can walk into and out of it to trigger a lights on / lights off event.
 
 ![add trigger volume to level](images/UseLevelTriggerVolume.jpg)
@@ -191,10 +194,6 @@ Now since a blueprint can be used in any level and that this trigger is unique t
 Press the **Blueprints** button and select **Open Level Blueprint**. Please note that these *do not* show up in your Content folder as they can't be deleted. Their location is essentially hidden.
 
 ![open level blueprint](images/NameFileBPRm10Switch.jpg)
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
 *Add* a new **Variable** and make it **Variable Type** of **BP Lightbulb Multi | Object Reference** and call it `Lightbulb Reference` and make it **Private**. What is the difference between **Object Reference** and **Class Reference**? The latter refers to the class as a whole and the **Object Reference** refers to each instance that is running. In this case we want to access each individual instance seperately. Next to **Variable** type *click* on the **icon** and select the **Grid** icon to store an **array** of all lightbulbs.
 
