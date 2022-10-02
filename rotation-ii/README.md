@@ -128,7 +128,7 @@ https://user-images.githubusercontent.com/5504953/193435945-400d044c-e9eb-4eab-a
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Lets do the final axis of rotation along the **X** axis for **Roll**. *Copy* the **Adjust Yaw** nodes and *paste* them at the bottom. Change the **Comment box** to `Adjust Roll`. Chnage the utput of the **Current Angle** pin to **Delta Rotatoin X (Roll)** on the **Add Relative Rotation** node.  Duplicate the **Rotate On Z** variable to create another boolean called `RotateOnX`.  Change the desciption to `Rotate around the X Axis?`. Right click on **Rotate on Z** in the **Roll** section and select **Replace variable `RotateOnZ` with | RotateOnX**.
+Lets do the final axis of rotation along the **X** axis for **Roll**. *Copy* the **Adjust Yaw** nodes and *paste* them at the bottom. Change the **Comment box** to `Adjust Roll`. Chnage the utput of the **Current Angle** pin to **Delta Rotatoin X (Roll)** on the **Add Relative Rotation** node.  Duplicate the **Rotate On Z** variable to create another boolean called `RotateOnX`.  Change the desciption to `Rotate around the X Axis?`. Right click on **Rotate on Z** in the **Roll** section and select **Replace variable RotateOnZ with | RotateOnX**.
 
 https://user-images.githubusercontent.com/5504953/193449873-b946142d-06c3-4779-b79b-704e40aed5af.mp4
 
@@ -136,25 +136,22 @@ https://user-images.githubusercontent.com/5504953/193449873-b946142d-06c3-4779-b
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Drag* a copy of the **Rotate On X** variable as a **Get** onto the graph and *send* it to the **Condition** input on the **Branch** node. Also, *connect* the **Degrees Since Last Frame** output to the **Delta Rotation X (Roll)** on the **Add Relative Rotation** node. Disconnect the attachment to **Delta Rotation Y (Pitch)**.
+*Press* **Add Pin +** to **Sequence** node. *Attach* **Then 2** to the adjust roll **Branch** node. Your node graph should now be complete.  Press the <kbd>Compile</kbd> button.
 
-![re-connect pins](images/RotateOnXPinsRm8.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Press* **Add Pin +** to **Sequence** node. *Attach* **Then 2** to the adjust roll **Branch** node. Your node graph should now be complete.  Press the <kbd>Compile</kbd> button.
+Go into the game and try different values and combinations both positive and negative. Also, look at your blueprint node chart as it runs to see how the booleans gate the operation flow. Now we will continue in this room but instead of rotation will be translating the cube instead.
 
-![shot of full blueprint graph](images/FinalRotationNodeGraph.jpg)
+![rotate on all three axes](images/Rotate3Axis.gif)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go into the game and try different values and combinations both positive and negative. Also, look at your blueprint node chart as it runs to see how the booleans gate the operation flow. Now we will continue in this room but instead of rotation will be translating the cube instead.
 
-![rotate on all three axes](images/Rotate3Axis.gif)
 
 ![](../images/line2.png)
 
