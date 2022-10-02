@@ -40,7 +40,7 @@ Open the new blueprint and *add* a new **Static Mesh** by *pressing* the **Add C
 
 Scoot over to **Room 9** and *add* a whole bunch of lightbulbs in the room.
 
-![add many lightbulbs to room](images/RenameBPLightbulbMultRm10.jpg)
+![add many lightbulbs to room](images/RenameBPLightbulbMultRm10.png)
 
 ![](../images/line2.png)
 
