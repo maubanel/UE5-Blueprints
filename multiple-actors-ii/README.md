@@ -48,13 +48,21 @@ Now we need to get all the instances of the lightbulbs in the room. Add an **Eve
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Now drag a copy of **Set Lightbulb Reference** and connect the output array pin to the input array pin of these nodes as shown. Connect the execution pin from **Get All Actors of Class** to **Set Lightbulb** nodes.
+Now drag a copy of **Set Lightbulb Reference** and connect the output array pin to the input array pin of these nodes as shown. Connect the execution pin from **Get All Actors of Class** to **Set Lightbulb** nodes. Connect the execution pin from **Get All Actors from Class** to the **Set Lightbulb Reference** node.
 
 ![add set lightbulb ref to graph](images/SayYesRm10.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Clean up your node graph and add a comment indicating that we are getting a reference to all the actors in the scene.
+
+![clean up node chart and add comment](images/addComment.png)
+
+![](../images/line2.png)
+
+##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
 Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
 *Add* a **Flip Flop** node to the chart. This node when triggered toggles between true and false. Connect it to both the **Overlap** nodes. This way the first time you enter the volue it will switch on, then when you leave swtich off. This will continue this behavior during the game. What will happen is that the **IsA** boolean on the **Flip Flop** pin will change from **True** to **False** and back.
@@ -69,10 +77,6 @@ Add a comment by pressing the <kbd>C</kbd> and call it `Toggle`.
 *Drag* a copy of the **Get RefToLightbulbs** variable onto the graph.
 
 ![add ref to lightbulbs to graph](images/DragRefToLightbulbs.jpg)
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
 How do we get access to each instance of each lightbulb in the array and not the entire array? We use a **For Each** loop. *Right click* and add a **For Each Loop** to the graph.
 
