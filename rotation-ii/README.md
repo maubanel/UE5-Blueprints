@@ -87,9 +87,13 @@ https://user-images.githubusercontent.com/5504953/193435719-96fa204d-947c-4cd2-8
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Go back to the **Blueprint** and remove the **Add Relative Rotation** node on **Pitch**:
+Go back to the **Blueprint** and remove the **Add Relative Rotation** node on **Pitch**. *Right click* on open space in the graph and select: **Add Actor Local Rotation** node.
 
-![remove add relative rotation in pitch section](images/RemovePitchRotationDueToLockRm8.jpg)
+![remove add relative rotation in pitch section](images/RemovePitchRotationDueToLockRm8.png)
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
 You can *delete* the **Rotating Cube** reference as we will not be using it. *Right click* on open space in the graph and select: **Add Actor Local Rotation** node. Connect the execution pin from the output **True** of the **Branch** node.
 
@@ -98,11 +102,6 @@ You can *delete* the **Rotating Cube** reference as we will not be using it. *Ri
 *Right click* on **Delta Rotation** and select **Split Struct Pin**.
 
 ![split struct pin on delta rotation](images/SplitSecondStructPinRm8.jpg)
-
-
-![](../images/line2.png)
-
-##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
 *Send* the output of **Degrees Since Last Frame** to **Delta Rotation Y (Pitch)**. Press the <kbd>Compile</kbd> button.
 
