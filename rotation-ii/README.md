@@ -59,25 +59,25 @@ https://user-images.githubusercontent.com/5504953/193435298-39b520c6-b88a-4694-b
 
 ![make changes to nodes](images/AdjustPitchAlteration1Rm8.png)
 
+![](../images/line2.png)
+
+##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
 You can *right click* on the **bRotateOn Z** variable and *duplicate* it. *Rename* it to `bRotateOnY` and adjust the **Tooltip** to `Pitch on Y Axis, Yaw, Shaking Head Yes/No`. Drag a **Get** reference to it on the chart and delete the old **Rotate on Z** node and drag it into the **Condition** on the **Branch**.
 
 ![duplicate rotate on z](images/DupeRotateOnZRm8.jpg)
+
+![](../images/line2.png)
+
+##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now connect the output of **Sequence Then 1** node to the **Branch** node.
 
 ![connect sequence to branch node](images/ConnectSequence1PinRm8.jpg)
 
-![](../images/line2.png)
-
-##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Go to the game and *deselect* the **Rotate On Z** and *select* the **Rotate on Y**. The actor should now rotate on the Y axis when the game runs. There is a problem. The actor gets stuck and stops rotating. This is [gimble lock](https://en.wikipedia.org/wiki/Gimbal_lock) which is a problem when we use **euler angles** to rotate. We can find a work around.
 
 ![cube gets stuck with gimble lock](images/GimbleLock.gif)
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Go back to the **Blueprint** and remove the **Add Relative Rotation** node on **Pitch**:
 
