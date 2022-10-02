@@ -149,10 +149,15 @@ Set the execution pin from **Branch | True** to **Set Intensity**.
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
 *Copy and paste* all these nodes and change the comment to `Turn Light Off`. Set **New Intensity** and **Value** pins to `0.0`. *Connect* the **Set Intensity** execution pin to the **False** branch in the **Switch** node.
 
-![copy and paste nodes for turning lights off](images/TurnOffBulbs.jpg)
+![copy and paste nodes for turning lights off](images/TurnOffBulbs.png)
+
+
+![](../images/line2.png)
+
+##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 
 Lets test this function before moving forward. Go back to the **Event Graph** and add a function call by *right clicking* and adding a **Switch Light** node and connect it to begin play. Press the <kbd>Compile</kbd> button.
 
@@ -168,10 +173,6 @@ Lets test this function before moving forward. Go back to the **Event Graph** an
 In previous rooms we have put the trigger volume in the blueprint. In most cases we would have a trigger volum set in the level as it is always in a different place in the level and can sometimes control more than one blueprint. Go to **Volumes** and *drag* a **Trigger Volume** into the level. *Scale* it to add a box in front of the ligths so the player can walk into and out of it to trigger a lights on / lights off event.
 
 ![add trigger volume to level](images/UseLevelTriggerVolume.jpg)
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now do we get access to any object that is in the room? This is easy go to the game and select the **Trigger Volume** you just selected.
 
