@@ -39,7 +39,7 @@ https://user-images.githubusercontent.com/5504953/193477461-7465cd3c-1878-4e4b-9
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to get all the instances of the lightbulbs in the room. Add an **Event Begin Play** node. Right click and add a **Get All Actors of Class**. When you see a node that has **Get All** you know that it will most likely output an array of values. In **Actor Class** select `BP_LightbulbMulti`.
+Now we need to get all the instances of the lightbulbs in the room. Add an **Event Begin Play** node. Right click and add a **Get All Actors of Class**. When you see a node that has **Get All** you know that it will most likely output an array of values. In **Actor Class** select `BP_LightbulbMulti`. Connect the execution pins from **Begin Play** to **Get All Actors of Class**.
 
 ![get all actors of class](images/DeleteLightReferenceVariable.png)
 
@@ -48,12 +48,12 @@ Now we need to get all the instances of the lightbulbs in the room. Add an **Eve
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
-
-Connect the execution pins from **Begin Play** to **Get All Actors of Class**. Select the actor you want to get from the level for the **Get All Actors From Class | Actor Class** to`BP_LightbulbMulti`. Now drag a copy of **Set Lightbulb Reference** and connect the output array pin to the input array pin of these nodes as shown. Connect the execution pin from **Get All Actors of Class** to **Set Lightbulb** nodes.
+Now drag a copy of **Set Lightbulb Reference** and connect the output array pin to the input array pin of these nodes as shown. Connect the execution pin from **Get All Actors of Class** to **Set Lightbulb** nodes.
 
 ![add set lightbulb ref to graph](images/SayYesRm10.jpg)
 
+
+Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
 *Add* a **Flip Flop** node to the chart. This node when triggered toggles between true and false. Connect it to both the **Overlap** nodes. This way the first time you enter the volue it will switch on, then when you leave swtich off. This will continue this behavior during the game. What will happen is that the **IsA** boolean on the **Flip Flop** pin will change from **True** to **False** and back.
 
 ![add flip flop node](images/ActorClassBPSelectRm10.jpg)
