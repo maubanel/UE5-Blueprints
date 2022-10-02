@@ -38,7 +38,7 @@ Open the new blueprint and *add* a new **Static Mesh** by *pressing* the **Add C
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Scoot over to **Room 9** and *add* a whole bunch of lightbulbs in the room.
+Scoot over to **Room 9** and *add* 20+ **BP_LightbulbMulti** blueprints to the room.
 
 ![add many lightbulbs to room](images/RenameBPLightbulbMultRm10.png)
 
@@ -48,15 +48,15 @@ Scoot over to **Room 9** and *add* a whole bunch of lightbulbs in the room.
 
 Open up **BP_LightbulbMulti**. Add a new component **Point Light** so that the bulbs actually light up the room. Make sure it is a child to the static mesh by dragging it over it. This way when you move the lightbult the light moves with it. *Press* the <kbd>Compile</kbd> button. Check that in the level it is casting light.
 
-![add point light component](images/AddPointLight.jpg)
-
-Now in game we have a shadow of the lightbulb which isn't realistic.  We want to kill the shadow.  Go to the **Blueprint** and select the **Lighting** component and `deselect` **Cast Shadows**.
-
-![turn off cast shadow](images/TurnOffCastShadow.jpg)
+![add point light component](images/AddPointLight.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
+
+Now in game we have a shadow of the lightbulb which isn't realistic.  We want to kill the shadow.  Go to the **Blueprint** and select the **Lighting** component and `deselect` **Cast Shadows**.
+
+![turn off cast shadow](images/TurnOffCastShadow.jpg)
 
 We need to add a dynamic materail to the **Construction Script**. To switch the light on and off we will need to turn the point light on and off as well as the material glow. Drag a reference of the **Lightbulb** static mesh onto the graph. Pull off the blue pin and select a **Create Dynamic Material Instance** node.
 
