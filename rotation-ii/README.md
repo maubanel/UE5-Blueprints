@@ -81,8 +81,7 @@ Now connect the output of **Sequence Then 1** node to the **Branch** node. Now r
 
 Go to the game and *deselect* the **Rotate On Z** and *select* the **Rotate on Y**. The actor should now rotate on the Y axis when the game runs. There is a problem. The actor gets stuck and stops rotating. This is [gimble lock](https://en.wikipedia.org/wiki/Gimbal_lock) which is a problem when we use **euler angles** to rotate. We can find a work around.
 
-![cube gets stuck with gimble lock](images/GimbleLock.gif)
-
+https://user-images.githubusercontent.com/5504953/193435719-96fa204d-947c-4cd2-8a87-3b63fcefba44.mp4
 
 ![](../images/line2.png)
 
