@@ -103,6 +103,14 @@ Change all the boolean names to `Translate on Z`, `Translate on X` and `Translat
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+*Drag and drop* a reference to the **Rotating Cube** mesh onto the graph. *Pull off* of the **Rotating Cube** pin and *add* a node called **Add Relative Location** to the scene graph.
+
+![reference to rotating cube](images/DragAndDropRotatingCube.png)
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
 Now we will want to feed three translations. To keep the graph neat we will *add* a **Sequence** node and connect its execution pin to the *Set* node.
 
 ![add sequence node](images/SequenceNodeForTranslationRm8.jpg)
@@ -114,19 +122,6 @@ Drag a **Get** node from the **Translate On Z** boolean onto the graph:
 *Drag* the pin off of the **Translate On Z** variable in the graph and *select* a **Branch** node (remember this is like an if() statement). *Connect* the execution pins from the **Sequence | Then 0** to **Branch** pin.
 
 ![add branch node](images/ZToBranchRm8.jpg)
-
-
-*Drag and drop* a reference to the **Rotating Cube** mesh onto the graph.
-
-![reference to rotating cube](images/DragAndDropRotatingCube.jpg)
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-*Pull off* of the **Rotating Cube** pin and *add* a node called **Add Relative Location** to the scene graph by *right cliking* on a blank area and type the name of the node.
-
-![add relative location](images/AddRelativeLocationZRm8.jpg)
 
 ![](../images/line2.png)
 
