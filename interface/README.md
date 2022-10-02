@@ -75,7 +75,7 @@ We are going to now create a special blueprint that will bridge multiple object.
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open this new blueprint. Notice it is read only. It is a virtual interface so you will define it in the actors. This is completely blank. But we can add parameters. *Select* **NewFunction_0** on the graph and *press* the **+** button next to **Inputs** and call this variable `bIsOn` and make it type **Boolean**. Leave its default value at `false`.
+Open this new blueprint. Notice it is read only. It is a virtual interface so you will define it in the actors. This is completely blank. But we can add parameters. *Select* **NewFunction_0** on the graph and *press* the **+** button next to **Inputs** and call this variable `bIsOn` and make it type **Boolean**. Leave its default value at `false`. Lets call the function something more meaningful. Rename it to `Turn Room 10 Switches On and Off`. *Press* the <kbd>Compile</kbd> button.
 
 All other blueprints that subscribe to this interface will be able to access this boolean.
 
@@ -85,7 +85,7 @@ All other blueprints that subscribe to this interface will be able to access thi
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets call the function something more meaningful. Rename it to `Turn Room 10 Switches On and Off`. *Press* the <kbd>Compile</kbd> button.
+
 
 ![add function Turn Room 10 Switches On and Off](images/RenameFunctionAddDescriptRm12.jpg)
 
