@@ -83,6 +83,11 @@ Go to the game and *deselect* the **Rotate On Z** and *select* the **Rotate on Y
 
 ![cube gets stuck with gimble lock](images/GimbleLock.gif)
 
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`ITB`| :large_blue_diamond:
+
 Go back to the **Blueprint** and remove the **Add Relative Rotation** node on **Pitch**:
 
 ![remove add relative rotation in pitch section](images/RemovePitchRotationDueToLockRm8.jpg)
@@ -90,10 +95,6 @@ Go back to the **Blueprint** and remove the **Add Relative Rotation** node on **
 You can *delete* the **Rotating Cube** reference as we will not be using it. *Right click* on open space in the graph and select: **Add Actor Local Rotation** node. Connect the execution pin from the output **True** of the **Branch** node.
 
 ![add actor local rotation](images/AddActorLocalRotation.jpg)
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
 *Right click* on **Delta Rotation** and select **Split Struct Pin**.
 
