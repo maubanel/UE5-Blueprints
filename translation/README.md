@@ -103,6 +103,8 @@ Change all the boolean names to `Translate on Z`, `Translate on X` and `Translat
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Drag a **Get** node from the **Translate On Z** boolean onto the graph. *Drag* the pin off of the **Translate On Z** variable in the graph and *select* a **Branch** node (remember this is like an if() statement). *Connect* the execution pins from the **Sequence | Then 0** to **Branch** pin.
+
 *Drag and drop* a reference to the **Rotating Cube** mesh onto the graph. *Pull off* of the **Rotating Cube** pin and *add* a node called **Add Relative Location** to the scene graph.
 
 ![reference to rotating cube](images/DragAndDropRotatingCube.png)
@@ -111,25 +113,15 @@ Change all the boolean names to `Translate on Z`, `Translate on X` and `Translat
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now we will want to feed three translations. To keep the graph neat we will *add* a **Sequence** node and connect its execution pin to the *Set* node.
+Now would be a good time to rename our static mesh. It is no longer part of a rotating cube. Go to the **Components** window and *rename* it to `Translating Cube`. Hook up the execution pins from the **Branch | True** node to the **Add Relative Location** node.
 
-![add sequence node](images/SequenceNodeForTranslationRm8.jpg)
-
-Drag a **Get** node from the **Translate On Z** boolean onto the graph:
-
-![get translate on z](images/GetTranslateOnZRm8.jpg)
-
-*Drag* the pin off of the **Translate On Z** variable in the graph and *select* a **Branch** node (remember this is like an if() statement). *Connect* the execution pins from the **Sequence | Then 0** to **Branch** pin.
-
-![add branch node](images/ZToBranchRm8.jpg)
+![rename rotation to translation](images/connectToTrue.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now would be a good time to rename our static mesh. It is no longer part of a rotating cube. Go to the **Components** window and *rename* it to `Translating Cube`.
 
-![rename rotation to translation](images/RenameRotateTranslateRm8.jpg)
 
 ![](../images/line2.png)
 
@@ -143,7 +135,7 @@ Notice that it changes all references to it as well. So we have our renamed mesh
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Hook up the execution pins from the **Branch | True** node to the **Add Relative Location** node.
+
 
 ![connect execution pins](images/BranchRelativePinsRm8.jpg)
 
