@@ -151,7 +151,7 @@ Make sure you still have the Trigger Volume selected in game. *Right click* on t
 
 *Right click* on the graph and add a **Get Ref to Ligthbulbs Interface** node. Pull off the *array* pin and select a **For Each Loop** node to go into each lightbulb to turn it on and off.
 
-![add a lightbulb ref and for each loop](images/SameForTurningOffMessageRm12.jpg)
+![add a lightbulb ref and for each loop](images/SameForTurningOffMessageRm12.png)
 
 ![](../images/line2.png)
 
