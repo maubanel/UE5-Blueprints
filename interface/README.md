@@ -124,11 +124,17 @@ Add a **Tooltip** with `Keeps array of all room 10 lightbulbs`. Set **Private** 
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+In the **Event Graph** *add* to the nodes that are attached to **Begin Play**. Add a **Get All Actors of Class** node and select a **BP_LightbulbMultiInterface** class.
+
+![get a reference to all actors that subscribe to the interface](images/CompileImplementedInterface.jpg)
+
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Drag a copy of **RefToLightbulbsInterface** and add a **Set** node. Connect the execution pins and the **Out Actors** array node to the **RefToLightbulbsInterface** node.
 
+![set the array with all subscribers](images/CallInterfaceFromSwitchRm12.jpg)
 
 ![](../images/line2.png)
 
@@ -140,9 +146,6 @@ Add a **Tooltip** with `Keeps array of all room 10 lightbulbs`. Set **Private** 
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-
-
-![change variable to array](images/ImplementInterfaceBPEventGraph.jpg)
 
 ![](../images/line2.png)
 
@@ -156,17 +159,13 @@ Add a **Tooltip** with `Keeps array of all room 10 lightbulbs`. Set **Private** 
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-In the **Event Graph** *add* to the nodes that are attached to **Begin Play**. Add a **Get All Actors of Class** node and select a **BP_LightbulbMultiInterface** class.
 
-![get a reference to all actors that subscribe to the interface](images/CompileImplementedInterface.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Drag a copy of **RefToLightbulbsInterface** and add a **Set** node. Connect the execution pins and the **Out Actors** array node to the **RefToLightbulbsInterface** node.
 
-![set the array with all subscribers](images/CallInterfaceFromSwitchRm12.jpg)
 
 ![](../images/line2.png)
 
