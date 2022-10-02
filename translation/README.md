@@ -14,7 +14,7 @@ We will be translating an object in 3-D space through blueprints. If rotation is
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Go to the **Blueprints** folder and *duplicate* the **BP_Rotate_Object** blueprint.
+Go to the **Blueprints** folder and *duplicate* the **BP_RotateObject** blueprint.
 
 ![duplicate bp_rotate_object blueprint](images/DuplicateBPRotateObjectRm8.png)
 
@@ -22,9 +22,9 @@ Go to the **Blueprints** folder and *duplicate* the **BP_Rotate_Object** bluepri
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Rename it to `BP_Translate_Object`.
+Rename it to `BP_TranslateObject`.
 
-![rename to bp_translate_object](images/RenameBPTranslate.jpg)
+![rename to bp_translate_object](images/RenameBPTranslate.png)
 
 ![](../images/line2.png)
 
