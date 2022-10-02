@@ -27,13 +27,10 @@ Add a comment to the nodes on the left by pressing the <kbd>C</kbd> key. Press t
 
 ![add another comment and compile](images/ConnectOuputRm8.png)
 
-addComment
-
 Go back to the editor and *select* the **Blueprints | Room 8** folder in the **Content Browser**. *Drag and drop* the **BP_Rotate_Object** into **Room 8**. *Position* it to the left hand side of the room and make sure that **Rotate on Z** is set to `true` and **Degrees Per Second** has a non 0 value between `-360` and `360` in the **Details** panel.
 
-![drag blueprint rotate object into room 8](images/RotateObjectOnZInGameRm8.jpg)
+![drag blueprint rotate object into room 8](images/addComment.png)
 
-![add code comments](images/CommentSection1Rm8.jpg)
 
 ![](../images/line2.png)
 
