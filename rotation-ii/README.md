@@ -23,7 +23,7 @@ Rotations continued...
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Add a comment to the nodes on the left by pressing the <kbd>C</kbd> key. Press the <kbd>Compile</kbd> button. Press the <kbd>Compile</kbd> button.
+Add a comment to the nodes on the left by pressing the <kbd>C</kbd> key. Press the <kbd>Compile</kbd> button.
 
 ![add another comment and compile](images/addComment.png)
 
