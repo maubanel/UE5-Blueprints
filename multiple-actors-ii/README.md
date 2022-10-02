@@ -117,6 +117,8 @@ Go back to **BP_LightbulbMulti** and make sure that the **Begin Play** switches 
 
 *Press* the <kbd>Play</kbd> button and run into the volume, it should trigger the lights to turn on.  Then leave the collision volume and it kills all the lights.  The nice thing is we have one collision volumes that controls all 20 lights.
 
+https://user-images.githubusercontent.com/5504953/193478516-fd17a586-e420-4272-aff7-9d1d0b92a875.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
