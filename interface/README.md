@@ -23,7 +23,7 @@ Scooch the camera over to **Room 10**. Add a `Blueprints | Room10` folder to the
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-*Right click* on **Room 9 | BP_LightbulbMulti** and *duplicate* it.
+*Right click* on **Room 9 | BP_LightbulbMulti** and *duplicate* it. *Call* the new blueprint `BP_LightbulbMultiInterface`. 
 
 ![duplicate bp_lightbulbmulti](images/DupeBPLightbulbRm12.jpg)
 
@@ -31,7 +31,7 @@ Scooch the camera over to **Room 10**. Add a `Blueprints | Room10` folder to the
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Call* the new blueprint `BP_LightbulbMultiInterface`. Move to **Room10**.
+Move to **Room10**.
 
 ![rename bp and move to room 10](images/Add5LightsToRm12.jpg)
 
