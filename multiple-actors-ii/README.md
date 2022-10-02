@@ -78,15 +78,19 @@ Add a comment by pressing the <kbd>C</kbd> and call it `Toggle Lights`. *Drag* a
 
 ![add code comments](images/ActorArrayOut.png)
 
+![](../images/line2.png)
 
+##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![add ref to lightbulbs to graph](images/DragRefToLightbulbs.jpg)
+How do we get access to each instance of each lightbulb in the array and not the entire array? We use a **For Each** loop. *Right click* and add a **For Each Loop** to the graph. *Connect* the **A** and **B** execution pins from the **Flip Flop** node to the **E**xec pin in the **For Each Loop** node. *Connect* the output of the **RefToLightbulbs** node to the **Array** input pin in the **For Each Loop**.
 
-How do we get access to each instance of each lightbulb in the array and not the entire array? We use a **For Each** loop. *Right click* and add a **For Each Loop** to the graph.
-Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
 ![add for each loop](images/ConnectActorToForEachRm10.jpg)
 
-*Connect* the **A** and **B** execution pins from the **Flip Flop** node to the **E**xec pin in the **For Each Loop** node. *Connect* the output of the **RefToLightbulbs** node to the **Array** input pin in the **For Each Loop**.
+![](../images/line2.png)
+
+##### `Step 10.`\|`ITB`| :large_blue_diamond:
+
+Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
 
 ![connect array to for each loop pins](images/ArrayElementSwitchLightRm10.jpg)
 
@@ -98,17 +102,9 @@ Once you get this working *DELETE* the Switch Light node as we will be turning i
 
 ![connect isA to Turn On](images/SwitchLightOnOff.jpg)
 
-![](../images/line2.png)
-
-##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Go to **BP_LightbulbMulti** and the **Event Graph** *add* a **Switch Light** node and set it to `false` so that the lights ALWAYS start turned off. *Press* the <kbd>Compile</kbd> button.
 
 ![call switch light in begin play with lights off](images/image_09.jpg)
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
 Now run the game and enter and leave the room. The lights should toggle on and off.
 
