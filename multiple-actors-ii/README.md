@@ -98,13 +98,34 @@ How do we get access to each instance of each lightbulb in the array and not the
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Connect the output of the **Flip Flop | Is A** node to the **Switch Light** node's **Is On** pin. Connect the execution pin from **Loop Body** to **Switch Light**.
+Connect the output of the **Flip Flop | Is A** node to the **Switch Light** node's **Is On** pin. Connect the execution pin from **Loop Body** to **Switch Light**. *Press** the <kbd>Compile</kbd> button. **IsA** gives the current state.  So every time the **Flip Flop** node is triggered this goes between **True** and **False**.  **IsA** outputs the switched state (so if it was **True** before and when triggered becomes **False**).
 
-Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
+![connect is a to switch light](images/connectSL.png)
 
-*Press** the <kbd>Compile</kbd> button.
+![](../images/line2.png)
 
-**IsA** gives the current state.  So every time the **Flip Flop** node is triggered this goes between **True** and **False**.  **IsA** outputs the switched state (so if it was **True** before and when triggered becomes **False**).
+
+##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+
+![connect is a to switch light](images/defaultFalse.png)
+
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+![alt_text](images/.png)
+
+
 
 ![connect isA to Turn On](images/SwitchLightOnOff.jpg)
 
