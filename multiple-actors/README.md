@@ -173,7 +173,7 @@ Move your **Player Start** node to **Room 9**.
  
 Now do the same thing with the **Turn On** boolean set to `false`. Press the <kbd>Compile</kbd> button. *Run* the game the light should be on. 
 
-![TurnOffBulbs](https://user-images.githubusercontent.com/5504953/193463560-87a72762-225a-4043-93a6-618e7a7de4eb.png)
+https://user-images.githubusercontent.com/5504953/193463571-230468da-1461-4a73-b800-17276add648e.mp4
 
 ![](../images/line2.png)
 
@@ -197,8 +197,6 @@ Press the **Blueprints** button and select **Open Level Blueprint**. Please note
 ![open level blueprint](images/NameFileBPRm10Switch.jpg)
 
 *Add* a new **Variable** and make it **Variable Type** of **BP Lightbulb Multi | Object Reference** and call it `Lightbulb Reference` and make it **Private**. What is the difference between **Object Reference** and **Class Reference**? The latter refers to the class as a whole and the **Object Reference** refers to each instance that is running. In this case we want to access each individual instance seperately. Next to **Variable** type *click* on the **icon** and select the **Grid** icon to store an **array** of all lightbulbs.
-
-https://user-images.githubusercontent.com/5504953/193463571-230468da-1461-4a73-b800-17276add648e.mp4
 
 ![](../images/line2.png)
 
