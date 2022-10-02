@@ -106,7 +106,11 @@ You can *delete* the **Rotating Cube** reference as we will not be using it. Con
 
 *Right click* on **Delta Rotation** and select **Split Struct Pin**.
 
-![split struct pin on delta rotation](images/SplitSecondStructPinRm8.jpg)
+![split struct pin on delta rotation](images/SplitSecondStructPinRm8.png)
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 *Send* the output of **Degrees Since Last Frame** to **Delta Rotation Y (Pitch)**. Press the <kbd>Compile</kbd> button.
 
@@ -116,10 +120,6 @@ You can *delete* the **Rotating Cube** reference as we will not be using it. Con
 Now go back to the game and try it out. No more gimble lock, the object rotates without stopping:
 
 ![no gimble lock in game](images/NoGimbleLock.gif)
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Lets do the final axis of rotation along the **X** axis for **Roll**. *Copy* the **Yaw (rotating around Z)** and *paste* it at the bottom. Change the **comment** `Adjust Roll`:
 
