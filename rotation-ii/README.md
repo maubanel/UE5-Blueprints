@@ -49,7 +49,7 @@ https://user-images.githubusercontent.com/5504953/193435298-39b520c6-b88a-4694-b
 
 *Select* everything after the **Sequence** node for **Yaw** and *copy and paste* it beneath.
 
-![copy and paste adjust yaw content](images/CopyAndPasteYawRm8.jpg)
+![copy and paste adjust yaw content](images/CopyAndPasteYawRm8.png)
 
 *Change* the link from **Degrees Since Last Frame** to the **Delta Rotation Y (Pitch)** input in the **AddRelativeRotation** node. *Connect* the execution pin from **Sequence | Then 1** to this copied **Branch** node. *Adjust* the **comment** to `Adjust Pitch`.
 
