@@ -74,17 +74,16 @@ Clean up your node graph and add a comment indicating that we are getting a refe
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
-Add a comment by pressing the <kbd>C</kbd> and call it `Toggle`.
+Add a comment by pressing the <kbd>C</kbd> and call it `Toggle`. *Drag* a copy of the **Get RefToLightbulbs** variable onto the graph.
 
-![add code comments](images/ActorArrayOut.jpg)
+![add code comments](images/ActorArrayOut.png)
 
-*Drag* a copy of the **Get RefToLightbulbs** variable onto the graph.
+
 
 ![add ref to lightbulbs to graph](images/DragRefToLightbulbs.jpg)
 
 How do we get access to each instance of each lightbulb in the array and not the entire array? We use a **For Each** loop. *Right click* and add a **For Each Loop** to the graph.
-
+Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
 ![add for each loop](images/ConnectActorToForEachRm10.jpg)
 
 *Connect* the **A** and **B** execution pins from the **Flip Flop** node to the **E**xec pin in the **For Each Loop** node. *Connect* the output of the **RefToLightbulbs** node to the **Array** input pin in the **For Each Loop**.
