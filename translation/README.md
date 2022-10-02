@@ -42,11 +42,14 @@ Change all the variable **Categories** to `Translation`.
 
 ![change category to translation](images/changeVarCat.png)
 
-![delete degrees per second](images/DeleteDegreesPerSecondRm8.jpg)
-
+Since we are not rotating we are translating, we will be sending cumulative time through a trig function to give us an ease in and ease out motion back and forth.  So lets change the **Current Angle** variable to ``
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
+
+
+
+totalTime
 
 *Double click* **BP_Translate_Object** to enter the editor. We will not need the speed variable as we will not be adjusting the speed. *Delete* the **Degrees Per Second** variable.
 
