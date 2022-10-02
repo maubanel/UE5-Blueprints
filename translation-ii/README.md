@@ -56,6 +56,7 @@ Connect the output of the **Sin** node to the top input of the **Mutliplication*
 
 Go into the game and turhning each axis on and off. Also, look at your blueprint node chart as it runs to see how the booleans gate the operation flow.
 
+https://user-images.githubusercontent.com/5504953/193456318-39ef7da9-817a-42c3-93c7-d537a18e1cf4.mp4
 
 ![](../images/line2.png)
 
