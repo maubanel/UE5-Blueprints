@@ -14,6 +14,15 @@ Controlling multiple actors through level blueprints continued...
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
+Make sure you still have the trigger volume selected in the editor. Right click on the graph and see that we can now access events to this game object. Select **Add Event for Trigger Volume 1 | Collision | Add on Actor Begin Overlap** AND a **Add Event for Trigger Volume 1 | Collision | Add on Actor End Overlap** node. This will trigger the nodes when an actor enters and leaves the volume.
+
+![add begin and end overlap event types](images/GetAllActorsOfClass.jpg)
+
+![](../images/line2.png)
+
+##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+
+
 Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
  
 Now do we get access to any object that is in the room? This is easy go to the game and select the **Trigger Volume** you just selected.
@@ -29,13 +38,6 @@ Connect the execution pins from **Begin Play** to **Get All Actors of Class**. S
 
 ![add set lightbulb ref to graph](images/SayYesRm10.jpg)
 
-![](../images/line2.png)
-
-##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
-
-Make sure you still have the trigger volume selected in the editor. Right click on the graph and see that we can now access events to this game object. Select **Add Event for Trigger Volume 1 | Collision | Add on Actor Begin Overlap** AND a **Add Event for Trigger Volume 1 | Collision | Add on Actor End Overlap** node. This will trigger the nodes when an actor enters and leaves the volume.
-
-![add begin and end overlap event types](images/GetAllActorsOfClass.jpg)
 
 ![](../images/line2.png)
 
