@@ -128,17 +128,7 @@ https://user-images.githubusercontent.com/5504953/193435945-400d044c-e9eb-4eab-a
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Lets do the final axis of rotation along the **X** axis for **Roll**. *Copy* the **Yaw (rotating around Z)** and *paste* it at the bottom. Change the **comment** `Adjust Roll`:
-
-![copy and paste nodes from yaw](images/CopyPasteYawRm8.jpg)
-
-Delete the **Rotate On Z** boolean reference and *duplicate* it to create another boolean called `bRotateOnX`.
-
-![create brotateonx variable](images/DeleteRotateOnZRm8.jpg)
-
-I just noticed that I forgot to categorize the variables. Go back to each variable and add the category: `Rotation`.
-
-![add category rotation to all variables](images/CategorizeRotationRm8.jpg)
+Lets do the final axis of rotation along the **X** axis for **Roll**. *Copy* the **Yaw (rotating around Z)** and *paste* it at the bottom. Duplicate the **Rotate On Z**  variable to create another boolean called `RotateOnX`. Change the **Description** `Adjust Roll`.
 
 ![](../images/line2.png)
 
