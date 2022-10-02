@@ -103,7 +103,7 @@ We need to add a dynamic material to the **Construction Script**. To switch the 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now the lightbulb's material with the glow is in **M_Glass**. *Select* the **Source Material** as `M_Glass` and set the **Element Index** to `1`.
+Now the lightbulb's material with the glow is in **M_Glass**. *Select* the **Source Material** as `M_Glass` and set the **Element Index** to `1`. We will be adjust the **Glow Multipier** variable to adjust the brightness of the light.
 
 ![assign dynamic material](images/assignMatDyn.png)
 
@@ -113,9 +113,13 @@ Now the lightbulb's material with the glow is in **M_Glass**. *Select* the **Sou
 
 Press the **+** button next to **Functions** to add a new function. This allows us to put nodes in this blueprint that can be called from other objects. So intead of an internal event (BeginPlay or Tick) you can create your own function name and call it from another object.
 
-Call this new function `SwitchLight`. We need to add an **Input** and call it `bTurnOn`. Make it type **boolean**. Without this there is no way for the function to know if we are turning the light **on** or **off**. Notice that this adds a pin to the **Switch Light** execution pin.
+Call this new function `SwitchLight`. We need to add an **Input** and call it `TurnOn`. Make it type **boolean**. Without this there is no way for the function to know if we are turning the light **on** or **off**. Notice that this adds a pin to the **Switch Light** execution pin.
 
-![add switch light function](images/SwitchLigthFunction.jpg)
+![add switch light function](images/SwitchLigthFunction.png)
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 *Add* a **Branch Node** to the node graph. *Attach* the execution pins from **Switch Light** to **Turn On**.  *Connect* the  **Turn On** output pin to the **Condition** pin in the **Branch** Node. We will handle the turn on light logic from the **True** output pin and the turn off logic from the **False** pin.
 
@@ -136,10 +140,6 @@ Open up the **M_Glass** material. Look at what is going into the **Emissive Colo
 *Add* a **Get Dynamic Material** node for the variable we just created. *Pull off* the output pin and select **Set Scalar Parameter Value** and change the **Parameter Name** to `GlowMultiplier`. Make sure it is EXACTLY the same as the material. Set the **Value** to `6.0`. *Connect* the execution pins from **Set Intensity** to **Set Scalar Parameter Value**.
 
 ![set scalar parameter value](images/MultiplyGlow.jpg)
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Add a `Turn Light On` comment by highlighting the nodes and pressing the <kbd>C</kbd> key.
 
