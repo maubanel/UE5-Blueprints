@@ -114,28 +114,25 @@ You can *delete* the **Rotating Cube** reference as we will not be using it. Con
 
 *Send* the output of **Degrees Since Last Frame** to **Delta Rotation Y (Pitch)**. Press the <kbd>Compile</kbd> button.
 
-![connect degrees to delta rotation](images/DegreesToPitchRm8.jpg)
-
-
-Now go back to the game and try it out. No more gimble lock, the object rotates without stopping:
-
-![no gimble lock in game](images/NoGimbleLock.gif)
-
-Lets do the final axis of rotation along the **X** axis for **Roll**. *Copy* the **Yaw (rotating around Z)** and *paste* it at the bottom. Change the **comment** `Adjust Roll`:
-
-![copy and paste nodes from yaw](images/CopyPasteYawRm8.jpg)
+![connect degrees to delta rotation](images/DegreesToPitchRm8.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Delete the **Rotate On Z** boolean reference and *duplicate* it to create another boolean called `bRotateOnX`.
-
-![create brotateonx variable](images/DeleteRotateOnZRm8.jpg)
+Now go back to the game and try it out. No more gimble lock, the object rotates without stopping:
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
+
+Lets do the final axis of rotation along the **X** axis for **Roll**. *Copy* the **Yaw (rotating around Z)** and *paste* it at the bottom. Change the **comment** `Adjust Roll`:
+
+![copy and paste nodes from yaw](images/CopyPasteYawRm8.jpg)
+
+Delete the **Rotate On Z** boolean reference and *duplicate* it to create another boolean called `bRotateOnX`.
+
+![create brotateonx variable](images/DeleteRotateOnZRm8.jpg)
 
 I just noticed that I forgot to categorize the variables. Go back to each variable and add the category: `Rotation`.
 
