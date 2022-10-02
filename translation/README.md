@@ -32,23 +32,25 @@ Rename it to `BP_TranslateObject`.
 
 *Drag and drop* an instance of **BP_TranslateObject** into the game window on the right hand side of room 8.
 
-![drag and drop the blueprint in room 8](images/DragIntoRightSideOfRoom8.jpg)
+![drag and drop the blueprint in room 8](images/DragIntoRightSideOfRoom8.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Double click* **BP_Translate_Object** to enter the editor. We will not need the speed variable as we will not be adjusting the speed. *Delete* the **Degrees Per Second** variable.
+Change all the variable **Categories** to `Translation`.
 
-*Change* **Degress Since Last Frame** to `Total Time`, **bRotateOnX** to `bTranslateOnX` and repeat for the **Y** and **Z** axis (change two remaining booleans to `bTranslateOnY` and `bTranslateOnZ`). *Change* the category from **Rotation** to `Translation`. Adjust the **tooltips**.
-
-
+![change category to translation](images/changeVarCat.png)
 
 ![delete degrees per second](images/DeleteDegreesPerSecondRm8.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
+
+*Double click* **BP_Translate_Object** to enter the editor. We will not need the speed variable as we will not be adjusting the speed. *Delete* the **Degrees Per Second** variable.
+
+*Change* **Degress Since Last Frame** to `Total Time`, **bRotateOnX** to `bTranslateOnX` and repeat for the **Y** and **Z** axis (change two remaining booleans to `bTranslateOnY` and `bTranslateOnZ`). *Change* the category from **Rotation** to `Translation`. Adjust the **tooltips**.
 
 *Delete* all nodes on the chart that are attached to **Event Tick** (don't delte the tick event) and we will start over in the **Event Graph** tab. Drag the **Total Time** node onto the graph and select **Set**. Attach the execution pin to **Event Tick**.
 
