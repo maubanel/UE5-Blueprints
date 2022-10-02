@@ -110,39 +110,41 @@ Each actor that subscribes to it can create its own definition. This means that 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+*Attach* the execution pins and the boolean pins between **Is On** to **Turn On**. This will run the function we previously wrote to turn the light on and off. *Press* the <kbd>Compile</kbd> button.
 
+![trigger switch light](images/SwitchLightOnOff2.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
- and *attach* the execution pins and the boolean pins between **Is On** to **Turn On**. This will run the function we previously wrote to turn the light on and off. *Press* the <kbd>Compile</kbd> button.
+Press the **+** button next to **Variables** and add a new variable called `RefToLightbulbsInterface`. Make it type **BP_LightbulbMultiInterface | Object Reference**.
 
-![trigger switch light](images/SwitchLightOnOff2.jpg)
+Select **TriggerVolume2** that is in room 10. Then press the **Blueprints** button then select **Open Level Blueprint**. *Press* the sphere icon next to the **Variable Type** and select an **Array**.
+
+An [array](https://en.wikipedia.org/wiki/Array_programming) is a list of variables.  They can only be of a single type.  So this is creating an array of a reference to all the instances of the lightbulb in the room.
+
+Add a **Tooltip** with `Keeps array of all room 10 lightbulbs`. Set **Private** to `true` and add it to category `Room 10-Lightbulb`.
+
+![open level blueprint](images/NameItBPSwitchInterface.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Select **TriggerVolume2** that is in room 10. Then press the **Blueprints** button then select **Open Level Blueprint**.
 
-![open level blueprint](images/NameItBPSwitchInterface.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Press the **+** button next to **Variables** and add a new variable called `RefToLightbulbsInterface`. Make it type **BP_LightbulbMultiInterface | Object Reference**.
 
-![add rerefece to lightbulbmultiinterface](images/SelectFunctionAddInput.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Press* the sphere icon next to the **Variable Type** and select an **Array**.
 
-An [array](https://en.wikipedia.org/wiki/Array_programming) is a list of variables.  They can only be of a single type.  So this is creating an array of a reference to all the instances of the lightbulb in the room.
 
 ![change variable to array](images/ImplementInterfaceBPEventGraph.jpg)
 
@@ -150,7 +152,7 @@ An [array](https://en.wikipedia.org/wiki/Array_programming) is a list of variabl
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **Tooltip** with `Keeps array of all room 10 lightbulbs`. Set **Private** to `true` and add it to category `Room 10-Lightbulb`.
+
 
 ![variable settings](images/HookUpExecutionAndBoolRm12.jpg)
 
