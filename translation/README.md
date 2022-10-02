@@ -50,6 +50,18 @@ Since we are not rotating we are translating, we will be sending cumulative time
 
 ![rename variable](images/totalTime.png)
 
+![](../images/line2.png)
+
+##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
+
+Go to the **Event Tick** node and delete the **Degree Per Second** and **Multiplication** nodes.  Drag a copy of **Total Time** and select a **Get** node.
+
+![drag total time and delete multipicatoin and degree per second nodes](images/dragTT.png)
+
+![](../images/line2.png)
+
+##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
 *Double click* **BP_Translate_Object** to enter the editor. We will not need the speed variable as we will not be adjusting the speed. *Delete* the **Degrees Per Second** variable.
 
 *Change* **Degress Since Last Frame** to `Total Time`, **bRotateOnX** to `bTranslateOnX` and repeat for the **Y** and **Z** axis (change two remaining booleans to `bTranslateOnY` and `bTranslateOnZ`). *Change* the category from **Rotation** to `Translation`. Adjust the **tooltips**.
@@ -58,17 +70,9 @@ Since we are not rotating we are translating, we will be sending cumulative time
 
 ![add set total time node after deleting all nodes](images/SetTotalTimeRm8.jpg)
 
-![](../images/line2.png)
-
-##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
-
 *Drag* a copy of the **Total Time** variable onto the graph and select **Get**. *Drag off* of the pin and find a **Float + Float** node to *add*:
 
 ![add float plus float node](images/TotalTimeAddRm8.jpg)
-
-![](../images/line2.png)
-
-##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 **Total Time** will just keep track of the room time in milliseconds. *Take* the **Delta Time** output of the **Event Tick** and add it to the other input of the **+** node. *Send* this addition to the **Set** node to cumulatively add the time together.
 
