@@ -95,7 +95,7 @@ Go back to the **Blueprint** and remove the **Add Relative Rotation** node on **
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-You can *delete* the **Rotating Cube** reference as we will not be using it. *Right click* on open space in the graph and select: **Add Actor Local Rotation** node. Connect the execution pin from the output **True** of the **Branch** node.
+You can *delete* the **Rotating Cube** reference as we will not be using it. Connect the execution pin from the output **True** of the **Branch** node.
 
 ![add actor local rotation](images/AddActorLocalRotation.png)
 
