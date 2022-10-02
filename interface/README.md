@@ -142,7 +142,7 @@ Drag a copy of **RefToLightbulbsInterface** and add a **Set** node. Connect the 
 
 Make sure you still have the Trigger Volume selected in game. *Right click* on the event graph and select **Add Event for Trigger Volume 2 | Collision | Add On Actor Begin Overlap** AND **Add On Actor End Overlap**.
 
-![add begin and end overlap message](images/SendMessageToArrayRm12.jpg)
+![add begin and end overlap message](images/SendMessageToArrayRm12.png)
 
 
 ![](../images/line2.png)
