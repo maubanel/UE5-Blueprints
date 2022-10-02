@@ -30,7 +30,7 @@ https://user-images.githubusercontent.com/5504953/193455503-434b6730-87b7-4d61-8
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Copy and paste* all the nodes from the **Translate On Z** section again. Change the **Comment** to `Translate on Y`. Look at the **Sequence** node. Also *delete* the **Translate On Z** getter in the graph and drag and drop **Translate On X**.
+*Copy and paste* all the nodes from the **Translate On Z** section again. Change the **Comment** to `Translate on X`. Look at the **Sequence** node. Also *delete* the **Translate On Z** getter in the graph and drag and drop **Translate On X**.
 
 ![connect pins](images/translateOnX.png)
 
