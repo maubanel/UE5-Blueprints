@@ -27,12 +27,9 @@ Add a comment to the latest work by pressing the <kbd>C</kbd> key. Press the <kb
 
 ![add code comments](images/CommentSection1Rm8.jpg)
 
-![](../images/line.png)
+![](../images/line2.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Rotation II"> -->
-
-![next up next tile](images/banner.png)
-
+##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 Go back to the editor and *select* the **Blueprints | Room 8** folder in the **Content Browser**. *Drag and drop* the **BP_Rotate_Object** into **Room 8**. *Position* it to the left hand side of the room and make sure that **Rotate on Z** is set to `true` and **Degrees Per Second** has a non 0 value between `-360` and `360` in the **Details** panel.
 
 ![drag blueprint rotate object into room 8](images/RotateObjectOnZInGameRm8.jpg)
@@ -40,10 +37,6 @@ Go back to the editor and *select* the **Blueprints | Room 8** folder in the **C
 **Run** the game and the cube should rotate around the **Z** axis.
 
 ![run game and look at cube rotate on z axis](images/RotatingCubeOnZ.gif)
-
-![](../images/line2.png)
-
-##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Select* everything after the **Sequence** node for **Yaw** and *copy and paste* it beneath.
 
