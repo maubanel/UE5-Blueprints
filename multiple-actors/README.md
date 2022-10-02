@@ -2,7 +2,7 @@
 
 ### Dynamically Alter Multiple Classes
 
-<sub>[previous](../translation/README.md#user-content-translation) • [home](../README.md#user-content-ue4-blueprints) • [next](../multiple-actors-ii/README.md#user-content-dynamically-alter-multiple-classes-ii)</sub>
+<sub>[previous](../translation-ii/README.md#user-content-translation-ii) • [home](../README.md#user-content-ue4-blueprints) • [next](../multiple-actors-ii/README.md#user-content-dynamically-alter-multiple-classes-ii)</sub>
 
 ![](../images/line3.png)
 
@@ -206,5 +206,5 @@ Now we need to get all the instances of the lightbulbs in the room. Add an **Eve
 
 ![](../images/line.png)
 
-| [previous](../translation/README.md#user-content-translation)| [home](../README.md#user-content-ue4-blueprints) | [next](../multiple-actors-ii/README.md#user-content-dynamically-alter-multiple-classes-ii)|
+| [previous](../translation-ii/README.md#user-content-translation-ii)| [home](../README.md#user-content-ue4-blueprints) | [next](../multiple-actors-ii/README.md#user-content-dynamically-alter-multiple-classes-ii)|
 |---|---|---|
