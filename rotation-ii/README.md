@@ -17,7 +17,7 @@ Rotations continued...
 
 *Connect* the output of **Degrees Since Last Frame** with the input on the **Rotation** node into the **Delta Rotation Z (Yaw)** pin.
 
-![connect output of degrees since last frame](images/ConnectOuputRm8.jpg)
+![connect output of degrees since last frame](images/ConnectOuputRm8.png)
 
 ![](../images/line2.png)
 
