@@ -71,7 +71,7 @@ You can *right click* on the **bRotateOn Z** variable and *duplicate* it. *Renam
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now connect the output of **Sequence Then 1** node to the **Branch** node.
+Now connect the output of **Sequence Then 1** node to the **Branch** node. Now right click on **Rotate on Z** in the **Pitch** section and select **Replace variable ReturnOnZ** with `ReturnOnY`.
 
 ![connect sequence to branch node](images/ConnectSequence1PinRm8.png)
 
