@@ -129,7 +129,11 @@ Change the name of **Degress per Second** variable to `CmOfTravel`.  Change the 
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
+*Right click* on **Delta Location** input pin on the **Add Relative Location** node and *select* **Split Struct Pin**.
 
+![split struct pin](images/SplitStructPinsTranslateZRm8.png)
+
+![change var name](images/changeVar.png)
 
 ![](../images/line2.png)
 
@@ -143,9 +147,7 @@ Change the name of **Degress per Second** variable to `CmOfTravel`.  Change the 
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Right click* on **Delta Location** input pin on the **Add Relative Location** node and *select* **Split Struct Pin**.
 
-![split struct pin](images/SplitStructPinsTranslateZRm8.jpg)
 
 ![](../images/line2.png)
 
