@@ -121,8 +121,9 @@ Now would be a good time to rename our static mesh. It is no longer part of a ro
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Change the name of **Degress per Second** variable to `CmOfTravel`.  Change the **Description** to indicate that this will be the length of displacement on either side of the cube in the level.
 
-![now renamed graph](images/changeVar.png)
+![change var name](images/changeVar.png)
 
 ![](../images/line2.png)
 
