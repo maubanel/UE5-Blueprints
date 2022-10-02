@@ -65,7 +65,7 @@ https://user-images.githubusercontent.com/5504953/193435298-39b520c6-b88a-4694-b
 
 You can *right click* on the **bRotateOn Z** variable and *duplicate* it. *Rename* it to `bRotateOnY` and adjust the **Tooltip** to `Pitch on Y Axis, Yaw, Shaking Head Yes/No`. Drag a **Get** reference to it on the chart and delete the old **Rotate on Z** node and drag it into the **Condition** on the **Branch**.
 
-![duplicate rotate on z](images/DupeRotateOnZRm8.jpg)
+![duplicate rotate on z](images/DupeRotateOnZRm8.png)
 
 ![](../images/line2.png)
 
