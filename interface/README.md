@@ -95,7 +95,7 @@ Open up **BP_LightbulbMultiInterface** as we are going to subcribe to the **Inte
 
 Now lets add an event to this blueprint that will run when this event is triggered. Go to the **Event Graph** tab and add a **Event Turns Room 10 Switches on Off** node:
 
-![call interface's method](images/CallInterfaceEvent.jpg)
+![call interface's method](images/CallInterfaceEvent.png)
 
 ![](../images/line2.png)
 
