@@ -146,6 +146,7 @@ https://user-images.githubusercontent.com/5504953/193450279-a45a0499-a604-4b69-8
 
 I misentered the ranges when typing in the restrictions for **Degress per Second**.  It is from `-359` to `359`, clamping the max speed to a full rotation per second in either the clockwise or counterclockwise directions.
 
+https://user-images.githubusercontent.com/5504953/193450472-78f18c3d-9e1c-4fe0-b88a-5c287f0bc662.mp4
 
 ![](../images/line2.png)
 
