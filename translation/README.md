@@ -12,12 +12,11 @@ We will be translating an object in 3-D space through blueprints. If rotation is
 
 ---
 
-
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
 Go to the **Blueprints** folder and *duplicate* the **BP_Rotate_Object** blueprint.
 
-![duplicate bp_rotate_object blueprint](images/DuplicateBPRotateObjectRm8.jpg)
+![duplicate bp_rotate_object blueprint](images/DuplicateBPRotateObjectRm8.png)
 
 ![](../images/line2.png)
 
