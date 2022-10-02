@@ -93,22 +93,13 @@ Open up **BP_LightbulbMultiInterface** as we are going to subcribe to the **Inte
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Now lets add an event to this blueprint that will run when this event is triggered. Go to the **Event Graph** tab and add a **Event Turns Room 10 Switches on Off** node:
-
-![call interface's method](images/CallInterfaceEvent.png)
-
-![](../images/line2.png)
-
-##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
-
 Each actor that subscribes to it can create its own definition. This means that the behavior can be customized PER actor class. Double click on the **Interface | Room 10 Switch**. This adds an event so there is an execution pin. Now add a **Switch Light** node.
 
 ![interface method node](images/PrivateTooltipRm12.png)
 
 ![](../images/line2.png)
 
-
-##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
 *Attach* the execution pins and the boolean pins between **Is On** to **Turn On**. This will run the function we previously wrote to turn the light on and off. *Press* the <kbd>Compile</kbd> button.
 
@@ -116,7 +107,8 @@ Each actor that subscribes to it can create its own definition. This means that 
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Press the **+** button next to **Variables** and add a new variable called `RefToLightbulbsInterface`. Make it type **BP_LightbulbMultiInterface | Object Reference**.
 
@@ -127,6 +119,10 @@ An [array](https://en.wikipedia.org/wiki/Array_programming) is a list of variabl
 Add a **Tooltip** with `Keeps array of all room 10 lightbulbs`. Set **Private** to `true` and add it to category `Room 10-Lightbulb`.
 
 ![open level blueprint](images/NameItBPSwitchInterface.png)
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 ![](../images/line2.png)
 
