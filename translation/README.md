@@ -70,19 +70,21 @@ Place an **Add** node to the graph and add up **Tick | Delta Seconds** with **To
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![add time](images/updateComment.png)
+Update comment on nodes to `Keep Track of Total Time in Level`.
+
+![change comment](images/updateComment.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Double click* **BP_Translate_Object** to enter the editor. We will not need the speed variable as we will not be adjusting the speed. *Delete* the **Degrees Per Second** variable.
+*Delete* all nodes on the chart to the right of the **Sequence** node.
 
-*Change* **Degress Since Last Frame** to `Total Time`, **bRotateOnX** to `bTranslateOnX` and repeat for the **Y** and **Z** axis (change two remaining booleans to `bTranslateOnY` and `bTranslateOnZ`). *Change* the category from **Rotation** to `Translation`. Adjust the **tooltips**.
+![delete most nodes](images/SetTotalTimeRm8.png)
 
-*Delete* all nodes on the chart that are attached to **Event Tick** (don't delte the tick event) and we will start over in the **Event Graph** tab. Drag the **Total Time** node onto the graph and select **Set**. Attach the execution pin to **Event Tick**.
+![](../images/line2.png)
 
-![add set total time node after deleting all nodes](images/SetTotalTimeRm8.jpg)
+##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
 *Drag* a copy of the **Total Time** variable onto the graph and select **Get**. *Drag off* of the pin and find a **Float + Float** node to *add*:
 
@@ -99,10 +101,6 @@ Place an **Add** node to the graph and add up **Tick | Delta Seconds** with **To
 Now we will want to feed three translations. To keep the graph neat we will *add* a **Sequence** node and connect its execution pin to the *Set* node.
 
 ![add sequence node](images/SequenceNodeForTranslationRm8.jpg)
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
 Drag a **Get** node from the **Translate On Z** boolean onto the graph:
 
