@@ -85,25 +85,23 @@ All other blueprints that subscribe to this interface will be able to access thi
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Open up **BP_LightbulbMultiInterface** as we are going to subcribe to the **Interface**. This is a commitment that we will implement the one interface function with a parameter that we have created. Press the **Class Settings** button and in the **Details** panel press the **Interfaces | Add** dropdown menu and select the **BP_RoomSwitchInterface** we just created. Then most importantly,finish by pressing the <kbd>Compile</kbd> button:
 
-
-![add function Turn Room 10 Switches On and Off](images/RenameFunctionAddDescriptRm12.jpg)
+![subscribe to interface](images/SubscribeToInterface.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Open up **BP_LightbulbMultiInterface** as we are going to subcribe to the **Interface**. This is a commitment that we will implement the one interface function with a parameter that we have created. Press the **Class Settings** button and in the **Details** panel press the **Interfaces | Add** dropdown menu and select the **BP_RoomSwitchInterface** we just created. Then most importantly,finish by pressing the <kbd>Compile</kbd> button:
+Now lets add an event to this blueprint that will run when this event is triggered. Go to the **Event Graph** tab and add a **Event Turns Room 10 Switches on Off** node:
 
-![subscribe to interface](images/SubscribeToInterface.jpg)
+![call interface's method](images/CallInterfaceEvent.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Now lets add an event to this blueprint that will run when this event is triggered. Go to the **Event Graph** tab and add a **Event Turns Room 10 Switches on Off** node:
 
-![call interface's method](images/CallInterfaceEvent.jpg)
 
 ![](../images/line2.png)
 
