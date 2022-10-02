@@ -138,9 +138,9 @@ Change the name of **Degress per Second** variable to `CmOfTravel`.  Change the 
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Take the output pin of the **SIN** node and *plug* it into the **Delta Location Z** input pin on the **Add Relative Location** node.
 
-
-![connect execution pins](images/BranchRelativePinsRm8.jpg)
+![output sin to delta location z](images/multSin.png)
 
 ![](../images/line2.png)
 
@@ -152,9 +152,7 @@ Change the name of **Degress per Second** variable to `CmOfTravel`.  Change the 
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Take the output pin of the **SIN** node and *plug* it into the **Delta Location Z** input pin on the **Add Relative Location** node.
 
-![output sin to delta location z](images/OutputOfSineDeltaZRm8.jpg)
 
 ![](../images/line2.png)
 
