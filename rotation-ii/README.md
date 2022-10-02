@@ -41,7 +41,7 @@ Go back to the editor make sure that **Rotate on Z** is set to `true` and **Degr
 
 **Run** the game and the cube should rotate around the **Z** axis.
 
-
+https://user-images.githubusercontent.com/5504953/193435298-39b520c6-b88a-4694-b30b-aac2b1437fc3.mp4
 
 ![](../images/line2.png)
 
