@@ -74,7 +74,7 @@ Clean up your node graph and add a comment indicating that we are getting a refe
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a comment by pressing the <kbd>C</kbd> and call it `Toggle`. *Drag* a copy of the **Get RefToLightbulbs** variable onto the graph.
+Add a comment by pressing the <kbd>C</kbd> and call it `Toggle Lights`. *Drag* a copy of the **Get RefToLightbulbs** variable onto the graph.
 
 ![add code comments](images/ActorArrayOut.png)
 
