@@ -182,23 +182,6 @@ Change the **Translate on Z** node to the **Translate on Y** node.
 
 ![change translate on z to y](images/changeTranslate.png)
 
-![](../images/line2.png)
-
-
-*Drag* the execution pin from **Sequence Then 1** to **Branch** input pin. Also *delete* the **Translate On Z** getter and drag and drop a **Get Translate On X** and connect the output pin to the input **Condition** pin on the **Branch** node.
-
-Take the output of the **SIN** node and *plug* it into the input pin **Delta Location X** on the **Delta Relative Location** node
-
-*Copy and paste* all the nodes from the **Translate On Z** section again.
-
-Change the **Comment** to `Translate on Y`. Look at the **Sequence** node. If there is no **Then 2** pin *press* the **Add pin +** button to add it. Then *pull* of the **Then 2** execution pin and place it into the **Branch** node you just copied. Also *delete* the **Translate On Z** getter in the graph and drag and drop **Translate On Y**. Connet the output to the **Branch | Condition** pin.
-
-*Connect* the output of the **SIN** node to the **Delta Location Y** on the **Delta Relative Location** node:
-
-Now this is what your final node graph should look like. *Press* the <kbd>Compile</kbd> button:
-
-Go into the game and turhning each axis on and off. Also, look at your blueprint node chart as it runs to see how the booleans gate the operation flow.
-
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Translation II"> -->
