@@ -110,7 +110,7 @@ Each actor that subscribes to it can create its own definition. This means that 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Press the **+** button next to **Variables** and add a new variable called `RefToLightbulbsInterface`. Make it type **BP_LightbulbMultiInterface | Object Reference**.
+Open up the **Level Blueprint**. It is called **Intro to Blueprints 2**. Press the **+** button next to **Variables** and add a new variable called `RefToLightbulbsInterface`. Make it type **BP_LightbulbMultiInterface | Object Reference**.
 
 Select **TriggerVolume2** that is in room 10. Then press the **Blueprints** button then select **Open Level Blueprint**. *Press* the sphere icon next to the **Variable Type** and select an **Array**.
 
