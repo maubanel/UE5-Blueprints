@@ -90,11 +90,17 @@ How do we get access to each instance of each lightbulb in the array and not the
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
+*Pull off* of the **Array Element** pin and trigger the **Switch Light** function in each light.  This for each loop goes through each instance and calls the **Switch Light** function.
+
+![call switch light](images/callSwitchLight.png)
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
+
+Connect the output of the **Flip Flop | Is A** node to the **Switch Light** node's **Is On** pin. Connect the execution pin from **Loop Body** to **Switch Light**.
+
 Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
-
-![connect array to for each loop pins](images/ArrayElementSwitchLightRm10.jpg)
-
-*Pull off* of the **Array Element** pin and trigger the **Switch Light** function in each light. Connect the output of the **Flip Flop | Is A** node to the **Switch Light** node's **Is On** pin. Connect the execution pin from **Loop Body** to **Switch Light**.
 
 *Press** the <kbd>Compile</kbd> button.
 
@@ -109,10 +115,6 @@ Go to **BP_LightbulbMulti** and the **Event Graph** *add* a **Switch Light** nod
 Now run the game and enter and leave the room. The lights should toggle on and off.
 
 ![run game and trigger lights on and off](images/TurnOnOffLights.gif)
-
-![](../images/line2.png)
-
-##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
 That's it for **Room 9**. Press **Save All** and update **Github** by **committing** and **pushing** all the changes made using **Unreal Source Control** and **GitHub Desktop**. 
 
