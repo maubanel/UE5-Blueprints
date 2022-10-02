@@ -35,26 +35,26 @@ Go back to the editor make sure that **Rotate on Z** is set to `true` and **Degr
 
 ![adjust cube in room 8](images/positionObject.png)
 
+![](../images/line2.png)
+
+##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 **Run** the game and the cube should rotate around the **Z** axis.
 
-![run game and look at cube rotate on z axis](images/RotatingCubeOnZ.gif)
+
+
+![](../images/line2.png)
+
+##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
 *Select* everything after the **Sequence** node for **Yaw** and *copy and paste* it beneath.
 
 ![copy and paste adjust yaw content](images/CopyAndPasteYawRm8.jpg)
 
-![](../images/line2.png)
-
-##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 *Change* the link from **Degrees Since Last Frame** to the **Delta Rotation Y (Pitch)** input in the **AddRelativeRotation** node. *Connect* the execution pin from **Sequence | Then 1** to this copied **Branch** node. *Adjust* the **comment** to `Adjust Pitch`.
 
 ![make changes to nodes](images/AdjustPitchAlteration1Rm8.jpg)
 
-![](../images/line2.png)
-
-##### `Step 5.`\|`ITB`| :small_orange_diamond:
 You can *right click* on the **bRotateOn Z** variable and *duplicate* it. *Rename* it to `bRotateOnY` and adjust the **Tooltip** to `Pitch on Y Axis, Yaw, Shaking Head Yes/No`. Drag a **Get** reference to it on the chart and delete the old **Rotate on Z** node and drag it into the **Condition** on the **Branch**.
 
 ![duplicate rotate on z](images/DupeRotateOnZRm8.jpg)
