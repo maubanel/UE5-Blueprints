@@ -78,7 +78,7 @@ We need to add a dynamic material to the **Construction Script**. To switch the 
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Add* a new **Variable** and call it `DynamicMaterial`. *Choose* variable type **Material Instance Dynamic | Object Reference**. *Add* a **Tooltip** that says `Holds reference to material`. Put it in category `Lightbulb` and make it `Private`. *Drag* a **Set Dynamic Material** node to the graph and plug the **Return Value** from the **Create Dynamic Material Node** to the input pin of the **Set DynamicMaterial Variable**.
+*Add* a new **Variable** and call it `DynamicMaterial`. *Choose* variable type **Material Instance Dynamic | Object Reference**. *Add* a **Tooltip** that says `Holds reference to material`. Put it in category `Lightbulb` and make it `Private`. 
 
 ![add dynamci material variable and set it](images/SaveDynamicMaterialZ.png)
 
@@ -86,9 +86,17 @@ We need to add a dynamic material to the **Construction Script**. To switch the 
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
+*Drag* a **Set Dynamic Material** node to the graph and plug the **Return Value** from the **Create Dynamic Material Node** to the input pin of the **Set DynamicMaterial Variable**. Connect the execution pins.
+
+![connect pins](images/setDynMat.png)
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
+
 *Connect* the execution pins from the **Construction** script node to the **Create Dynamic Material Instance** to the **Set Dynamic Material** nodes. Now the lightbulb's material with the glow is in **M_Glass**. *Select* the **Source Material** as `M_Glass` and set the **Element Index** to `1`.
 
-![connect pins](images/image_08.jpg)
+
 
 Press the **+** button next to **Functions** to add a new function. This allows us to put nodes in this blueprint that can be called from other objects. So intead of an internal event (BeginPlay or Tick) you can create your own function name and call it from another object.
 
@@ -99,10 +107,6 @@ Call this new function `SwitchLight`. We need to add an **Input** and call it `b
 *Add* a **Branch Node** to the node graph. *Attach* the execution pins from **Switch Light** to **Turn On**.  *Connect* the  **Turn On** output pin to the **Condition** pin in the **Branch** Node. We will handle the turn on light logic from the **True** output pin and the turn off logic from the **False** pin.
 
 ![add branch node](images/AddBranchtoFunct.jpg)
-
-![](../images/line2.png)
-
-##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
 *Click* on the **Point Light** in the **Components** menu. Lets look at the **Details** panel. A **Variable** called **Intensity** can be used to turn the acutal light on and off. We can set it to `0` when off and `5000` when on. Drag the **Point Light** to the graph and pull off its pin and select **Set Intensity** to change this value. Since this is for turning on set the **New Intensity** to `5000`.
 
