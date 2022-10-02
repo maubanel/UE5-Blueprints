@@ -153,11 +153,17 @@ Set the execution pin from **Branch | True** to **Set Intensity**.
 
 ![copy and paste nodes for turning lights off](images/TurnOffBulbs.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+So now your node chart should look like this:
+
+![first pass node chart](images/fpsNodeChart.png)
+
+![](../images/line2.png)
+
+##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Lets test this function before moving forward. Go back to the **Event Graph** and add a function call by *right clicking* and adding a **Switch Light** node and connect it to begin play. Press the <kbd>Compile</kbd> button.
 
@@ -177,10 +183,6 @@ In previous rooms we have put the trigger volume in the blueprint. In most cases
 Now do we get access to any object that is in the room? This is easy go to the game and select the **Trigger Volume** you just selected.
 
 ![select trigger volume in editor](images/BreakPinConnRm10.jpg)
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now since a blueprint can be used in any level and that this trigger is unique to this level, there is a special kind of blueprint. Everytime you have created a new Map or Level the game has automatically created a [Level Blueprint](https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/Blueprints/UserGuide/Types/LevelBlueprint/). This blueprint gives you access to all the insances included in that level in the editor. 
 
