@@ -97,7 +97,12 @@ Go back to the **Blueprint** and remove the **Add Relative Rotation** node on **
 
 You can *delete* the **Rotating Cube** reference as we will not be using it. *Right click* on open space in the graph and select: **Add Actor Local Rotation** node. Connect the execution pin from the output **True** of the **Branch** node.
 
-![add actor local rotation](images/AddActorLocalRotation.jpg)
+![add actor local rotation](images/AddActorLocalRotation.png)
+
+![](../images/line2.png)
+
+
+##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 *Right click* on **Delta Rotation** and select **Split Struct Pin**.
 
@@ -107,10 +112,6 @@ You can *delete* the **Rotating Cube** reference as we will not be using it. *Ri
 
 ![connect degrees to delta rotation](images/DegreesToPitchRm8.jpg)
 
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Now go back to the game and try it out. No more gimble lock, the object rotates without stopping:
 
