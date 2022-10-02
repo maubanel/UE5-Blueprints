@@ -96,7 +96,12 @@ Change all the boolean names to `Translate on Z`, `Translate on X` and `Translat
 
 *Drag off* of this **Set** output pin and look for the **Sin (Radians)** node. We will use a sine wave to translate the object and you need to use radians to do math to it as opposed to angles (remember your trig?).
 
-![add sin wave radians](images/SineWaveNode.jpg)
+![add sin wave radians](images/SineWaveNode.png)
+
+![](../images/line2.png)
+
+
+##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Now we will want to feed three translations. To keep the graph neat we will *add* a **Sequence** node and connect its execution pin to the *Set* node.
 
@@ -110,10 +115,6 @@ Drag a **Get** node from the **Translate On Z** boolean onto the graph:
 
 ![add branch node](images/ZToBranchRm8.jpg)
 
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 *Drag and drop* a reference to the **Rotating Cube** mesh onto the graph.
 
