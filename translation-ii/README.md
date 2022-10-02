@@ -1,12 +1,12 @@
 ![](../images/line3.png)
 
-### Add TITBe
+### Translation II
 
 <sub>[previous](../) • [home](../README.md#user-content-ue5-blueprints) • [next](../)</sub>
 
 ![](../images/line3.png)
 
-Chapter introduction here.
+Lets finish up translating the cube on the Y and X axis.
 
 <br>
 
