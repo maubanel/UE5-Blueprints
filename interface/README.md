@@ -140,19 +140,22 @@ Drag a copy of **RefToLightbulbsInterface** and add a **Set** node. Connect the 
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-![variable settings](images/HookUpExecutionAndBoolRm12.jpg)
+Make sure you still have the Trigger Volume selected in game. *Right click* on the event graph and select **Add Event for Trigger Volume 2 | Collision | Add On Actor Begin Overlap** AND **Add On Actor End Overlap**.
+
+![add begin and end overlap message](images/SendMessageToArrayRm12.jpg)
+
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+*Right click* on the graph and add a **Get Ref to Ligthbulbs Interface** node. Pull off the *array* pin and select a **For Each Loop** node to go into each lightbulb to turn it on and off.
+
+![add a lightbulb ref and for each loop](images/SameForTurningOffMessageRm12.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
 
 
 ![](../images/line2.png)
@@ -171,17 +174,11 @@ Drag a copy of **RefToLightbulbsInterface** and add a **Set** node. Connect the 
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-Make sure you still have the Trigger Volume selected in game. *Right click* on the event graph and select **Add Event for Trigger Volume 2 | Collision | Add On Actor Begin Overlap** AND **Add On Actor End Overlap**.
-
-![add begin and end overlap message](images/SendMessageToArrayRm12.jpg)
-
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-*Right click* on the graph and add a **Get Ref to Ligthbulbs Interface** node. Pull off the *array* pin and select a **For Each Loop** node to go into each lightbulb to turn it on and off.
 
-![add a lightbulb ref and for each loop](images/SameForTurningOffMessageRm12.jpg)
 
 ![](../images/line.png)
 
