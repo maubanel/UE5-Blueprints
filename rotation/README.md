@@ -170,7 +170,7 @@ https://user-images.githubusercontent.com/5504953/193431775-6d0d88ca-ccb9-47a4-9
 
 Now *break* the pins between the **Tick** event and **Sequence**. *Route* this execution through the **Set** node.
 
-![route execution pin through set node](images/ReconnectSetterRm8.jpg)
+![route execution pin through set node](images/ReconnectSetterRm8.png)
 
 
 ![](../images/line2.png)
