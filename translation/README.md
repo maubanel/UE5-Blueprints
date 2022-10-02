@@ -86,13 +86,13 @@ Update comment on nodes to `Keep Track of Total Time in Level`.
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-*Drag* a copy of the **Total Time** variable onto the graph and select **Get**. *Drag off* of the pin and find a **Float + Float** node to *add*:
+Change all the boolean names to `Translate on Z`, `Translate on X` and `Translate on Y`.
 
-![add float plus float node](images/TotalTimeAddRm8.jpg)
+![Change bool names](images/changeBoolNames.png)
 
-**Total Time** will just keep track of the room time in milliseconds. *Take* the **Delta Time** output of the **Event Tick** and add it to the other input of the **+** node. *Send* this addition to the **Set** node to cumulatively add the time together.
+![](../images/line2.png)
 
-![set total time node](images/SetTotalTimeWithDeltaTime.jpg)
+##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
 *Drag off* of this **Set** output pin and look for the **Sin (Radians)** node. We will use a sine wave to translate the object and you need to use radians to do math to it as opposed to angles (remember your trig?).
 
@@ -105,10 +105,6 @@ Now we will want to feed three translations. To keep the graph neat we will *add
 Drag a **Get** node from the **Translate On Z** boolean onto the graph:
 
 ![get translate on z](images/GetTranslateOnZRm8.jpg)
-
-![](../images/line2.png)
-
-##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
 *Drag* the pin off of the **Translate On Z** variable in the graph and *select* a **Branch** node (remember this is like an if() statement). *Connect* the execution pins from the **Sequence | Then 0** to **Branch** pin.
 
