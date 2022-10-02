@@ -101,16 +101,16 @@ Now lets add an event to this blueprint that will run when this event is trigger
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
+Each actor that subscribes to it can create its own definition. This means that the behavior can be customized PER actor class. This is an event so there is an execution pin.
 
+![interface method node](images/PrivateTooltipRm12.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Each actor that subscribes to it can create its own definition. This means that the behavior can be customized PER actor class. This is an event so there is an execution pin.
 
-![interface method node](images/PrivateTooltipRm12.jpg)
 
 ![](../images/line2.png)
 
