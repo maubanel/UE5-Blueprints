@@ -138,7 +138,7 @@ Change the name of **Degress per Second** variable to `CmOfTravel`.  Change the 
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Take the output pin of the **SIN** node and *plug* it into the **Delta Location Z** input pin on the **Add Relative Location** node.
+Add a **Multiplication** node to the graph.  Also add a **Get Cm Of Travel** node.  Multiply them together and send the output to the **Delta Location Z** input pin on the **Add Relative Location** node.
 
 ![output sin to delta location z](images/multSin.png)
 
