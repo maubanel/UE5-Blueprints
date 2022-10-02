@@ -107,17 +107,15 @@ Connect the output of the **Flip Flop | Is A** node to the **Switch Light** node
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Go back to **BP_LightbulbMulti** and make sure that the **Begin Play** switches the lights off by default.  So **Turn On** should be `false`.
 
-![connect is a to switch light](images/defaultFalse.png)
-
-
-![alt_text](images/.png)
+![turn off light in begin play](images/defaultFalse.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+*Press* the <kbd>Play</kbd> button and run into the volume, it should trigger the lights to turn on.  Then leave the collision volume and it kills all the lights.  The nice thing is we have one collision volumes that controls all 20 lights.
 
 ![](../images/line2.png)
 
