@@ -172,7 +172,7 @@ https://user-images.githubusercontent.com/5504953/193453110-b3e8fe58-81ff-42d2-a
 
 Change the **Comment** to `Translate on Y`.  Connect the output of the **Sin** node to the top **Multiplication** pin of the new translate on Y section.
 
-![copy](images/changeComm.png)
+![change comment connect multiplication to sin](images/changeComm.png)
 
 ![](../images/line2.png)
 
