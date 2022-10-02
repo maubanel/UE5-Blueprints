@@ -31,9 +31,9 @@ Scooch the camera over to **Room 10**. Add a `Blueprints | Room10` folder to the
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Move to **Room10**.
+Move **BP_LightbulbMultiInterface** to **Room10**.
 
-![rename bp and move to room 10](images/Add5LightsToRm12.jpg)
+![rename bp and move to room 10](images/Add5LightsToRm12.png)
 
 ![](../images/line2.png)
 
