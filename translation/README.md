@@ -164,7 +164,7 @@ https://user-images.githubusercontent.com/5504953/193453110-b3e8fe58-81ff-42d2-a
 
 *Copy and paste* the entire section.
 
-![copy](images/CopyPasteTranslateZRm8.jpg)
+![copy](images/CopyPasteTranslateZRm8.png)
 
 ![](../images/line2.png)
 
