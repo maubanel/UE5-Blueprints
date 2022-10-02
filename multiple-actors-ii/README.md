@@ -64,12 +64,17 @@ Clean up your node graph and add a comment indicating that we are getting a refe
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
+
 *Add* a **Flip Flop** node to the chart. This node when triggered toggles between true and false. Connect it to both the **Overlap** nodes. This way the first time you enter the volue it will switch on, then when you leave swtich off. This will continue this behavior during the game. What will happen is that the **IsA** boolean on the **Flip Flop** pin will change from **True** to **False** and back.
 
-![add flip flop node](images/ActorClassBPSelectRm10.jpg)
+![add flip flop node](images/ActorClassBPSelectRm10.png)
 
 
+![](../images/line2.png)
+
+##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
 Add a comment by pressing the <kbd>C</kbd> and call it `Toggle`.
 
 ![add code comments](images/ActorArrayOut.jpg)
@@ -85,10 +90,6 @@ How do we get access to each instance of each lightbulb in the array and not the
 *Connect* the **A** and **B** execution pins from the **Flip Flop** node to the **E**xec pin in the **For Each Loop** node. *Connect* the output of the **RefToLightbulbs** node to the **Array** input pin in the **For Each Loop**.
 
 ![connect array to for each loop pins](images/ArrayElementSwitchLightRm10.jpg)
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Pull off* of the **Array Element** pin and trigger the **Switch Light** function in each light. Connect the output of the **Flip Flop | Is A** node to the **Switch Light** node's **Is On** pin. Connect the execution pin from **Loop Body** to **Switch Light**.
 
