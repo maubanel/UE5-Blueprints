@@ -30,18 +30,21 @@ https://user-images.githubusercontent.com/5504953/193455503-434b6730-87b7-4d61-8
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Copy and paste* all the nodes from the **Translate On Z** section again. Change the **Comment** to `Translate on X`. Look at the **Sequence** node. Also *delete* the **Translate On Z** getter in the graph and drag and drop **Translate On X**.
+*Copy and paste* all the nodes from the **Translate On Z** section again. Change the **Comment** to `Translate on X`. Also *delete* the **Translate On Z** getter in the graph and drag and drop **Translate On X**. Change the connecdtion from the **Multiplication** node to **Delta Locaion on X**.
 
-![connect pins](images/translateOnX.png)
-
-
-
-![alt_text](images/.png)
+![copy and paste to translate on x](images/translateOnX.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Connect the output of the **Sin** node to the top input of the **Mutliplication** node.
+
+![connect sin to mult](images/sinToMult.png)
+
+![](../images/line2.png)
+
+##### `Step 5.`\|`ITB`| :small_orange_diamond:
  If there is no **Then 2** pin *press* the **Add pin +** button to add it. Then *pull* of the **Then 2** execution pin and place it into the **Branch** node you just copied. Also *delete* the **Translate On Z** getter in the graph and drag and drop **Translate On Y**. Connet the output to the **Branch | Condition** pin.
 
 *Connect* the output of the **SIN** node to the **Delta Location Y** on the **Delta Relative Location** node:
@@ -49,13 +52,6 @@ https://user-images.githubusercontent.com/5504953/193455503-434b6730-87b7-4d61-8
 Now this is what your final node graph should look like. *Press* the <kbd>Compile</kbd> button:
 
 Go into the game and turhning each axis on and off. Also, look at your blueprint node chart as it runs to see how the booleans gate the operation flow.
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 5.`\|`ITB`| :small_orange_diamond:
-
 ![alt_text](images/.png)
 
 ![](../images/line2.png)
