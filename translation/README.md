@@ -122,14 +122,13 @@ Now would be a good time to rename our static mesh. It is no longer part of a ro
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 
+![now renamed graph](images/changeVar.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Notice that it changes all references to it as well. So we have our renamed mesh hooked up to a **Add Relative Location** node:
 
-![now renamed graph](images/ChangesEverywhereRm8.jpg)
 
 ![](../images/line2.png)
 
