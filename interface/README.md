@@ -79,7 +79,7 @@ Open this new blueprint. Notice it is read only. It is a virtual interface so yo
 
 All other blueprints that subscribe to this interface will be able to access this boolean.
 
-![add bIsOn boolean to interface](images/image_10.jpg)
+![add bIsOn boolean to interface](images/image_10.png)
 
 ![](../images/line2.png)
 
