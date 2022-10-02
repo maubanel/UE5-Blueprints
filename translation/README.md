@@ -2,7 +2,7 @@
 
 ### Translation
 
-<sub>[previous](../rotation-ii/README.md#user-content-rotation-ii) • [home](../README.md#user-content-ue4-blueprints) • [next](../multiple-actors/README.md#user-content-dynamically-alter-multiple-classes)</sub>
+<sub>[previous](../rotation-ii/README.md#user-content-rotation-ii) • [home](../README.md#user-content-ue4-blueprints) • [next](../translation-ii/README.md#user-content-translation-ii)</sub>
 
 ![](../images/line3.png)
 
@@ -201,10 +201,10 @@ Go into the game and turhning each axis on and off. Also, look at your blueprint
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Dynamically Alter Multiple Classes"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Translation II"> -->
 ![next up next tile](images/banner.png)
 
 ![](../images/line.png)
 
-| [previous](../rotation-ii/README.md#user-content-rotation-ii)| [home](../README.md#user-content-ue4-blueprints) | [next](../multiple-actors/README.md#user-content-dynamically-alter-multiple-classes)|
+| [previous](../rotation-ii/README.md#user-content-rotation-ii)| [home](../README.md#user-content-ue4-blueprints) | [next](../translation-ii/README.md#user-content-translation-ii)|
 |---|---|---|

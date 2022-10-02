@@ -29,6 +29,7 @@ Lets get started looking into how to create some game logic.
 <kbd></kbd> &nbsp;&nbsp; [Rotation](rotation/README.md#user-content-rotation) <br>
 <kbd></kbd> &nbsp;&nbsp; [Rotation II](rotation-ii/README.md#user-content-rotation-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Translation](translation/README.md#user-content-translation) <br>
+<kbd></kbd> &nbsp;&nbsp; [Translation II](translation-ii/README.md#user-content-translation-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Dynamically Alter Multiple Classes](multiple-actors/README.md#user-content-dynamically-alter-multiple-classes) <br>
 <kbd></kbd> &nbsp;&nbsp; [Dynamically Alter Multiple Classes II](multiple-actors-ii/README.md#user-content-dynamically-alter-multiple-classes-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Communicate Through Interface](interface/README.md#user-content-communicate-through-interface) <br>
