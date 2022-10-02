@@ -50,8 +50,11 @@ Now we need to get all the instances of the lightbulbs in the room. Add an **Eve
 
 Now drag a copy of **Set Lightbulb Reference** and connect the output array pin to the input array pin of these nodes as shown. Connect the execution pin from **Get All Actors of Class** to **Set Lightbulb** nodes.
 
-![add set lightbulb ref to graph](images/SayYesRm10.jpg)
+![add set lightbulb ref to graph](images/SayYesRm10.png)
 
+![](../images/line2.png)
+
+##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Once you get this working *DELETE* the Switch Light node as we will be turning it on and off in another blueprint entirely.
 *Add* a **Flip Flop** node to the chart. This node when triggered toggles between true and false. Connect it to both the **Overlap** nodes. This way the first time you enter the volue it will switch on, then when you leave swtich off. This will continue this behavior during the game. What will happen is that the **IsA** boolean on the **Flip Flop** pin will change from **True** to **False** and back.
@@ -74,10 +77,6 @@ Add a comment by pressing the <kbd>C</kbd> and call it `Toggle`.
 How do we get access to each instance of each lightbulb in the array and not the entire array? We use a **For Each** loop. *Right click* and add a **For Each Loop** to the graph.
 
 ![add for each loop](images/ConnectActorToForEachRm10.jpg)
-
-![](../images/line2.png)
-
-##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Connect* the **A** and **B** execution pins from the **Flip Flop** node to the **E**xec pin in the **For Each Loop** node. *Connect* the output of the **RefToLightbulbs** node to the **Array** input pin in the **For Each Loop**.
 
