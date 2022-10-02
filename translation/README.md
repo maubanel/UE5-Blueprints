@@ -154,7 +154,7 @@ Add a comment on all the nodes after the **Sequence** and type `Translate on Z`.
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Run* the game and make sure the **Translate On Z** boolean is set to `true` in the **Details Panel**. The cube should move up and down. Now play with the default value of
+*Run* the game and make sure the **Translate On Z** boolean is set to `true` in the **Details Panel**. The cube should move up and down. Now play with the default values and ranges of **CmOfTravel**. We limit ranges to limit very large numbers that could introduce bugs and gameplay issues.
 
 https://user-images.githubusercontent.com/5504953/193453110-b3e8fe58-81ff-42d2-a5ea-03d53467d894.mp4
 
