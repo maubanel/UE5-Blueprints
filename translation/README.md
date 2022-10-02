@@ -131,9 +131,8 @@ Change the name of **Degress per Second** variable to `CmOfTravel`.  Change the 
 
 *Right click* on **Delta Location** input pin on the **Add Relative Location** node and *select* **Split Struct Pin**.
 
-![split struct pin](images/SplitStructPinsTranslateZRm8.png)
+![split struct pin](images/splitPins.png)
 
-![change var name](images/changeVar.png)
 
 ![](../images/line2.png)
 
