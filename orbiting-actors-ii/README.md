@@ -46,7 +46,7 @@ Now we need to rotate around the cube actor. We need a variable to access its cl
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Make sure the **Instance Editable** is set to `true`, that the variable is **Private** and that the **Category** is set to `Target`. Give the variable a **tooltip**:
+Make sure the **Instance Editable** is set to `true`, that the variable is **Private** and that the **Category** is set to `Target`. Give the variable a **Description**.  Mine was `Actor to rotate around in level`
 
 ![set variable values](images/SetTargetRotateParamsRm15.png)
 
