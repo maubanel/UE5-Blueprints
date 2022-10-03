@@ -106,7 +106,7 @@ Now at the end of the **Begin Play** event *off* the last **Set** node execution
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Add a **Set RefToRotateInterface** node and connect the execution and array pins to the **Get All Actors Of Class** node.
+Add a **Set RefToRotateInterface** node and connect the execution and array pins to the **Get All Actors Of Class** node. Add a comment around these two nodes.
 
 ![connect pins between get all acors of class and setter](images/RefToRotateExecute.png)
 
@@ -114,7 +114,7 @@ Add a **Set RefToRotateInterface** node and connect the execution and array pins
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now to rotate we need to keep calling the cube every frame the player is in the collision volume. There is only an enter and and exit event so we will need to add a boolean. First add an **Event Tick** node to call. Add a new **Variable** called `RotateCube` and make it **Variable Type** called **Boolean**. *Set it* to **Private** and set it ot the **Room10Lightbulbs** Category. *Make sure* it is a single variable and not an array (no group of squares icon next to the **Variable Type**).
+Now to rotate we need to keep calling the cube every frame the player is in the collision volume. There is only an enter and and exit event so we will need to add a boolean. Add a new **Variable** called `RotateCube` and make it **Variable Type** called **Boolean**. *Set it* to **Private** and set it ot the **Room 10** Category. *Make sure* it is a single variable and not an array (no group of squares icon next to the **Variable Type**).
 
 ![add event tick and boolean variable](images/AddTickAndRotateBool.png)
 
