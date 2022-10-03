@@ -185,7 +185,7 @@ https://user-images.githubusercontent.com/5504953/193660942-60885a5c-7409-4281-b
 
 This is exactly what I want. Right click and start typing **Modulo** and select the float version **% (float)**.
 
-![add modulo to graph](images/ModuloClampRm15.jpg)
+![add modulo to graph](images/ModuloClampRm15.png)
 
 ![](../images/line.png)
 
