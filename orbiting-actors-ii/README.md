@@ -48,6 +48,8 @@ Now we need to rotate around the cube actor. We need a variable to access its cl
 
 Make sure the **Instance Editable** is set to `true`, that the variable is **Private** and that the **Category** is set to `Target`. Give the variable a **Description**.  Mine was `Actor to rotate around in level`
 
+https://user-images.githubusercontent.com/5504953/193666218-2d197836-e1e9-40af-84a5-0a031a5d0346.mp4
+
 ![set variable values](images/SetTargetRotateParamsRm15.png)
 
 ![](../images/line2.png)
