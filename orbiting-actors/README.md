@@ -168,15 +168,13 @@ Clean up the nodes so that they are neat. *Press* the <kbd>Compile</kbd> button.
 
 Make sure that **Degrees Per Seconds** is set to `30`. Go back to the game and select the **BP_Rotate_Around_Point** object in the **World Outliner**. Make sure **Show Debug Angle In Degrees** is set to `true`.
 
-![degrees per second is 30 and set showdebuaangleindegrees to true](images/SelectYourBlueprintSetDebugOn.jpg)
+![degrees per second is 30 and set showdebuaangleindegrees to true](images/SelectYourBlueprintSetDebugOn.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
 Now the debug menu we are printing shows a number going up. There is only one problem. This will probably be OK for a while but really I want to clamp the number between **0** and **360**.
-
-![in game angle goes beyond 360](images/AngleGetsTooLarge.gif)
 
 ![](../images/line2.png)
 
