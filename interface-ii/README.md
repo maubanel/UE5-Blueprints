@@ -123,21 +123,25 @@ Now to rotate we need to keep calling the cube every frame the player is in the 
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Drag two **BP_RotateInterface** in the room.
+Right click and add the **Event Tick** back to the bottom of the graph. *Drag and drop* a **Get RotateCube** variable next to it.
 
-![drag two bp_rotaterm10 into the level](images/DragTwoCubesInRoom.png)
+![add get boolena to graph](images/AddRotateCubeToGraph.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
+*Drag and drop* a **Get RefToRotateInterface** variable to the chart. Add a **Turn Room 10 Switches on Off(Message)** node.
+
+![add turn room on off node](images/TurnRoom.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-
+and connect the array output to the **Target** input. *Connect* the **Event Tick** execution pin to the **Turn Room 10 Switches on Off** pin and *connect* the **Rotate Cube** output boolean pin to the **Turn Room 10 Switches On and Off | IsOn** node.
 
 ![](../images/line2.png)
 
@@ -155,28 +159,26 @@ Drag two **BP_RotateInterface** in the room.
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Drag two **BP_RotateInterface** in the room.
+
+![drag two bp_rotaterm10 into the level](images/DragTwoCubesInRoom.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-*Drag and drop* a **Get bRotateCube** variable onto the bottom of the **Event Graph**.
-
-![add get boolena to graph](images/AddRotateCubeToGraph.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-*Drag and drop* a **Get RefToRotateInterface** variable to the chart. Add a **Turn Room 10 Switches on Off(Message)** node and connect the array output to the **Target** input.
-
-![add turn room on off node](images/TurnRoom.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 22.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Connect* the **Event Tick** execution pin to the **Turn Room 10 Switches on Off** pin and *connect* the **Rotate Cube** output boolean pin to the **Turn Room 10 Switches On and Off | IsOn** node.
+
 
 ![connect event tick rotate cube and interface method's pins](images/FinishUpCall.jpg)
 
