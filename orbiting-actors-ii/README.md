@@ -94,9 +94,9 @@ Now go into the game and don't assign a target, just run it as is. You should se
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Now highlight the **Blueprint** actor in the scene and assign the **Targets | Rotate Around Me** cube actor to the **Target To Rotate Around** input that we set up.
+Now highlight the **BP_RotateAround** actor in the scene and press the <kbd>Lock</kbd> button to lock the **Details** panel.  Then you can drag the **Rotate Around Me** cube actor from the scene to the **Target** input that we set up. Release the lock at the end by pressing the <kbd>Lock</kbd> to turn it off.
 
-![add rotate around me actor](images/RotateAroundMe.png)
+![assign actor in details panel](images/RotateAroundMe.png)
 
 ![](../images/line2.png)
 
