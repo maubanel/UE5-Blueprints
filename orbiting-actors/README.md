@@ -150,7 +150,7 @@ Connect the output **Set** execution pin to the **Print String** input pin. *Pre
 
 Go to the game and drag a copy of the blueprint into the scene next to the box. Make sure **Show Debug** is set to `true`. *Run* the game and we get **Hello**. This is not what we wanted, we wanted to see the current angle in degrees!
 
-![in game hello](images/RunGameHelloErrorRm15.jpg)
+![in game hello](images/RunGameHelloErrorRm15.png)
 
 ![](../images/line2.png)
 
