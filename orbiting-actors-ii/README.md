@@ -88,22 +88,22 @@ Now lets test our work to date. We have enough information to run a test in game
 
 Now go into the game and don't assign a target, just run it as is. You should see the red message **Target is Invalid** appears when you *run* the game.
 
-![run debug in game](images/RedDebugInGame.jpg)
+![run debug in game](images/RedDebugInGame.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
+Now highlight the **Blueprint** actor in the scene and assign the **Targets | Rotate Around Me** cube actor to the **Target To Rotate Around** input that we set up.
 
+![add rotate around me actor](images/RotateAroundMe.jpg)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now highlight the **Blueprint** actor in the scene and assign the **Targets | Rotate Around Me** cube actor to the **Target To Rotate Around** input that we set up.
 
-![add rotate around me actor](images/RotateAroundMe.jpg)
 
 ![](../images/line2.png)
 
