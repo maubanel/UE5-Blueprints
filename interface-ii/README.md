@@ -54,13 +54,17 @@ Drag two **BP_RotateInterface** in the room.
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
+Select **Interfaces** and double click the **BP_Room10Switch**. Replace the **Event Tick** with the interface event.  This way the user will trigger the interface in both the lightbulb and this new rotating cube.
 
+![add interface to blueprint](images/image_11.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now remove the **Event Tick** node *connect* the output of the **BP_RoomSwitchInterface** execution pin to the **Set Degrees Since Las Frame** node.
 
+![replace event tick with interface node](images/ReplaceEventNode.jpg)
 
 ![](../images/line2.png)
 
@@ -80,25 +84,18 @@ Now to the **Degrees Per Second** variable and set the **Default Value** to `70.
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select **Class Settings** then press **Interfaces | Add** and add the **BP_RoomSwitchInterface**. Press the <kbd>Compile</kbd> button.
 
-![add interface to blueprint](images/image_11.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-*Right click* on the graph and add a **Event Turns Room 10 Switches on Off** node.
-
-![add event turn room 10 switches on and off node](images/AddRoomSwitchOnOff.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Now remove the **Event Tick** node *connect* the output of the **BP_RoomSwitchInterface** execution pin to the **Set Degrees Since Las Frame** node.
 
-![replace event tick with interface node](images/ReplaceEventNode.jpg)
 
 ![](../images/line2.png)
 
