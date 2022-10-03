@@ -41,7 +41,7 @@ Now we can get to the meat of this room. We have calculated where in world coord
 
 *Connect* the **Return Value** output pin of the **Rotate Vector Around Axis** node to the **New Location** pin in the **Set Actor Location** node. 
 
-![connect rotate arount world new location pins](images/AddCommenstRm15.jpg)
+![connect rotate arount world new location pins](images/AddCommenstRm15.png)
 
 ![](../images/line2.png)
 
