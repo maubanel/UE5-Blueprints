@@ -31,13 +31,15 @@ Now again this is relative to the box. So take the output of the **Target** node
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we can get to the meat of this room. We have calculated where in world coordinates our blueprint needs to be relative to the object we are rotating around. *Right click* and select **Set Actor Location**. *Connect* the **Return Value** output pin of the **Rotate Vector Around Axis** node to the **New Location** pin in the **Set Actor Location** node. *Highjack* the **Is Valid** pin from the **Is Valid** node and *connect* it ot the input execution pin in the **Set Actor Location** node. *Delete* the dangling **Print String** node as we no longer need it.
+Now we can get to the meat of this room. We have calculated where in world coordinates our blueprint needs to be relative to the object we are rotating around. *Right click* and select **Set Actor Location**. *Connect* the **Is Valid** pin from the **Is Valid** node and *connect* it ot the input execution pin in the **Set Actor Location** node. 
 
 ![add set actor location node](images/SetActorLocationRm15.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+*Connect* the **Return Value** output pin of the **Rotate Vector Around Axis** node to the **New Location** pin in the **Set Actor Location** node. 
 
 We will leave the error print as this will warn us if we have not assigned a target in the editor. Add some commnents to explain what we are doing:
 
