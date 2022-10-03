@@ -72,27 +72,17 @@ Now we are missing the **Delta Seconds** that was fed by the **Event Tick** node
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
-*Connect* the **Is On** output pin from the **Event** node and connect it to the **Condition** pin in the **Branch** node.
+*Connect* the **Is On** output pin from the **Event** node and connect it to the **Condition** pin in the **Branch** node. *Press* the <kbd>Compile</kbd> button.
 
 ![connect is on to branch node](images/ConnetEventToBranch.png)
-
-*Press* the <kbd>Compile</kbd> button.
-
-![get world delta seconds](images/GetWorldDeltaSeconds.jpg)
-
-
-Now to the **Degrees Per Second** variable and set the **Default Value** to `70.0`.
-
-![set degrees per second to 70](images/SetDefaultDegreesPerSecond.jpg)
-
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Drag two **BP_RotateInterface** in the room.
+Go to the **Level Blueprint** for **IntroToBlueprints2** and *right click* on **RefToLightbulbsInterface** and select **Duplicate**. Name it `RefToRotateInterface` and change the type to **BP_RotateRoom10 | Object Reference**. Update the **Tooltip**.
 
-![drag two bp_rotaterm10 into the level](images/DragTwoCubesInRoom.png)
+![rename dupe node to reftorotateinterface](images/ReferenceToCubes.jpg)
 
 ![](../images/line2.png)
 
@@ -121,23 +111,21 @@ Drag two **BP_RotateInterface** in the room.
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Drag two **BP_RotateInterface** in the room.
 
+![drag two bp_rotaterm10 into the level](images/DragTwoCubesInRoom.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Go to the **Level Blueprint** for **IntroToBlueprints2** and *right click* on **RefToLightbulbsInterface** and select **Duplicate**.
 
-![duplicate interface reference](images/DupeLevelBPArray.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Name it `RefToRotateInterface` and change the type to **BP_RotateRoom10 | Object Reference**. Update the **Tooltip**.
 
-![rename dupe node to reftorotateinterface](images/ReferenceToCubes.jpg)
 
 ![](../images/line2.png)
 
