@@ -25,7 +25,7 @@ Move the camera to room 11. *Add* a new Folder called **Blueprints | Room11**. *
 
 *Drag* a **Cube** into the middle of the room. Give it space as we will have a blueprint orbit around it. Call it in the **World Outliner** `Rotate Around Me`. *Drag* it into the **Room11** folder. 
 
-![drag the blueprint into the room](images/DropBoxInRm15.jpg)
+![drag the blueprint into the room](images/DropBoxInRm15.png)
 
 ![](../images/line2.png)
 
