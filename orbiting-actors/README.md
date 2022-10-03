@@ -127,14 +127,14 @@ Add the comment `Set Current Rotation in Degrees` to the group of nodes coming a
 Now it is a good idea to test our work after each step. There is a fair amount to do before we can see a rotation. We want to make sure there are no bugs before we go to far. So lets print this value and we should see an angle increase over time. We do not always want to display it so lets put it on a switch that we can adjust. Lets add a **Boolean** called `bShowDebug` variable that is **Instance Editable**, **Private** and in **Category** `Debug`. Add a **tooltip** as well.
 
 ![add show debug angle in degrees boolean](images/ShowDebugDegreesRm15.jpg)
+![](../images/line2.png)
+
+##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
 *Drag* a **Get Show Debug Angle In Degrees** variable and *drag off* of the pin. Select a **Print String** node. Note that this is not for an official HUD in the game. This is just for testing and will not show up in a release build.
 
 ![print debug string](images/PrintDebugTimerRm15.jpg)
 
-![](../images/line2.png)
-
-##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
 Connect the output **Set** execution pin to the **Print String** input pin. *Press* the small arrow at the bottom to expand the options. Now this will print every frame so we don't want the default 2.0 second variable. We will just get a large scrolling mess (try it!). Set **Duration** to `0.0`.
 
