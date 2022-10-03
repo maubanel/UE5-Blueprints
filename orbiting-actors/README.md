@@ -101,7 +101,7 @@ Now since we need to do this every frame we will do the from the **Tick Event** 
 
 That will give us the rotation amount in degrees this frame. So we need to add it to our current angle. Drag and drop a **Get** node for **Current Angle In Degrees** and a **Float + Float** node. *Add* this current angle to the output of the **Multiplication** node.
 
-![get current angle in degrees and addition node](images/AddToCurrentAngleRm15.jpg)
+![get current angle in degrees and addition node](images/AddToCurrentAngleRm15.png)
 
 ![](../images/line2.png)
 
