@@ -96,7 +96,7 @@ Now go into the game and don't assign a target, just run it as is. You should se
 
 Now highlight the **Blueprint** actor in the scene and assign the **Targets | Rotate Around Me** cube actor to the **Target To Rotate Around** input that we set up.
 
-![add rotate around me actor](images/RotateAroundMe.jpg)
+![add rotate around me actor](images/RotateAroundMe.png)
 
 ![](../images/line2.png)
 
