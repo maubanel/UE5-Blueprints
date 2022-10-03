@@ -163,7 +163,7 @@ Send the output of this **Multiply** into the **In Vect** pin of the **Rotate Ve
 
 We can also add variables without dragging and dropping. We can click on an open part of the graph and type **Get Current Angle In Degrees**.
 
-![add get current angle in degrees node](images/GetRefToAngleInDegRm15.jpg)
+![add get current angle in degrees node](images/GetRefToAngleInDegRm15.png)
 
 
 ![](../images/line2.png)
