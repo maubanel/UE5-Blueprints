@@ -14,33 +14,26 @@ Communicate through a blueprint interface part II
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Now we want to call the event that the **BP_LightbulbMultiInterface** subscribed to.  *Pull* off of the **Array Element** pin from the **For Each Loop** node and add a call to **Turn Room 10 Switches On And Off**.  This array element pin is accessing a reference to each lightbulb in the loop and running the nodes that are part of the interface definition in that blueprint (BP_LightbulbMultiInterface).
+The power of this interface is that other objects can define the interface to do a different action.  So turning on might a light for a light switch, but could also have a TV that implements turning on by showing a movie on the screen. Lets add a cube that rotates when turned on and stops when turned off. Go to **Blueprints | Room 8** and *right click* on **BP_RotateObject** and select **Duplicate**.
 
-![get reference to interface then call the off method](images/EventCall.jpg)
+![duplicate bp_rotateobject](images/DupeRotateObject.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-*Connect* the  execution pins from **Begin Overlap** node to the **For Each Loop** to the **Turn Room 10 Switches On And Off** nodes.  Make sure that the **Is On** pin is set to `true` (ticked) as this is the turning on state.  Then copy the **For Each** and **Turn Room 10 Switches On And Off** nodes and connect them to the **End Overlap** node and make **IsOn** `false` (un-ticked) as it is turning the light off.
 
-![connect pins on flipflop, interface and turn off method](images/FinishInterfaceCall.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we have the bluprint calling the interface and passing all the lights in the room. We also have the interface implemented in the lightbulb that turns on and off. Run the game and walk in and out of the volume.
-
-![lights turn on and off in game](images/TurnLightsInInterface.gif)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-The power of this interface is that other objects can define the interface to do a different action.  So turning on might a light for a light switch, but could also have a TV that implements turning on by showing a movie on the screen. Lets add a cube that rotates when turned on and stops when turned off. Go to **Blueprints | Room 8** and *right click* on **BP_RotateObject** and select **Duplicate**.
 
-![duplicate bp_rotateobject](images/DupeRotateObject.jpg)
 
 ![](../images/line2.png)
 
