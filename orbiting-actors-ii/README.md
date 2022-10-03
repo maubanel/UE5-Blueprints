@@ -48,8 +48,6 @@ Now we need to rotate around the cube actor. We need a variable to access its cl
 
 Make sure the **Instance Editable** is set to `true`, that the variable is **Private** and that the **Category** is set to `Target`. Give the variable a **Description**.  Mine was `Actor to rotate around in level`
 
-https://user-images.githubusercontent.com/5504953/193666218-2d197836-e1e9-40af-84a5-0a031a5d0346.mp4
-
 ![set variable values](images/SetTargetRotateParamsRm15.png)
 
 ![](../images/line2.png)
@@ -57,6 +55,8 @@ https://user-images.githubusercontent.com/5504953/193666218-2d197836-e1e9-40af-8
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
 To keep our graph neat we will put the rotation nodes under the current group. Lets *add* a **Sequence Node**. *Highjack* the output of the **Tick** node to the input of the **Sequence** node. Then attach the **Then 0** output to the **Set** node.
+
+https://user-images.githubusercontent.com/5504953/193666218-2d197836-e1e9-40af-84a5-0a031a5d0346.mp4
 
 ![](../images/line2.png)
 
