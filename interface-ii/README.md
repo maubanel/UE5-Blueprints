@@ -22,7 +22,9 @@ The power of this interface is that other objects can define the interface to do
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
+Call it `BP_RotateInterface` and *drag it* into the **Room10** folder.
 
+![call blueprint bp_rotaterm10](images/Room10MoveRotateObject.jpg)
 
 ![](../images/line2.png)
 
@@ -39,9 +41,7 @@ The power of this interface is that other objects can define the interface to do
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Call it `BP_RotateRm10` and *drag it* into the **Room10** folder.
 
-![call blueprint bp_rotaterm10](images/Room10MoveRotateObject.jpg)
 
 ![](../images/line2.png)
 
