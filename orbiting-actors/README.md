@@ -126,7 +126,7 @@ Add the comment `Set Current Rotation in Degrees` to the group of nodes coming a
 
 Now it is a good idea to test our work after each step. There is a fair amount to do before we can see a rotation. We want to make sure there are no bugs before we go to far. So lets print this value and we should see an angle increase over time. We do not always want to display it so lets put it on a switch that we can adjust. Lets add a **Boolean** called `bShowDebug` variable that is **Instance Editable**, **Private** and in **Category** `Debug`. Add a **tooltip** as well.
 
-![add show debug angle in degrees boolean](images/ShowDebugDegreesRm15.jpg)
+![add show debug angle in degrees boolean](images/ShowDebugDegreesRm15.png])
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
@@ -135,15 +135,17 @@ Now it is a good idea to test our work after each step. There is a fair amount t
 
 ![print debug string](images/PrintDebugTimerRm15.jpg)
 
+![](../images/line2.png)
+
+##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Connect the output **Set** execution pin to the **Print String** input pin. *Press* the small arrow at the bottom to expand the options. Now this will print every frame so we don't want the default 2.0 second variable. We will just get a large scrolling mess (try it!). Set **Duration** to `0.0`.
 
 ![output angle to print and make the duration 0](images/ConnectExecSetToZeroRm15.jpg)
 
-
 ![](../images/line2.png)
 
-##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Go to the game and drag a copy of the blueprint into the scene next to the box. Make sure **Show Debug** is set to `true`. *Run* the game and we get **Hello**. This is not what we wanted, we wanted to see the current angle in degrees!
 
@@ -151,15 +153,11 @@ Go to the game and drag a copy of the blueprint into the scene next to the box. 
 
 ![](../images/line2.png)
 
-##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Go back to the blueprint and see if you can figure it out. Look at the **In String** box and you see **Hello**. We want this to read the current angle. *Drag* the output pin from **Set Current Angle In Degrees** node to the **In String** pin on **Print String**. **UE4** will pick a conversion node to go from **Float** to **String**.
 
 ![connect angle to print string](images/CurrAngleToPrintRm15.jpg)
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Clean up the nodes so that they are neat. *Press* the <kbd>Compile</kbd> button.
 
