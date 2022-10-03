@@ -69,9 +69,9 @@ Add a **Get Target** node and attach it to the **Target** pin of the **Get Actor
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets draw the radius of this rotation in debug to visualize it. Add another **Boolean** variable called `bDrawRadius`. Make it **Instance Editable** and **Private** with a **Tooltip** and **Category** `Debug`.
+Now lets draw the radius of this rotation in debug to visualize it. *Right click* on **BP_**  another **Boolean** variable called `bDrawRadius`. Make it **Instance Editable** and **Private** with a **Tooltip** and **Category** `Debug`.
 
-![add boolean draw debug radius](images/AddDrawDebugRadiusRm15.jpg)
+![add boolean draw debug radius](images/AddDrawDebugRadiusRm15.png)
 
 ![](../images/line2.png)
 
