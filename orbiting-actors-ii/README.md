@@ -62,9 +62,9 @@ https://user-images.githubusercontent.com/5504953/193666218-2d197836-e1e9-40af-8
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag and drop* the **Target To Rotate Around** variable under the other nodes and select **Get**. Put a large comment box around it saying `Rotate Around Target`.
+*Drag and drop* the **Target To Rotate Around** variable under the other nodes and select **Get**. 
 
-![add rotate around node and comment](images/GetTargetToRotateCommentRm15.jpg)
+![add rotate around node and comment](images/GetTargetToRotateCommentRm15.png)
 
 ![](../images/line2.png)
 
@@ -72,15 +72,15 @@ https://user-images.githubusercontent.com/5504953/193666218-2d197836-e1e9-40af-8
 
 Now this is a pointer to a game object that you need to assign in the world editor. Whenever we point to an object we should test for a NULL pointer (pointing to an object in a memory address that does not exist yet). *Pull off* of the **Target to Rotate Around** node and select a **Utilities | ? Is Valid** (be careful there are many different is valid nodes) node:
 
-![add is valid node](images/IsValid.jpg)
+![add is valid node](images/IsValid.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Connect the **Then 1** output of the **Sequence** node execution pin to the execution input in the **Is Valid** pin. Make sure the variable output is connected to the **Input Object** pin on the **Is Valid** node:
+Connect the **Then 1** output of the **Sequence** node execution pin to the execution input in the **Is Valid** pin. Make sure the variable output is connected to the **Input Object** pin on the **Is Valid** node. Put a large comment box around it saying `Rotate Around Target`.
 
-![alt_text](images/SecondSequenceExecPinRm15.jpg)
+![alt_text](images/SecondSequenceExecPinRm15.png)
 
 ![](../images/line2.png)
 
