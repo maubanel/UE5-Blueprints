@@ -91,7 +91,13 @@ Select the **Event Graph** tab. Lets program our current angle. *Drag* the **Deg
 
 Now since we need to do this every frame we will do the from the **Tick Event** node. Also this node gives us the time since last frame in milliseconds. So we multiply our **Degrees Per Second** variable by **Delta Seconds** coming from the **Tick** node:
 
-![multiply degrees per second by delta seconds](images/MultiplyDegreesByDeltaRm15.jpg)
+![multiply degrees per second by delta seconds](images/MultiplyDegreesByDeltaRm15.png)
+
+
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
 That will give us the rotation amount in degrees this frame. So we need to add it to our current angle. Drag and drop a **Get** node for **Current Angle In Degrees** and a **Float + Float** node. *Add* this current angle to the output of the **Multiplication** node.
 
@@ -99,16 +105,12 @@ That will give us the rotation amount in degrees this frame. So we need to add i
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
+
+##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 *Drag and drop* a **Set** node for **Current Angle In Degrees** and attach the output of the last **Addition** node to it. *Connect* the execution pin with the **Tick** node.
 
 ![set current angle in degrees to addition node](images/SetNewCurrentAngleRm15.jpg)
-
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Add the comment `Set Current Rotation in Degrees` to the group of nodes coming after the **Tick** node.
 
