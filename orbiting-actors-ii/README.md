@@ -103,15 +103,15 @@ Now highlight the **BP_RotateAround** actor in the scene and press the <kbd>Lock
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+When we run the game we now have a valid game object. The message says in blue *Rotate Around Object* which is what we wanted!
 
+![rotate around object message in game](images/RunGameValidObject.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-When we run the game we now have a valid game object. The message says in blue *Rotate Around Object* which is what we wanted!
 
-![rotate around object message in game](images/RunGameValidObject.jpg)
 
 ![](../images/line2.png)
 
