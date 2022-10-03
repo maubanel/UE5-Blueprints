@@ -78,7 +78,7 @@ Connect the **Then 1** output of the **Sequence** node execution pin to the exec
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets test our work to date. We have enough information to run a test in game. Add two **Print String** nodes. Connect one to the **Is Valid** output of the **Is Valid** node and the other to the **Is Not Valid** pin. The **Is Valid** print statement should have message `Rotate Around Object` in the default blue color for a duration of `0.0`. The other should have a message `No Object To Rotate Around`, change the color to a shade of **Red** and set the duration to `0.0`.
+Now lets test our work to date. We have enough information to run a test in game. Add two **Print String** nodes. Connect one to the **Is Valid** output of the **Is Valid** node and the other to the **Is Not Valid** pin. The **Is Valid** print statement should have message `Target is valid` in the default blue color for a duration of `0.0`. The other should have a message `Target is invalid`, change the color to a shade of **Red** and set the duration to `0.0`.
 
 ![add two print strings to check validity](images/ShowDebugTestWorkRm15.png)
 
