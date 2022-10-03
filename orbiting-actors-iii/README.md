@@ -47,7 +47,7 @@ Now we can get to the meat of this room. We have calculated where in world coord
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Before we try it in game, I just realized I made an error. The vector is in local space to the cube. What I need to do is to get this into world coordinates. I do this by adding my current location to this vector. Add a **Get Actor Location** node and an **Vector + Vector** node adding the output of the **Return Vector Around Axis** node.  Then send the output of the **Addition** node to the **New Location** in the **Set Actor Location** node:
+Before we try it in game, I just realized I made an error. The vector is in local space to the cube. What I need to do is to get this into world coordinates. I do this by adding my current location to this vector. Add a **Get Actor Location** node and an **Addition** node adding the output of the **Return Vector Around Axis** node.  Then send the output of the **Addition** node to the **New Location** in the **Set Actor Location** node.
 
 ![put rotation in world coordinates](images/PutItInWorldCoordsRm15.png)
 
@@ -55,9 +55,9 @@ Before we try it in game, I just realized I made an error. The vector is in loca
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Add a **Get Target to Rotate Around** node and attach it to the **Target** pin of the **Get Actor Location** node. We want to rotate around the target actor.
+Add a **Get Target** node and attach it to the **Target** pin of the **Get Actor Location** node. We want to rotate around the target actor.
 
-![add get target to rotate around node](images/AddRotateTarget.jpg)
+![add get target to rotate around node](images/AddRotateTarget.png)
 
 ![](../images/line2.png)
 
