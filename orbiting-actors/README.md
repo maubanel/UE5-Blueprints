@@ -126,7 +126,8 @@ Add the comment `Set Current Rotation in Degrees` to the group of nodes coming a
 
 Now it is a good idea to test our work after each step. There is a fair amount to do before we can see a rotation. We want to make sure there are no bugs before we go to far. So lets print this value and we should see an angle increase over time. We do not always want to display it so lets put it on a switch that we can adjust. Lets add a **Boolean** called `bShowDebug` variable that is **Instance Editable**, **Private** and in **Category** `Debug`. Add a **tooltip** as well.
 
-![add show debug angle in degrees boolean](images/ShowDebugDegreesRm15.png])
+![add show debug angle in degrees boolean](images/ShowDebugDegreesRm15.png)
+
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
