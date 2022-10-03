@@ -41,9 +41,7 @@ Now we can get to the meat of this room. We have calculated where in world coord
 
 *Connect* the **Return Value** output pin of the **Rotate Vector Around Axis** node to the **New Location** pin in the **Set Actor Location** node. 
 
-We will leave the error print as this will warn us if we have not assigned a target in the editor. Add some commnents to explain what we are doing:
-
-![add code comments](images/AddCommenstRm15.jpg)
+![connect rotate arount world new location pins](images/AddCommenstRm15.jpg)
 
 ![](../images/line2.png)
 
