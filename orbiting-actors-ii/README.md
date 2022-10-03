@@ -103,7 +103,7 @@ Now highlight the **BP_RotateAround** actor in the scene and press the <kbd>Lock
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-When we run the game we now have a valid game object. The message says in blue *Rotate Around Object* which is what we wanted!
+When we run the game we now have a valid game object. The message says in blue *Target is Valid* which is what we wanted!
 
 ![rotate around object message in game](images/RunGameValidObject.png)
 
@@ -111,15 +111,15 @@ When we run the game we now have a valid game object. The message says in blue *
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+OK, lets move on with the rotation. *Right click* and add a **Rotate Vector Around Axis** node.
 
+![add rotate vector around axis node](images/RotateAroundVectorNodeRm15.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-OK, lets move on with the rotation. *Right click* and add a **Rotate Vector Around Axis** node.
 
-![add rotate vector around axis node](images/RotateAroundVectorNodeRm15.jpg)
 
 ![](../images/line2.png)
 
