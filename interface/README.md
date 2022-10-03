@@ -174,16 +174,7 @@ Now we want to call the event that the **BP_LightbulbMultiInterface** subscribed
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
+Now we have the bluprint calling the interface and passing all the lights in the room. We also have the interface implemented in the lightbulb that turns on and off. Run the game and walk in and out of the volume.
 
 
 ![](../images/line.png)
