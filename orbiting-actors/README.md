@@ -24,6 +24,7 @@ Move the camera to room 11. *Add* a new Folder called **Blueprints | Room11**. *
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
 *Drag* a **Cube** into the middle of the room. Give it space as we will have a blueprint sphere orbit around it. 
+
 ![drag the blueprint into the room](images/DropBoxInRm15.png)
 
 ![](../images/line2.png)
@@ -32,22 +33,28 @@ Move the camera to room 11. *Add* a new Folder called **Blueprints | Room11**. *
 
 Call it in the **World Outliner** `Rotate Around Me`. *Drag* it into the **Room11** folder. 
 
+![rename cube](images/RenameCube.png)
 
-*Double click* **BP_Rotate_Around_Room** and press the **Add Component** button and add a **Static Mesh** to the blueprint.
-
-![add static mesh to blueprint](images/AddStaticMeshToBPRm15.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the **Details** panel and *press* **View Options** and select **Engine Content**. Then search for **Sphere** and add this to the blueprint.
+*Double click* **BP_Rotate_Around_Room** and press the **Add Component** button and add a **Static Mesh** to the blueprint.
 
-![add sphere from engine content](images/EngineContentSphereRm15.jpg)
+![add static mesh to blueprint](images/AddStaticMeshToBPRm15.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
+
+Go to the **Details** panel and *press* **View Options** and select **Engine Content**. Then search for **Sphere** and add this to the blueprint.
+
+![add sphere from engine content](images/EngineContentSphereRm15.png)
+
+![](../images/line2.png)
+
+##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
 *Assign* the **Material** `M_Metal_Burnished_Steel` to the **Sphere** mesh in the details panel:
 
@@ -55,15 +62,11 @@ Go to the **Details** panel and *press* **View Options** and select **Engine Con
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now we need to figure out how fast we want to orbit around the actor. We will measure it in degrees per second. Add a variable to hold this speed by *pressing* the **+** button next to **Variables**. *Call* is `Degrees Per Second`, make sure it is of type **Float**, that it is **Instance Editable**, **Private** and set the category to **Rotation**. Add a **tooltip**, mine says *Speed of how fast an object rotates per second*.
 
-![add float degrees per second variable](images/AddDegreesPerSecondRm15.jpg)
-
-![](../images/line2.png)
-
-##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+![add float degrees per second variable](images/AddDegreesPerSecondRm15.png)
 
 Now we need a variable to store the current angle that the actor is in relative to whom it is orbiting around. This will store a fractional number between 0 and 360. Call it **Current Angle In Degrees**, make sure it is of type **Float**, make it **Private** and put it in **Category** `Rotation`.
 
