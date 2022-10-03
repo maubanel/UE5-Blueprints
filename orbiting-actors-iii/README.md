@@ -63,9 +63,7 @@ Add a **Get Target** node and attach it to the **Target** pin of the **Get Actor
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Run* the game and look in the room, the sphere should be rotating around the cube. Now try rotating the cube and see if the oribting follows its angle? 
-
-![sphere rotating around cube in game](images/SingleRotateClock.gif)
+*Run* the game and look in the room, the sphere should be rotating around the cube. I adjusted the scale of the static mesh to be a bit smaller. Now try rotating the cube and see if the oribting follows its angle? 
 
 ![](../images/line2.png)
 
