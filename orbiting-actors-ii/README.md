@@ -24,7 +24,7 @@ Orbiting actors continued.
 
 You can also add a smaller comment on top of any node. If you click on the three dots that show up on the top left corner when you hover on the node you can adda comment. I added to the **Modulo** node `Keep angle between 0 and 359`.
 
-![add small comment](images/AddSmallComment.jpg)
+![add small comment](images/AddSmallComment.png)
 
 ![](../images/line2.png)
 
