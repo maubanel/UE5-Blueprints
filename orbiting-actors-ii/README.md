@@ -155,7 +155,7 @@ Now *drag* a **Get** reference to the **Target To Rotate Around** variable and a
 
 Send the output of this **Multiply** into the **In Vect** pin of the **Rotate Vector Around Axis** node:
 
-![attach multiply to in vect](images/OutputMultiplyInVector.jpg)
+![attach multiply to in vect](images/OutputMultiplyInVector.png)
 
 ![](../images/line2.png)
 
