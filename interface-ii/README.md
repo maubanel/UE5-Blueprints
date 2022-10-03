@@ -64,7 +64,7 @@ Now remove the **Event Tick** node *connect* the output of the **BP_RoomSwitchIn
 
 Now we are missing the **Delta Seconds** that was fed by the **Event Tick** node. No problem we can get this value by *right clicking* and adding a **Get World Delta Seconds** node. *Connect* the output of the **Get World Delta Seconds** node to the empty **Multiplication** node. This is the exact same node, so we can get this without having to use the tick event.
 
-![connect get world delta seconds with multiplication node](images/ConnectToMultiplyNode.jpg)
+![connect get world delta seconds with multiplication node](images/ConnectToMultiplyNode.png)
 
 
 ![](../images/line2.png)
