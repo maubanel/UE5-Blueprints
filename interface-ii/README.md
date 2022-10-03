@@ -143,6 +143,8 @@ Right click and add the **Event Tick** back to the bottom of the graph. *Drag an
 
 and connect the array output to the **Target** input. *Connect* the **Event Tick** execution pin to the **Turn Room 10 Switches on Off** pin and *connect* the **Rotate Cube** output boolean pin to the **Turn Room 10 Switches On and Off | IsOn** node.
 
+![connect 3 pins](images/connectPins.png)
+
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
