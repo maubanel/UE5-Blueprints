@@ -54,7 +54,7 @@ Make sure the **Instance Editable** is set to `true`, that the variable is **Pri
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-To keep our graph neat we will put the rotation nodes under the current group. Lets *add* a **Sequence Node**. *Highjack* the output of the **Tick** node to the input of the **Sequence** node. Then attach the **Then 0** output to the **Set** node.
+To keep our graph neat we will put the rotation nodes under the current group. Lets *add* a **Sequence Node**. *Highjack* the output of the **Tick** node to the input of the **Sequence** node. Then attach the **Then 0** output to the **Set** node. Press the <kbd>Compile</kbd> button.
 
 https://user-images.githubusercontent.com/5504953/193666218-2d197836-e1e9-40af-84a5-0a031a5d0346.mp4
 
