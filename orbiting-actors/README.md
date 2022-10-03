@@ -83,15 +83,15 @@ Now we need a variable to store the current angle that the actor is in relative 
 
 Select the **Event Graph** tab. Lets program our current angle. *Drag* the **Degrees Per Second** variable to the **Event Graph** and select **Get**. *Drag off* of the pin and we now want a **Float * Float** node:
 
-![get degrees per second and multiplication node](images/DegreesThenFloatRm15.jpg)
-
-Now since we need to do this every frame we will do the from the **Tick Event** node. Also this node gives us the time since last frame in milliseconds. So we multiply our **Degrees Per Second** variable by **Delta Seconds** coming from the **Tick** node:
-
-![multiply degrees per second by delta seconds](images/MultiplyDegreesByDeltaRm15.jpg)
+![get degrees per second and multiplication node](images/DegreesThenFloatRm15.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
+
+Now since we need to do this every frame we will do the from the **Tick Event** node. Also this node gives us the time since last frame in milliseconds. So we multiply our **Degrees Per Second** variable by **Delta Seconds** coming from the **Tick** node:
+
+![multiply degrees per second by delta seconds](images/MultiplyDegreesByDeltaRm15.jpg)
 
 That will give us the rotation amount in degrees this frame. So we need to add it to our current angle. Drag and drop a **Get** node for **Current Angle In Degrees** and a **Float + Float** node. *Add* this current angle to the output of the **Multiplication** node.
 
