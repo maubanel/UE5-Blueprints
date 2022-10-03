@@ -176,6 +176,8 @@ Make sure that **Degrees Per Seconds** is set to `30`. Go back to the game and s
 
 Now the debug menu we are printing shows a number going up. There is only one problem. This will probably be OK for a while but really I want to clamp the number between **0** and **360**.
 
+https://user-images.githubusercontent.com/5504953/193660942-60885a5c-7409-4281-b9cc-f3cf8a17cdbb.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
