@@ -17,7 +17,7 @@ Orbiting actors continued.
 
 Now we want to rotate around the relative Z axis of the box. So we will r*ight click* and select the **Get Actor Up Vector** node. This is the same idea as the right vector except this is the relative **Z** axis of the box.
 
-![add get actor up vector](images/GetActorUpVectorRm15.jpg)
+![add get actor up vector](images/GetActorUpVectorRm15.png)
 
 ![](../images/line2.png)
 
