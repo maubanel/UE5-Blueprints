@@ -97,9 +97,7 @@ Right click on the open graph and select the node **Draw Debug Line**. *Grab* th
 
 Now the line will go to the center of the box we are rotating around. *Grab* a get variable of **Target Rotate Around** and *attach* it to a **Get Actor Location** node.
 
-![add target rotate around and attach to actdor location node](images/GetTargetLocadtionRm15.jpg)
-
-![addition to draw debug line node](images/GrabPlayerPosPinRm15.jpg)
+![add target rotate around and attach to actdor location node](images/GetTargetLocadtionRm15.png)
 
 ![](../images/line2.png)
 
