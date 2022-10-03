@@ -49,7 +49,7 @@ Now we can get to the meat of this room. We have calculated where in world coord
 
 Before we try it in game, I just realized I made an error. The vector is in local space to the cube. What I need to do is to get this into world coordinates. I do this by adding my current location to this vector. Add a **Get Actor Location** node and an **Vector + Vector** node adding the output of the **Return Vector Around Axis** node.  Then send the output of the **Addition** node to the **New Location** in the **Set Actor Location** node:
 
-![put rotation in world coordinates](images/PutItInWorldCoordsRm15.jpg)
+![put rotation in world coordinates](images/PutItInWorldCoordsRm15.png)
 
 ![](../images/line2.png)
 
