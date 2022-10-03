@@ -82,7 +82,7 @@ Now we are missing the **Delta Seconds** that was fed by the **Event Tick** node
 
 Go to the **Level Blueprint** for **IntroToBlueprints2** and *right click* on **RefToLightbulbsInterface** and select **Duplicate**. Name it `RefToRotateInterface` and change the type to **BP_RotateRoom10 | Object Reference**. Update the **Tooltip**.
 
-![rename dupe node to reftorotateinterface](images/ReferenceToCubes.jpg)
+![rename dupe node to reftorotateinterface](images/ReferenceToCubes.png)
 
 ![](../images/line2.png)
 
