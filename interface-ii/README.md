@@ -30,34 +30,37 @@ Call it `BP_RotateInterface` and *drag it* into the **Room10** folder.
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Open up the BP_Rotate_Rm10 blueprint. *Delete* all the Pitch and Roll nodes to leave just the Yaw.
+
+![delete pitch and roll nodes](images/DeletePitchRoll.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Delete the three booleans **RotateOnZ**, **RotateOnY** and **RotateOnX**. We will be rotating the cube around only Z when the user enters the volume, so we will remove the switches.
 
+![delete three bools](images/deleteBools.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
-
-Drag two **BP_Rotate_Rm10** in the room.
+Drag two **BP_RotateInterface** in the room.
 
 ![drag two bp_rotaterm10 into the level](images/DragTwoCubesInRoom.jpg)
 
 ![](../images/line2.png)
 
+##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
+
+
+
+![](../images/line2.png)
+
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up the BP_Rotate_Rm10 blueprint. *Delete* all the Pitch and Roll nodes to leave just the Yaw.
 
-![delete pitch and roll nodes](images/DeletePitchRoll.jpg)
 
 ![](../images/line2.png)
 
