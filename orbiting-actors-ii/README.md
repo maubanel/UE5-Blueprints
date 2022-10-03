@@ -119,19 +119,13 @@ OK, lets move on with the rotation. Delete the top **Print** node. Replace it by
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
-
 Now lets look at our input nodes. So we will be calculating from the object we are rotating around (the cube); from its origin point. The **In Vector** is a relative vector to the cube and will make the radius of the rotation. The angle is the value we have already calculated in degrees. The axis will be the **Z** axis of the cube. This means that it will rotate around its **Z** axis (remember it is Z up in UE4).
 
 ![in vector node](images/RotateAroundVectorNodeBRm15.jpg)
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
 Make a new variable of type **Float** called `Radius`. Make sure it is **Instance Editable** and **Private**. Add the **Category** `Rotation` and add a **tooltip**.
 
@@ -140,6 +134,12 @@ Make a new variable of type **Float** called `Radius`. Make sure it is **Instanc
 *Set* the **default value** of the **Radius** to `300` and press the <kbd>Compile</kbd> again.
 
 ![set radius to 300](images/RadiusVariableRm15.jpg)
+
+![](../images/line2.png)
+
+##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+
 
 ![](../images/line2.png)
 
