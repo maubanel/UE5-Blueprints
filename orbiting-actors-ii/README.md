@@ -32,7 +32,7 @@ You can also add a smaller comment on top of any node. If you click on the three
 
 *Run* in game and you will notice that the number always goes back to 0 when it passes 360. Perfect!
 
-![alt_text](images/AngleLoops.gif)
+https://user-images.githubusercontent.com/5504953/193663782-1efddf2f-fca6-4e20-928e-a7c8f4fc5dc9.mp4
 
 ![](../images/line2.png)
 
