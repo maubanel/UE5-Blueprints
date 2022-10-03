@@ -137,15 +137,15 @@ Make a new variable of type **Float** called `Radius`. Make sure it is **Instanc
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Now *drag and drop* a **Get Radius** to the graph and we need to figure out how to attach this to the **In Vector** input. Now this is a **float** and the in vector wants a vector (hover over the pins). Now we will just be affecting the **Z** vector of the object. Now if we split the pins and plug this into the **X** vector this will work in world space. Regardless of the rotation of the cube, this will be always rotating around world **Z**. What if we want it to rotate with the cube. We need it relative to the cube's rotation. *Unreal* gives us a normalized vector along the plane called **Get Actor Right Vector**. This is a vector that is 1 unit long point to the relative right side direction of the actor regardless of his world rotation. Add a **Get Actor Right Vector** node.
 
+![get actor right vector](images/RadiusRightVector.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *drag and drop* a **Get Radius** to the graph and we need to figure out how to attach this to the **In Vector** input. Now this is a **float** and the in vector wants a vector (hover over the pins). Now we will just be affecting the **Z** vector of the object. Now if we split the pins and plug this into the **X** vector this will work in world space. Regardless of the rotation of the cube, this will be always rotating around world **Z**. What if we want it to rotate with the cube. We need it relative to the cube's rotation. *Unreal* gives us a normalized vector along the plane called **Get Actor Right Vector**. This is a vector that is 1 unit long point to the relative right side direction of the actor regardless of his world rotation. Add a **Get Actor Right Vector** node.
 
-![get actor right vector](images/RadiusRightVector.jpg)
 
 ![](../images/line2.png)
 
