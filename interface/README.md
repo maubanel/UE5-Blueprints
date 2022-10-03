@@ -176,6 +176,7 @@ Now we want to call the event that the **BP_LightbulbMultiInterface** subscribed
 
 Now we have the bluprint calling the interface and passing all the lights in the room. We also have the interface implemented in the lightbulb that turns on and off. Run the game and walk in and out of the volume.
 
+https://user-images.githubusercontent.com/5504953/193556800-df42a2e9-0c38-47bc-8442-7f82d28fa40a.mp4
 
 ![](../images/line.png)
 
