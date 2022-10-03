@@ -15,9 +15,9 @@ Now lets do something a bit more complicated. We will be adding debug informatio
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Move the camera to room 11. *Add* a new Folder called **Blueprints | Room11**. *Create* a new **Blueprint Class** of type **Actor** and call it `BP_RotateAroundPoint`.
+Move the camera to room 11. *Add* a new Folder called **Blueprints | Room11**. *Create* a new **Blueprint Class** of type **Actor** and call it `BP_RotateAroundPoint`. Move the **Player Start** actor in front of room 11. 
 
-![add folder room11 and blueprint actor class bp_rotatearoundpoint](images/CreateNewActorRotateAroundPtRm15.jpg)
+![add folder room11 and blueprint actor class bp_rotatearoundpoint](images/CreateNewActorRotateAroundPtRm15.png)
 
 ![](../images/line2.png)
 
