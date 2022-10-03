@@ -89,7 +89,7 @@ Now add a **Get Draw Radius** & a **Branch** node. Send the output of the **Draw
 
 Right click on the open graph and select the node **Draw Debug Line**:
 
-![add draw debug line node](images/RightClickDrawDebugLineRm15.jpg)
+![add draw debug line node](images/RightClickDrawDebugLineRm15.png)
 
 ![](../images/line2.png)
 
