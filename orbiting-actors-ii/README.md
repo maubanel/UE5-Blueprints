@@ -56,8 +56,6 @@ Make sure the **Instance Editable** is set to `true`, that the variable is **Pri
 
 To keep our graph neat we will put the rotation nodes under the current group. Lets *add* a **Sequence Node**. *Highjack* the output of the **Tick** node to the input of the **Sequence** node. Then attach the **Then 0** output to the **Set** node.
 
-![add sequence node and reconnect execution pin](images/AddSequenceNodeRm15.jpg)
-
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
