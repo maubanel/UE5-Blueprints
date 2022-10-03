@@ -141,7 +141,9 @@ Right click and add the **Event Tick** back to the bottom of the graph. *Drag an
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-and connect the array output to the **Target** input. *Connect* the **Event Tick** execution pin to the **Turn Room 10 Switches on Off** pin and *connect* the **Rotate Cube** output boolean pin to the **Turn Room 10 Switches On and Off | IsOn** node.
+*Connect* the array output of **Room 10ReferencesCubes** to the **Target** input of the **Room 10 Switch** message. *Connect* the **Event Tick** execution pin to the **Turn Room 10 Switches on Off** pin and *connect* the **Rotate Cube** output boolean pin to the **Turn Room 10 Switches On and Off | IsOn** node.
+
+What this will do is trigger that message in the interface to fire in each cube as they need to be called every frame not just when the player enters the volume.
 
 ![connect 3 pins](images/connectPins.png)
 
