@@ -81,7 +81,7 @@ Now lets draw the radius of this rotation in debug to visualize it. *Right click
 
 Now add a **Get Draw Radius** & a **Branch** node. Send the output of the **Draw Radius** to the the **Branch | Condition** pin.
 
-![add a branch node](images/DrawDebugRadiusBranchRb15.jpg)
+![add a branch node](images/DrawDebugRadiusBranchRb15.png)
 
 ![](../images/line2.png)
 
