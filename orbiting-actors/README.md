@@ -166,7 +166,7 @@ Clean up the nodes so that they are neat. *Press* the <kbd>Compile</kbd> button.
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Make sure that **Degrees Per Seconds** is set to `30`. Go back to the game and select the **BP_Rotate_Around_Point** object in the **World Outliner**. Make sure **Show Debug Angle In Degrees** is set to `true`.
+Make sure that **Degrees Per Seconds** is set to `30`. Go back to the game and select the **BP_Rotate_Around_Point** object in the **World Outliner**. Make sure **Show Debug** is set to `true`.
 
 ![degrees per second is 30 and set showdebuaangleindegrees to true](images/SelectYourBlueprintSetDebugOn.png)
 
