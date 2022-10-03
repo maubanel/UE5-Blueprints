@@ -119,9 +119,9 @@ OK, lets move on with the rotation. Delete the top **Print** node. Replace it by
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now lets look at our input nodes. So we will be calculating from the object we are rotating around (the cube); from its origin point. The **In Vector** is a relative vector to the cube and will make the radius of the rotation. The angle is the value we have already calculated in degrees. The axis will be the **Z** axis of the cube. This means that it will rotate around its **Z** axis (remember it is Z up in UE4).
+Now lets look at our input nodes. So we will be calculating from the object we are rotating around (the cube); from its origin point. The **In Vector** is a relative vector to the cube and will make the radius of the rotation. The angle is the value we have already calculated in degrees. The axis will be the **Z** axis of the cube. This means that it will rotate around its **Z** axis (remember it is Z up in UE5).
 
-![in vector node](images/RotateAroundVectorNodeBRm15.jpg)
+![in vector node](images/RotateAroundVectorNodeBRm15.png)
 
 ![](../images/line2.png)
 
