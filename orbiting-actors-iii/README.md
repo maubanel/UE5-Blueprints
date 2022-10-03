@@ -23,7 +23,7 @@ Now we want to rotate around the relative Z axis of the box. So we will r*ight c
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Now again this is relative to the box. So take the output of the **Target** node and *connect* it to the **Target** of the **Get Actor Up Vector**. Then *connect* its **Return Value** to the **Axis** input pin on the **Rotate Vector Around Axis** node. Add comments...
+Now again this is relative to the box. So take the output of the **Target** node and *connect* it to the **Target** of the **Get Actor Up Vector**. Then *connect* its **Return Value** to the **Axis** input pin on the **Rotate Vector Around Axis** node.
 
 ![connect pins](images/ConnectAxisRotation.png)
 
@@ -33,7 +33,7 @@ Now again this is relative to the box. So take the output of the **Target** node
 
 Now we can get to the meat of this room. We have calculated where in world coordinates our blueprint needs to be relative to the object we are rotating around. *Right click* and select **Set Actor Location**. *Connect* the **Return Value** output pin of the **Rotate Vector Around Axis** node to the **New Location** pin in the **Set Actor Location** node. *Highjack* the **Is Valid** pin from the **Is Valid** node and *connect* it ot the input execution pin in the **Set Actor Location** node. *Delete* the dangling **Print String** node as we no longer need it.
 
-![add set actor location node](images/SetActorLocationRm15.jpg)
+![add set actor location node](images/SetActorLocationRm15.png)
 
 ![](../images/line2.png)
 
