@@ -110,7 +110,7 @@ That will give us the rotation amount in degrees this frame. So we need to add i
 
 *Drag and drop* a **Set** node for **Current Angle In Degrees** and attach the output of the last **Addition** node to it. *Connect* the execution pin with the **Tick** node.
 
-![set current angle in degrees to addition node](images/SetNewCurrentAngleRm15.jpg)
+![set current angle in degrees to addition node](images/SetNewCurrentAngleRm15.png)
 
 ![](../images/line2.png)
 
