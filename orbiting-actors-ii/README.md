@@ -111,9 +111,9 @@ When we run the game we now have a valid game object. The message says in blue *
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-OK, lets move on with the rotation. *Right click* and add a **Rotate Vector Around Axis** node.
+OK, lets move on with the rotation. Delete the top **Print** node. Replace it by *right clicking* and add a **Rotate Vector Around Axis** node.
 
-![add rotate vector around axis node](images/RotateAroundVectorNodeRm15.jpg)
+![add rotate vector around axis node](images/RotateAroundVectorNodeRm15.png)
 
 ![](../images/line2.png)
 
