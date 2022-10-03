@@ -180,7 +180,6 @@ Now the debug menu we are printing shows a number going up. There is only one pr
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-An easy way of doing this is using [modulo](https://en.wikipedia.org/wiki/Modulo_operation). This gives us the remainder after a division. So if I divide by 360, we will have a remainder between 0 and 359. Modulo is most programming languages uses the `%` symbol.  Now this means the remainder of division and NOT the percentage.
 
 This is exactly what I want. Right click and start typing **Modulo** and select the float version **% (float)**.
 
