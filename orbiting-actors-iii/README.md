@@ -87,7 +87,7 @@ Now add a **Get Draw Radius** & a **Branch** node. Send the output of the **Draw
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Right click on the open graph and select the node **Draw Debug Line**:
+Right click on the open graph and select the node **Draw Debug Line**. *Grab* the output of the **Addition** pin just before the **Set Actor Location** node. This is the location of the player. *Place* it in the **Line Start** input pin in the **Draw Debug Line** node:
 
 ![add draw debug line node](images/RightClickDrawDebugLineRm15.png)
 
@@ -95,7 +95,7 @@ Right click on the open graph and select the node **Draw Debug Line**:
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-*Grab* the output of the **Vector + Vector** pin just before the **Set Actor Location** node. This is the location of the player. *Place* it in the **Line Start** input pin in the **Draw Debug Line** node:
+
 
 ![addition to draw debug line node](images/GrabPlayerPosPinRm15.jpg)
 
