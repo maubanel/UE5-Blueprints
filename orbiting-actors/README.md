@@ -99,7 +99,7 @@ Now since we need to do this every frame we will do the from the **Tick Event** 
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-That will give us the rotation amount in degrees this frame. So we need to add it to our current angle. Drag and drop a **Get** node for **Current Angle In Degrees** and a **Float + Float** node. *Add* this current angle to the output of the **Multiplication** node.
+That will give us the rotation amount in degrees this frame. So we need to add it to our current angle. Drag and drop a **Get** node for **Current Angle In Degrees** and an **Addition** node. *Add* this current angle to the output of the **Multiplication** node.
 
 ![get current angle in degrees and addition node](images/AddToCurrentAngleRm15.png)
 
@@ -112,13 +112,13 @@ That will give us the rotation amount in degrees this frame. So we need to add i
 
 ![set current angle in degrees to addition node](images/SetNewCurrentAngleRm15.jpg)
 
-Add the comment `Set Current Rotation in Degrees` to the group of nodes coming after the **Tick** node.
-
-![add code comment](images/AddCommentSetRotationRm15.jpg)
-
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Add the comment `Set Current Rotation in Degrees` to the group of nodes coming after the **Tick** node.
+
+![add code comment](images/AddCommentSetRotationRm15.jpg)
 
 Now it is a good idea to test our work after each step. There is a fair amount to do before we can see a rotation. We want to make sure there are no bugs before we go to far. So lets print this value and we should see an angle increase over time. We do not always want to display it so lets put it on a switch that we can adjust. Lets add a **Boolean** called `bShowDebug` variable that is **Instance Editable**, **Private** and in **Category** `Debug`. Add a **tooltip** as well.
 
