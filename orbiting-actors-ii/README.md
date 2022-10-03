@@ -40,7 +40,7 @@ https://user-images.githubusercontent.com/5504953/193663782-1efddf2f-fca6-4e20-9
 
 Now we need to rotate around the cube actor. We need a variable to access its class. Add a new **Variable**, call it `Target To Rotate Around` and select type **Actor | Object Reference**.
 
-![add actor object reference varibale](images/TestInGameWrapRm15.jpg)
+![add actor object reference varibale](images/TestInGameWrapRm15.png)
 
 ![](../images/line2.png)
 
