@@ -153,22 +153,22 @@ What this will do is trigger that message in the interface to fire in each cube 
 
 Now in the Overlap events we need to turn the **bRotateCube** boolean on and off. Go to the end and add two **Set bRotateCube** nodes. *Attach* the execution pin from both **Turns Room 10 Switch** nodes and *connect* it to the **Set** nodes. Set the **RotateCube** boolean to `true` on the begin overlap and to `false` on the end overlap pathway. Add a comment on top of these nodes
 
-![connect execution pin and flip flop is on](images/SetBoolenForCube.jpg)
+![connect execution pin and flip flop is on](images/SetBoolenForCube.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Drag two **BP_RotateInterface** in the room. Make sure they are in the **Room 10** folder in the **Outliner**.
 
+![drag two bp_rotaterm10 into the level](images/DragTwoCubesInRoom.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Drag two **BP_RotateInterface** in the room.
 
-![drag two bp_rotaterm10 into the level](images/DragTwoCubesInRoom.png)
 
 
 ![](../images/line2.png)
