@@ -158,11 +158,9 @@ Go to the game and drag a copy of the blueprint into the scene next to the box. 
 
 Go back to the blueprint and see if you can figure it out. Look at the **In String** box and you see **Hello**. We want this to read the current angle. *Drag* the output pin from **Set Current Angle In Degrees** node to the **In String** pin on **Print String**. **UE4** will pick a conversion node to go from **Float** to **String**.
 
-![connect angle to print string](images/CurrAngleToPrintRm15.jpg)
-
 Clean up the nodes so that they are neat. *Press* the <kbd>Compile</kbd> button.
 
-![cleaned up node graph](images/CleanUpNodes1Rm15.jpg)
+![connect text and clean up node graph](images/CleanUpNodes1Rm15.png)
 
 ![](../images/line2.png)
 
