@@ -58,7 +58,7 @@ Go to the **Details** panel and *press* **View Options** and select **Engine Con
 
 *Assign* the **Material** `M_Metal_Burnished_Steel` to the **Sphere** mesh in the details panel:
 
-![assign M_Metal_Burnished_Steel material](images/engineMaterial.jpg)
+![assign M_Metal_Burnished_Steel material](images/engineMaterial.png)
 
 ![](../images/line2.png)
 
