@@ -58,7 +58,7 @@ Go to the **Details** panel and *press* **View Options** and select **Engine Con
 
 *Assign* the **Material** `M_Metal_Burnished_Steel` to the **Sphere** mesh in the details panel:
 
-![assign M_Metal_Burnished_Steel material](images/engineMaterial.png)
+![assign M_Metal_Burnished_Steel material](images/EngineContentSphereRm15.jpg)
 
 ![](../images/line2.png)
 
@@ -68,17 +68,22 @@ Now we need to figure out how fast we want to orbit around the actor. We will me
 
 ![add float degrees per second variable](images/AddDegreesPerSecondRm15.png)
 
+
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the **Event Graph** tab. Lets program our current angle. *Drag* the **Degrees Per Second** variable to the **Event Graph** and select **Get**. *Drag off* of the pin and we now want a **Float * Float** node:
+Now we need a variable to store the current angle that the actor is in relative to whom it is orbiting around. This will store a fractional number between 0 and 360. Call it **Current Angle In Degrees**, make sure it is of type **Float**, make it **Private** and put it in **Category** `Rotation`.
 
-![get degrees per second and multiplication node](images/DegreesThenFloatRm15.jpg)
+![add float current angle in degrees](images/currentAID.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Select the **Event Graph** tab. Lets program our current angle. *Drag* the **Degrees Per Second** variable to the **Event Graph** and select **Get**. *Drag off* of the pin and we now want a **Float * Float** node:
+
+![get degrees per second and multiplication node](images/DegreesThenFloatRm15.jpg)
 
 Now since we need to do this every frame we will do the from the **Tick Event** node. Also this node gives us the time since last frame in milliseconds. So we multiply our **Degrees Per Second** variable by **Delta Seconds** coming from the **Tick** node:
 
