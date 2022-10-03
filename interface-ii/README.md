@@ -24,7 +24,7 @@ The power of this interface is that other objects can define the interface to do
 
 Call it `BP_RotateInterface` and *drag it* into the **Room10** folder.
 
-![call blueprint bp_rotaterm10](images/Room10MoveRotateObject.jpg)
+![call blueprint bp_rotaterm10](images/Room10MoveRotateObject.png)
 
 ![](../images/line2.png)
 
