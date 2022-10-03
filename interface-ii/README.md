@@ -80,7 +80,7 @@ Now we are missing the **Delta Seconds** that was fed by the **Event Tick** node
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the **Level Blueprint** for **IntroToBlueprints2** and *right click* on **RefToLightbulbsInterface** and select **Duplicate**. Name it `RefToRotateInterface` and change the type to **BP_RotateRoom10 | Object Reference**. Update the **Tooltip**.
+Go to the **Level Blueprint** for **IntroToBlueprints2** and *right click* on **Room10References** and select **Duplicate**. Name it `Room10ReferencesCubes` and change the type to **BP_RotateInterface**. Update the **Tooltip**.
 
 ![rename dupe node to reftorotateinterface](images/ReferenceToCubes.png)
 
@@ -88,11 +88,17 @@ Go to the **Level Blueprint** for **IntroToBlueprints2** and *right click* on **
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
+Now at the end of the **Begin Play** event *off* the last **Set** node execution pin and *add* a **Get All Actors Of Class** node 
+
+![get all actors of class bp_rotaterm10 node](images/GetActorOfClassThree.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
+*Change* the Actor Class to **BP_RotateInterface** and make sure the execution pins are connected.
+
+![change actor class to BP_RotateInterface](images/rotateExecute.png)
 
 
 ![](../images/line2.png)
@@ -100,6 +106,9 @@ Go to the **Level Blueprint** for **IntroToBlueprints2** and *right click* on **
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Add a **Set RefToRotateInterface** node and connect the execution and array pins to the **Get All Actors Of Class** node.
+
+![connect pins between get all acors of class and setter](images/RefToRotateExecute.png)
 
 ![](../images/line2.png)
 
@@ -131,17 +140,13 @@ Drag two **BP_RotateInterface** in the room.
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now at the end of the **Begin Play** event *off* the last **Set** node execution pin and *add* a **Get All Actors Of Class** node and change the Actor Class to **BP_RotateRm10**.
 
-![get all actors of class bp_rotaterm10 node](images/GetActorOfClassThree.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **Set RefToRotateInterface** node and connect the execution and array pins to the **Get All Actors Of Class** node.
 
-![connect pins between get all acors of class and setter](images/RefToRotateExecute.jpg)
 
 ![](../images/line2.png)
 
