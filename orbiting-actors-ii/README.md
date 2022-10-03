@@ -165,14 +165,13 @@ We can also add variables without dragging and dropping. We can click on an open
 
 ![add get current angle in degrees node](images/GetRefToAngleInDegRm15.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
 *Connect* the output of the **Get Current Angle In Degrees** pin to the **Angle Deg** input in the **Rotate Vector Around Axis** node. Add appropriate comments:
 
-![attache angle deg to current angle in degrees](images/ConnectAnglePinsRm15.jpg)
+![attache angle deg to current angle in degrees](images/ConnectAnglePinsRm15.png)
 
 ![](../images/line.png)
 
