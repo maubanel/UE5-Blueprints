@@ -73,7 +73,7 @@ Now we need to figure out how fast we want to orbit around the actor. We will me
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need a variable to store the current angle that the actor is in relative to whom it is orbiting around. This will store a fractional number between 0 and 360. Call it **Current Angle In Degrees**, make sure it is of type **Float**, make it **Private** and put it in **Category** `Rotation`.
+Now we need a variable to store the current angle that the actor is in relative to whom it is orbiting around. This will store a fractional number between 0 and 360. Call it **Current Angle In Degrees**, make sure it is of type **Float**, make it **Private** and put it in **Category** `Orbit`.
 
 ![add float current angle in degrees](images/currentAID.png)
 
