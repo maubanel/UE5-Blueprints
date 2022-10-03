@@ -16,7 +16,7 @@ Orbiting actors continued.
 
 *Place* the node so that it is between the **Addition** node and **Set** node. *Connect* the output of the **Addition** node to the top input of the **%** modulo node.  Set the output of **%** to the **Set Current Angle in Degrees** node. *Change* the value you are taking the division from `1` to `360`. This will return a remainder between 0 and 359 (which is what we want).
 
-![modulo by 360](images/ModBetweenAddSetRm15.jpg)
+![modulo by 360](images/ModBetweenAddSetRm15.png)
 
 ![](../images/line2.png)
 
