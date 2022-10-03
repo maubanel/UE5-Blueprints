@@ -127,7 +127,7 @@ Now lets look at our input nodes. So we will be calculating from the object we a
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Make a new variable of type **Float** called `Radius`. Make sure it is **Instance Editable** and **Private**. Add the **Category** `Rotation` and add a **tooltip**. *Press* the <kbd>Compile</kbd> button.
+Make a new variable of type **Float** called `Radius`. Make sure it is **Instance Editable** and **Private**. Add the **Category** `Orbit` and add a **tooltip**. *Press* the <kbd>Compile</kbd> button.
 
 *Set* the **default value** of the **Radius** to `300` and press the <kbd>Compile</kbd> again.
 
