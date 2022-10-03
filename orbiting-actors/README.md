@@ -64,7 +64,7 @@ Go to the **Details** panel and *press* **View Options** and select **Engine Con
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to figure out how fast we want to orbit around the actor. We will measure it in degrees per second. Add a variable to hold this speed by *pressing* the **+** button next to **Variables**. *Call* is `Degrees Per Second`, make sure it is of type **Float**, that it is **Instance Editable**, **Private** and set the category to **Rotation**. Add a **tooltip**, mine says *Speed of how fast an object rotates per second*.
+Now we need to figure out how fast we want to orbit around the actor. We will measure it in degrees per second. Add a variable to hold this speed by *pressing* the **+** button next to **Variables**. *Call* is `Degrees Per Second`, make sure it is of type **Float**, that it is **Instance Editable**, **Private** and set the category to **Orbit**. Add a **tooltip**, mine says *Speed of how fast an object rotates per second*.
 
 ![add float degrees per second variable](images/AddDegreesPerSecondRm15.png)
 
