@@ -62,15 +62,19 @@ Now remove the **Event Tick** node *connect* the output of the **BP_RoomSwitchIn
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Connect* the **Is On** output pin from the **Event** node and connect it to the **Condition** pin in the **Branch** node.
+Now we are missing the **Delta Seconds** that was fed by the **Event Tick** node. No problem we can get this value by *right clicking* and adding a **Get World Delta Seconds** node. *Connect* the output of the **Get World Delta Seconds** node to the empty **Multiplication** node. This is the exact same node, so we can get this without having to use the tick event.
 
-![connect is on to branch node](images/ConnetEventToBranch.png)
+![connect get world delta seconds with multiplication node](images/ConnectToMultiplyNode.jpg)
 
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-Now we are missing the **Delta Seconds** that was fed by the **Event Tick** node. No problem we can get this value by *right clicking* and adding a **Get World Delta Seconds** node.
+
+
+*Connect* the **Is On** output pin from the **Event** node and connect it to the **Condition** pin in the **Branch** node.
+
+![connect is on to branch node](images/ConnetEventToBranch.png)
 
 *Press* the <kbd>Compile</kbd> button.
 
@@ -111,9 +115,7 @@ Drag two **BP_RotateInterface** in the room.
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Connect* the output of the **Get World Delta Seconds** node to the empty **Multiplication** node.
 
-![connect get world delta seconds with multiplication node](images/ConnectToMultiplyNode.jpg)
 
 ![](../images/line2.png)
 
