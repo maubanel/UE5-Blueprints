@@ -48,7 +48,7 @@ Delete the three booleans **RotateOnZ**, **RotateOnY** and **RotateOnX**. We wil
 
 Drag two **BP_RotateInterface** in the room.
 
-![drag two bp_rotaterm10 into the level](images/DragTwoCubesInRoom.jpg)
+![drag two bp_rotaterm10 into the level](images/DragTwoCubesInRoom.png)
 
 ![](../images/line2.png)
 
