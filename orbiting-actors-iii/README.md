@@ -71,7 +71,7 @@ https://user-images.githubusercontent.com/5504953/193694162-45b3a72e-5fae-4790-9
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets draw the radius of this rotation in debug to visualize it. *Right click* on **BP_**  another **Boolean** variable called `bDrawRadius`. Make it **Instance Editable** and **Private** with a **Tooltip** and **Category** `Debug`.
+Now lets draw the radius of this rotation in debug to visualize it. *Right click* on **ShowDebug**  and **Duplicate** another **Boolean** variable called `DrawRadius`. Make it **Instance Editable** and **Private** with a **Tooltip** and **Category** `Debug`.
 
 ![add boolean draw debug radius](images/AddDrawDebugRadiusRm15.png)
 
