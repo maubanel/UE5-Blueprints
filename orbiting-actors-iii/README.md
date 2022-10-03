@@ -23,7 +23,7 @@ Now we want to rotate around the relative Z axis of the box. So we will r*ight c
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Now again this is relative to the box. So take the output of the **Target To Rotate Around** node and *connect* it to the **Target** of the **Get Actor Up Vector**. Then *connect* its **Return Value** to the **Axis** input pin on the **Rotate Vector Around Axis** node. Add comments...
+Now again this is relative to the box. So take the output of the **Target** node and *connect* it to the **Target** of the **Get Actor Up Vector**. Then *connect* its **Return Value** to the **Axis** input pin on the **Rotate Vector Around Axis** node. Add comments...
 
 ![connect pins](images/ConnectAxisRotation.png)
 
