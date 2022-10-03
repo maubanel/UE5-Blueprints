@@ -170,6 +170,8 @@ Drag two **BP_RotateInterface** in the room. Make sure they are in the **Room 10
 
 Now go to the game and play it. Notice that the single interface can trigger two completely different type of events!
 
+https://user-images.githubusercontent.com/5504953/193569015-26620727-ace0-4fe5-a179-3c3fabb14a10.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
