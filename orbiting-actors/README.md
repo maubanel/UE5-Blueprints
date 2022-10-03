@@ -23,13 +23,15 @@ Move the camera to room 11. *Add* a new Folder called **Blueprints | Room11**. *
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-*Drag* a **Cube** into the middle of the room. Give it space as we will have a blueprint orbit around it. Call it in the **World Outliner** `Rotate Around Me`. *Drag* it into the **Room11** folder. 
-
+*Drag* a **Cube** into the middle of the room. Give it space as we will have a blueprint sphere orbit around it. 
 ![drag the blueprint into the room](images/DropBoxInRm15.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Call it in the **World Outliner** `Rotate Around Me`. *Drag* it into the **Room11** folder. 
+
 
 *Double click* **BP_Rotate_Around_Room** and press the **Add Component** button and add a **Static Mesh** to the blueprint.
 
