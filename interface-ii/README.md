@@ -46,33 +46,35 @@ Delete the three booleans **RotateOnZ**, **RotateOnY** and **RotateOnX**. We wil
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Drag two **BP_RotateInterface** in the room.
-
-![drag two bp_rotaterm10 into the level](images/DragTwoCubesInRoom.png)
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
-
 Select **Interfaces** and double click the **BP_Room10Switch**. Replace the **Event Tick** with the interface event.  This way the user will trigger the interface in both the lightbulb and this new rotating cube.
 
 ![add interface to blueprint](images/image_11.png)
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
 Now remove the **Event Tick** node *connect* the output of the **BP_RoomSwitchInterface** execution pin to the **Set Degrees Since Las Frame** node.
 
-![replace event tick with interface node](images/ReplaceEventNode.jpg)
+![replace event tick with interface node](images/ReplaceEventNode.png)
+
+![](../images/line2.png)
+
+##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+*Connect* the **Is On** output pin from the **Event** node and connect it to the **Condition** pin in the **Branch** node.
+
+![connect is on to branch node](images/ConnetEventToBranch.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+Now we are missing the **Delta Seconds** that was fed by the **Event Tick** node. No problem we can get this value by *right clicking* and adding a **Get World Delta Seconds** node.
 
- *Delete* all three booleans in this blueprint (**bRotateOnZ**, **bRotateOnY**, **bRotateOnX**). We will be turning it on off in code and not in the game menu. So these variables are not necessary.
+*Press* the <kbd>Compile</kbd> button.
 
-![delete three booleans in bp](images/DeleteThreeBooleans.jpg)
+![get world delta seconds](images/GetWorldDeltaSeconds.jpg)
 
 
 Now to the **Degrees Per Second** variable and set the **Default Value** to `70.0`.
@@ -84,7 +86,9 @@ Now to the **Degrees Per Second** variable and set the **Default Value** to `70.
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Drag two **BP_RotateInterface** in the room.
 
+![drag two bp_rotaterm10 into the level](images/DragTwoCubesInRoom.png)
 
 ![](../images/line2.png)
 
@@ -102,9 +106,6 @@ Now to the **Degrees Per Second** variable and set the **Default Value** to `70.
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now we are missing the **Delta Seconds** that was fed by the **Event Tick** node. No problem we can get this value by *right clicking* and adding a **Get World Delta Seconds** node.
-
-![get world delta seconds](images/GetWorldDeltaSeconds.jpg)
 
 ![](../images/line2.png)
 
@@ -118,11 +119,7 @@ Now we are missing the **Delta Seconds** that was fed by the **Event Tick** node
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Connect* the **Is On** output pin from the **Event** node and connect it to the **Condition** pin in the **Branch** node.
 
-*Press* the <kbd>Compile</kbd> button.
-
-![connect is on to branch node](images/ConnetEventToBranch.jpg)
 
 ![](../images/line2.png)
 
