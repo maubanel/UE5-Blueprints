@@ -147,17 +147,11 @@ Now *drag and drop* a **Get Radius** to the graph and we need to figure out how 
 
 Now *drag* a **Get** reference to the **Target To Rotate Around** variable and attack it to the **Target** input of **Get Actor Right Vector**. We are rotating around the referenced object, not ourselves. Now we want to scale this normalized vector by adding a **Multiplication** node and attaching the return value of **Get Actor Right Vector** to the top pin of the **Multiplication** node and the **Radius** to the bottom pin of the **Multipllication node**.
 
-![add target to rotate around and connect to righ vector](images/VectorTimesFloatRm15.jpg)
+![add target to rotate around and connect to righ vector](images/VectorTimesFloatRm15.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Send the output of this **Multiply** into the **In Vect** pin of the **Rotate Vector Around Axis** node:
 
@@ -165,15 +159,16 @@ Send the output of this **Multiply** into the **In Vect** pin of the **Rotate Ve
 
 ![](../images/line2.png)
 
-##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 We can also add variables without dragging and dropping. We can click on an open part of the graph and type **Get Current Angle In Degrees**.
 
 ![add get current angle in degrees node](images/GetRefToAngleInDegRm15.jpg)
 
+
 ![](../images/line2.png)
 
-##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
 *Connect* the output of the **Get Current Angle In Degrees** pin to the **Angle Deg** input in the **Rotate Vector Around Axis** node. Add appropriate comments:
 
