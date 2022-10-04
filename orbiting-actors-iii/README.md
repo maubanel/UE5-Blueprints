@@ -145,9 +145,9 @@ Now the rotation is always clockwise. What if we wanted the sphere to rotate cou
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the nodes where you are setting the rotation in degrees. Add a **Get Turn Clockwise** node to access this variable.
+Go back to the nodes where you are setting the rotation in degrees. Add a **Get Turn Clockwise** node to access this variable. *Pull* from the output pin and add a **Select Float**.
 
-![add get clockwise node](images/GetClockwiseVarRm15.jpg)
+![add get clockwise node](images/GetClockwiseVarRm15.png)
 
 ![](../images/line2.png)
 
@@ -162,9 +162,7 @@ Go back to the nodes where you are setting the rotation in degrees. Add a **Get 
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-*Pull* from the output pin and add a **Select Float**.
 
-![add select float node](images/SelectFloatNodeRm15.jpg)
 
 ![](../images/line2.png)
 
