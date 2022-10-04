@@ -33,7 +33,7 @@ Now what if we want to have mulitiple sphere blueprints orbiting around the same
 
 Add a **Float + Float** node to add the **Current Angle In Degrees** and **Starting Angle** variables together. Send the output to the **AngleDeg** input in **RotateVectorAroundAxis** node.
 
-![add addition node](images/StartingAnglePlusAngleRm15.jpg)
+![add addition node](images/StartingAnglePlusAngleRm15.png)
 
 ![](../images/line2.png)
 
