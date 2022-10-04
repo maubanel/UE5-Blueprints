@@ -95,7 +95,7 @@ Right click on the open graph and select the node **Draw Debug Line**. *Grab* th
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Now the line will go to the center of the box we are rotating around. *Grab* a get variable of **Target Rotate Around** and *attach* it to a **Get Actor Location** node.
+Now the line will go to the center of the box we are rotating around. *Grab* a get variable of **Target** and *attach* it to a **Get Actor Location** node.
 
 ![add target rotate around and attach to actdor location node](images/GetTargetLocadtionRm15.png)
 
@@ -104,15 +104,16 @@ Now the line will go to the center of the box we are rotating around. *Grab* a g
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Connect the output **Execution** pin from the **Set Actor Location** node to the input pin of the **Branch** node:
+
+![attach execution pin from set actor location to branch](images/ConnectSetActorLocPinRm15.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Connect the output **Execution** pin from the **Set Actor Location** node to the input pin of the **Branch** node:
 
-![attach execution pin from set actor location to branch](images/ConnectSetActorLocPinRm15.jpg)
 
 ![](../images/line2.png)
 
