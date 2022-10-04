@@ -17,7 +17,7 @@ Orbiting actors continued...
 
 Now what if we want to have mulitiple sphere blueprints orbiting around the same object. If we had more than one, they would all move one atop each other. What we want to do is add a starting angle (or offset angle) so they are at different distances. *Add* a variable called `Starting Angle` of type **Float** with **Instance Editable** and **Private** set to `true`. Change the **Category** to `Rotation` and add a **Tooltip**.
 
-![add starting angle variable of type float](images/AddStartingAngleRm15.jpg)
+![add starting angle variable of type float](images/AddStartingAngleRm15.png)
 
 ![](../images/line2.png)
 
