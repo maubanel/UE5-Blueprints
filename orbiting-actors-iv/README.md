@@ -47,6 +47,7 @@ https://user-images.githubusercontent.com/5504953/193809502-e7173448-8ef8-400d-9
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
+Go back to the editor and rotate the cube so that it is off axis.  We want to test that we are actally rotating based on the center cube's local space.  It should oribit along the axis as the cube rotates.
 
 
 ![](../images/line2.png)
