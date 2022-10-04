@@ -122,6 +122,7 @@ Now go into the game and make sure the boolean for the drawing of the radius is 
 
 Run the game and voila, a line drawing the radius of the rotation.
 
+https://user-images.githubusercontent.com/5504953/193801571-72b804f8-0959-47dd-9feb-67fd2d1c57a3.mp4
 
 ![](../images/line2.png)
 
