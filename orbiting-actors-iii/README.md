@@ -147,7 +147,7 @@ Now the rotation is always clockwise. What if we wanted the sphere to rotate cou
 
 Go back to the nodes where you are setting the rotation in degrees. Add a **Get Turn Clockwise** node to access this variable. *Pull* from the output pin and add a **Select Float**.
 
-![add get clockwise node](images/GetClockwiseVarRm15.png)
+![add get clockwise node](images/GetClockwiseVarRm152.png)
 
 ![](../images/line2.png)
 
