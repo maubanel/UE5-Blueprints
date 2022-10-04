@@ -63,23 +63,23 @@ Now the sphere is changing location but is not facing the center cube. Lets add 
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Add a **Get Actor Location** node and hook the the output to the the **Find Look At Rotation** node's **Start** pin:
 
 ![connect get actor location to find look at rotation node](images/HookUpStartRotationRm15.jpg)
 
 ![](../images/line2.png)
 
-##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 So if the starting point of the look is the sphere location. Then the end point is the center. *Drag* a **Get Target To Rotate Around:** node onto the graph.
 
 ![add get target to rotate around node](images/GetTargetToRotateAround.jpg)
+
+![](../images/line2.png)
+
+##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
 
 ![](../images/line2.png)
 
