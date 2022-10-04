@@ -104,10 +104,9 @@ Now the line will go to the center of the box we are rotating around. *Grab* a g
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Connect the output **Execution** pin from the **Set Actor Location** node to the input pin of the **Branch** node:
+Connect the output **Execution** pin from the **Set Actor Location** node to the input pin of the **Branch** node.  Make sure the execution pin from the **Branch | True** is set to the input **Draw Debug Line** node.  Set the **Duration** to `0.0` and the **Thickness** to `3.0`. 
 
 ![attach execution pin from set actor location to branch](images/ConnectSetActorLocPinRm15.png)
-
 
 ![](../images/line2.png)
 
