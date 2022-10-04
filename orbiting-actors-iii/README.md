@@ -161,6 +161,8 @@ Make sure the **Clockwise** pin connects to the **Pick A** input on the **Select
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Press* the <kbd>Play</kbd> button and toggle turn clockwise on and off and the direction of the orbiting willl change!
+
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
