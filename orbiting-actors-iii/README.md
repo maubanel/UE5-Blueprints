@@ -155,7 +155,7 @@ Go back to the nodes where you are setting the rotation in degrees. Add a **Get 
 
 Make sure the **Clockwise** pin connects to the **Pick A** input on the **Select Float** node. This is fairly straight forward. If **Clockwise** is true then the output is the *A* pin, it if is false it is the *B* pin. So for *A* we want `1.0` and for **B** we want `-1.0`.
 
-![add 1 to A and -1 to B](images/SelectFloatNegativeOneRm15.jpg)
+![add 1 to A and -1 to B](images/SelectFloatNegativeOneRm15.png)
 
 ![](../images/line2.png)
 
