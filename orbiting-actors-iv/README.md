@@ -39,7 +39,7 @@ Add an **Addition** node to add the **Current Angle In Degrees** and **Starting 
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+Add three more blueprints in the scene. Make sure you assign **Rotate Around Me** to the **Target to Rotate Around**. Have one set to **Starting Angle** `0.0`, the next to `90.0`, the next to `180.0` and the final to `270.0`. *Run* it and it should look like all 4 balls orbit 90° away from each other.
 
 ![](../images/line2.png)
 
@@ -51,9 +51,7 @@ Add an **Addition** node to add the **Current Angle In Degrees** and **Starting 
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Add three more blueprints in the scene. Make sure you assign **Rotate Around Me** to the **Target to Rotate Around**. Have one set to **Starting Angle** `0.0`, the next to `90.0`, the next to `180.0` and the final to `270.0`. *Run* it and it should look like:
 
-![run game with 4 spheres rotating around cube](images/Rotate4SpheresNoRotate.gif)
 
 ![](../images/line2.png)
 
