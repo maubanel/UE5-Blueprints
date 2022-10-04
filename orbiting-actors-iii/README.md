@@ -163,17 +163,7 @@ Make sure the **Clockwise** pin connects to the **Pick A** input on the **Select
 
 *Press* the <kbd>Play</kbd> button and toggle turn clockwise on and off and the direction of the orbiting willl change!
 
-![](../images/line2.png)
-
-##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-
+https://user-images.githubusercontent.com/5504953/193805243-f889ec74-0845-42c0-933b-c084f9194a15.mp4
 
 ![](../images/line.png)
 
