@@ -41,6 +41,8 @@ Add an **Addition** node to add the **Current Angle In Degrees** and **Starting 
 
 Add three more blueprints in the scene. Make sure you assign **Rotate Around Me** to the **Target to Rotate Around**. Have one set to **Starting Angle** `0.0`, the next to `90.0`, the next to `180.0` and the final to `270.0`. *Run* it and it should look like all 4 balls orbit 90° away from each other.
 
+https://user-images.githubusercontent.com/5504953/193809502-e7173448-8ef8-400d-95fe-8ddcf77d3472.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
