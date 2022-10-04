@@ -49,6 +49,7 @@ https://user-images.githubusercontent.com/5504953/193809502-e7173448-8ef8-400d-9
 
 Go back to the editor and rotate the cube so that it is off axis.  We want to test that we are actally rotating based on the center cube's local space.  It should oribit along the axis as the cube rotates.
 
+https://user-images.githubusercontent.com/5504953/193819037-2a90c966-dd97-4104-89fd-ffb6ab79b241.mp4
 
 ![](../images/line2.png)
 
