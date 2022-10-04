@@ -104,7 +104,7 @@ Now the line will go to the center of the box we are rotating around. *Grab* a g
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Connect the output **Execution** pin from the **Set Actor Location** node to the input pin of the **Branch** node.  Make sure the execution pin from the **Branch | True** is set to the input **Draw Debug Line** node.  Set the **Duration** to `0.0` and the **Thickness** to `3.0`. 
+Connect the output **Execution** pin from the **Set Actor Location** node to the input pin of the **Branch** node.  Make sure the execution pin from the **Branch | True** is set to the input **Draw Debug Line** node.  Set the **Duration** to `0.0` and the **Thickness** to `3.0`. *Press* the <kbd>Compile</kbd> button.
 
 ![attach execution pin from set actor location to branch](images/ConnectSetActorLocPinRm15.png)
 
@@ -118,17 +118,11 @@ Connect the output **Execution** pin from the **Set Actor Location** node to the
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Connect* the output pin of **Get Actor Location | Return Value** pin for the cube to the **Line End** input pin of the **Draw Debug Line** node. *Connect* the **True** execution pin from **Branch to Draw Debug Line** execution pin.
-
-![connect to line end](images/ConnectToLineEndRm15.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-For the **Draw Debug Line** set the Duration to` 0.0` and the line Thickness to `3.0`. *Press* the <kbd>Compile</kbd> button. *Press* the <kbd>Compile</kbd> button.
-
-![set draw debug line to duration of 0 and thickness of 3](images/SetDurationThicknessRm15.jpg)
 
 ![](../images/line2.png)
 
