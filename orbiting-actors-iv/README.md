@@ -15,25 +15,18 @@ Orbiting actors continued...
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Now multiply the output of the multiplication of the degrees per second times the tick by 1 or -1. Press **Add pin +** on the **Multiplication** node after D**egrees Per Second**. *Attach* the output of the **Select A Float | Return Value** pin into the third pin of the **Multiplication** node.
+Now what if we want to have mulitiple sphere blueprints orbiting around the same object. If we had more than one, they would all move one atop each other. What we want to do is add a starting angle (or offset angle) so they are at different distances. *Add* a variable called `Starting Angle` of type **Float** with **Instance Editable** and **Private** set to `true`. Change the **Category** to `Rotation` and add a **Tooltip**.
 
-![connect pins as shown](images/ConnectPinsAsShownRm15.jpg)
+![add starting angle variable of type float](images/AddStartingAngleRm15.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Run the game and switch between clockwise and counter-clockwise on the game object. The rotation should change!
-
-![switch between clockwise and counter-clockwise in game](images/SingleRotateClockAndCountRadius.gif)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now what if we want to have mulitiple sphere blueprints orbiting around the same object. If we had more than one, they would all move one atop each other. What we want to do is add a starting angle (or offset angle) so they are at different distances. *Add* a variable called `Starting Angle` of type **Float** with **Instance Editable** and **Private** set to `true`. Change the **Category** to `Rotation` and add a **Tooltip**.
-
-![add starting angle variable of type float](images/AddStartingAngleRm15.jpg)
 
 ![](../images/line2.png)
 
