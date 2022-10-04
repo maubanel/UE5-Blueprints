@@ -114,11 +114,13 @@ Connect the output **Execution** pin from the **Set Actor Location** node to the
 
 Now go into the game and make sure the boolean for the drawing of the radius is set to `true`.
 
-![set draw debug radius to true](images/RadiusDrawingInGameRm15.jpg)
+![set draw debug radius to true](images/RadiusDrawingInGameRm15.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Run the game and voila, a line drawing the radius of the rotation.
 
 
 ![](../images/line2.png)
@@ -136,9 +138,7 @@ Now go into the game and make sure the boolean for the drawing of the radius is 
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Run the game and voila, a line drawing the radius of the rotation.
 
-![debug line drawn in game](images/SingleRotateClockRadius.gif)
 
 ![](../images/line2.png)
 
