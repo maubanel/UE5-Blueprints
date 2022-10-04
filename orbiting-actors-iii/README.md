@@ -128,15 +128,17 @@ https://user-images.githubusercontent.com/5504953/193801571-72b804f8-0959-47dd-9
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Now the rotation is always clockwise. What if we wanted the sphere to rotate counter-clockwise? We would need to send a negative rotation number instead of a positive one. Lets start by adding a **Boolean** variable called `TurnClockwise`. Make it **Instance Editable** and **Private**. Put it in **Category** `Rotation` and add a **Tooltip**:
+Now select the nodes for drawing the debug line and add an appopriate comment.
 
-![add boolean clockwise](images/ClockwiseVariableRm15.jpg)
-
+![add debug to debug line nodes](images/addDebugComment.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Now the rotation is always clockwise. What if we wanted the sphere to rotate counter-clockwise? We would need to send a negative rotation number instead of a positive one. Lets start by adding a **Boolean** variable called `TurnClockwise`. Make it **Instance Editable** and **Private**. Put it in **Category** `Rotation` and add a **Description**.  Notice the description is used as a tooltip if you hover over the **Variable**?
+
+![add boolean clockwise](images/ClockwiseVariableRm15.png)
 
 
 ![](../images/line2.png)
