@@ -112,7 +112,9 @@ Connect the output **Execution** pin from the **Set Actor Location** node to the
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now go into the game and make sure the boolean for the drawing of the radius is set to `true`.
 
+![set draw debug radius to true](images/RadiusDrawingInGameRm15.jpg)
 
 ![](../images/line2.png)
 
@@ -128,9 +130,7 @@ Connect the output **Execution** pin from the **Set Actor Location** node to the
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now go into the game and make sure the boolean for the drawing of the radius is set to `true`.
 
-![set draw debug radius to true](images/RadiusDrawingInGameRm15.jpg)
 
 ![](../images/line2.png)
 
