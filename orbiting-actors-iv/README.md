@@ -55,15 +55,15 @@ https://user-images.githubusercontent.com/5504953/193819037-2a90c966-dd97-4104-8
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
+Now the sphere is changing location but is not facing the center cube. Lets add some functionality so that the sphere looks at the center point during the rotation so that is translates AND rotates during this sequence. *Right click* on the open graph and look for the **Find Look at Rotation** node:
 
+![add look at rotation node](images/AddLookAtRotationNodeRm15.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now the sphere is changing location but is not facing the center cube. Lets add some functionality so that the sphere looks at the center point during the rotation so that is translates AND rotates during this sequence. *Right click* on the open graph and look for the **Find Look at Rotation** node:
 
-![add look at rotation node](images/AddLookAtRotationNodeRm15.jpg)
 
 ![](../images/line2.png)
 
