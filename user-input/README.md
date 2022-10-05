@@ -127,7 +127,7 @@ https://user-images.githubusercontent.com/5504953/194055388-0d374746-5051-4092-9
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Just ensure that visibility is off when we start open the blueprint and make sure that **Visibility** is `False` on the **Test Render** component.  Run the game and confirm that the text is now turning on when you enter the volume.
+Just ensure that visibility is off when we start open the blueprint and make sure that **Visibility** is `False` on the **Text Render** component.  Run the game and confirm that the text is now turning on when you enter the volume.
 
 https://user-images.githubusercontent.com/5504953/194058110-5654d6d0-f835-4d8c-aa5a-6a1df2fb989f.mp4
 
