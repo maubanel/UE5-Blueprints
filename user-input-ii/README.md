@@ -110,9 +110,9 @@ Then put a **Addition** node and add the output of the **Multiplication** node a
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Drag* the **Get Speed Of Rotation** node onto the graph.
+*Right click* and select a **Set Current Angle** node.
 
-![get speed of rotation node](images/Rm16GetSpeedOfRotationNodeRm16.jpg)
+![get speed of rotation node](images/Rm16GetSpeedOfRotationNodeRm16.png)
 
 ![](../images/line2.png)
 
@@ -124,7 +124,7 @@ Then put a **Addition** node and add the output of the **Multiplication** node a
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Right click* and select a **Set Current Angle Deg** node:
+
 
 ![add set current angle deg node](images/SetCurrentAngleVarRm16.jpg)
 
