@@ -63,9 +63,7 @@ So in the Button Events add a **Set Rotating Counter Clockwise** to `false` afte
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *run* the game and walk into the collision volume. This should finish up this room.
-
-![play game cube rotates correctly](images/RotateCubeClockwise.gif)
+Now *run* the game and walk into the collision volume. Now you can press <kbd>K</kbd> while holding <kbd>L</kbd> and it will change directions without having to let go. This should finish up this room and this walk through!
 
 ![](../images/line2.png)
 
