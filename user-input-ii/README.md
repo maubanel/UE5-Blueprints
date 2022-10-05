@@ -143,13 +143,17 @@ Connect the output of the **Set Current Angle Deg** node to the input of the **S
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+*Run* it in game to test if clockwise works. Run into the box and press L (or K for that matter). Hmmm nothing happens.
 
+![cube does not rotate when keys are pressed in game](images/CubeDoesntMove.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now go to the game and select the **BP_RotateCube** instance in the level and change the **Auto Receive Input** to `Player 0`.
 
+![get player controller node](images/GetPlayerControllerRm16.png)
 
 ![](../images/line2.png)
 
