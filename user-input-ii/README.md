@@ -134,7 +134,7 @@ Now do not have an entire rotation on all axis. We have a float to rotate around
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Connect the output of the **Set Current Angle Deg** node to the input of the **Set Relative Rotation** node's **New Rotation Z (Yaw)** pin:
+Connect the output of the **Set Current Angle Deg** node to the input of the **Set Relative Rotation** node's **New Rotation Z (Yaw)** pin. Connect the execution pins. Adjust the default Speed of Rotation variable to 45.0 and press the <kbd>Compile</kbd> button. *Press* the <kbd>Compile</kbd> button.
 
 ![connecxt set current angle deg to set relative rotation Z pin](images/ConnectCurrentAngleToYawRm26.png)
 
