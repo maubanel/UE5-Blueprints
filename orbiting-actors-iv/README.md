@@ -106,7 +106,7 @@ Now to figure out the angle between the sphere and the target adda **Find Look a
 
 *Run* the game and walk into the collision volume. Now the spheres rotate and continue to face the center and now it looks pretty good. Lets end it here.
 
-![connect find look at rotatoin to set actor rotation pins](images/ConnectPins3Rm15.jpg)
+https://user-images.githubusercontent.com/5504953/194048999-5f7c35da-ba26-4c25-b189-2dd6537fba01.mp4
 
 ![](../images/line2.png)
 
