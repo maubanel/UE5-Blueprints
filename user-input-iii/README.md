@@ -33,7 +33,9 @@ Now the only difference for counter clockwise movement is that the rotation is n
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Copy and paste* the Get **Current Angle Deg**, **Addition** and **Set Current Angle Deg** nodes and paste below. *Connect* the output of the **Multiplication** by -1 node to the input of the **+** node. *Connect* the **Execution** pin of the **Branch | True** node to the execution pin of the **Set Current Angle Deg** node.
 
+![connect pins](images/CopyCurrentAngleRm16.png)
 
 ![change speed of rotation to 45](images/SpeedOfRotation45.jpg)
 
@@ -41,7 +43,9 @@ Now the only difference for counter clockwise movement is that the rotation is n
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Copy and paste the **Set Relative Rotation** node and *connect* the output of the second **Set** node to the **New Rotation Z (Yaw)** pin of this node.
 
+![copy set relative rotation node](images/CopySetRelativeLocationRm16.jpg)
 
 ![](../images/line2.png)
 
@@ -101,17 +105,13 @@ Multiply this number by `-1.0`
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Copy and paste* the Get **Current Angle Deg**, **Addition** and **Set Current Angle Deg** nodes and paste below. *Connect* the output of the **Multiplication** by -1 node to the input of the **+** node. *Connect* the **Execution** pin of the **Branch | True** node to the execution pin of the **Set Current Angle Deg** node.
 
-![connect pins](images/CopyCurrentAngleRm16.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Copy and paste the **Set Relative Rotation** node and *connect* the output of the second **Set** node to the **New Rotation Z (Yaw)** pin of this node.
 
-![copy set relative rotation node](images/CopySetRelativeLocationRm16.jpg)
 
 ![](../images/line2.png)
 
