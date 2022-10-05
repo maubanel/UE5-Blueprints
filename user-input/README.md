@@ -88,10 +88,7 @@ Go to the game and hit **run**. Look and see if you are happy with the position.
 
 Go to the **Event Graph** and *pull off* of the **Event Actor Begin Overlap** and *drag off* off the execution pin. *Select* a **Sequence** node:
 
-
 ![Add sequence node](images/OverlapSequenceRm16.png)
-
-
 
 ![](../images/line2.png)
 
@@ -130,9 +127,7 @@ https://user-images.githubusercontent.com/5504953/194055388-0d374746-5051-4092-9
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Just ensure that visibility is off when we start open the blueprint and make sure that **Visibility** is `False` on both text rendercomponents:
-
-![set visibility to false on two text components](images/TurnVisibleOff.jpg)
+Just ensure that visibility is off when we start open the blueprint and make sure that **Visibility** is `False` on the **Test Render** component.  Run the game and confirm that the text is now turning on when you enter the volume.
 
 ![](../images/line2.png)
 
