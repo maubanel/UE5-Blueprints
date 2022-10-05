@@ -88,7 +88,10 @@ Go to the game and hit **run**. Look and see if you are happy with the position.
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
+Go to the **Event Graph** and *pull off* of the **Event Actor Begin Overlap** and *drag off* off the execution pin. *Select* a **Sequence** node:
 
+
+![Add sequence node](images/OverlapSequenceRm16.png)
 
 
 
@@ -96,18 +99,15 @@ Go to the game and hit **run**. Look and see if you are happy with the position.
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Go to the **Event Graph** and *pull off* of the **Event Actor Begin Overlap** and *drag off* off the execution pin. *Select* a **Sequence** node:
+*Drag* off of the execution pin from the **Sequence Then 0** pin and select **Toggle Visibility (Press L Rotate)**.
 
+![Add toggle visibility node](images/AddToggleVisibilityRm16.png)
 
-![Add sequence node](images/OverlapSequenceRm16.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Drag* off of the execution pin from the **Sequence Then 0** pin and select **Toggle Visibility (Press L Rotate)**.
-
-![Add toggle visibility node](images/AddToggleVisibilityRm16.jpg)
 
 ![](../images/line2.png)
 
