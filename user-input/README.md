@@ -30,7 +30,7 @@ Add a **Static Mesh** component to the blueprint. Call it `Cube`. Assign the **S
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Add* a **Box Collision** *Component* and make the **Box Extent** `200.0`, `600.0`, `100.0`. *Move* the collider in behind the box (opposite of **Red X** axis ).
+*Add* a **Box Collision** *Component* and make the **Box Extent** `700.0`, `250.0`, `200.0`. *Move* the collider in behind the box.
 
 ![scale box collider](images/BoxxCollisionRm16.png)
 
@@ -38,9 +38,9 @@ Add a **Static Mesh** component to the blueprint. Call it `Cube`. Assign the **S
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add **BP_Rotate_Cube** to the **Room 12** and center it. Make sure the collision box is in front of cube.
+Add **BP_Rotate_Cube** to the **Room 12** and center it. Make sure the collision box is in front of cube. Rotate it if necessary so the collision box is between the cube and the center of the room.
 
-![add BP_Rotate_Cube behond collision box in room 12](images/AddBPToRm16.jpg)
+![add BP_Rotate_Cube behond collision box in room 12](images/AddBPToRm16.png)
 
 ![](../images/line2.png)
 
