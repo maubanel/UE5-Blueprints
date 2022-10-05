@@ -122,15 +122,13 @@ Copy and paste the **Toggle Visibility (Text Render)** and **j** nodes and attac
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+*Run* the game and walk into the collision volume. You will see that the algorithm is backwards. When you are inside the volume the text is off and on when you are outside the volume.
 
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
- *Connect* the outputs of the **Sequence** nodes to the two **Toggle Visibility** nodes:
-
-![add second sequence node](images/AddSecondSequenceRm16.jpg)
 
 ![](../images/line2.png)
 
@@ -142,9 +140,7 @@ Copy and paste the **Toggle Visibility (Text Render)** and **j** nodes and attac
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Run* the game and walk into the collision volume. You will see that the algorithm is backwards. When you are inside the volume the text is off and on when you are outside the volume.
 
-![text backwards in game](images/BackwardsText.gif)
 
 ![](../images/line2.png)
 
