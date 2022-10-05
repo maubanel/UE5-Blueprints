@@ -97,7 +97,7 @@ Go to the **Event Graph** and *pull off* of the **Event Actor Begin Overlap** an
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-*Drag* off of the execution pin from the **Sequence Then 0** pin and select **Toggle Visibility (Press L Rotate)**.
+*Drag* off of the execution pin from the **Sequence | Then 0** pin and select **Toggle Visibility (Press L Rotate)**.
 
 ![Add toggle visibility node](images/AddToggleVisibilityRm16.png)
 
