@@ -79,30 +79,32 @@ So if the starting point of the look is the sphere location. Then the end point 
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Add a **Get Actor Location** node which returns the location of the actor we are orbiting at.
 
+![add get actor location node](images/GetActorLocadtionRm15.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Drag off of the pin and select the **Get Actor Location** node which returns the location of the actor we are orbiting around.
+Now to figure out the angle between the sphere and the target adda **Find Look at Rotatoin** node. *Connect* the output of the tow **Get Actor Location** nodes to the **Target** input pints of the **Find Look at Rotation** node.
 
-![add get actor location node](images/GetActorLocadtionRm15.jpg)
+![look at rotation](images/lookatRotation.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-*Connect* the output of the **Get Actor Location** node to the **Target** input of the **Find Look at Rotation** node. *Grab* the **Return Value** pin and *select* the **Set Actor Rotation** node:
+ *Grab* the **Return Value** pin and *select* the **Set Actor Rotation** node. *Connect* the output of the **Find Look at Rotation | Return Value** pin to the input of the **Set Actor Rotation | New Rotation** pin. Connect the output execution pin of the **Draw Debug Line** node to the input execution pin of the **Set Actor Rotation** node. Also connect the **Branch | False** before the debug line to the execution pin of the **Set Actor Rotation** node as well. *Press* the <kbd>Compile</kbd> button.
 
-![connect pins in graph](images/LookAtRotationHookRm15.jpg)
+![connect pins in graph](images/LookAtRotationHookRm15.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Connect* the output of the **Find Look at Rotation | Return Value** pin to the input of the **Set Actor Rotation | New Rotation** pin.
+
 
 ![connect find look at rotatoin to set actor rotation pins](images/ConnectPins3Rm15.jpg)
 
@@ -110,7 +112,7 @@ Drag off of the pin and select the **Get Actor Location** node which returns the
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Connect the output execution pin of the **Draw Debug Line** node to the input execution pin of the **Set Actor Rotation** node. Also connect the **Branch | False** before the debug line to the execution pin of the **Set Actor Rotation** node as well. *Press* the <kbd>Compile</kbd> button.
+
 
 ![connect execution pins for draw debug line to set actor rotation](images/SetActorLocationToRotationPinsRm15.jpg)
 
