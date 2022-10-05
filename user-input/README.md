@@ -145,13 +145,17 @@ Now there is an event trigger for when a button is pressed and released. There i
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Go to the **My Blueprints** panel and select the **bRotatingClockwise** with the *right mouse button* and select **Duplicate**:
 
+![duplicate rotating clockwise](images/RIghtClickDupeRm16.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Rename* the **Variable** to `bRotatingCounterClockwise` and update the **Tooltip**:
 
+![rename to rotatingcounterclockwise](images/RenameCCRm16.png)
 
 ![](../images/line2.png)
 
@@ -163,17 +167,13 @@ Now there is an event trigger for when a button is pressed and released. There i
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-Go to the **My Blueprints** panel and select the **bRotatingClockwise** with the *right mouse button* and select **Duplicate**:
 
-![duplicate rotating clockwise](images/RIghtClickDupeRm16.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-*Rename* the **Variable** to `bRotatingCounterClockwise` and update the **Tooltip**:
 
-![rename to rotatingcounterclockwise](images/RenameCCRm16.jpg)
 
 ![](../images/line.png)
 
