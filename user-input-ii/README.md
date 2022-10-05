@@ -15,7 +15,9 @@ User input continued...
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
+*Right click* on the open graph and look for **Event | Keyboard Event | K:**
 
+![add K keyboard event](images/EventKeyboardKRm16.png)
 
 ![](../images/line2.png)
 
@@ -39,9 +41,7 @@ User input continued...
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-*Right click* on the open graph and look for **Event | Keyboard Event | K:**
 
-![add K keyboard event](images/EventKeyboardKRm16.jpg)
 
 ![](../images/line2.png)
 
