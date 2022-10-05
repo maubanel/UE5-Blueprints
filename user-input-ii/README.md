@@ -76,9 +76,9 @@ We also need a variable to store the current angle of rotation. Add a new variab
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Add* a **Float * Float** multiplication node attached to the **Speed of Rotation** node:
+*Drag* a **Speed of Rotation** variable and *add* a **Multiplication** node. attached to the **Speed of Rotation** node:
 
-![add float times float multiplication node](images/FloatByFloatMultiply.jpg)
+![add float times float multiplication node](images/FloatByFloatMultiply.png)
 
 
 ![](../images/line2.png)
