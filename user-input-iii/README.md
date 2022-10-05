@@ -55,86 +55,13 @@ https://user-images.githubusercontent.com/5504953/194180219-415c37d7-7225-4e02-b
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-
-
-
-![](../images/line2.png)
-
-##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-![change auto receive input to player 0](images/AutoReceivePlayer0.jpg)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`ITB`| :large_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
-
-
-
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
-Multiply this number by `-1.0`
-
-![multiply by -1](images/MultiplyBy-1Rm16.jpg)
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
-
-
-![connect cube to target](images/CubeToTargetRm16.jpg)
-
-![](../images/line2.png)
-
-##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
 So in the Button Events add a **Set Rotating Counter Clockwise** to `false` after the <kbd>L</kbd> button is pressed and a **Set Rotating Clockwise** to `false` when the <kbd>K</kbd> button is pressed. *Press* the <kbd>Compile</kbd> button.
 
 ![set rotating counter clockwise to false](images/TurnOffOtherDirectionRm16.jpg)
 
 ![](../images/line2.png)
 
-##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now *run* the game and walk into the collision volume. This should finish up this room.
 
@@ -142,12 +69,11 @@ Now *run* the game and walk into the collision volume. This should finish up thi
 
 ![](../images/line2.png)
 
-##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-That's it for **Room 12** and this entire level and walk through. *Press* **Save All** and update **Github** by committing and pushing all the changes made.
+Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
-![save, commit and push to github](images/GithubRm16.jpg)
-
+![save all and submit to perforce in P4V](images/submitP4.png)
 
 | `intro.blueprints`\|`THE END`| 
 | :--- |
