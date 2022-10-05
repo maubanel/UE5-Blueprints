@@ -12,12 +12,11 @@ Lets add user input to a basic **Actor** class. We will be using the **L** and *
 
 ---
 
-
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
 *Add* a new **Blueprints | Room12** folder. *Create* a new **Blueprint Class** of base **Actor**. Call it `BP_RotateCube.`
 
-![add room12 folder and actor blueprint BP_RotateCube](images/BPRotateCubeActorRm16.jpg)
+![add room12 folder and actor blueprint BP_RotateCube](images/BPRotateCubeActorRm16.png)
 
 ![](../images/line2.png)
 
@@ -25,7 +24,7 @@ Lets add user input to a basic **Actor** class. We will be using the **L** and *
 
 Add a **Static Mesh** component to the blueprint. Call it `Cube`. Assign the **Static Mesh** `Cube` (you need to turn on **Engine Assets**) and **Material** `M_Metal_Burnished_Steel`.
 
-![add static mesh component with cube and steel material](images/AssignMeshCubeMaterialRm16.jpg)
+![add static mesh component with cube and steel material](images/AssignMeshCubeMaterialRm16.png)
 
 ![](../images/line2.png)
 
