@@ -93,32 +93,32 @@ Connect the output **Delta Seconds** from the **Event Tick** to the other end of
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
+Then we need to add this to the existing angle. Place a **Get Current Angle Deg** node:
 
+![add get current angle deg node](images/AddCurrentAngleDegRm16.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Then we need to add this to the existing angle. Place a **Get Current Angle Deg** node:
+Then put a **Addition** node and add the output of the **Multiplication** node and the **Current Angle Deg** node:
 
-![add get current angle deg node](images/AddCurrentAngleDegRm16.jpg)
+![add multiplication and current angle deg in addition node](images/FloatPFloatRm16.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Then put a **Float + Float** node and add the output of the **Multiplication** node and the **Current Angle Deg** node:
+*Drag* the **Get Speed Of Rotation** node onto the graph.
 
-![add multiplication and current angle deg in addition node](images/FloatPFloatRm16.jpg)
+![get speed of rotation node](images/Rm16GetSpeedOfRotationNodeRm16.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Drag* the **Get Speed Of Rotation** node onto the graph.
 
-![get speed of rotation node](images/Rm16GetSpeedOfRotationNodeRm16.jpg)
 
 ![](../images/line2.png)
 
