@@ -23,7 +23,7 @@ Lets add counter clockwise movement. Now we need to add two nodes a **Get Rotati
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Now the only difference for counter clockwise movement is that the rotation is negative. So *highjack* the output of the **Multiplication** output and add a **Multiplication** node beneath.
+Now the only difference for counter clockwise movement is that the rotation is negative. So *highjack* the output of the **Multiplication** output and add a **Multiplication** node beneath. Set the number you multiply this by to `-1` that will reverse the direction.
 
 ![add float multiplication node](images/HighJackMultRm16.png)
 
@@ -39,7 +39,7 @@ Now the only difference for counter clockwise movement is that the rotation is n
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Copy and paste the **Set Relative Rotation** node and *connect* the output of the second **Set** node to the **New Rotation Z (Yaw)** pin of this node.
+Copy and paste the **Set Relative Rotation** and **Static Mesh** nodes and *connect* the output of the second **Set** node to the **New Rotation Z (Yaw)** pin of this node.
 
 ![copy set relative rotation node](images/CopySetRelativeLocationRm16.png)
 
