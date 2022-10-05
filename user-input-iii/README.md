@@ -49,7 +49,7 @@ Copy and paste the **Set Relative Rotation** and **Static Mesh** nodes and *conn
 
 *Run* the game and test it. Now it works OK as the <kbd>L</kbd> and <kbd>K</kbd> button both work. But there is a design flaw. What I press the L button while pressing the K button without releasing it. Now two booleans are true and they cancel each other out. I want to cancel the other rotation as soon as a new one is detected.
 
-
+https://user-images.githubusercontent.com/5504953/194180219-415c37d7-7225-4e02-bb7b-6381cb57a016.mp4
 
 ![](../images/line2.png)
 
