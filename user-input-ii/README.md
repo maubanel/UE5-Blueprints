@@ -126,7 +126,9 @@ Now we don't want to use **Set Actor Rotation** or the entire actor which includ
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now do not have an entire rotation on all axis. We have a float to rotate around the **Z** axis. So *right click* on the **Set Relative Rotation** node's **New Rotation** pin and *select* **Split Struct Pin**:
 
+![split strut pin on set relative rotation node](images/SplitStructPinRm26.png)
 
 ![add set current angle deg node](images/SetCurrentAngleVarRm16.jpg)
 
@@ -145,9 +147,7 @@ Now we don't want to use **Set Actor Rotation** or the entire actor which includ
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now do not have an entire rotation on all axis. We have a float to rotate around the **Z** axis. So *right click* on the **Set Relative Rotation** node's **New Rotation** pin and *select* **Split Struct Pin**:
 
-![split strut pin on set relative rotation node](images/SplitStructPinRm26.jpg)
 
 ![](../images/line2.png)
 
