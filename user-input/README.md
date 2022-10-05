@@ -32,7 +32,7 @@ Add a **Static Mesh** component to the blueprint. Call it `Cube`. Assign the **S
 
 *Add* a **Box Collision** *Component* and make the **Box Extent** `200.0`, `600.0`, `100.0`. *Move* the collider in behind the box (opposite of **Red X** axis ).
 
-![scale box collider](images/BoxxCollisionRm16.jpg)
+![scale box collider](images/BoxxCollisionRm16.png)
 
 ![](../images/line2.png)
 
