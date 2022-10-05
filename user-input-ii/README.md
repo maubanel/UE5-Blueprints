@@ -167,7 +167,9 @@ https://user-images.githubusercontent.com/5504953/194177718-2f05a3fe-9480-4276-8
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now we need to open up **BP_ControlCube** and flatten the hiearchy.
 
+![get player controller node](images/flattenHiearchy.png)
 
 ![](../images/line2.png)
 
