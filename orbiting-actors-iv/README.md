@@ -95,7 +95,7 @@ Now to figure out the angle between the sphere and the target adda **Find Look a
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
- *Grab* the **Return Value** pin and *select* the **Set Actor Rotation** node. *Connect* the output of the **Find Look at Rotation | Return Value** pin to the input of the **Set Actor Rotation | New Rotation** pin. Connect the output execution pin of the **Draw Debug Line** node to the input execution pin of the **Set Actor Rotation** node. Also connect the **Branch | False** before the debug line to the execution pin of the **Set Actor Rotation** node as well. *Press* the <kbd>Compile</kbd> button.
+ Add a **Set Actor Rotation** node and connect the output of **Find Look at Rotation | Return Value** node into the **Set Actor Rotation | New Rotation** node.  * Connect the output execution pin of the **Set Actor Location** node to the input execution pin of the **Set Actor Rotation** node. Also connect the **Set Actor Rotatione** execution pin to the **Branch** node. Please note the yellow line does not connect to anything in the **Set Actor Rotation** node. *Press* the <kbd>Compile</kbd> button.
 
 ![connect pins in graph](images/LookAtRotationHookRm15.png)
 
@@ -104,7 +104,7 @@ Now to figure out the angle between the sphere and the target adda **Find Look a
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-
+*Run* the game and walk into the collision volume. Now the spheres rotate and continue to face the center and now it looks pretty good. Lets end it here.
 
 ![connect find look at rotatoin to set actor rotation pins](images/ConnectPins3Rm15.jpg)
 
@@ -120,9 +120,7 @@ Now to figure out the angle between the sphere and the target adda **Find Look a
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Run* the game and walk into the collision volume. Now the spheres rotate and continue to face the center and now it looks pretty good. Lets end it here.
 
-![run in game and cubes now rotate to face center](images/Rotate4SpheresRotate.gif)
 
 ![](../images/line2.png)
 
