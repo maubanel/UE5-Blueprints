@@ -23,7 +23,9 @@ User input continued...
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
+Add two **Set Rotating CounterClockwise**. For the **Pressed** execution pin, set to true and the **Released** pin to false.
 
+![add two set rotating counterclockwise nodes](images/SetCounterclockwiseControlsBoolRm16.jpg)
 
 ![](../images/line2.png)
 
@@ -47,9 +49,7 @@ User input continued...
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Add two **Set Rotating CounterClockwise**. For the **Pressed** execution pin, set to true and the **Released** pin to false.
 
-![add two set rotating counterclockwise nodes](images/SetCounterclockwiseControlsBoolRm16.jpg)
 
 ![](../images/line2.png)
 
