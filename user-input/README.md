@@ -82,8 +82,6 @@ Go to the game and hit **run**. Look and see if you are happy with the position.
 
 ![test text in game](images/TestInGameRm16.png)
 
-![name second text counter-clockwise](images/PressKRepositionRm16.jpg)
-
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
