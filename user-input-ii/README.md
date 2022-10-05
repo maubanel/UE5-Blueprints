@@ -167,7 +167,7 @@ https://user-images.githubusercontent.com/5504953/194177718-2f05a3fe-9480-4276-8
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to open up **BP_ControlCube** and flatten the hiearchy.
+Now we need to open up **BP_ControlCube** and flatten the hiearchy. Prior the **Box Trigger** and **TextRdner** were under the **StaticMesh** so they were inheriting its rotation.  By having them at the same hiearchy, the static mesh will no longer affect the trigger volume or the text render node.
 
 ![get player controller node](images/flattenHiearchy.png)
 
@@ -175,7 +175,7 @@ Now we need to open up **BP_ControlCube** and flatten the hiearchy.
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-
+*Press* the <kbd>Play</kbd> button and go up and press the <kbd>L</kbd> key.  Now the cube rotates but the text stays in place.
 
 ![](../images/line2.png)
 
