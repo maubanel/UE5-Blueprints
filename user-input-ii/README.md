@@ -101,7 +101,7 @@ Then we need to add this to the existing angle. Place a **Get Current Angle Deg*
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Then put a **Addition** node and add the output of the **Multiplication** node and the **Current Angle Deg** node:
+Then put a **Addition** node and add the output of the **Multiplication** node and the **Current Angle Deg** node.  Send the output of the **Addition** node to the **Set | Current Angle** pin. Connect the execution pin of **Sequence | 0** to **Set Current Angle**.
 
 ![add multiplication and current angle deg in addition node](images/FloatPFloatRm16.png)
 
