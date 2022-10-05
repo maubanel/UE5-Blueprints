@@ -49,18 +49,12 @@ Add the comment `Button Pressed Booleans` to the neds around the **L** and *K* e
 
 *Add* a **Sequence** node and attach it to the **Event Tick** output pin. Attach the output of the **Sequence Then 0** pin to the **Branch** input.
 
-![add sequence node](images/AttachExecutionPinsSequenceRm16.jpg)
+![add sequence node](images/AttachExecutionPinsSequenceRm16.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 We need a variable to adjust the speed of the rotation. *Add* a new variable called `Speed of Rotation` of Type **Float** and make it **Instance Editable** and **Private**. Set the Category to `Controls`. Set the Tooltip to `Set speed in degrees per second`.
 
@@ -69,6 +63,12 @@ We need a variable to adjust the speed of the rotation. *Add* a new variable cal
 Set the **Default Value** to `45.0`.
 
 ![add float variable speed of rotation](images/SpeedOfRotationVarRm16.jpg)
+
+![](../images/line2.png)
+
+##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
 
 ![](../images/line2.png)
 
