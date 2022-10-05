@@ -65,6 +65,8 @@ So in the Button Events add a **Set Rotating Counter Clockwise** to `false` afte
 
 Now *run* the game and walk into the collision volume. Now you can press <kbd>K</kbd> while holding <kbd>L</kbd> and it will change directions without having to let go. This should finish up this room and this walk through!
 
+https://user-images.githubusercontent.com/5504953/194181395-3e78547c-d225-4bb7-9219-fca3a244c5ec.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
