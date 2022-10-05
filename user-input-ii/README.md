@@ -159,6 +159,8 @@ Now go to the game and select the **BP_RotateCube** instance in the level and ch
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now *run* it in game and the cube should rotate clockwise when you press the <kbd>L</kbd> key. The problem is the text rotates and it is only one sided, so you don't see it from the other side.
+
 
 
 ![](../images/line2.png)
