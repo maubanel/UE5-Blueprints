@@ -63,7 +63,7 @@ Now the sphere is changing location but is not facing the center cube. Lets add 
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **Get Actor Location** node and hook the the output to the the **Find Look At Rotation** node's **Start** pin:
+Add a **Get Actor Location** node and hook the the output to the the **Find Look At Rotation** node's **Start** pin.
 
 ![connect get actor location to find look at rotation node](images/HookUpStartRotationRm15.png)
 
