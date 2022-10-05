@@ -27,8 +27,6 @@ Now the only difference for counter clockwise movement is that the rotation is n
 
 ![add float multiplication node](images/HighJackMultRm16.png)
 
-![connect execution pins](images/ConnectExecPins.jpg)
-
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
