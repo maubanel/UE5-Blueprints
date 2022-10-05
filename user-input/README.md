@@ -124,11 +124,15 @@ Copy and paste the **Toggle Visibility (Text Render)** and **j** nodes and attac
 
 *Run* the game and walk into the collision volume. You will see that the algorithm is backwards. When you are inside the volume the text is off and on when you are outside the volume.
 
+https://user-images.githubusercontent.com/5504953/194055388-0d374746-5051-4092-9387-3a6f0bb89da1.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
+Just ensure that visibility is off when we start open the blueprint and make sure that **Visibility** is `False` on both text rendercomponents:
+
+![set visibility to false on two text components](images/TurnVisibleOff.jpg)
 
 ![](../images/line2.png)
 
@@ -146,9 +150,7 @@ Copy and paste the **Toggle Visibility (Text Render)** and **j** nodes and attac
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Just ensure that visibility is off when we start open the blueprint and make sure that **Visibility** is `False` on both text rendercomponents:
 
-![set visibility to false on two text components](images/TurnVisibleOff.jpg)
 
 ![](../images/line2.png)
 
