@@ -41,7 +41,7 @@ Now the only difference for counter clockwise movement is that the rotation is n
 
 Copy and paste the **Set Relative Rotation** node and *connect* the output of the second **Set** node to the **New Rotation Z (Yaw)** pin of this node.
 
-![copy set relative rotation node](images/CopySetRelativeLocationRm16.jpg)
+![copy set relative rotation node](images/CopySetRelativeLocationRm16.png)
 
 ![](../images/line2.png)
 
