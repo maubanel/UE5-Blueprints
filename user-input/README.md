@@ -108,7 +108,7 @@ Go to the **Event Graph** and *pull off* of the **Event Actor Begin Overlap** an
 
 *Right click* on the empty graph and select the **Event Actor End Overlap** node. *Pull off* the execution pin and select another **Sequence** node.
 
-![add end overlap node](images/AddActorEndOverlapRm16-1.jpg)
+![add end overlap node](images/AddActorEndOverlapRm16-1.png)
 
 ![](../images/line2.png)
 
