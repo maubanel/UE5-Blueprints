@@ -47,7 +47,7 @@ Add the comment `Button Pressed Booleans` to the neds around the **L** and *K* e
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-*Add* a **Sequence** node and attach it to the **Event Tick** output pin. Attach the output of the **Sequence Then 0** pin to the **Branch** input.
+*Add* a **Sequence** node and attach it to the the **Branch | True** output execution pin. Connect the **Event Tick** execution pin to the input of the **Branch** node.
 
 ![add sequence node](images/AttachExecutionPinsSequenceRm16.png)
 
@@ -62,7 +62,7 @@ We need a variable to adjust the speed of the rotation. *Add* a new variable cal
 
 Set the **Default Value** to `45.0`.
 
-![add float variable speed of rotation](images/SpeedOfRotationVarRm16.jpg)
+![add float variable speed of rotation](images/SpeedOfRotationVarRm16.png)
 
 ![](../images/line2.png)
 
