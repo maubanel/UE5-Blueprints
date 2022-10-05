@@ -70,7 +70,7 @@ Change the **Text** to `Press L Key to Rotate Clockwise`. I had to rotate the co
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on **Press L Rotate** Component and press *Duplicate*. Change the **Text** to `Press K Key to Rotate Counter Clockwise`. Adjust the location to be below the *L key* text component.
+Go to the **Text Render** Component and alter the **Text** to `Press L Key to Rotate Clockwise<br>Press K Key to Rotate Counter Clockwise`. Adjust the location of the text.  Remember the `<br>` is html for new line that works as a carriage return here.
 
 ![duplicate text render and call Press K Rotate](images/PressRToRotateRm16.png)
 
