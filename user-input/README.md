@@ -139,7 +139,7 @@ Now there is an event trigger for when a button is pressed and released. There i
 
 *Add* a new **Boolean** variable called `bRotatingClockwise`, make it **Private** and set the **Category** to `Controls`. *Add* a **Tooltip** that says `Bool to tell us if clockwise button is pressed`.
 
-![add rotating clockwise variable](images/RotatingClockwiseVarRm16.jpg)
+![add rotating clockwise variable](images/RotatingClockwiseVarRm16.png)
 
 ![](../images/line2.png)
 
