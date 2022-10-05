@@ -17,7 +17,7 @@ User input continued...
 
 Lets add counter clockwise movement. Now we need to add two nodes a **Get Rotating Counter Clockwise** and **Branch** . This checks to see if the counter clockwise <kbd>K</kbd> button is pressed. Connect the execution pin from **Sequence | Then1** to the **Branch** node.  Connect the **RotatingCounterClockwise** pin to the **Branch | Condition** pin. 
 
-![add get rotating counter clockwise and a branch node](images/CheckCounterClockWiseMovementRm16.jpg)
+![add get rotating counter clockwise and a branch node](images/CheckCounterClockWiseMovementRm16.png)
 
 ![](../images/line2.png)
 
