@@ -39,7 +39,7 @@ Now the only difference for counter clockwise movement is that the rotation is n
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Copy and paste the **Set Relative Rotation** and **Static Mesh** nodes and *connect* the output of the second **Set** node to the **New Rotation Z (Yaw)** pin of this node.
+Copy and paste the **Set Relative Rotation** and **Static Mesh** nodes and *connect* the output of the second **Set** node to the **New Rotation Z (Yaw)** pin of this node. *Press* the <kbd>Compile</kbd> button.
 
 ![copy set relative rotation node](images/CopySetRelativeLocationRm16.png)
 
@@ -47,7 +47,9 @@ Copy and paste the **Set Relative Rotation** and **Static Mesh** nodes and *conn
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
+*Run* the game and test it. Now it works OK as the <kbd>L</kbd> and <kbd>K</kbd> button both work. But there is a design flaw. What I press the L button while pressing the K button without releasing it. Now two booleans are true and they cancel each other out. I want to cancel the other rotation as soon as a new one is detected.
 
+![play game but keys need to be pressed twice](images/RotateCubeBothWays.gif)
 
 ![](../images/line2.png)
 
@@ -113,7 +115,6 @@ Multiply this number by `-1.0`
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Since we are targetting just the **Static Mesh** by connecting to the **Set Relative Rotation | Target**. *Connect* the **Set Current Angle Deg** execution pin to **Set Relative Rotation**. *Press* the <kbd>Compile</kbd> button.
 
 ![connect cube to target](images/CubeToTargetRm16.jpg)
 
@@ -121,9 +122,7 @@ Since we are targetting just the **Static Mesh** by connecting to the **Set Rela
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Run* the game and test it. Now it works OK as the <kbd>L</kbd> and <kbd>K</kbd> button both work. But there is a design flaw. What I press the L button while pressing the K button without releasing it. Now two booleans are true and they cancel each other out. I want to cancel the other rotation as soon as a new one is detected.
 
-![play game but keys need to be pressed twice](images/RotateCubeBothWays.gif)
 
 ![](../images/line2.png)
 
