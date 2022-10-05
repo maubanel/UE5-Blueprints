@@ -78,7 +78,9 @@ Right click on **Press L Rotate** Component and press *Duplicate*. Change the **
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Go to the game and hit **run**. Look and see if you are happy with the position. Make any size adjustments you need to. 
 
+![test text in game](images/TestInGameRm16.png)
 
 ![name second text counter-clockwise](images/PressKRepositionRm16.jpg)
 
@@ -86,9 +88,7 @@ Right click on **Press L Rotate** Component and press *Duplicate*. Change the **
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Go to the game and hit **run**. Look and see if you are happy with the position. Make any size adjustments you need to. 
 
-![test text in game](images/TestInGameRm16.jpg)
 
 
 
