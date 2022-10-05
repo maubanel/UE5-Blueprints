@@ -64,7 +64,7 @@ For housekeeping move this game object into the **Room 12** folder:
 
 Change the **Text** to `Press L Key to Rotate Clockwise`. I had to rotate the component by `180` degrees on the **Z** axis to face forward. *Change* **Horizontal Alignment** to `Center` and adjust the **Text Render Color** to contrast with the background. *Select* a larger font size as well! Move text above cube.
 
-![name text, center and change color](images/PressLKeyToRClockRm16.jpg)
+![name text, center and change color](images/PressLKeyToRClockRm16.png)
 
 ![](../images/line2.png)
 
