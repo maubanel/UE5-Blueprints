@@ -101,8 +101,7 @@ Then we need to add this to the existing angle. Place a **Get Current Angle Deg*
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Then put a **Addition** node and add the output of the **Multiplication** node and the **Current Angle Deg** node.  Send the output of the **Addition** node to the **Set | Current Angle** pin. Connect the execution pin of **Sequence | 0** to **Set Current Angle**.
-
+Then put a **Addition** node and add the output of the **Multiplication** node and the **Current Angle Deg** node.  
 ![add multiplication and current angle deg in addition node](images/FloatPFloatRm16.png)
 
 ![](../images/line2.png)
@@ -110,7 +109,8 @@ Then put a **Addition** node and add the output of the **Multiplication** node a
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Right click* and select a **Set Current Angle** node.
+*Right click* and select a **Set Current Angle** node. Send the output of the **Addition** node to the **Set | Current Angle** pin. Connect the execution pin of **Sequence | 0** to **Set Current Angle**.
+
 
 ![get speed of rotation node](images/Rm16GetSpeedOfRotationNodeRm16.png)
 
@@ -118,7 +118,9 @@ Then put a **Addition** node and add the output of the **Multiplication** node a
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now we don't want to use **Set Actor Rotation** or the entire actor which includes the text and the collision box will rotate. We just want the **Static Mesh** component mesh to rotate. *Drag* and drop a **Static Mesh** (or whatever you renamed the static mesh) node onto the graph. Pull off of the pin and select **Set Relative Rotation** node.
 
+![alt_text](images/GetCubeComponentRm16.jpg)
 
 ![](../images/line2.png)
 
@@ -132,17 +134,12 @@ Then put a **Addition** node and add the output of the **Multiplication** node a
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Pull of of the **Float + Float** output pin and add a **Set Current Angle Deg** node. Connect the execution pin of **Branch True** to the input execution pin:
-
-![connect execution pins](images/SetCurrentAngDegRm16.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now we don't want to use **Set Actor Rotation** or the entire actor which includes the text and the collision box will rotate. We just want the **Static Mesh** component mesh to rotate. *Drag* and drop a **Static Mesh** (or whatever you renamed the static mesh) node onto the graph. Pull off of the pin and select **Set Relative Rotation** node.
 
-![alt_text](images/GetCubeComponentRm16.jpg)
 
 ![](../images/line2.png)
 
