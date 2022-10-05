@@ -57,7 +57,7 @@ https://user-images.githubusercontent.com/5504953/194180219-415c37d7-7225-4e02-b
 
 So in the Button Events add a **Set Rotating Counter Clockwise** to `false` after the <kbd>L</kbd> button is pressed and a **Set Rotating Clockwise** to `false` when the <kbd>K</kbd> button is pressed. *Press* the <kbd>Compile</kbd> button.
 
-![set rotating counter clockwise to false](images/TurnOffOtherDirectionRm16.jpg)
+![set rotating counter clockwise to false](images/TurnOffOtherDirectionRm16.png)
 
 ![](../images/line2.png)
 
