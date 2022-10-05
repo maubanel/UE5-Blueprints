@@ -21,7 +21,7 @@ User input continued...
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Connect the execution pins.
+
 
 ![connect execution pins](images/ConnectExecPins.jpg)
 
@@ -29,7 +29,7 @@ Connect the execution pins.
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Adjust the default Speed of Rotation variable to 45.0 and press the <kbd>Compile</kbd> button. *Press* the <kbd>Compile</kbd> button.
+
 
 ![change speed of rotation to 45](images/SpeedOfRotation45.jpg)
 
@@ -37,39 +37,32 @@ Adjust the default Speed of Rotation variable to 45.0 and press the <kbd>Compile
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Run* it in game to test if clockwise works. Run into the box and press L (or K for that matter). Hmmm nothing happens.
 
-![cube does not rotate when keys are pressed in game](images/CubeDoesntMove.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Now for an actor to read player controls (something normally reserved for a **Pawn** or **Character** blueprint we need to tell the game engine to add that ability to the actor). We also want it to not work when we are not in the collision volume. To the right of the two **Toggle Visibility** nodes *add* a **Get Player Controller** node.
 
-![get player controller node](images/GetPlayerControllerRm16.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-This is a class that we have not customized but default is used in the game (you will see it in the **World Outliner** when running the game). Since this simulation of for a single player controller we will leave **Player Index** at `0`. If this was a multiplayer game we woudl have to indicate which player this action was associated with. Drag off of the **Return Value** pin and select an **Enable Input** node:
 
-![enable input on blueprint](images/EnableInputNodeRm16.jpg)
+
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we don't want to pull off of the **Toggle Visibility** execution pins as this gets called every time and handles toggling on and off. Connect these to the **Begin Play** execution node. *Press* the <kbd>Compile</kbd> button.
 
-![add pin to sequence node](images/SequenceToEnableCommentRm16.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now go to the game and select the **BP_RotateCube** instance in the level and change the **Auto Receive Input** to `Player 0`.
+
 
 ![change auto receive input to player 0](images/AutoReceivePlayer0.jpg)
 
@@ -77,9 +70,7 @@ Now go to the game and select the **BP_RotateCube** instance in the level and ch
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *run* it in game and the cube should rotate clockwise when you press the <kbd>L</kbd> key.
 
-![cube turns clockwise in game when L key is pressed](images/RotateCubeClockwise.gif)
 
 ![](../images/line2.png)
 
