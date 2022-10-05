@@ -70,15 +70,15 @@ Change the **Text** to `Press L Key to Rotate Clockwise`. I had to rotate the co
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on **Press L Rotate** Component and press *Duplicate*. Call the new component `Press K Rotate`.
+Right click on **Press L Rotate** Component and press *Duplicate*. Change the **Text** to `Press K Key to Rotate Counter Clockwise`. Adjust the location to be below the *L key* text component.
 
-![duplicate text render and call Press K Rotate](images/PressRToRotateRm16.jpg)
+![duplicate text render and call Press K Rotate](images/PressRToRotateRm16.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Change the **Text** to `Press K Key to Rotate Counter Clockwise`. Adjust the location to be below the *L key* text component:
+
 
 ![name second text counter-clockwise](images/PressKRepositionRm16.jpg)
 
