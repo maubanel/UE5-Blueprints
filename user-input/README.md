@@ -48,7 +48,7 @@ Add **BP_Rotate_Cube** to the **Room 12** and center it. Make sure the collision
 
 For housekeeping move this game object into the **Room 12** folder:
 
-![move blueprint to Room 12 folder in world outliner](images/MoveObjectToFolderRm16.jpg)
+![move blueprint to Room 12 folder in world outliner](images/MoveObjectToFolderRm16.png)
 
 ![](../images/line2.png)
 
@@ -56,7 +56,7 @@ For housekeeping move this game object into the **Room 12** folder:
 
 *Add* a **Text Renderer** component to the blueprint.
 
-![add text render component](images/AddTextRenderComponentRm16.jpg)
+![add text render component](images/AddTextRenderComponentRm16.png)
 
 ![](../images/line2.png)
 
