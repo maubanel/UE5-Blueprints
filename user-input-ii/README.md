@@ -85,14 +85,15 @@ We also need a variable to store the current angle of rotation. Add a new variab
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Connect the output **Delta Seconds** from the **Event Tick** to the other end of the **Multiplication** node. This gives us the speed for this one frame.
+
+![connect delta seconds to multiplication node](images/ConnectWithDeltaSecondsRm16.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Connect the output **Delta Seconds** from the **Event Tick** to the other end of the **Multiplication** node. This gives us the speed for this one frame.
 
-![connect delta seconds to multiplication node](images/ConnectWithDeltaSecondsRm16.jpg)
 
 ![](../images/line2.png)
 
