@@ -129,11 +129,17 @@ https://user-images.githubusercontent.com/5504953/194055388-0d374746-5051-4092-9
 
 Just ensure that visibility is off when we start open the blueprint and make sure that **Visibility** is `False` on the **Test Render** component.  Run the game and confirm that the text is now turning on when you enter the volume.
 
+https://user-images.githubusercontent.com/5504953/194058110-5654d6d0-f835-4d8c-aa5a-6a1df2fb989f.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Now there is an event trigger for when a button is pressed and released. There is not a trigger for a button being held. So we will create a boolean that sets when a key is held. We need to add two booleans. 
 
+*Add* a new **Boolean** variable called `bRotatingClockwise`, make it **Private** and set the **Category** to `Controls`. *Add* a **Tooltip** that says `Bool to tell us if clockwise button is pressed`.
+
+![add rotating clockwise variable](images/RotatingClockwiseVarRm16.jpg)
 
 ![](../images/line2.png)
 
@@ -151,11 +157,7 @@ Just ensure that visibility is off when we start open the blueprint and make sur
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now there is an event trigger for when a button is pressed and released. There is not a trigger for a button being held. So we will create a boolean that sets when a key is held. We need to add two booleans. 
 
-*Add* a new **Boolean** variable called `bRotatingClockwise`, make it **Private** and set the **Category** to `Controls`. *Add* a **Tooltip** that says `Bool to tell us if clockwise button is pressed`.
-
-![add rotating clockwise variable](images/RotatingClockwiseVarRm16.jpg)
 
 ![](../images/line2.png)
 
