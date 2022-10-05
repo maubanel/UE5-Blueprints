@@ -68,15 +68,15 @@ Set the **Default Value** to `45.0`.
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+We also need a variable to store the current angle of rotation. Add a new variable called `Current Angle Deg` of **Type Float** and make it **Private**. Set the **Category** to `Controls`. Set the **Tooltip** to `Holds current angle in degrees`.
 
+![add float variable current angle deg](images/CurrentAngleDegreesRm16.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We also need a variable to store the current angle of rotation. Add a new variable called `Current Angle Deg` of **Type Float** and make it **Private**. Set the **Category** to `Controls`. Set the **Tooltip** to `Holds current angle in degrees`.
 
-![add float variable current angle deg](images/CurrentAngleDegreesRm16.jpg)
 
 ![](../images/line2.png)
 
