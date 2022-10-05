@@ -116,7 +116,7 @@ Go to the **Event Graph** and *pull off* of the **Event Actor Begin Overlap** an
 
 Copy and paste the **Toggle Visibility (Text Render)** and **j** nodes and attach to the second **Sequence** pin. Add a comment to this group of nodes called `Toggle Text On and Off`.
 
-![add code comments](images/AddComment1Rm16.jpg)
+![add code comments](images/AddComment1Rm16.png)
 
 ![](../images/line2.png)
 
