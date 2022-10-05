@@ -97,7 +97,7 @@ Go to the **Event Graph** and *pull off* of the **Event Actor Begin Overlap** an
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-*Drag* off of the execution pin from the **Sequence | Then 0** pin and select **Toggle Visibility (Press L Rotate)**.
+*Drag* off of the execution pin from the **Sequence | Then 0** pin and select **Toggle Visibility (Text Render)**.
 
 ![Add toggle visibility node](images/AddToggleVisibilityRm16.png)
 
@@ -106,28 +106,27 @@ Go to the **Event Graph** and *pull off* of the **Event Actor Begin Overlap** an
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-*Drag* off of the execution pin from the **Sequence Then 1** pin and select **Toggle Visibility (Press K Rotate)**.
-
-![add toggle visibility press k rotate node](images/ToggleVisibillityCounterRm16.jpg)
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-*Right click* on the empty graph and select the **Event Actor End Overlap** node.
+*Right click* on the empty graph and select the **Event Actor End Overlap** node. *Pull off* the execution pin and select another **Sequence** node.
 
 ![add end overlap node](images/AddActorEndOverlapRm16-1.jpg)
 
 ![](../images/line2.png)
 
+##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+
+
+![](../images/line2.png)
+
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-*Pull off* the execution pin and select another **Sequence** node. *Connect* the outputs of the **Sequence** nodes to the two **Toggle Visibility** nodes:
+ *Connect* the outputs of the **Sequence** nodes to the two **Toggle Visibility** nodes:
 
 ![add second sequence node](images/AddSecondSequenceRm16.jpg)
 
