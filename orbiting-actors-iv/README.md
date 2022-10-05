@@ -71,9 +71,9 @@ Add a **Get Actor Location** node and hook the the output to the the **Find Look
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-So if the starting point of the look is the sphere location. Then the end point is the center. *Drag* a **Get Target To Rotate Around:** node onto the graph.
+So if the starting point of the look is the sphere location. Then the end point is the center. *Drag* a **Get Target ** node onto the graph.
 
-![add get target to rotate around node](images/GetTargetToRotateAround.jpg)
+![add get target to rotate around node](images/GetTargetToRotateAround.png)
 
 ![](../images/line2.png)
 
