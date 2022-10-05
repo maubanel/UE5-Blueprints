@@ -114,7 +114,9 @@ Go to the **Event Graph** and *pull off* of the **Event Actor Begin Overlap** an
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Copy and paste the **Toggle Visibility (Text Render)** and **j** nodes and attach to the second **Sequence** pin. Add a comment to this group of nodes called `Toggle Text On and Off`.
 
+![add code comments](images/AddComment1Rm16.jpg)
 
 ![](../images/line2.png)
 
@@ -134,9 +136,7 @@ Go to the **Event Graph** and *pull off* of the **Event Actor Begin Overlap** an
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Add a comment to this group of nodes called `Toggle Text On and Off`.
 
-![add code comments](images/AddComment1Rm16.jpg)
 
 ![](../images/line2.png)
 
