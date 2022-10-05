@@ -15,33 +15,25 @@ User input continued...
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Now lets get an event that is called when the **L** key is pressed. *Right click* on the open graph and look for **Event | Keyboard Event | L**:
 
-![add L keyboard event](images/EventKeyboardLRm16.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-See that the event node has two execution pins. One for **Pressed** and one for **Released**. *Drag* off the **Pressed** key and add a **Set Rotating Clockwise** node:
 
-![add set rotating clockwise node](images/SetClockWiseBoolRm16.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Set the **Rotating Clockwise** boolean to `true`.
 
-![set rotating clockwise to true](images/SetClockwiseBoolTrueRm16.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Repeat the same thing for the **Release** pin but set the **Rotating Clockwise** boolean to `false`.
 
-![set rotating clockwise to false](images/ReleaseNodeRm16.jpg)
 
 ![](../images/line2.png)
 
