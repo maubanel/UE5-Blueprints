@@ -120,7 +120,7 @@ Then put a **Addition** node and add the output of the **Multiplication** node a
 
 Now we don't want to use **Set Actor Rotation** or the entire actor which includes the text and the collision box will rotate. We just want the **Static Mesh** component mesh to rotate. *Drag* and drop a **Static Mesh** (or whatever you renamed the static mesh) node onto the graph. Pull off of the pin and select **Set Relative Rotation** node.
 
-![alt_text](images/GetCubeComponentRm16.jpg)
+![alt_text](images/GetCubeComponentRm16.png)
 
 ![](../images/line2.png)
 
