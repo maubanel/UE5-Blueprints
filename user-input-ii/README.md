@@ -33,31 +33,30 @@ Add two **Set Rotating CounterClockwise**. For the **Pressed** execution pin, se
 
 Add the comment `Button Pressed Booleans` to the neds around the **L** and *K* events:
 
-![add code comments](images/Comment2Rm16.jpg)
+![add code comments](images/Comment2Rm16.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag* the **Get Rotating Clockwise** node and *drop it* on the graph at the bottom. 
+*Drag* the **Get Rotating Clockwise** node and *drop it* on the graph at the bottom. *Drag off* of the output pin and select a **Branch** node.
 
-![add get rotating clockwise node](images/GetRotatingClockwiseBoolRm16.jpg)
+![add get rotating clockwise node](images/GetRotatingClockwiseBoolRm16.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-*Drag off* of the output pin and select a **Branch** node.
+*Add* a **Sequence** node and attach it to the **Event Tick** output pin. Attach the output of the **Sequence Then 0** pin to the **Branch** input.
 
-![add branch node](images/SendToBranchRm16.jpg)
+![add sequence node](images/AttachExecutionPinsSequenceRm16.jpg)
+
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-*Add* a **Sequence** node and attach it to the **Event Tick** output pin. Attach the output of the **Sequence Then 0** pin to the **Branch** input.
 
-![add sequence node](images/AttachExecutionPinsSequenceRm16.jpg)
 
 ![](../images/line2.png)
 
