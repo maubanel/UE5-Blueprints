@@ -15,9 +15,7 @@ User input continued...
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Connect the output of the **Set Current Angle Deg** node to the input of the **Set Relative Rotation** node's **New Rotation Z (Yaw)** pin:
 
-![connecxt set current angle deg to set relative rotation Z pin](images/ConnectCurrentAngleToYawRm26.jpg)
 
 ![](../images/line2.png)
 

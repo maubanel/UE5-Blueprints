@@ -130,11 +130,13 @@ Now do not have an entire rotation on all axis. We have a float to rotate around
 
 ![split strut pin on set relative rotation node](images/SplitStructPinRm26.png)
 
-![add set current angle deg node](images/SetCurrentAngleVarRm16.jpg)
-
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
+
+Connect the output of the **Set Current Angle Deg** node to the input of the **Set Relative Rotation** node's **New Rotation Z (Yaw)** pin:
+
+![connecxt set current angle deg to set relative rotation Z pin](images/ConnectCurrentAngleToYawRm26.png)
 
 
 ![](../images/line2.png)
