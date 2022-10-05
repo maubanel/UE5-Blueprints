@@ -161,7 +161,7 @@ Now go to the game and select the **BP_RotateCube** instance in the level and ch
 
 Now *run* it in game and the cube should rotate clockwise when you press the <kbd>L</kbd> key. The problem is the text rotates and it is only one sided, so you don't see it from the other side.
 
-
+https://user-images.githubusercontent.com/5504953/194177718-2f05a3fe-9480-4276-803f-7f14660311a3.mp4
 
 ![](../images/line2.png)
 
