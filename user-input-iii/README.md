@@ -37,8 +37,6 @@ Now the only difference for counter clockwise movement is that the rotation is n
 
 ![connect pins](images/CopyCurrentAngleRm16.png)
 
-![change speed of rotation to 45](images/SpeedOfRotation45.jpg)
-
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
