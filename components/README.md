@@ -57,7 +57,7 @@ Rename the component to `Sphere` and drag and drop it on top of **DefaultSceneRo
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Now click on the **Static Mesh** in the **Details Panel** and we want to find the default sphere that we can get from the brush menu in game.  Click on the drop down and select the **Gear** inside the menu and choose **Engine Content**.
+Now click on the **Static Mesh** in the **Details Panel** and we want to find the default sphere that we can get from the brush menu in game.  Click on the drop down and select the **Gear** inside the menu and choose **Show Engine Content**.
 
 ![select view options engine content](images/ViewOptionsRm6.png)
 
