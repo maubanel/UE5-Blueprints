@@ -89,21 +89,13 @@ Go to *select* a **Material** in the details panel. *Select* it and you will see
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Go back to the blueprint **BP_Dynamic_Component** and now you should see the mesh with a proper material:
-
-![steel mesh](images/BPWithSteelMatRm6.png)
-
-![](../images/line2.png)
-
-##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
-
 We will now be going to the **Construction Script** tab. We want to *add* a variable by pressing the **+** button next to **Variable** in the **MyBlueprint** panel. We want to keep it as the default variable type **boolean**. Call this variable `Add Light Component`. This type of variable has two values, true or false. It shows up in unreal as a check box (checked is true and unchecked is false). Make sure it's **Type** is `Boolean`. . *Add* a **Tooltip** `If true, a light is added to the scene`. *Set* the **Instance Editable** to `true`. Make sure **Private** is set to `true` as no other object needs to access this variable.
 
 https://user-images.githubusercontent.com/5504953/192565412-ae77a332-5d89-40c0-8151-c32d63729f9b.mp4
 
 ![](../images/line2.png)
 
-##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
 Now drag the variable from the **MyBlueprint** tab into the scene graph. It gives us the option to write (set) to the variable or read (get) it. We want to read it so we will be selecting **Get Add Light Component**.
 
@@ -111,7 +103,7 @@ Now drag the variable from the **MyBlueprint** tab into the scene graph. It give
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Drag off of the boolean's pin and type **Branch**.
 
@@ -119,7 +111,7 @@ Drag off of the boolean's pin and type **Branch**.
 
 ![](../images/line2.png)
 
-##### `Step 14.`\|`ITB`| :large_blue_diamond:  :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: 🔹
+##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Connect the execution pin from **Construction Script** to **Branch**.
 
@@ -131,7 +123,7 @@ A branch node is the equivalent of an if() and else() statement in most programm
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:
+##### `Step 14.`\|`ITB`| :large_blue_diamond:  :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now look at the input pins. It asks for relative transform. Relative is in relation to this actor and is in local space. World position would be where in the level that actor is located. So we are looking at it as relative position to the Sphere mesh root component. *Right click* on **Relative Transform** and select **Split Struct Pin**. Remember a **Transform** consists of a **Location**, **Rotation** and **Scale** (3 x Vector 3 which each contain 3 floating point values).
 
@@ -139,7 +131,7 @@ Now look at the input pins. It asks for relative transform. Relative is in relat
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
+##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:
 
 Lets have it light the top of the ball so move it by `100` on the **Z** in **Location**.
 
@@ -147,7 +139,7 @@ Lets have it light the top of the ball so move it by `100` on the **Z** in **Loc
 
 ![](../images/line2.png)
 
-##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
 
 *Add* two comments by group selecting the nodes then pressing the <kbd>C</kbd> key. Select the **Branch** and the comment `Every time a change is made`. *Select* the light component and add the comment: `Adds point light`.
 
@@ -155,7 +147,7 @@ Lets have it light the top of the ball so move it by `100` on the **Z** in **Loc
 
 ![](../images/line2.png)
 
-##### `Step 18`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now go to room 6 and fix the spelling mistake on the subtitle on the wall.  It is `scripts` and not `sscripts`.  Also, drag **BP_DynamicComponent** blueprint into **Room 6**.
 
@@ -163,7 +155,7 @@ Now go to room 6 and fix the spelling mistake on the subtitle on the wall.  It i
 
 ![](../images/line2.png)
 
-##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
  
 Now go to the game. You can switch the boolean on and off and see the light turn on and off. Now if you play the game you can no longer switch the light. The constructor DOES NOT run during gameplay. This is a way to cheat the constructor to run in the editor so that you can add a component, but it will not be changeable through this interface in game.
 
@@ -171,7 +163,7 @@ https://user-images.githubusercontent.com/5504953/192582361-fc590537-a4c0-47b9-8
 
 ![](../images/line2.png)
 
-##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
+##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now lets organize the outliner by moving **BP_DynamicComponent** into the **Room 6** folder.
 
@@ -179,7 +171,7 @@ Now lets organize the outliner by moving **BP_DynamicComponent** into the **Room
 
 ![](../images/line2.png)
 
-##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
 Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
