@@ -91,7 +91,7 @@ Go to *select* a **Material** in the details panel. *Select* it and you will see
 
 Go back to the blueprint **BP_Dynamic_Component** and now you should see the mesh with a proper material:
 
-![steel mesh](images/BPWithSteelMatRm6.jpg)
+![steel mesh](images/BPWithSteelMatRm6.png)
 
 ![](../images/line2.png)
 
