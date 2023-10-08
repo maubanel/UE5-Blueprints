@@ -17,7 +17,7 @@ Lets get going by setting up the project so we can start using blueprints.
 
 ##### `Step 1.`\|`ITL`|:small_blue_diamond:
 
-In your **Perforce** folder you should see a folder called ***UE5-Intro-To-Blueprints*.
+In your **Perforce** folder you should see a folder called **UE5-Intro-To-Blueprints**. Double click `UE5IntroToBlueprints.uproject` to load up **Unreal**.
 
 ![download starter project and unzip](images/downloadExtract.png)
 
