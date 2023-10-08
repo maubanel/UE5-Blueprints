@@ -30,15 +30,15 @@ Call it `BP_TextInConstructor`.
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Double click on the newly created Blueprint.
 
+![double click blueprint](images/DoubleClick.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Double click on the newly created Blueprint.
 
-![double click blueprint](images/DoubleClick.png)
 
 ![](../images/line2.png)
 
