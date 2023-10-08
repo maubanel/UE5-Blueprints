@@ -38,12 +38,6 @@ Double click on the newly created Blueprint.
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-
-![](../images/line2.png)
-
-##### `Step 5.`\|`ITB`| :small_orange_diamond:
-
 Now in actors we can add components to it that add common game functionality to an object.
 
 Now you are going to press the <kbd>+ Add</kbd> Component button (make sure you are in the Viewport tab). Look for **Text Render** (you can start typing it in the search bar). This node will render 2D text for us in the game engine.
@@ -52,7 +46,7 @@ Now you are going to press the <kbd>+ Add</kbd> Component button (make sure you 
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
 Rename the component to `TextInRoom1`.
 
@@ -60,13 +54,19 @@ Rename the component to `TextInRoom1`.
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
 Press the **Construction Script** tab to get access to the constructor. This script runs in the editor **before** the game starts. Every time you update an object, it will run again (a single time). You should see a node with a white **Execution** pin called **Construction Script**
 
 Execution pins determines the order of operations.  In a normal text script it goes from line 1 then subsequently through each block in order from top to bottom.  In **Blueprints** it follows the execution pin. All blueprints contains nodes that just have an execution pin (in this case **Construction Script**).  This is where the execution starts.  It then follows the chain of white connectors to determine the order that each block is run in.  This could go in any direction in the blueprint (so a node can be anywhere, it is the execution pin connector that determines order).
 
 ![construction scrip tab](images/ConstructionScriptTab.png)
+
+![](../images/line2.png)
+
+##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
 
 ![](../images/line2.png)
 
