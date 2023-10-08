@@ -113,15 +113,15 @@ Press the <kbd>Compile</kbd> button. No changes to blueprints will be seen until
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Now go to the game window and drag and drop this new blueprint **BP_Text_In_Constructor** into the first room. Rotate it so the text faces the front of the room. Notice you can see the text we entered which shows us that the construction script has run.
 
+![drag blueprint in room](images/DragAndDrop.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now go to the game window and drag and drop this new blueprint **BP_Text_In_Constructor** into the first room. Rotate it so the text faces the front of the room. Notice you can see the text we entered which shows us that the construction script has run.
 
-![drag blueprint in room](images/DragAndDrop.png)
 
 ![](../images/line2.png)
 
