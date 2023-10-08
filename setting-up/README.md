@@ -49,26 +49,20 @@ In the **Blueprints | Game** folder we have two blueprints.  One is the first pe
 
 ##### `Step 5.`\|`ITL`| :small_orange_diamond:
 
-Open up **P4V** and select the folder **UE5-Intro-To-Blueprints**.  Press the <kbd>+ Add</kbd> button. Leave it on the **Default** changelist and press the <kbd>OK</kbd> button.
+Open up **Edit | Project Settings** and go into the **Maps and Modes** tab. Notice the start up maps that we are booting to and meant to start with.
 
-![add new files from blueprints project to depot](images/addToP4.png)
+![default levels to load in maps and modes](images/mapsAndModes.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITL`| :small_orange_diamond: :small_blue_diamond:
 
-Press the <kbd>Submit</kbd> button and enter a message.  Then in the pop-up press the <kbd>Submit</kbd> button.
-
-![submit p4 changelist](images/submit.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITL`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-In **P4V** double click **UE5Blueprints**.
-
-![in P4V double click UE5Blueprints](images/startGame.png)
 
 ![](../images/line2.png)
 
@@ -82,9 +76,7 @@ The project should load up in the Room/Level **IntroToBlueprints1** room. Scoot 
 
 ##### `Step 9.`\|`ITL`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the content browser and look at the folders that are provided. Go to the first **Blueprints | Game** folder. You should see two files, one is a GameMode blueprint and the other is a character controller blueprint. The gamemode is used by **Project Settings** to load up the character in both levels in the game.
 
-![character and gamemode blueprint](images/blueprintsFolder.png)
 
 
 Go to the **Maps** folder and you should see two levels:
@@ -127,9 +119,7 @@ Go into **Settings | Project Settings | Description** tab and fill in the requis
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go into the **Maps and Modes** tab. Notice the start up maps that we are booting to and meant to start with.
 
-![default levels to load in maps and modes](images/mapsAndModes.png)
 
 ![](../images/line2.png)
 
