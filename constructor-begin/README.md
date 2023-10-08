@@ -22,7 +22,6 @@ Go back to the **Blueprints** folder and *add* a **New Folder** called `Room1`. 
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-
 ![call blueprint BP_TextInConstructor](images/BPTextOnConstructor.png)
 
 All other classes inherit from the **Actor** class object.  [Inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)) is an object oriented programming concept.
