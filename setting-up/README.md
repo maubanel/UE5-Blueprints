@@ -25,7 +25,7 @@ In your **Perforce** folder you should see a folder called **UE5-Intro-To-Bluepr
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Change the name of the folder to `UE5 Intro To Blueprints`. Open the folder and delete `.gitattributes`, `.gitignore`, and `README.md`.
+You should make sure the player start is in front and facing to **Room 1**.
 
 ![change name and delete files](images/changeNameDel.png)
 
