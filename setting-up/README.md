@@ -33,7 +33,7 @@ You should make sure the player start is in front and facing to **Room 1**.
 
 ##### `Step 3.`\|`ITL`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now the player is similar to the one created in the animation walk through.  It is a first person player so no character (just a camera) and there is an **IA_Look** action.  This action affects the camera so you can look around with the mouse.
+Now the player is similar to the one created in the animation walk through.  It is a first person player so no character (just a camera) and there is an **IA_Look** input action.  This action affects the camera so you can look around with the mouse. These are assigned butttons in the **IMC_Default** input controller.
 
 ![drag UE5-Intro-To-Blueprints to p4 workspace](images/workspaceFolder.png)
 
@@ -41,6 +41,7 @@ Now the player is similar to the one created in the animation walk through.  It 
 
 ##### `Step 4.`\|`ITL`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+In the **Blueprints | Game** folder we have two blueprints.  One is the first person characater you are controlling **BP_PlayerCharacter** and **BP_Gamemode** which uses this character as the default pawn.
 
 ![add .p4ignore to workspace](images/addP4Ignore.png)
 
