@@ -6,10 +6,8 @@
 
 ![](../images/line3.png)
 
-
 Lets get going by setting up the project so we can start using blueprints.
 
-<br>
 
 ---
 
