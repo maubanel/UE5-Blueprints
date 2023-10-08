@@ -17,7 +17,7 @@ Lets get going by setting up the project so we can start using blueprints.
 
 ##### `Step 1.`\|`ITL`|:small_blue_diamond:
 
-Navigate on your broswer to [GitHub UE5 Bluprints Starter](https://github.com/LSU-UE5/UE5-Intro-To-Blueprints-Starter). Right click on <kbd>Code</kbd> and select **Download Zip**.  Then when it finishes downloading right click on the zip file and select **Extract Here**. This will unzip the file.  Any attempt to run unreal inside a zipped folder will **not** work.
+In your **Perforce** folder you should see a folder called ***UE5-Intro-To-Blueprints*.
 
 ![download starter project and unzip](images/downloadExtract.png)
 
