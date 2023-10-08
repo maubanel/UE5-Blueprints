@@ -121,7 +121,7 @@ Now go to the game window and drag and drop this new blueprint **BP_Text_In_Cons
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-The text is a bit small, lets make the font bigger. Go back into the blueprint and select the **Text Render** component you called **TextInRoom1**. Go to the Details panel on the right and look for **World Size**. Change this value to `74`. Change the **Horizontal Alignment** to `Center` to center the text.
+The text is a bit small, lets make the font bigger. Go back into the blueprint and select the **Text Render** component you called **TextInRoom1**. Go to the Details panel on the right and look for **World Size**. Change this value to `74`. Change the **Horizontal Alignment** to `Center` and the **Vertical Alignment** to `Text Center` to center the text horizontally and vertically.
 
 ![change text component to a world size of 74](images/ChangeTextSizeRm1.png)
 
