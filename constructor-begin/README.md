@@ -14,7 +14,7 @@ In **UE5** the **[Construction Script](https://docs.unrealengine.com/5.0/en-US/c
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Go back to the **Blueprints** folder and *add* a **New Folder** called `Room1`.  *Press* the <kbd>+ Add</kbd> button and add a new **Blueprint Class**. Pick an Actor as the base class. This is the most basic class that you can use for an object that exists in a level. It provides a bunch of functionality that we will be exploring including the ability to add blueprint logic.
+Go back to the **Blueprints** folder and *add* a **New Folder** called `Room1`.  *Press* the <kbd>+ Add</kbd> button and add a new **Blueprint Class**. Pick an Actor as the base class. This is the most basic class that you can use for an object that exists in a level. It provides a bunch of functionality that we will be exploring including the ability to add blueprint logic. All other classes inherit from the **Actor** class object.  [Inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)) is an object oriented programming concept.
 
 ![add new blueprint to blueprints folder](images/AddBlueprintClass.png)
 
@@ -22,17 +22,13 @@ Go back to the **Blueprints** folder and *add* a **New Folder** called `Room1`. 
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-![call blueprint BP_TextInConstructor](images/BPTextOnConstructor.png)
+Call it `BP_TextInConstructor`.
 
-All other classes inherit from the **Actor** class object.  [Inheritance](https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)) is an object oriented programming concept.
-
-![select actor class](images/ActorBaseClass.png)
+![add new blueprint to blueprints folder](images/BP_TextInConstructor.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Call it `BP_TextInConstructor`.
 
 
 
