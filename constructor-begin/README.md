@@ -153,23 +153,23 @@ Lets make a change and show when the constructor runs. Go back to the **blueprin
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Go to the game screen and it is not updated, it still has the old spelling.
 
 ![text not updated in game](images/GameScreenNotUpdatedRm1.png)
 
 ![](../images/line2.png)
 
-##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Go back to the blueprint and press <kbd>Compile</kbd>. You will see that if it compiles without errors you see a green checkmark. Now play the game and notice that the exclamation mark is now added. You did not have to press run to see it update.  The editor updated it because that blueprint changed when it compiled which ran the **Constructor** script.
 
 https://user-images.githubusercontent.com/5504953/192142985-47051a9e-cbc9-4022-8f8e-930ffe30220f.mp4
+
+![](../images/line2.png)
+
+##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
 
 ![](../images/line.png)
 
