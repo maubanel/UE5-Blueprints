@@ -66,19 +66,13 @@ Execution pins determines the order of operations.  In a normal text script it g
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 *Right click* on an empty part of the graph and type `Text Render | SetText(TextInRoom1)` as we want the set text node. Notice that the function also includes the name of the **Text** component we just named (TextInRoom1) so we know we are targeting only this component, which is what we want.
 
 ![add SetText node](images/SetTextNode.png)
 
 ![](../images/line2.png)
 
-##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Another way of achieving the same means would be to drag the **TextInRoom1** component onto the graph.  Then you would pull off of the pint and select **Components | Set Text**.
 
@@ -86,13 +80,19 @@ Another way of achieving the same means would be to drag the **TextInRoom1** com
 
 ![](../images/line2.png)
 
-##### `Step 10.`\|`ITB`| :large_blue_diamond:
+##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 The white arrows in blueprint nodes control the order of execution.  The round colored input and output pins determine the data coming into the node and the data going out of the node.
 
 In this case the data coming in is a pointer to our **Text Render** component. This means that this operation will change this component. Then you *attach* the execution pin from the **Construction Script** node to the **SetText node**. This determines the order that scripts are run in. The first function that runs is **SetText**. Notice that the **Compile** button has a question mark. This construction script will run as soon as you press <kbd>Compile</kbd> if the object is in the room (which it isn't yet). Notice there is a question mark on it (will it compile or will there be errors?).
 
 ![set exection pin](images/executionPin.png)
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`ITB`| :large_blue_diamond:
+
+
 
 ![](../images/line2.png)
 
