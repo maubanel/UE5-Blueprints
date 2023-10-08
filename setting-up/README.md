@@ -8,7 +8,6 @@
 
 Lets get going by setting up the project so we can start using blueprints.
 
-
 ---
 
 | `required.software`\|`UE4 Lighting`| 
