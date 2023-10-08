@@ -14,11 +14,7 @@ In **UE5** the **[Construction Script](https://docs.unrealengine.com/5.0/en-US/c
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Go back to the **Blueprints** folder and press the <kbd>Add/Import</kbd> button and select **New Folder**. Call it `Room1`.
-
-![add Room1 folder to Blueprints](images/bpRoom1.png)
-
-In the **Blueprints | Room1** folder press the <kbd>+ Add</kbd> button and add a new **Blueprint Class**:
+Go back to the **Blueprints** folder and press the <kbd>Add/Import</kbd> button and select **New Folder**. Call it `Room1`. In the **Blueprints | Room1** folder press the <kbd>+ Add</kbd> button and add a new **Blueprint Class**.
 
 ![add new blueprint to blueprints folder](images/AddBlueprintClass.png)
 
