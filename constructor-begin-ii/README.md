@@ -8,10 +8,7 @@
 
 The Constructor runs in different scenarios.  The **Begin Play** event **ONLY** runs when you press **Run** in the editor.  It always runs **AFTER** the construction script runs.
 
-<br>
-
 ---
-
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
