@@ -41,7 +41,6 @@ Now the player is similar to the one created in the animation walk through.  It 
 
 ##### `Step 4.`\|`ITL`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a [.p4ignore](https://github.com/maubanel/p4v-unreal/blob/main/files/ue5/.p4ignore) file by  clicking on the link and right clicking on **Raw** and select download as and call it `.p4ignore`. Put it in the same folder as your `.uproject` file.
 
 ![add .p4ignore to workspace](images/addP4Ignore.png)
 
