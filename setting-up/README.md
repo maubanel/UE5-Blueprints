@@ -33,6 +33,7 @@ You should make sure the player start is in front and facing to **Room 1**.
 
 ##### `Step 3.`\|`ITL`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now the player is similar to the one created in the animation walk through.  It is a first person player so no character (just a camera) and there is an **IA_Look** action.  This action affects the camera so you can look around with the mouse.
 
 ![drag UE5-Intro-To-Blueprints to p4 workspace](images/workspaceFolder.png)
 
