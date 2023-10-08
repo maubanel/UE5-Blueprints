@@ -33,7 +33,6 @@ You should make sure the player start is in front and facing to **Room 1**.
 
 ##### `Step 3.`\|`ITL`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now copy and paste the entire **UE5-Intro-To-Blueprints** bolder to your root of your **Perforce** directory. Delete the folder in the **Downloads** folder.
 
 ![drag UE5-Intro-To-Blueprints to p4 workspace](images/workspaceFolder.png)
 
