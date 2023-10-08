@@ -49,7 +49,7 @@ In the **Blueprints | Game** folder we have two blueprints.  One is the first pe
 
 ##### `Step 5.`\|`ITL`| :small_orange_diamond:
 
-Open up **Edit | Project Settings** and go into the **Maps and Modes** tab. Notice the start up maps that we are booting to and meant to start with.
+Open up **Edit | Project Settings** and go into the **Maps and Modes** tab. Double check that the gamemode is set to `BP_GameMode` and that the **Default Pawn Class** is `MB_PlayerCharacter`. Also, make sure that we are booting up to `IntroToBlueprints1` as the **Editor Startup Map** and **GameDefaultMap** for now.
 
 ![default levels to load in maps and modes](images/mapsAndModes.png)
 
@@ -58,6 +58,9 @@ Open up **Edit | Project Settings** and go into the **Maps and Modes** tab. Noti
 
 ##### `Step 6.`\|`ITL`| :small_orange_diamond: :small_blue_diamond:
 
+Go into **Edit | Project Settings | Description** tab and fill in the requisite information, especially the license file.  I use the [MIT License](https://www.google.com/search?client=safari&rls=en&q=mit+open+source+licnese+text&ie=UTF-8&oe=UTF-8).
+
+![project settings description](images/projectDescription.png)
 
 ![](../images/line2.png)
 
@@ -111,9 +114,7 @@ And finally we have a **Textures** folder with the textures for the spotlight we
 
 ##### `Step 13.`\|`ITL`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go into **Settings | Project Settings | Description** tab and fill in the requisite information, especially the license file.  I use the [MIT License](https://www.google.com/search?client=safari&rls=en&q=mit+open+source+licnese+text&ie=UTF-8&oe=UTF-8).
 
-![project settings description](images/projectDescription.png)
 
 ![](../images/line2.png)
 
