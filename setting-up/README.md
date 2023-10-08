@@ -66,29 +66,13 @@ Go into **Edit | Project Settings | Description** tab and fill in the requisite 
 
 ##### `Step 7.`\|`ITL`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+In the **StaticMeshes | Supplied** folder we have some models we will be using for the exercise including the environment we are in.
+
+![contents of staticmeshes folder](images/meshes.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITL`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-The project should load up in the Room/Level **IntroToBlueprints1** room. Scoot the camera over to **Room 1**. 
-
-![room1 in game](images/room1.png)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`ITL`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-
-Go to the **Maps** folder and you should see two levels:
-
-![maps folder showing two levels](images/levels.png)
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`ITL`| :large_blue_diamond:
 
 You will now go to the **Materials | Supplied** folder and I have provided some materials for these exercises. T
 
@@ -96,11 +80,21 @@ You will now go to the **Materials | Supplied** folder and I have provided some 
 
 ![](../images/line2.png)
 
+##### `Step 9.`\|`ITL`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`ITL`| :large_blue_diamond:
+
+
+
+![](../images/line2.png)
+
 ##### `Step 11.`\|`ITL`| :large_blue_diamond: :small_blue_diamond: 
 
-In the **StaticMeshes | Supplied** folder we have some models we will be using for the exercise including the environment we are in.
 
-![contents of staticmeshes folder](images/meshes.png)
 
 ![](../images/line2.png)
 
