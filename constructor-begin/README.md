@@ -165,11 +165,6 @@ Go back to the blueprint and press <kbd>Compile</kbd>. You will see that if it c
 
 https://user-images.githubusercontent.com/5504953/192142985-47051a9e-cbc9-4022-8f8e-930ffe30220f.mp4
 
-![](../images/line2.png)
-
-##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
 
 ![](../images/line.png)
 
