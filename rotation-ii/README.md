@@ -87,7 +87,7 @@ https://user-images.githubusercontent.com/5504953/193435719-96fa204d-947c-4cd2-8
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Go back to the **Blueprint** and remove the **Add Relative Rotation** node on **Pitch**. *Right click* on open space in the graph and select: **Add Actor Local Rotation** node.
+Go back to the **Blueprint** and remove the **Add Relative Rotation** node. Replace it with a 
 
 ![remove add relative rotation in pitch section](images/RemovePitchRotationDueToLockRm8.png)
 
