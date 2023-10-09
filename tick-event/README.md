@@ -113,6 +113,8 @@ Now go to the game and *drag* the **BP_Timer** blueprint into **Room 7**. If the
 
 Now run the game and the millisecond counter should count very quickly (hard to see the fractional numbers as they change so fast). We will fix that to just show seconds.
 
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/df2975f1-1ed1-45f5-aefa-f1d82b4992d7
+
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
