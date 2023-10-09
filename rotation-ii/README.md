@@ -112,6 +112,9 @@ https://user-images.githubusercontent.com/5504953/193449873-b946142d-06c3-4779-b
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+*Press* **Add Pin +** to **Sequence** node. *Attach* **Then 2** to the adjust roll **Branch** node. Your node graph should now be complete.  Press the <kbd>Compile</kbd> button.
+
+https://user-images.githubusercontent.com/5504953/193450279-a45a0499-a604-4b69-846d-4728c39fa898.mp4
 
 ![](../images/line2.png)
 
@@ -128,9 +131,7 @@ https://user-images.githubusercontent.com/5504953/193449873-b946142d-06c3-4779-b
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Press* **Add Pin +** to **Sequence** node. *Attach* **Then 2** to the adjust roll **Branch** node. Your node graph should now be complete.  Press the <kbd>Compile</kbd> button.
 
-https://user-images.githubusercontent.com/5504953/193450279-a45a0499-a604-4b69-846d-4728c39fa898.mp4
 
 ![](../images/line2.png)
 
