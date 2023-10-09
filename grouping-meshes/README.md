@@ -48,7 +48,7 @@ Add a third static mesh component by pressing the <kbd>Add Component</kbd> butto
 
 Change the name in the **World Outliner** from **Spotlight Bracket** to `Spotlight`. Add another component but this time an actual Spotlight so it can project an in game spotlight. Pressing <kbd>Add Component</kbd> button then select **Spot Light**. Make sure that **Lamp Body** is a child of the bracket static mesh.
 
-![add spot light component](images/AddSpotLightComponent.png)
+![add spot light component](images/AddSpotLightComponent2.png)
 
 ![](../images/line2.png)
 
