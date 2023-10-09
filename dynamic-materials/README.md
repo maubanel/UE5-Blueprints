@@ -106,7 +106,7 @@ Now go back to the **blueprint** and *drag* a reference from the light called **
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now drag off the Spotlight pin and type **lightcolor**. Out of the options **Set Light Color** is what we want.
+Now drag off the Spotlight pin and type **lightcolor**. Take the output of **MakeLinearColor | Linear Color** to the input **New Light Color** so that the light and the glow are the same color.
 
 ![set light color](images/SetLightColorRm4.png)
 
