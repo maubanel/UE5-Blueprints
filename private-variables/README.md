@@ -66,7 +66,7 @@ https://github.com/maubanel/UE5-Blueprints/assets/5504953/d509b9a4-6b09-4e34-afb
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now run the game and notice that the color is set withing the blueprint through the variable.
+Now Compile the blueprint and press the <kbd>Play</kbd> btorun the game and notice that the color is set withing the blueprint through the variable. It shows the default value of pink.
 
 
 ![](../images/line2.png)
