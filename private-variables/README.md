@@ -84,7 +84,7 @@ Now go back to the game engine and put a duplicate the blueprint putting the lig
 
 Now this new variable shows up in the **World Outliner** on a per instance basis. You can have as many colors as you like with a unique one on each instance! You can selet this second light and set it to a different color.  Since you set this variable to **Instance Editable** now each light in the scene can have a different color.  I set the second light to a yellow color.
 
-
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/5b30b9ab-1037-409c-a51e-5b7ab0c16870
 
 ![](../images/line2.png)
 
