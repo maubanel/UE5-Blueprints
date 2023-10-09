@@ -120,6 +120,9 @@ https://user-images.githubusercontent.com/5504953/193450279-a45a0499-a604-4b69-8
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Go into the game and try different values and combinations both positive and negative. Also, look at your blueprint node chart as it runs to see how the booleans gate the operation flow. Now we will continue in this room but instead of rotation will be translating the cube instead.
+
+https://user-images.githubusercontent.com/5504953/193450552-d1175c4e-e326-41cb-a474-a16ebdb5a72a.mp4
 
 ![](../images/line2.png)
 
@@ -137,17 +140,12 @@ https://user-images.githubusercontent.com/5504953/193450279-a45a0499-a604-4b69-8
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-I misentered the ranges when typing in the restrictions for **Degress per Second**.  It is from `-359` to `359`, clamping the max speed to a full rotation per second in either the clockwise or counterclockwise directions.
-
-https://user-images.githubusercontent.com/5504953/193450472-78f18c3d-9e1c-4fe0-b88a-5c287f0bc662.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go into the game and try different values and combinations both positive and negative. Also, look at your blueprint node chart as it runs to see how the booleans gate the operation flow. Now we will continue in this room but instead of rotation will be translating the cube instead.
 
-https://user-images.githubusercontent.com/5504953/193450552-d1175c4e-e326-41cb-a474-a16ebdb5a72a.mp4
 
 ![](../images/line2.png)
 
