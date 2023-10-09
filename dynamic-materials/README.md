@@ -173,6 +173,8 @@ Surround all the nodes and press the <kbd>C</kbd> to add a **Comment Box** that 
 
  Run in game and you can see that the light, casing glow and lightbulb glow are all the same color. Press the <kbd>Compile</kbd> button and run the game.  Now everything glows blue.
 
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/1829bf54-0af8-44f7-9d3a-4eebe9fbf51d
+
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
