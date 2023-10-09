@@ -68,6 +68,7 @@ https://github.com/maubanel/UE5-Blueprints/assets/5504953/d509b9a4-6b09-4e34-afb
 
 Now Compile the blueprint and press the <kbd>Play</kbd> btorun the game and notice that the color is set withing the blueprint through the variable. It shows the default value of pink.
 
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/8fe82ca1-749b-44ad-be6d-a4c7436852e4
 
 ![](../images/line2.png)
 
