@@ -82,7 +82,7 @@ Now go back to the game engine and put a duplicate the blueprint putting the lig
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now you can selet this second light and set it to a different color.  Since you set this variable to **Instance Editable** now each light in the scene can have a different color.  I set the second light to a yellow color.
+Now this new variable shows up in the **World Outliner** on a per instance basis. You can have as many colors as you like with a unique one on each instance! You can selet this second light and set it to a different color.  Since you set this variable to **Instance Editable** now each light in the scene can have a different color.  I set the second light to a yellow color.
 
 
 
