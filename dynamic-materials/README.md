@@ -10,8 +10,6 @@ What if we want to change a property in the material dynamincally through the bl
 
 This is not as straight forward as changing a value to an existing material.  We have to change the **type** to a dynamic material which is different from the one supplied in the editor (a *static* material).  Please note that a dynamic material is more expensive so only create one if you do need to make changes dynamically during gameplay.
 
-<br>
-
 ---
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
