@@ -54,9 +54,7 @@ Add another component but this time an actual Spotlight so it can project an in 
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-
-
-![assign lightbulb static mesh](images/AssignLightbulbRm3.png)
+![add spot light component](images/rotateSpotlight.png)
 
 ![](../images/line2.png)
 
@@ -67,15 +65,14 @@ Add another component but this time an actual Spotlight so it can project an in 
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Create a new folder called **Room3** in the **Blueprints** folder. Now make sure that your **Spotlight** is selected in the **Outliner**. Then press the <kbd>Convert to Blueprint</kbd> button to turn this from a level instance to a reusable blueprint. Add it to the **Blueprints | Room3** folder and call it `BP_Spotlight`. Make sure **New Subclass** is selected then press the <kbd>Select</kbd> button. 
 
+![turn mesh into blueprint](images/TurnSpotlightIntoBPRm3.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Create a new folder called **Room3** in the **Blueprints** folder. Now make sure that your **Spotlight** is selected in the **Outliner**. Then press the <kbd>Convert to Blueprint</kbd> button to turn this from a level instance to a reusable blueprint. Add it to the **Blueprints | Room3** folder and call it `BP_Spotlight`. Make sure **New Subclass** is selected then press the <kbd>Select</kbd> button. 
-
-![turn mesh into blueprint](images/TurnSpotlightIntoBPRm3.png)
 
 ![](../images/line2.png)
 
