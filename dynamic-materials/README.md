@@ -22,7 +22,7 @@ https://user-images.githubusercontent.com/5504953/192262596-dda6161e-3853-4a67-a
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Open up **BP_SpotlightDynamic**. Now we want to affect the color of the glow in the lamp **Material**. *Click* on the **Lamp** static mesh component and rename the component to `Lamp`. Look for the material and *double click* the icon to load it up. Make sure you are opening **M_Spotlight_Master**.
+Open up **BP_SpotlightDynamic**. Now we want to affect the color of the glow in the lamp **Material**. *Click* on the **LampBody** static mesh component. Look for the material and *double click* the icon to load it up. Make sure you are opening **M_Spotlight_Master**.
 
 ![open m_spotlight_master](images/FindOutLampMaterial.png)
 
@@ -30,7 +30,7 @@ Open up **BP_SpotlightDynamic**. Now we want to affect the color of the glow in 
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Look for the parameter that adjusts the light color. Just before the **Emissive** color we have a **Vector Parameter** called **Light Color**. This is the color we want to change in code in the blueprint.
+The nodes are a mess so clean them up so that you can properly represent the logic flow. Look for the parameter that adjusts the light color. Just before the **Emissive** color we have a **Vector Parameter** called **Light Color**. This is the color we want to change in code in the blueprint. Notice the space in the name - this is VERY important.
 
 ![look for light color](images/LightColorParameterRm4.png)
 
@@ -56,17 +56,15 @@ We need to make the material dynamic in the constructor. This will allow us to a
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Connect the execution pins from the **Construction Script** node.
+Connect the execution pins from the **Construction Script** node. Drag off the **Create Dynamic Material Instance | Return Value** pin to help the node suggestions. Let go of the left mouse button and start to type **Set Vector Parameter Value**. You can see that this is in the **Material** section which gives us a good hint that this is what we want.
 
-![connect execution pins](images/ConnectFirstExecutionPinsRm4.png)
+![set vector parameter values](images/SetVectorParameterValueRm4.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Drag off the **Create Dynamic Material Instance | Return Value** pin to help the node suggestions. Let go of the left mouse button and start to type **Set Vector Parameter Value**. You can see that this is in the **Material** section which gives us a good hint that this is what we want.
 
-![set vector parameter values](images/SetVectorParameterValueRm4.png)
 
 ![](../images/line2.png)
 
