@@ -37,22 +37,21 @@ Assign the **spotlight_lamp** mesh to this component and name it `LampBody`.
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Add a third static mesh component by pressing the <kbd>Add Component</kbd> button. Assign the **Lightbulb** static mesh. Call the component `Bulb`.
 
-![assing lamp to static mesh](images/AssignLampToStaticMeshRm3.png)
+![add component](images/Assign3rdStaticMeshComponent.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Add a third static mesh component by pressing the <kbd>Add Component</kbd> button:
-
-![add component](images/Assign3rdStaticMeshComponent.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Assign the **Lightbulb** static mesh. Rotate lightbulb so that the bulb faces down and move it to the proper location.
+
 
 ![assign lightbulb static mesh](images/AssignLightbulbRm3.png)
 
