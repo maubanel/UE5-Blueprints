@@ -54,7 +54,7 @@ Add another **Text Render** component and call it `MS Message`. Change the color
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Go to the **Event Graph** tab and in the **MyBlueprints** tab press **+** next to **Variable** and add a **Float** called `Time in Milliseconds`. Add a **tooltip** with the message `Stores total time in level in milliseconds`. Make sure **Private** is set to `true`.
+Go to the **Event Graph** tab and in the **MyBlueprints** tab press **+** next to **Variable** and add a **Float** called `TimeInMilliseconds`. Add a **tooltip** with the message `Stores total time in level in milliseconds`. Make sure **Private** is set to `true`. Create a new **Group** called `Time`.
 
 ![press compile button](images/CompileScriptRm7.png)
 
