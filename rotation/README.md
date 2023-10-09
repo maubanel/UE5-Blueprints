@@ -8,8 +8,6 @@
 
 We will be rotating an object in 3-D space through blueprints. Now there are two common ways of representing rotations in games.  One is with **[Eulers](https://en.wikipedia.org/wiki/Euler_angles)** and the other is with **[Quaternions](https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation)**. In the editor the rotations are represented as **Eulers** with the **XYZ** axis rotation in **degrees**.
 
-<br>
-
 ---
 
 
