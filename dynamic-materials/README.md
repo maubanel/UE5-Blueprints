@@ -157,7 +157,7 @@ Repeat creating a **Dynamic Material Instance** with **SM_Lightbulb**. Go look a
 
 Add another **Vector Parameter Value** to it. The parameter we want to change is called `ColorGlow`. Connect the 
 
-![connect execution and compile](images/dynamicBulb.png)
+![connect execution and compile](images/bulbParam.png)
 
 ![](../images/line2.png)
 
