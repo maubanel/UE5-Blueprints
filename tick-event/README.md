@@ -78,7 +78,9 @@ Drag the **Time In Milliseconds** variable into the graph and this time select *
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now, what we want to do is take the output of this variable and have it print to screen. The **MS Timer** text component set to `0` is what we want to target. *Drag* the **MS Timer** component into the scene graph so we have a reference. *Drag* from the output pin and start typing **Set Text**. This will allow us to adjust the text component dynamically during gameplay.
 
+![ms timer component on graph](images/MSTimerRefRm7.png)
 
 ![](../images/line2.png)
 
@@ -92,9 +94,7 @@ Drag the **Time In Milliseconds** variable into the graph and this time select *
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Now, what we want to do is take the output of this variable and have it print to screen. The **MS Timer** text component set to `0` is what we want to target. *Drag* the **MS Timer** component into the scene graph so we have a reference. *Drag* from the output pin and start typing **Set Text**. This will allow us to adjust the text component dynamically during gameplay.
 
-![ms timer component on graph](images/MSTimerRefRm7.png)
 
 ![](../images/line2.png)
 
