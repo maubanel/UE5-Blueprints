@@ -20,7 +20,7 @@ Move the **Player Start** to **Room 3**. Select the **StaticMeshes** folder. Dra
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Move the object in the **World Outliner** into the **Room 3** folder. Then press the **Add Component** button.
+Move the object in the **World Outliner** into the **Room 3** folder. Then press the **Add Component** button. Select another **Static Mesh** component.
 
 ![move to room 3 folder and add component](images/MoveToRoom3.png)
 
@@ -28,7 +28,7 @@ Move the object in the **World Outliner** into the **Room 3** folder. Then press
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select another **Static Mesh** component.
+
 
 ![add another static mesh component](images/AddSecondStaticMeshRm3.png)
 
