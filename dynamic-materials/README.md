@@ -132,6 +132,7 @@ Duplicate the lights so that you have 4 lights in room 4.  Then move the **Bluep
 
 Rotate the **Player Start** to face room 4 (by rotating by 90°).
 
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/2c02088d-6502-49c1-8181-284d6856302b
 
 ![](../images/line2.png)
 
