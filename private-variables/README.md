@@ -12,7 +12,6 @@ It is best to keep variables **private** if possible. This is called **[encapsul
 
 ---
 
-
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
 *Add* a new folder called `Room5` in the **Blueprints** folder.  Right click on **Room4 | BP_Spotlight_Dynamic** and select **Duplicate**.  Call the new blueprint `BP_Variable_Private`. *Drag* this new blueprint into the **Room5** folder. Right click on **Blueprints** and select **Fix Up Redirectors in Folder**.
@@ -39,13 +38,15 @@ https://user-images.githubusercontent.com/5504953/192383110-08e62a28-6c9a-4fa4-b
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Name the variable something that describes what it does. I called it `Color of Light`. It is always best practice to also leave a **Tooltip** in the details panel. This way anytime a user hovers over the variable name a full explanation can be given. This allows you to use shorter less descriptive variable names and still provide a full description. My tooltip was `Sets color of lightbulb and light glow`.I also put it in a **Category** called `Light` (this will not show up by default, you can just type it in and it will add it in the future in this blueprint as a category). 
+Name the variable something that describes what it does. I called it `LightColor`. II also put it in a **Category** called `Light` (this will not show up by default, you can just type it in and it will add it in the future in this blueprint as a category). Now where do we enter the value for this variable? We go to the default section in the **Details** panel. If this is not editable then press the <kbd>Compile</kbd> button, this will make the default available to edit. This allows us to set what our base value will be. I double clicked on the color bar and set it to yellow (original default was black)
 
-https://user-images.githubusercontent.com/5504953/192383464-737a5665-3780-459d-b01a-51cb0ce7e28d.mp4
+![set default value](images/SetDefaultValueToRedDetailsPanel.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
+
+t is always best practice to also leave a **Tooltip** in the details panel. This way anytime a user hovers over the variable name a full explanation can be given. This allows you to use shorter less descriptive variable names and still provide a full description. My tooltip was `Sets color of lightbulb and light glow`.
 
 Right now I don't plan on allowing other blueprints to alter this variable. So if even if I don't know if it will be editable it is best practice to set variables as **Private** which you do by clicking the radio button in the **Details** panel.
 
@@ -65,9 +66,9 @@ https://user-images.githubusercontent.com/5504953/192384929-6898b4f5-6f62-43d6-9
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now where do we enter the value for this variable? We go to the default section in the **Details** panel. If this is not editable then press the <kbd>Compile</kbd> button, this will make the default available to edit. This allows us to set what our base value will be. I double clicked on the color bar and set it to yellow (original default was black)
 
-![set default value](images/SetDefaultValueToRedDetailsPanel.png)
+
+
 
 ![](../images/line2.png)
 
