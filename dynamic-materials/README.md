@@ -114,53 +114,49 @@ Now drag off the Spotlight pin and type **lightcolor**. Take the output of **Mak
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
-
-We will make the color of the light the same as the color of the bulb glow. Grab the output pin from the **Make Linear Color** node and connect it to the **New Light Color** input pin on the **Set Light Color** node.
-
-![connet linear color to set color](images/OutputSecondLinearColorRm4.png)
-
-![](../images/line2.png)
-
-##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
 Nothing will happen with this light until the *execution pins* are *connected*. Then press the <kbd>Compile</kbd> button so that the changes can run in engine.
 
 ![connect execution and compile](images/SetExecutionPinThenCompileRm4.png)
 
 ![](../images/line2.png)
 
+##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Duplicate the lights so that you have 4 lights in room 4.  Then move the **Blueprints** into the **Outliner | Room4** folder. 
+
+![connect execution and compile](images/DupeRoom4Lights.png)
+
+![](../images/line2.png)
+
+##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
+
+Rotate the **Player Start** to face room 4 (by rotating by 90°).
+
+
+![](../images/line2.png)
+
+##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+If we select the **Lightbulb** static mesh we see it has two materials.  The glow shader is in **Material | Element 1** in **M_Glass**.  It is the vector **ColorGlow** that sets the color of the glow for the lightbulb.
+
+![connect execution and compile](images/lightBulbEmissive.png)
+
+
+![](../images/line2.png)
+
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Duplicate the lights so that you have 5 lights in room 4.  Then move the **Blueprints** into the **Outliner | Room4** folder. Rotate the **Player Start** to face room 4.
 
-https://user-images.githubusercontent.com/5504953/192375375-83a8bfec-e30e-40cf-98d3-a314819ab036.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now go back to the game and hit run. You will see that both the bulb and the color of the light are set dynamically in the blueprint! But the lightbulb is still glowing white. Lets fix that.
-
-https://user-images.githubusercontent.com/5504953/192376016-505ac9c8-9798-4d5a-85b4-959d21dc0967.mp4
-
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-If we select the **Lightbulb** static mesh we see it has two materials.  The glow shader is in **Material | Element 1** in **M_Glass**.  It is the vector **ColorGlow** that sets the color of the glow for the lightbulb.
 
-![connect execution and compile](images/lightBulbEmissive.png)
 
 ![](../images/line2.png)
 
