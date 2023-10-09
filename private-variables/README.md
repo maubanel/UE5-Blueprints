@@ -38,7 +38,7 @@ https://user-images.githubusercontent.com/5504953/192383110-08e62a28-6c9a-4fa4-b
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Name the variable something that describes what it does. I called it `LightColor`. II also put it in a **Category** called `Light` (this will not show up by default, you can just type it in and it will add it in the future in this blueprint as a category). Now where do we enter the value for this variable? We go to the default section in the **Details** panel. If this is not editable then press the <kbd>Compile</kbd> button, this will make the default available to edit. This allows us to set what our base value will be. I double clicked on the color bar and set it to yellow (original default was black)
+Name the variable something that describes what it does. I called it `LightColor`. II also put it in a **Category** called `Color` (this will not show up by default, you can just type it in and it will add it in the future in this blueprint as a category). Now where do we enter the value for this variable? We go to the default section in the **Details** panel. If this is not editable then press the <kbd>Compile</kbd> button, this will make the default available to edit. This allows us to set what our base value will be. I double clicked on the color bar and set it to yellow (original default was black)
 
 ![set default value](images/SetDefaultValueToRedDetailsPanel.png)
 
