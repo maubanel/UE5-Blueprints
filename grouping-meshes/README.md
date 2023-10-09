@@ -86,7 +86,7 @@ Create a new folder called **Room3** in the **Blueprints** folder. Now make sure
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Select the **Lamp** component and rotate the lamp so that it doesn't point straight down. Tune it to your liking. Select the **Spotlight** then set the light color to your preference. I picked green. Also set the **Intensity** to be a bit brighter.
+Select the **LampBody** component and rotate the lamp so that it doesn't point straight down. Tune it to your liking. Select the **Spotlight** then set the light color to your preference. I picked green. Also set the **Intensity** to be a bit brighter.
 
 ![rotate lamp to your liking](images/RotateLampToOffsetIt.png)
 
