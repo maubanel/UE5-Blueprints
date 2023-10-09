@@ -155,7 +155,7 @@ Repeat creating a **Dynamic Material Instance** with **SM_Lightbulb**. Go look a
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add another **Vector Parameter Value** to it. The parameter we want to change is called `ColorGlow`. Connect the 
+Add another **Vector Parameter Value** to it. The parameter we want to change is called `ColorGlow`. Connect the **Linear Color** output pin from the **Make Linear Color** node to the **Value** pin of the **Set Vector Parameter Value** node.
 
 ![connect execution and compile](images/bulbParam.png)
 
