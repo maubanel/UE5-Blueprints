@@ -90,7 +90,7 @@ https://github.com/maubanel/UE5-Blueprints/assets/5504953/5b30b9ab-1037-409c-a51
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Repeat this and create 5 lights with different colors.
+Repeat this and create 5 lights with different colors. Now make sure all the blueprints are in the **Room 5** folder. 
 
 ![change color of light](images/repeatLights.png)
 
@@ -98,7 +98,7 @@ Repeat this and create 5 lights with different colors.
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Now make sure all the blueprints are in the **Room 5** folder.  Move the **Player Start** node to the front of room 5.  Press the <kbd>Play</kbd> button and make sure the ligths and the glow are all set to unique colors.
+ Move the **Player Start** node to the front of room 5.  Press the <kbd>Play</kbd> button and make sure the ligths and the glow are all set to unique colors.
 
 
 ![](../images/line2.png)
