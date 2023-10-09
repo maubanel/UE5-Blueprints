@@ -8,8 +8,6 @@
 
 We will be translating an object in 3-D space through blueprints. If rotation is moving along the origin of the model, translation is moving it **X,Y,Z** space in the game engine.  
 
-<br>
-
 ---
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
