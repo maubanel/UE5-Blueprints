@@ -129,6 +129,8 @@ The **Tick Event** updates every frame which is upwards of 90FPS here, which is 
 
 Press the <kbd>Play</kbd> button and now we get an update every second! The only issue is that it is showing the decimal point.  Lets fix that and only show whole numbers.
 
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/ec44fbbf-2c11-475f-88f5-9c1ad022785c
+
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
@@ -152,6 +154,8 @@ Now move the new copies to the right so they are next to each other. Change the 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Open up
+
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/753b4ef1-e634-4088-a7c7-73adb2453a4d
 
 ![](../images/line2.png)
 
