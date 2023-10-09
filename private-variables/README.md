@@ -60,23 +60,20 @@ We also want to edit the color in the game screen so that each instance can have
 
 Now we no longer need the **Make Linear Color** node as we will be replacing it with a variable. Delete this node and drag and drop the **LightColor** variable in its place and select **Get LightColor**. We are getting the value and not setting is so select **Get** with the pop up menu.  In the future I will just refer to this as **Get | LightColor**. Reconnect the output pin to the input pins in the three references in materials we linked the color to.
 
-
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/d509b9a4-6b09-4e34-afbd-02040fdacd85
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-
+Now run the game and notice that the color is set withing the blueprint through the variable.
 
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now run the game and notice that the color is set withing the blueprint through the variable.
 
-![run game look at color](images/VariableControlsColorOfLightRm5.png)
 
 ![](../images/line2.png)
 
