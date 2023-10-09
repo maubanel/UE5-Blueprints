@@ -100,6 +100,7 @@ Repeat this and create 5 lights with different colors. Now make sure all the blu
 
  Move the **Player Start** node to the front of room 5.  Press the <kbd>Play</kbd> button and make sure the ligths and the glow are all set to unique colors.
 
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/fadead24-57e0-40b7-a2b0-a0ac01f1f5aa
 
 ![](../images/line2.png)
 
