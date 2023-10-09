@@ -28,6 +28,7 @@ Move the object in the **World Outliner** into the **Room 3** folder. Then press
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Assign the **spotlight_lamp** mesh to this component and name it `LampBody`.
 
 
 ![add another static mesh component](images/AddSecondStaticMeshRm3.png)
@@ -36,7 +37,6 @@ Move the object in the **World Outliner** into the **Room 3** folder. Then press
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Assign the **spotlight_lamp** mesh to this component
 
 ![assing lamp to static mesh](images/AssignLampToStaticMeshRm3.png)
 
