@@ -106,13 +106,15 @@ Add a **Format Text** node. Then type in the input box `{A} - #{B}`. This will a
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now you can change the random number and run that node every time you compile the blueprint or change that blueprint object in the editor. It only runs in these two conditions and will not run during the game. If you hit play that text will always be the same for as long as the game is running.
 
-https://user-images.githubusercontent.com/5504953/192163148-c63ee5f2-422c-44d4-88ae-8af70d4573be.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Now you can change the random number and run that node every time you compile the blueprint or change that blueprint object in the editor. It only runs in these two conditions and will not run during the game. If you hit play that text will always be the same for as long as the game is running.
+
+https://user-images.githubusercontent.com/5504953/192163148-c63ee5f2-422c-44d4-88ae-8af70d4573be.mp4
 
 Lets connect Unreal with our Perforce repository. Click on **Source Control | Change Source Control Settings...** and select the provider **Perforce**. Click on the <kbd>Accept Settings</kbd> button.
 
