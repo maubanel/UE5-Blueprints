@@ -56,7 +56,7 @@ We need to make the material dynamic in the constructor. This will allow us to a
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Connect the execution pins from the **Construction Script** node. Drag off the **Create Dynamic Material Instance | Return Value** pin to help the node suggestions. Let go of the left mouse button and start to type **Set Vector Parameter Value**. You can see that this is in the **Material** section which gives us a good hint that this is what we want.
+Connect the execution pins from the **Construction Script** node. Drag off the **Create Dynamic Material Instance | Return Value** pin to help the node suggestions. Let go of the left mouse button and start to type **Set Vector Parameter Value**. You can see that this is in the **Material** section which gives us a good hint that this is what we want. Connect the data and execution pins from **Create Material Instance** to **Set Vector Parameter Value**.
 
 ![set vector parameter values](images/SetVectorParameterValueRm4.png)
 
@@ -64,7 +64,7 @@ Connect the execution pins from the **Construction Script** node. Drag off the *
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the material and find out how the Parameter name is spelled with spaces and caps. You have to enter this exactly in the **Parameter Name** box `Light Color`. Make sure it is the same as it is in the material with a space between the two words.
+Go to the material and find out how the Parameter name is spelled with spaces and caps. You have to enter this exactly in the **Parameter Name** box `Light Color`. Make sure it is the same as it is in the material with a space between the two words. To be safe it is always best to copy and paste the name.
 
 ![parameter name light color](images/ParameterNameRm4.png)
 
@@ -72,56 +72,55 @@ Go to the material and find out how the Parameter name is spelled with spaces an
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Hover over the **Value** pin in the **Set Vector Parameter Value** input node. Notice that it wants a **Linear Color Structure**. This gives us a *hint*.
 
 ![tooltip](images/HoveOverValueRm4.png)
 
 ![](../images/line2.png)
 
+##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Drag off the left pin, let go and enter **Linear Color**. Select the **Make Linear Color** node. Make this node pure blue with a solid alpha. Press the <kbd>Compile</kbd> button.
+
+![make a blue node](images/PureBlueSolidAlphaRm4.png)
+
+![](../images/line2.png)
+
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Drag off the left pin, let go and enter **Linear Color**. Select the **Make Linear Color** node.
+Make sure the glow from the inside of the light case is blue.
 
-![add make linear color](images/MakeLinearColor.png)
+![blue lightbulb glow in game](images/ColorOfLight.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Make this node pure blue with a solid alpha. Press the <kbd>Compile</kbd> button.
+Now go back to the **blueprint** and *drag* a reference from the light called **Get | Spotlight** to the main graph area.
 
-![make a blue node](images/PureBlueSolidAlphaRm4.png)
+![drag spotlight reference](images/DragSpotLightReference.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Go into the game and checkout the color of the light. The actual light is still green but the light bulb glow is now blue.
+Now drag off the Spotlight pin and type **lightcolor**. Out of the options **Set Light Color** is what we want.
 
-![blue lightbulb glow in game](images/ColorOfLight.png)
+![set light color](images/SetLightColorRm4.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now go back to the **blueprint** and *drag* a reference from the light called **Spotlight** to the main graph area.
 
-![drag spotlight reference](images/DragSpotLightReference.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now drag off the Spotlight pin and type **lightcolor**. Out of the options **Set Light Color** is what we want.
 
-![set light color](images/SetLightColorRm4.png)
 
 ![](../images/line2.png)
 
