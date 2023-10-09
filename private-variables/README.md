@@ -74,15 +74,15 @@ https://github.com/maubanel/UE5-Blueprints/assets/5504953/8fe82ca1-749b-44ad-be6
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now go back to the game engine and put a duplicate the blueprint putting the light next to the original to the right.
 
+![change color of light](images/dupeBP.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now go back to the game engine and put a duplicate the blueprint putting the light next to the original to the right.
 
-![change color of light](images/dupeBP.png)
 
 ![](../images/line2.png)
 
