@@ -10,13 +10,11 @@ We will be rotating an object in 3-D space through blueprints. Now there are two
 
 ---
 
-
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
 Move the **Player Start** actor over to **Room 8**. *Create* a new folder called `Room8`. *Add* a new **Blueprint Class** of type **Actor** and call it `BP_RotateObject`. Drag the empty blueprint in the back of room 8. *Open up* the **blueprint**:
 
-https://user-images.githubusercontent.com/5504953/193430834-d522e56f-099f-44b8-8efa-e8e995b8ed3b.mp4
-
+![add static mesh component](images/StaticMeshCubeRm8.png)
 
 ![](../images/line2.png)
 
