@@ -113,7 +113,7 @@ Move all four **BP_Spotlight** actors into the **Room3** folder in the **Outline
 
 Press play to see your work in game.  Now you can reuse this blueprint in as many levels as you would like.
 
-
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/ea313bfb-cc70-441d-b9e6-077af3b7aa51
 
 ![](../images/line2.png)
 
