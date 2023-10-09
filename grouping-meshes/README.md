@@ -94,6 +94,9 @@ Select the **LampBody** component and rotate the lamp so that it doesn't point s
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
+Now by having it as a blueprint I can just drop it in the room multiple times and rotate it in different direcions. Lets duplicate the light three times and rotate it at different angles to fill the room with colored light.
+
+![dupclicate light 3 times](images/dupe3.png)
 
 
 ![](../images/line2.png)
@@ -101,18 +104,11 @@ Select the **LampBody** component and rotate the lamp so that it doesn't point s
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Check the lamp out in game. Make sure the light bulb mesh is not casting a shadow from the light. If it is *move* the **Spot Light** component further away from the light bulb and check in game to where it no longer is shadowed or occluded by the light bulb mesh.
-
-![check in game that light is correct](images/CheckInGameLightBehindBulb.png)
-
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now by having it as a blueprint I can just drop it in the room multiple times and rotate it in different direcions. Lets duplicate the light three times and rotate it at different angles to fill the room with colored light.
-
-![dupclicate light 3 times](images/dupe3.png)
 
 ![](../images/line2.png)
 
