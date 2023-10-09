@@ -70,23 +70,21 @@ What we want to do is every frame add the number of milliseconds that have passe
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-
-![add float + float node](images/AdTimeUpRm7.png)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Drag the **Time In Milliseconds** variable into the graph and this time select **Set Time In Milliseconds** as we will write this addition to the variable:
+Drag the **Time In Milliseconds** variable into the graph and this time select **Set Time In Milliseconds** as we will write this addition to the variable. *Connect* the Execution pins between the **Event Tick** node and the **Set** node. Also, *connect* the output of the **Addition** node to the input of the **Set Node**.
 
 ![set time in milliseconds](images/SetTimeInMSRm7.png)
 
 ![](../images/line2.png)
 
+##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+
+![](../images/line2.png)
+
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-*Connect* the Execution pins between the **Event Tick** node and the **Set** node. Also, *connect* the output of the **Addition** node to the input of the **Set Node**.
+
 
 ![connect execution pin and addition to set node](images/SetExecutionAndMilliseconds.png)
 
