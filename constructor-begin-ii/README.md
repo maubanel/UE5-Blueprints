@@ -97,9 +97,7 @@ So **Begin Play** only runs when we run the game and it runs **ONCE**. Now we sa
 
 Go back and open **BP_TextInConstructor** and add a **Random Integer in Range** node. Change the two values that the game will randomly generate to`20` and `50`. Change the **Make Litereal Text | Value** box `I am the <br>BeginPlay Script node! `. 
 
-Add a **String | Append** node and connect **Make Literal Text** into the **A** of the **Append** node and the **Random Integer In Range | Return Value** to the **B** side of the **Append** node. This adds an integer to string conversion node for you. Make sure the is a space after the `!` in the This will concatonate the two strings together joining the message and the random number. 
-
-Send the output of the **Append** node to the **Value** input pin in **Set Text** (it will add a **ToText(string)** conversion node for you).
+Add a **Format Text** node. Then type in the input box `{A} - #{B}`. This will add an **A** and **B** input pin and it will add a `- #` between each value.
 
 ![look at blueprint in game](images/FormateText.png)
 
