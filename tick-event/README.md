@@ -151,9 +151,7 @@ Now move the new copies to the right so they are next to each other. Change the 
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Change the message in the **Sec Message** component to `Time in Seconds`.
-
-![change message](images/SecMessageTimeInSecsRm7.png)
+Open up
 
 ![](../images/line2.png)
 
