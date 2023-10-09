@@ -147,7 +147,7 @@ If we select the **Lightbulb** static mesh we see it has two materials.  The glo
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Repeat creating a **Dynamic Material Instance** with **SM_Lightbulb**. Go look at the static mesh and notice that the **M_Glass** in **Element Index** `1`. 
+Repeat creating a **Dynamic Material Instance** with **SM_Lightbulb**. Go look at the static mesh and notice that the **M_Glass** in **Element Index** `1`. Set the **Element Index** to `1` and the **Source Material** to `M_Glass`.
 
 ![connect execution and compile](images/dynamicBulb.png)
 
