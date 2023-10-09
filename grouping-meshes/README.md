@@ -8,13 +8,11 @@
 
 Now **blueprints** are not just for logic. We can use them to create a more complex object with multiple meshes and components and save them as one blueprint. Then you can make multiple instances of them and they will be replicated. You can also build it in the game world first, then create a bluprint after. Lets create a spotlight and see how this works.
 
-<br>
-
 ---
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Go to **Room 3** and go to the **StaticMeshes** folder. Drag the **spotlight_bracket** into the room. Position it so it faces the front left of the room.
+Move the **Player Start** to **Room 3**. Select the **StaticMeshes** folder. Drag the **spotlight_bracket** into the room. Position it so it faces the front left of the room.
 
 ![drag spotlight in room 3](images/DragBracketRm3.png)
 
