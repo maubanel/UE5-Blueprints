@@ -10,8 +10,6 @@ What is a [variable](https://en.wikipedia.org/wiki/Variable_(computer_science)) 
 
 It is best to keep variables **private** if possible. This is called **[encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))** or **data-hiding**. When working on a project with a team, it is usually best to have all the funtionality that a class/objecdt needs contained within that class (or blueprint). If another object needs to interact with it then it is best to have getters and setters so that other classes can interact with this class. This makes the code easier to maintain and debug in the long term.
 
-<br>
-
 ---
 
 
