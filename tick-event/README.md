@@ -2,7 +2,7 @@
 
 ### Tick Event
 
-<sub>[previous](../components/README.md#user-content-components) • [home](../README.md#user-content-ue4-blueprints) • [next](../tick-event-ii/README.md#user-content-tick-event-ii)</sub>
+<sub>[previous](../components/README.md#user-content-components) • [home](../README.md#user-content-ue4-blueprints) • [next](../rotation/README.md#user-content-rotation)</sub>
 
 ![](../images/line3.png)
 
@@ -151,23 +151,27 @@ https://github.com/maubanel/UE5-Blueprints/assets/5504953/753b4ef1-e634-4088-a7c
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the **To Text (Float)** node and press the triangle at the bottom to open up more options.  Set the **Maximum Fractional Digits** to `1`.
+Go to the **To Text (Float)** node and press the triangle at the bottom to open up more options.  Set the **Maximum Fractional Digits** to `0`. Press the <kbd>Play</kbd> button and now we have the time updating only in whole seconds.  We are more efficient with the framerate as we are only ticking once a second.
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now go back to the **Event Graph** and add a new **Variable** by pressing the **+** button. This time we will make it an integer. A **float** stores a fractional number, an **integer** stores a whole number. Since we are *counting* seconds whole numbers will do. Set the variable to **Variable Type | Integer**. Call it `Time in Seconds`, add a **Tooltip** and make sure that **Private** is set to `true`.
+Select the **File | Save All** then press the <kbd>Revision Control</kbd> button and select **Submit Content**.  If you are prompted, select **Check Out** for all items that are not checked out of source control. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number. Quit Unreal and make sure your **Pending** tab in **P4V** is empty. **Submit** any work that is still in the editor.
 
-![add an integer variable](images/TimeInSecondsIntRm7.png)
+![save all and submit to perforce in P4V](images/submitP4.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-Go back to the **Event Graph** tab in **BP_Timer**. You can disconnect any pin by <kbd>Alt</kbd> left clicking on it. Delete the execution pin coming from **Event Tick**. Now to avoid having a very long Blueprint we can organize the graph by using a **Sequence** node. *Right click* and type **Sequence** then *connect* the execution pins between the **Tick Event** and the **Set** node through the **Then 0** pin.
+Sometimes not all files get submitted to Unreal especially for files that don't show up in the editor.  It is good practice one you submit in **Unreal** and quit the game to right click on the top most project folder and select **Reconcile Offline Work...**.
 
-https://user-images.githubusercontent.com/5504953/193120853-36a6e2a0-916d-409a-a48c-e1b415e3e1c8.mp4
+This will either give a message saying ther is nothing to reconcile or bring up a tab.  Make sure that these are **NOT** files in the **Intermediate** and **Saved** folders as these should be ignored from the `.p4ignore`.
+
+If the files are in **Content** or **Configuration** then press the <kbd>Reconcile</kbd> button.  Then submit the changes with a message and press the <kbd>Submit</kbd> button.
+
+![reconcile offline work](images/reconcile.png) 
 
 ![](../images/line.png)
 
@@ -177,5 +181,5 @@ https://user-images.githubusercontent.com/5504953/193120853-36a6e2a0-916d-409a-a
 
 ![](../images/line.png)
 
-| [previous](../components/README.md#user-content-components)| [home](../README.md#user-content-ue4-blueprints) | [next](../tick-event-ii/README.md#user-content-tick-event-ii)|
+| [previous](../components/README.md#user-content-components)| [home](../README.md#user-content-ue4-blueprints) | [next](../rotation/README.md#user-content-rotation)|
 |---|---|---|
