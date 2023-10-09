@@ -127,7 +127,7 @@ The **Tick Event** updates every frame which is upwards of 90FPS here, which is 
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-
+Press the <kbd>Play</kbd> button and now we get an update every second!
 
 ![](../images/line2.png)
 
