@@ -116,7 +116,7 @@ Send the **Make Literal Text | Return Value** to the **Format Text | A** pin.  S
 
 Now you can change the random number and run that node every time you compile the blueprint or change that blueprint object in the editor. It only runs in these two conditions and will not run during the game. If you hit play that text will always be the same for as long as the game is running.
 
-https://user-images.githubusercontent.com/5504953/192163148-c63ee5f2-422c-44d4-88ae-8af70d4573be.mp4
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/03d80d69-f4db-40e6-b479-87433c683ed9
 
 Lets connect Unreal with our Perforce repository. Click on **Source Control | Change Source Control Settings...** and select the provider **Perforce**. Click on the <kbd>Accept Settings</kbd> button.
 
