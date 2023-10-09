@@ -87,7 +87,7 @@ https://user-images.githubusercontent.com/5504953/193435719-96fa204d-947c-4cd2-8
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Go back to the **Blueprint** and remove the **Add Relative Rotation** node. Replace it with a 
+Go back to the **Blueprint** and remove the **Add Relative Rotation** node. Replace it with a **Add World Rotation** node.
 
 ![remove add relative rotation in pitch section](images/RemovePitchRotationDueToLockRm8.png)
 
@@ -95,34 +95,24 @@ Go back to the **Blueprint** and remove the **Add Relative Rotation** node. Repl
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-You can *delete* the **Rotating Cube** reference as we will not be using it. Connect the execution pin from the output **True** of the **Branch** node.
+Now go back to the game and try it out. No more gimble lock, the object rotates without stopping:
 
-![add actor local rotation](images/AddActorLocalRotation.png)
+https://user-images.githubusercontent.com/5504953/193435945-400d044c-e9eb-4eab-a5b6-fa4ff2476cd2.mp4
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Right click* on **Delta Rotation** and select **Split Struct Pin**.
-
-![split struct pin on delta rotation](images/SplitSecondStructPinRm8.png)
-
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Send* the output of **Degrees Since Last Frame** to **Delta Rotation Y (Pitch)**. Press the <kbd>Compile</kbd> button.
-
-![connect degrees to delta rotation](images/DegreesToPitchRm8.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now go back to the game and try it out. No more gimble lock, the object rotates without stopping:
-
-https://user-images.githubusercontent.com/5504953/193435945-400d044c-e9eb-4eab-a5b6-fa4ff2476cd2.mp4
 
 ![](../images/line2.png)
 
