@@ -62,7 +62,7 @@ Go to the **Event Graph** tab and in the **MyBlueprints** tab press **+** next t
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-What we want to do is every frame add the number of milliseconds that have passed to this variable. So we need to read it, then add the delta time since last frame. Drag the Variable into the graph and select **Get | TimeInMilliseconds**.
+What we want to do is every frame add the number of milliseconds that have passed to this variable. So we need to read it, then add the delta time since last frame. Drag the Variable into the graph and select **Get | TimeInMilliseconds**. Now *place* an **Add** node which adds two numbers of any type together. *Take* the output **Pin** from the **Event Tick** called **Delta Seconds** and *put* it in into the input of the **Addition** node. *Take* the output of the variable **Time in Milliseconds** and put it into the input of the **Addition** node.
 
 ![get time in milliseconds](images/GetTimeInMSRm7.png)
 
@@ -70,7 +70,7 @@ What we want to do is every frame add the number of milliseconds that have passe
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *place* an **Add** node which adds two numbers of any type together. *Take* the output **Pin** from the **Event Tick** called **Delta Seconds** and *put* it in into the input of the **Addition** node. *Take* the output of the variable **Time in Milliseconds** and put it into the input of the **Addition** node.
+
 
 ![add float + float node](images/AdTimeUpRm7.png)
 
