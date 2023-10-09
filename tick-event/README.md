@@ -87,6 +87,9 @@ Now, what we want to do is take the output of this variable and have it print to
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
 
+*Connect* the output **Time in Milliseconds** pin from **Set** node to the **Value** pin in **Set Text**. This automatically adds a **To Text (Double)** node. *Connect* the execution pins from the same nodes. 
+
+![connect pins and compile](images/AddCommentsPressCompileRm7Ms.png)
 
 ![connect execution pin and addition to set node](images/SetExecutionAndMilliseconds.png)
 
@@ -101,9 +104,6 @@ Now, what we want to do is take the output of this variable and have it print to
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Connect* the output **Time in Milliseconds** pin from **Set** node to the **Value** pin in **Set Text**. This automatically adds a **To Text (Double)** node. *Connect* the execution pins from the same nodes. 
-
-![connect pins and compile](images/AddCommentsPressCompileRm7Ms.png)
 
 ![](../images/line2.png)
 
