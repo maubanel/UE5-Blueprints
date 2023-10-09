@@ -106,7 +106,7 @@ Add a **Format Text** node. Then type in the input box `{A} - #{B}`. This will a
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-
+![look at blueprint in game](images/connectConcatTxt.png)
 
 ![](../images/line2.png)
 
