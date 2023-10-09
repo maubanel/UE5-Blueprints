@@ -62,6 +62,7 @@ Rotate the spotlight so it points in the direction of the lamp.  In my case down
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Adjust the height of the spotlight so it doesn't cast a shadow from inside the lamp.  Adjust it and stop as soon as the shadows go away.
 
 ![](../images/line2.png)
 
