@@ -163,15 +163,13 @@ Add another **Vector Parameter Value** to it. The parameter we want to change is
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
- Run in game and you can see that the light, casing glow and lightbulb glow are all the same color. Press the <kbd>Compile</kbd> button and run the game.  Now everything glows blue.
-
-https://user-images.githubusercontent.com/5504953/192379265-49c1b8fe-47e4-4c8a-9077-687fe5eb2cb1.mp4
+![connect execution and compile](images/addLightComments.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-
+ Run in game and you can see that the light, casing glow and lightbulb glow are all the same color. Press the <kbd>Compile</kbd> button and run the game.  Now everything glows blue.
 
 ![](../images/line2.png)
 
