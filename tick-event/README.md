@@ -8,8 +8,6 @@
 
 Now the most common game event type is the **Tick Event**. This is what we run every frame. Any game logic that needs to be run every frame (like polling controls to move a player) will be done within the tick event and will happen as fast as the framerate runs.
 
-<br>
-
 ---
 
 
