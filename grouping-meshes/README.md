@@ -80,7 +80,7 @@ Now I am having an issue with a freeze where the blueprint pop up goes to a seco
 
 Create a new folder called **Room3** in the **Blueprints** folder. Now make sure that your **Spotlight** is selected in the **Outliner**. Then press the <kbd>Convert to Blueprint</kbd> button to turn this from a level instance to a reusable blueprint. Add it to the **Blueprints | Room3** folder and call it `BP_Spotlight`. Make sure **New Subclass** is selected then press the <kbd>Select</kbd> button. 
 
-![turn mesh into blueprint](images/TurnSpotlightIntoBPRm3.png)
+![turn mesh into blueprint](images/AddSpotLightComponent.png)
 
 ![](../images/line2.png)
 
