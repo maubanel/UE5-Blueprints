@@ -151,6 +151,7 @@ https://github.com/maubanel/UE5-Blueprints/assets/5504953/753b4ef1-e634-4088-a7c
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Go to the **To Text (Float)** node and press the triangle at the bottom to open up more options.  Set the **Maximum Fractional Digits** to `1`.
 
 ![](../images/line2.png)
 
