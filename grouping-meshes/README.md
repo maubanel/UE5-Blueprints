@@ -64,6 +64,8 @@ Rotate the spotlight so it points in the direction of the lamp.  In my case down
 
 Adjust the height of the spotlight so it doesn't cast a shadow from inside the lamp.  Adjust it and stop as soon as the shadows go away.
 
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/f6db16cc-4280-4c23-a467-9d55876e12d3
+
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
