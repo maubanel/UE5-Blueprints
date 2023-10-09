@@ -95,7 +95,7 @@ Go back to the **Blueprint** and remove the **Add Relative Rotation** node. Repl
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Now go back to the game and try it out. No more gimble lock, the object rotates without stopping:
+Now go back to the game and try it out. No more gimble lock, the object rotates without stopping.
 
 https://user-images.githubusercontent.com/5504953/193435945-400d044c-e9eb-4eab-a5b6-fa4ff2476cd2.mp4
 
@@ -103,6 +103,10 @@ https://user-images.githubusercontent.com/5504953/193435945-400d044c-e9eb-4eab-a
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+Lets do the final axis of rotation along the **X** axis for **Roll**. *Copy* the **Adjust Yaw** nodes and *paste* them at the bottom. Change the **Comment box** to `Adjust Roll`. Chnage the utput of the **Current Angle** pin to **Delta Rotatoin X (Roll)** on the **Add Relative Rotation** node.  Duplicate the **Rotate On Z** variable to create another boolean called `RotateOnX`.  Change the desciption to `Rotate around the X Axis?`. Right click on **Rotate on Z** in the **Roll** section and select **Replace variable RotateOnZ with | RotateOnX**.
+
+https://user-images.githubusercontent.com/5504953/193449873-b946142d-06c3-4779-b79b-704e40aed5af.mp4
 
 ![](../images/line2.png)
 
@@ -118,9 +122,7 @@ https://user-images.githubusercontent.com/5504953/193435945-400d044c-e9eb-4eab-a
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Lets do the final axis of rotation along the **X** axis for **Roll**. *Copy* the **Adjust Yaw** nodes and *paste* them at the bottom. Change the **Comment box** to `Adjust Roll`. Chnage the utput of the **Current Angle** pin to **Delta Rotatoin X (Roll)** on the **Add Relative Rotation** node.  Duplicate the **Rotate On Z** variable to create another boolean called `RotateOnX`.  Change the desciption to `Rotate around the X Axis?`. Right click on **Rotate on Z** in the **Roll** section and select **Replace variable RotateOnZ with | RotateOnX**.
 
-https://user-images.githubusercontent.com/5504953/193449873-b946142d-06c3-4779-b79b-704e40aed5af.mp4
 
 ![](../images/line2.png)
 
