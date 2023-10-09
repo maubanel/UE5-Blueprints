@@ -175,7 +175,7 @@ If the files are in **Content** or **Configuration** then press the <kbd>Reconci
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Tick Event II"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Rotation"> -->
 
 ![next up next tile](images/banner.png)
 

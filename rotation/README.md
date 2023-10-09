@@ -2,7 +2,7 @@
 
 ### Rotation
 
-<sub>[previous](../tick-event-ii/README.md#user-content-tick-event-ii) • [home](../README.md#user-content-ue4-blueprints) • [next](../rotation-ii/README.md#user-content-rotation-ii)</sub>
+<sub>[previous](../tick-event/README.md#user-content-tick-event) • [home](../README.md#user-content-ue4-blueprints) • [next](../rotation-ii/README.md#user-content-rotation-ii)</sub>
 
 ![](../images/line3.png)
 
@@ -198,5 +198,5 @@ Now *drag* the **Current Angle** variable into the scene graph and select **Get*
 
 ![](../images/line.png)
 
-| [previous](../tick-event-ii/README.md#user-content-tick-event-ii)| [home](../README.md#user-content-ue4-blueprints) | [next](../rotation-ii/README.md#user-content-rotation-ii)|
+| [previous](../tick-event/README.md#user-content-tick-event)| [home](../README.md#user-content-ue4-blueprints) | [next](../rotation-ii/README.md#user-content-rotation-ii)|
 |---|---|---|
