@@ -8,10 +8,7 @@
 
 Rotations continued...
 
-<br>
-
 ---
-
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
