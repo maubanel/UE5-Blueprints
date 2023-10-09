@@ -163,6 +163,8 @@ Add another **Vector Parameter Value** to it. The parameter we want to change is
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Surround all the nodes and press the <kbd>C</kbd> to add a **Comment Box** that says `Set Colors for Lights and Glows`.
+
 ![connect execution and compile](images/addLightComments.png)
 
 ![](../images/line2.png)
