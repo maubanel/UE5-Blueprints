@@ -106,6 +106,8 @@ Add a **Format Text** node. Then type in the input box `{A} - #{B}`. This will a
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Send the **Make Literal Text | Return Value** to the **Format Text | A** pin.  Send the **Random Integer in Range | Return Value** to the **Format Text | B** pin.  Send the **Format Text | Result** to the **Set Text | Value**.
+
 ![look at blueprint in game](images/connectConcatTxt.png)
 
 ![](../images/line2.png)
