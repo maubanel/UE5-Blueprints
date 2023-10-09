@@ -149,7 +149,7 @@ Lets have it light the top of the ball so move it by `100` on the **Z** in **Loc
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now go to room 6 and fix the spelling mistake on the subtitle on the wall.  It is `scripts` and not `sscripts`.  Also, drag **BP_DynamicComponent** blueprint into **Room 6**.
+Now go to room 6 and fix the spelling mistake on the subtitle on the wall.  It is `scripts` and not `sscripts`. 
 
 ![add comment to nodes](images/fixTextAddBP.png)
 
@@ -157,6 +157,8 @@ Now go to room 6 and fix the spelling mistake on the subtitle on the wall.  It i
 
 ##### `Step 18`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
  
+ drag **BP_DynamicComponent** blueprint into **Room 6**.
+ PIC HERE
 Now go to the game. You can switch the boolean on and off and see the light turn on and off. Now if you play the game you can no longer switch the light. The constructor DOES NOT run during gameplay. This is a way to cheat the constructor to run in the editor so that you can add a component, but it will not be changeable through this interface in game.
 
 https://user-images.githubusercontent.com/5504953/192582361-fc590537-a4c0-47b9-8add-8d5a95da8087.mp4
