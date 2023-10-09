@@ -86,6 +86,8 @@ Select the **Lamp** component and rotate the lamp so that it doesn't point strai
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
+![rotate lamp to your liking](images/MainWindow.png)
+
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
