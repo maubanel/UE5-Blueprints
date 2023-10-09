@@ -46,6 +46,9 @@ Add a third static mesh component by pressing the <kbd>Add Component</kbd> butto
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
+Add another component but this time an actual Spotlight so it can project an in game spotlight. Pressing <kbd>Add Component</kbd> button then select **Spot Light**. Rotate the light so it points in the direction of the lamp.
+
+![add spot light component](images/AddSpotLightComponent.png)
 
 ![](../images/line2.png)
 
@@ -59,18 +62,12 @@ Add a third static mesh component by pressing the <kbd>Add Component</kbd> butto
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Rename the **Actor** to `Spotlight`.
-
-![rename actor to spotlight](images/RenameActorToSpotlightRm3.png)
-
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add another component but this time an actual Spotlight so it can project an in game spotlight. Pressing <kbd>Add Component</kbd> button then select **Spot Light**. Rotate the light so it points in the direction of the lamp.
 
-![add spot light component](images/AddSpotLightComponent.png)
 
 ![](../images/line2.png)
 
