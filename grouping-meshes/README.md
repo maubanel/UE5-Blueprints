@@ -98,12 +98,14 @@ Now by having it as a blueprint I can just drop it in the room multiple times an
 
 ![dupclicate light 3 times](images/dupe3.png)
 
-
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Move all four **BP_Spotlight** actors into the **Room3** folder in the **Outliner**.
+
+![move blueprints to room 3](images/moveToRoom3F.png)
 
 ![](../images/line2.png)
 
@@ -114,9 +116,6 @@ Now by having it as a blueprint I can just drop it in the room multiple times an
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Move all four **BP_Spotlight** actors into the **Room3** folder in the **Outliner**.
-
-![move blueprints to room 3](images/moveToRoom3F.png)
 
 ![](../images/line2.png)
 
