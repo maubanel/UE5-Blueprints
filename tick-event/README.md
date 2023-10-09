@@ -143,19 +143,14 @@ Change **MS Message** to `Time in Seconds`.
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Duplicate MS Timer Message
+Open up
 
-Now move the new copies to the right so they are next to each other. Change the names of the components to `Sec Timer` and `Sec Message`.
-
-![reneame to sec timer and sec message](images/MoveAndRenameRm7.png)
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/753b4ef1-e634-4088-a7c7-73adb2453a4d
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up
-
-https://github.com/maubanel/UE5-Blueprints/assets/5504953/753b4ef1-e634-4088-a7c7-73adb2453a4d
 
 ![](../images/line2.png)
 
