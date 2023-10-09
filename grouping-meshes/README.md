@@ -70,15 +70,17 @@ https://github.com/maubanel/UE5-Blueprints/assets/5504953/f6db16cc-4280-4c23-a46
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Create a new folder called **Room3** in the **Blueprints** folder. Now make sure that your **Spotlight** is selected in the **Outliner**. Then press the <kbd>Convert to Blueprint</kbd> button to turn this from a level instance to a reusable blueprint. Add it to the **Blueprints | Room3** folder and call it `BP_Spotlight`. Make sure **New Subclass** is selected then press the <kbd>Select</kbd> button. 
+Now I am having an issue with a freeze where the blueprint pop up goes to a second monitor that is not there.  It is a known bug and can be avoided by going to **Editor Preferences** and changing **Asset Editor Open Location** to `Main Window`.  This avoids a hang on the next step where the blueprint menu never appears on screen.
 
-![turn mesh into blueprint](images/TurnSpotlightIntoBPRm3.png)
+![rotate lamp to your liking](images/MainWindow.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![rotate lamp to your liking](images/MainWindow.png)
+Create a new folder called **Room3** in the **Blueprints** folder. Now make sure that your **Spotlight** is selected in the **Outliner**. Then press the <kbd>Convert to Blueprint</kbd> button to turn this from a level instance to a reusable blueprint. Add it to the **Blueprints | Room3** folder and call it `BP_Spotlight`. Make sure **New Subclass** is selected then press the <kbd>Select</kbd> button. 
+
+![turn mesh into blueprint](images/TurnSpotlightIntoBPRm3.png)
 
 ![](../images/line2.png)
 
