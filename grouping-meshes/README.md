@@ -54,6 +54,8 @@ Add another component but this time an actual Spotlight so it can project an in 
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
+Rotate the spotlight so it points in the direction of the lamp.  In my case downwards.  Make sure the spotlight is a child of the **Bulb**.
+
 ![add spot light component](images/rotateSpotlight.png)
 
 ![](../images/line2.png)
