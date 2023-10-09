@@ -101,7 +101,7 @@ Add a **String | Append** node and connect **Make Literal Text** into the **A** 
 
 Send the output of the **Append** node to the **Value** input pin in **Set Text** (it will add a **ToText(string)** conversion node for you).
 
-https://user-images.githubusercontent.com/5504953/192158241-10e4607b-7094-4097-aec5-86e3c5d35802.mp4
+![look at blueprint in game](images/FormatText.png)
 
 ![](../images/line2.png)
 
