@@ -114,22 +114,29 @@ Send the **Make Literal Text | Return Value** to the **Format Text | A** pin.  S
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now you can change the random number and run that node every time you compile the blueprint or change that blueprint object in the editor. It only runs in these two conditions and will not run during the game. If you hit play that text will always be the same for as long as the game is running.
+Now you can change the random number and run that node every time you compile the blueprint or change that blueprint object in the editor. It only runs in these two conditions and will not run during the game. If you hit play that text will always be the same for as long as the game is running. Please note that it will not run at all if you make a build so it should be nothing that is required by the game as this won't run in a baked build of the game.
 
 https://user-images.githubusercontent.com/5504953/192163148-c63ee5f2-422c-44d4-88ae-8af70d4573be.mp4
-
-Lets connect Unreal with our Perforce repository. Click on **Source Control | Change Source Control Settings...** and select the provider **Perforce**. Click on the <kbd>Accept Settings</kbd> button.
-
-![connect to source control with git](images/connectToSource.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
+Select the **File | Save All** then press the <kbd>Revision Control</kbd> button and select **Submit Content**.  If you are prompted, select **Check Out** for all items that are not checked out of source control. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number. Quit Unreal and make sure your **Pending** tab in **P4V** is empty. **Submit** any work that is still in the editor.
 
+![save all and submit to perforce in P4V](images/submitP4.png)
 
-![commit to source control in unreal](images/p4Submit.png)
+![](../images/line2.png)
+
+##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
+
+Sometimes not all files get submitted to Unreal especially for files that don't show up in the editor.  It is good practice one you submit in **Unreal** and quit the game to right click on the top most project folder and select **Reconcile Offline Work...**.
+
+This will either give a message saying ther is nothing to reconcile or bring up a tab.  Make sure that these are **NOT** files in the **Intermediate** and **Saved** folders as these should be ignored from the `.p4ignore`.
+
+If the files are in **Content** or **Configuration** then press the <kbd>Reconcile</kbd> button.  Then submit the changes with a message and press the <kbd>Submit</kbd> button.
+
+![reconcile offline work](images/reconcile.png)
 
 
 ![](../images/line.png)
