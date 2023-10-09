@@ -127,15 +127,13 @@ The **Tick Event** updates every frame which is upwards of 90FPS here, which is 
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Press the <kbd>Play</kbd> button and now we get an update every second!
+Press the <kbd>Play</kbd> button and now we get an update every second! The only issue is that it is showing the decimal point.  Lets fix that and only show whole numbers.
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Lets add the ability to count in whole seconds. Go back to the **BP_Timer** blueprint and *select* the **MS Timer** and **MS Message** components. *Right click* and *select* **Duplicate**.
-
-![duplicate ms timer and ms message](images/Lets add the ability to count in whole seconds. Go back to the **BP_Timer** blueprint and *select* the **MS Timer** and **MS Message** components. *Right click* and *select* **Duplicate**.
+Change **MS Message** to `Time in Seconds`.
 
 ![duplicate ms timer and ms message](images/DuplicateMSTimerMessageRm7.png)
 
