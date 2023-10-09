@@ -90,36 +90,34 @@ Now, what we want to do is take the output of this variable and have it print to
 
 ![connect pins and compile](images/AddCommentsPressCompileRm7Ms.png)
 
-![connect execution pin and addition to set node](images/SetExecutionAndMilliseconds.png)
-
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
+Add comments to explain the graph (highlight nodes and press the <kbd>C</kbd> key). I split it into the two sections that make sense to me. Press the <kbd>Compile</kbd> button.
 
+![add comments to blueprints](images/addComments.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Now go to the game and *drag* the **BP_Timer** blueprint into **Room 7**. If the text is backwards, *rotate* it to face the center of the room.
+
+![drag bp timer to room 7](images/BPTimerInRoom7.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Add comments to explain the graph (highlight nodes and press the <kbd>C</kbd> key). I split it into the two sections that make sense to me. Press the <kbd>Compile</kbd> button.
-
-![add comments to blueprints](images/addComments.png)
-
+Now run the game and the millisecond counter should count very quickly (hard to see the fractional numbers as they change so fast). We will fix that to just show seconds.
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now go to the game and *drag* the **BP_Timer** blueprint into **Room 7**. If the text is backwards, *rotate* it to face the center of the room.
 
-![drag bp timer to room 7](images/BPTimerInRoom7.png)
 
 
 ![add set text node](images/SetTextMsRm7.jpg)
@@ -128,9 +126,7 @@ Now go to the game and *drag* the **BP_Timer** blueprint into **Room 7**. If the
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Now run the game and the millisecond counter should count very quickly (hard to see the fractional numbers as they change so fast). We will create another one with just seconds.
 
-https://user-images.githubusercontent.com/5504953/193118883-b0b568e7-2ad4-46d2-8a4b-530830503c30.mp4
 
 ![](../images/line2.png)
 
