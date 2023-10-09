@@ -74,7 +74,7 @@ https://github.com/maubanel/UE5-Blueprints/assets/5504953/8fe82ca1-749b-44ad-be6
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now go back to the game engine and put a duplicate the blueprint putting the light next to the original to the right.
+Now go back to the game engine and put a duplicate the blueprint putting the light next to the original to the right. Move the two bluepritns into the **Room 5** folder.
 
 ![change color of light](images/dupeBP.png)
 
@@ -82,15 +82,15 @@ Now go back to the game engine and put a duplicate the blueprint putting the lig
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now you can selet this second light and set it to a different color.  Since you set this variable to **Instance Editable** now each light in the scene can have a different color.  I set the second light to a yellow color.
+
 
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Now you can selet this second light and set it to a different color.  Since you set this variable to **Instance Editable** now each light in the scene can have a different color.  I set the second light to a green color.
 
-![change color of light](images/changeColorOfLight.png)
 
 ![](../images/line2.png)
 
