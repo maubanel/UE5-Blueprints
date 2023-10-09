@@ -78,22 +78,19 @@ Create a new folder called **Room3** in the **Blueprints** folder. Now make sure
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Select the **Lamp** component and rotate the lamp so that it doesn't point straight down. Tune it to your liking. Select the **Spotlight** then set the light color to your preference. I picked green. Also set the **Intensity** to be a bit brighter.
+
+![rotate lamp to your liking](images/RotateLampToOffsetIt.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Now make sure that the parent child relationship is correct.  We want the **SpotlightLamp** to be at the top with a child of **Lightbulb** and grand child of **Spot Light**. This way when you move or rotate the object everything moves with it.
-
-![proper parent child hiearchy](images/ParentChild.png)
-
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Select the **Lamp** component and rotate the lamp so that it doesn't point straight down. Tune it to your liking. Select the **Spotlight** then set the light color to your preference. I picked green. Also set the **Intensity** to be a bit brighter.
 
-![rotate lamp to your liking](images/RotateLampToOffsetIt.png)
 
 ![](../images/line2.png)
 
