@@ -37,7 +37,7 @@ https://github.com/maubanel/UE5-Blueprints/assets/5504953/60ccf750-6c5f-4059-a50
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Copy and paste* the entire section from Y below it. Change the **Comment** to `Translate on X`.  Right click on the **bTranslateOnY** node and select **Replace variable 'bTranslateOnY' with... | bTranslateOnZ`**.  This will change it to the **Z** axis.  Connect the **Lerp** from the Y section to **SetRelativeLocatoin | New Location Z**. Connect the **Alpha** of the **Lerp** to the **SIN** node.Connect the output of the **Sequence | Then 2** pin to the **Branch** node hooked up to **bTranslateOnZ**.
+*Copy and paste* the entire section from Y below it. Change the **Comment** to `Translate on Z`.  Right click on the **bTranslateOnY** node and select **Replace variable 'bTranslateOnY' with... | bTranslateOnZ`**.  This will change it to the **Z** axis.  Connect the **Lerp** from the Y section to **SetRelativeLocatoin | New Location Z**. Connect the **Alpha** of the **Lerp** to the **SIN** node.Connect the output of the **Sequence | Then 2** pin to the **Branch** node hooked up to **bTranslateOnZ**.
 
 ![copy and paste to translate on x](images/translateOnX.png)
 
