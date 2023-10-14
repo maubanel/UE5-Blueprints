@@ -132,11 +132,13 @@ Change all the boolean names to `Translate on Z`, `Translate on X` and `Translat
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Drag off* of this **Set** output pin and look for the **Sin (Radians)** node. We will use a sine wave to translate the object and you need to use radians to do math to it as opposed to angles (remember your trig?).
+Drag a **Get** node from the **Translate On X** boolean onto the graph. *Drag* the pin off of the **Translate On X** variable in the graph and *select* a **Branch** node (remember this is like an if() statement). *Connect* the execution pins from the **Sequence | Then 0** to **Branch** pin.
 
-![add sin wave radians](images/SineWaveNode.png)
+![Change bool names](images/branchOnX.png)
 
-Drag a **Get** node from the **Translate On Z** boolean onto the graph. *Drag* the pin off of the **Translate On Z** variable in the graph and *select* a **Branch** node (remember this is like an if() statement). *Connect* the execution pins from the **Sequence | Then 0** to **Branch** pin.
+![](../images/line2.png)
+
+##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Drag and drop* a reference to the **Rotating Cube** mesh onto the graph. *Pull off* of the **Rotating Cube** pin and *add* a node called **Add Relative Location** to the scene graph.
 
@@ -158,10 +160,6 @@ Change the name of **Degress per Second** variable to `CmOfTravel`.  Change the 
 Add a **Multiplication** node to the graph.  Also add a **Get Cm Of Travel** node.  Multiply them together and send the output to the **Delta Location Z** input pin on the **Add Relative Location** node.
 
 ![output sin to delta location z](images/multSin.png)
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Add a comment on all the nodes after the **Sequence** and type `Translate on Z`. This is the up and down axis in the room.
 
