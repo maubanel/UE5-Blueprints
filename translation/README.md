@@ -124,7 +124,7 @@ Before we adjust take the sin, we can divide the number by the number of seconds
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-Change all the boolean names to `Translate on Z`, `Translate on X` and `Translate on Y`.
+Change all the boolean **Category** names of **bTranslateOnX**, **bTranslateOnY** and **bTranslateOnZ** to `Translation`. Double check that you changed the **Category** on **TotalTime** to `Translation.`
 
 ![Change bool names](images/changeBoolNames.png)
 
@@ -132,7 +132,7 @@ Change all the boolean names to `Translate on Z`, `Translate on X` and `Translat
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Drag a **Get** node from the **Translate On X** boolean onto the graph. *Drag* the pin off of the **Translate On X** variable in the graph and *select* a **Branch** node (remember this is like an if() statement). *Connect* the execution pins from the **Sequence | Then 0** to **Branch** pin.
+Drag a **Get** node from the **bTranslate On X** boolean onto the graph. *Drag* the pin off of the **Translate On X** variable in the graph and *select* a **Branch** node (remember this is like an if() statement). *Connect* the execution pins from the **Sequence | Then 0** to **Branch** pin.
 
 ![Change bool names](images/branchOnX.png)
 
