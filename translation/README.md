@@ -172,12 +172,9 @@ To drive the **Lerp** we will use the alpha coming from the **SIN** node.  This 
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-*Run* the game and make sure the **TranslateOnX** boolean is set to `true` in the **Details Panel**. The cube should move in and out. Now play with the default values and ranges of **CmOfTravel**. We limit ranges to limit very large numbers that could introduce bugs and gameplay issues.
+*Run* the game and make sure the **TranslateOnX** boolean is set to `true` in the **Details Panel**. The cube should move left and right. Now play with the default values and ranges of **CmOfTravel**. We limit ranges to limit very large numbers that could introduce bugs and gameplay issues.
 
-https://user-images.githubusercontent.com/5504953/193453110-b3e8fe58-81ff-42d2-a5ea-03d53467d894.mp4
-
-
-
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/45b068bf-483b-42ca-ab59-0724bfdd4123
 
 ![](../images/line.png)
 
