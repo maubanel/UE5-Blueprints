@@ -13,14 +13,17 @@ Lets finish up translating the cube on the Y and X axis.
 ---
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
+*Copy and paste* the entire section below it.
 
-Connect the output of the **Multiplication** pin to the **Delta Location Y** pin in the **Translate on Y** section.
-
-![connect pins](images/connectY.png)
+![copy](images/copyPasteXtoY.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: 
+
+Connect the output of the **Multiplication** pin to the **Delta Location Y** pin in the **Translate on Y** section.
+
+![connect pins](images/connectY.png)
 
 In the editor change it to only **Translate on Z** as `true` and the **CmOfTravel** to `4`. *Press* the <kbd>Play</kbd> button to see the box move in and out of the screen.
 
