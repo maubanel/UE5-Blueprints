@@ -76,15 +76,17 @@ Update comment on nodes to `Updates Total Time`.
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We are going to send this time period through a sign wave.  A sign wave goes through a 
+We are going to send this time period through a sign wave.  When we send the time through a SIN function we will get a smooth cureve going from 0 to 1 to -1 and back.  It has a nice ease in and ease out so the motion if very natural.  The two things we care about are the *period* (how long it takes to from 0 to 1 to -1 and back) and the *amplitude* which is the height of the curve (y axis values). When we take the `sin(x)` we get a period of 2π and an amplitude of 1.
+
+![delete most nodes](images/piRaw.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-*Delete* all nodes on the chart to the right of the **Sequence** node. When we send the time through a SIN function we will get a smooth cureve going from 0 to 1 to -1 and back.  It has a nice ease in and ease out so the motion if very natural.  The two things we care about are the *period* (how long it takes to from 0 to 1 to -1 and back) and the *amplitude* which is the height of the curve (y axis values). When we take the `sin(x)` we get a period of 2π and an amplitude of 1.
+*Delete* all nodes on the chart to the right of the **Sequence** node. 
 
-![delete most nodes](images/piRaw.png)
+![delete most nodes](images/SetTotalTimeRm8.png)
 
 Change all the boolean names to `Translate on Z`, `Translate on X` and `Translate on Y`.
 
