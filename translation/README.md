@@ -164,44 +164,20 @@ Drag **CmOfTravel** to the chart.  Add a **Linear Interpellation** LERP node to 
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-Hook up the execution pins from the **Branch | True** node to the **Add Relative Location** node.
+To drive the **Lerp** we will use the alpha coming from the **SIN** node.  This will drive the lerp from point A to point B to A to -B back to A again (0, 1, 0, -1, 0).  
 
 ![rename rotation to translation](images/connectToTrue.png)
-
-Change the name of **Degress per Second** variable to `CmOfTravel`.  Change the **Description** to indicate that this will be the length of displacement on either side of the cube in the level.
-
-![change var name](images/changeVar.png)
-
-*Right click* on **Delta Location** input pin on the **Add Relative Location** node and *select* **Split Struct Pin**.
-
-![split struct pin](images/splitPins.png)
-
-Add a **Multiplication** node to the graph.  Also add a **Get Cm Of Travel** node.  Multiply them together and send the output to the **Delta Location Z** input pin on the **Add Relative Location** node.
-
-![output sin to delta location z](images/multSin.png)
-
-Add a comment on all the nodes after the **Sequence** and type `Translate on Z`. This is the up and down axis in the room.
-
-![add code comments](images/AddTranslateOnZComment.png)
-
-*Run* the game and make sure the **Translate On Z** boolean is set to `true` in the **Details Panel**. The cube should move up and down. Now play with the default values and ranges of **CmOfTravel**. We limit ranges to limit very large numbers that could introduce bugs and gameplay issues.
-
-https://user-images.githubusercontent.com/5504953/193453110-b3e8fe58-81ff-42d2-a5ea-03d53467d894.mp4
-
-*Copy and paste* the entire section.
-
-![copy](images/CopyPasteTranslateZRm8.png)
-Change the **Comment** to `Translate on Y`.  Connect the output of the **Sin** node to the top **Multiplication** pin of the new translate on Y section.
-
-![change comment connect multiplication to sin](images/changeComm.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Change the **Translate on Z** node to the **Translate on Y** node.
+*Run* the game and make sure the **TranslateOnX** boolean is set to `true` in the **Details Panel**. The cube should move in and out. Now play with the default values and ranges of **CmOfTravel**. We limit ranges to limit very large numbers that could introduce bugs and gameplay issues.
 
-![change translate on z to y](images/changeTranslate.png)
+https://user-images.githubusercontent.com/5504953/193453110-b3e8fe58-81ff-42d2-a5ea-03d53467d894.mp4
+
+
+
 
 ![](../images/line.png)
 
