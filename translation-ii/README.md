@@ -61,6 +61,33 @@ We need to add the other axis back into the tranlation nodes.  We are zeroing th
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now connect the ****
+
+![alt_text](images/connectYZ.png)
+
+
+![](../images/line2.png)
+
+##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`ITB`| :large_blue_diamond:
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
+
 Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
 ![](../images/line.png)
