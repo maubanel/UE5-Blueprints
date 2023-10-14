@@ -8,8 +8,6 @@
 
 Now you don't always have to assign the reference to the variable. You can access multiple instances of an object of the same class dynamically at run time as opposed to storing it in a variable at compile time. We can do this with a special node called **Get All Actors From Class**.
 
-<br>
-
 ---
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
