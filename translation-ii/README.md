@@ -55,6 +55,8 @@ https://github.com/maubanel/UE5-Blueprints/assets/5504953/74ba9cfa-94aa-4080-895
 
 We need to add the other axis back into the tranlation nodes.  We are zeroing them out.  Select the **TranslationCube** pin and select **GetRelativeLocation** and then **Split Struct Pin**.
 
+![copy and paste to translate on x](images/getRelaticXLoc.png)
+
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
