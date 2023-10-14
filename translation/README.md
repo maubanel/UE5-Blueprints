@@ -156,7 +156,7 @@ Drag **CmOfTravel** to the chart.  Add a **Linear Interpellation** LERP node to 
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag and drop* a reference to the **TranslatingCube** cube mesh component onto the graph. *Pull off* of the **TranslatingCube** pin and *add* a node called **SetRelativeLocation** to the scene graph. Connet the execution pin of the **SetRelativeLocation**  to the **Branch** output.  Connect the **TranslatingCube** pin to the **SetRelativeLocation | Target**.  Plug the output of the **Lerp** node to the **New Location X** pin.
+*Drag and drop* a reference to the **TranslatingCube** cube mesh component onto the graph. *Pull off* of the **TranslatingCube** pin and *add* a node called **SetRelativeLocation** to the scene graph. Connet the execution pin of the **SetRelativeLocation**  to the **Branch** output.  Connect the **TranslatingCube** pin to the **SetRelativeLocation | Target**.  Plug the output of the **Lerp** node to the **New Location X** pin. Add a comment box around the nodes saying ``.
 
 ![reference to rotating cube](images/DragAndDropRotatingCube.png)
 
