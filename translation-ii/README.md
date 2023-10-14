@@ -13,7 +13,7 @@ Lets finish up translating the cube on the Y and X axis.
 ---
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
-*Copy and paste* the entire section below it.
+*Copy and paste* the entire section below it. Change the **Comment** to `Translate on Y`.  Right click on the **bTranslateOnX** node and select **Replace variable 'bTranslateOnX' with... | bTranslateOnY`**.  This will change it to the **Y** axis. 
 
 ![copy](images/copyPasteXtoY.png)
 
