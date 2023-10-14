@@ -28,7 +28,7 @@ Open the new blueprint and *add* a new **Static Mesh** by *pressing* the **Add C
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Rename* static mesh component to `Lightbulb` and *drag* it on its parent making it the root object. Add a **SM_Lightbulb** to the **Static Mesh** slot and the **M_Glass** as the **Material**. Press the <kbd>Compile</kbd> button.
+*Rename* static mesh component to `Lightbulb` and *drag* it on its parent making it the root object. Add a **SM_Lightbulb** to the **Static Mesh** slot and make sure that **M_Glass** ss the **Material** in **Element1**. Press the <kbd>Compile</kbd> button.
 
 ![rename and rescale lightbulb](images/ScaleLightbulb.png)
 
