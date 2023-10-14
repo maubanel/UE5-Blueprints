@@ -84,6 +84,14 @@ We are going to send this time period through a sign wave.  When we send the tim
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
+We want to adjust the length the animation in seconds and not of units of π. So we want to normalize this to a *period* of 1 second.  We accomplish this by mutliplying the value we are sending to by by `2π`.  This gives us a period of `1.0`.
+
+![delete most nodes](images/normalizeThePeriod.png)
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
+
 *Delete* all nodes on the chart to the right of the **Sequence** node. 
 
 ![delete most nodes](images/SetTotalTimeRm8.png)
@@ -91,11 +99,6 @@ We are going to send this time period through a sign wave.  When we send the tim
 Change all the boolean names to `Translate on Z`, `Translate on X` and `Translate on Y`.
 
 ![Change bool names](images/changeBoolNames.png)
-
-![](../images/line2.png)
-
-##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
-
 *Drag off* of this **Set** output pin and look for the **Sin (Radians)** node. We will use a sine wave to translate the object and you need to use radians to do math to it as opposed to angles (remember your trig?).
 
 ![add sin wave radians](images/SineWaveNode.png)
