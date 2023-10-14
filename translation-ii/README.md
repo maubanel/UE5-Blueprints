@@ -21,17 +21,17 @@ Lets finish up translating the cube on the Y and X axis.
 
 ##### `Step 2.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: 
 
-Connect the output of the **Multiplication** pin to the **Delta Location Y** pin in the **Translate on Y** section.
+Connect the **Lerp** from the Y section to **SetRelativeLocatoin | New Location Y**. Connect the **Alpha** of the **Lerp** to the **SIN** node.Connect the output of the **Sequence | Then 1** pin to the **Branch** node hooked up to **bTranslateOnY**.
 
 ![connect pins](images/connectY.png)
-
-In the editor change it to only **Translate on Z** as `true` and the **CmOfTravel** to `4`. *Press* the <kbd>Play</kbd> button to see the box move in and out of the screen.
-
-https://user-images.githubusercontent.com/5504953/193455503-434b6730-87b7-4d61-861b-2abda5624914.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+In the editor change it to only **Translate on Z** as `true` and the **CmOfTravel** to `4`. *Press* the <kbd>Play</kbd> button to see the box move in and out of the screen.
+
+https://user-images.githubusercontent.com/5504953/193455503-434b6730-87b7-4d61-861b-2abda5624914.mp4
 
 *Copy and paste* all the nodes from the **Translate On Z** section again. Change the **Comment** to `Translate on X`. Also *delete* the **Translate On Z** getter in the graph and drag and drop **Translate On X**. Change the connecdtion from the **Multiplication** node to **Delta Locaion on X**.
 
