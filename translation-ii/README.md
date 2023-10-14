@@ -45,7 +45,8 @@ https://github.com/maubanel/UE5-Blueprints/assets/5504953/60ccf750-6c5f-4059-a50
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Go into the game and turning each axis on and off. Also, look at your blueprint node chart as it runs to see how the booleans gate the operation flow.
+Press the <kbd>Play</kbd> button and now select **bTranslateOnZ**. I had to reduce the distance so that the cube doesn't go into the ground. Now try turning each axis on and hitting play. Notice that it is **NOT** movign on all three axis. We are only moving with the last Z axis.  Lets fix this.
+
 
 
 ![](../images/line2.png)
