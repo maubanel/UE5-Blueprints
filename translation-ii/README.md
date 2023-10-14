@@ -86,7 +86,8 @@ Repeat it for the Z axis.  Right click on **TranslatingCube** and select a **Get
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Select translation on all three axis and press the <kbd>Play</kbd> button. Now it is moving on all three axis, well done!
+
 
 ![](../images/line2.png)
 
