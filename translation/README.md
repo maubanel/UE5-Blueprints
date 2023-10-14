@@ -92,7 +92,7 @@ We want to adjust the length the animation in seconds and not of units of π. So
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Add a **Get PI** node to the chart.  Then add a **Multiplication** node and multiply **PI** by **Total Time**.  Then press the <kbd>+</kbd> button and add another mutliplication and enter a value of `2.0`.  This effectively will multiply **PI** by `2.0` giving us a period of `1`.
+Lets represent what we were doing to the **X** value before we sent it to sin (in the parenthesis) in UE5. Add a **Get PI** node to the chart.  Then add a **Multiplication** node and multiply **PI** by **Total Time**.  Then press the <kbd>+</kbd> button and add another mutliplication and enter a value of `2.0`.  This effectively will multiply **PI** by `2.0` giving us a period of `1` as in the above graph. Add a comment around these nodes saying `Normalize Periood of SIN to 1s` to express the function of these nodes.
 
 ![delete most nodes](images/normalizeSinInUE.png)
 
