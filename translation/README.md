@@ -156,9 +156,13 @@ Drag **CmOfTravel** to the chart.  Add a **Linear Interpellation** LERP node to 
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag and drop* a reference to the **Rotating Cube** mesh onto the graph. *Pull off* of the **Rotating Cube** pin and *add* a node called **Add Relative Location** to the scene graph.
+*Drag and drop* a reference to the **TranslatingCube** cube mesh component onto the graph. *Pull off* of the **TranslatingCube** pin and *add* a node called **SetRelativeLocation** to the scene graph. Connet the execution pin of the **SetRelativeLocation**  to the **Branch** output.  Connect the **TranslatingCube** pin to the **SetRelativeLocation | Target**.  Plug the output of the **Lerp** node to the **New Location X** pin.
 
 ![reference to rotating cube](images/DragAndDropRotatingCube.png)
+
+![](../images/line2.png)
+
+##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
 Now would be a good time to rename our static mesh. It is no longer part of a rotating cube. Go to the **Components** window and *rename* it to `Translating Cube`. Hook up the execution pins from the **Branch | True** node to the **Add Relative Location** node.
 
@@ -187,11 +191,6 @@ https://user-images.githubusercontent.com/5504953/193453110-b3e8fe58-81ff-42d2-a
 *Copy and paste* the entire section.
 
 ![copy](images/CopyPasteTranslateZRm8.png)
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
-
 Change the **Comment** to `Translate on Y`.  Connect the output of the **Sin** node to the top **Multiplication** pin of the new translate on Y section.
 
 ![change comment connect multiplication to sin](images/changeComm.png)
