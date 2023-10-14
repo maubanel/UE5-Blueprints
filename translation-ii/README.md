@@ -88,6 +88,7 @@ Repeat it for the Z axis.  Right click on **TranslatingCube** and select a **Get
 
 Select translation on all three axis and press the <kbd>Play</kbd> button. Now it is moving on all three axis, well done!
 
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/d2a8fd33-9839-4205-8cec-e447dedd321f
 
 ![](../images/line2.png)
 
