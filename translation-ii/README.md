@@ -70,13 +70,15 @@ Now connect the **Relative Location Y** to **Set Relative Location | New Locatio
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/getRelativeZLoc.png)
+Repeat it for the Y axis.  Right click on **TranslatingCube** and select a **Get Relative Location** node and **Split Struct Pin** from the output.  Now connect the **Relative Location X** to **Set Relative Location | New Location X** and **Relative Location X** to **Set Relative Location | New Location Z**.  This will put the current value and not zero it out.
+
+![alt_text](images/getRelativeYLoc.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/getRelativeZLoc.png)
 
 ![](../images/line2.png)
 
