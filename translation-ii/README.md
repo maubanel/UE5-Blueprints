@@ -29,17 +29,17 @@ Connect the **Lerp** from the Y section to **SetRelativeLocatoin | New Location 
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-In the editor change it to only **Translate on Z** as `true` and the **CmOfTravel** to `4`. *Press* the <kbd>Play</kbd> button to see the box move in and out of the screen.
+In the editor change it to only **bTranslateOnY** as `true`. *Press* the <kbd>Play</kbd> button to see the box move in and out of the screen.
 
-https://user-images.githubusercontent.com/5504953/193455503-434b6730-87b7-4d61-861b-2abda5624914.mp4
 
-*Copy and paste* all the nodes from the **Translate On Z** section again. Change the **Comment** to `Translate on X`. Also *delete* the **Translate On Z** getter in the graph and drag and drop **Translate On X**. Change the connecdtion from the **Multiplication** node to **Delta Locaion on X**.
-
-![copy and paste to translate on x](images/translateOnX.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+*Copy and paste* all the nodes from the **Translate On Z** section again. Change the **Comment** to `Translate on X`. Also *delete* the **Translate On Z** getter in the graph and drag and drop **Translate On X**. Change the connecdtion from the **Multiplication** node to **Delta Locaion on X**.
+
+![copy and paste to translate on x](images/translateOnX.png)
 
 Connect the output of the **Sin** node to the top input of the **Mutliplication** node.
 
