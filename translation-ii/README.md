@@ -47,7 +47,7 @@ https://github.com/maubanel/UE5-Blueprints/assets/5504953/60ccf750-6c5f-4059-a50
 
 Press the <kbd>Play</kbd> button and now select **bTranslateOnZ**. I had to reduce the distance so that the cube doesn't go into the ground. Now try turning each axis on and hitting play. Notice that it is **NOT** movign on all three axis. We are only moving with the last Z axis.  Lets fix this.
 
-
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/74ba9cfa-94aa-4080-8956-d0be851cfb52
 
 ![](../images/line2.png)
 
