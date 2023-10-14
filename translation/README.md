@@ -148,6 +148,7 @@ Now we want to LERP between the current position to one side then the other (the
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Drag **CmOfTravel** to the chart.  Add a **Linear Interpellation** LERP node to the graph. Connect **CmOfTravel** to **LERP | B** node.  We will leave the **A** channel `0.0` which is the existing position in the world.  So it will start going in the positive axis direction to this distance then back to the same amount on the opposite side of the axis.  
 
  ![reference to rotating cube](images/lerpInCM.png)
 
