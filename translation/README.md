@@ -92,6 +92,15 @@ We want to adjust the length the animation in seconds and not of units of π. So
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
+**Sin (Radians)** node
+
+![delete most nodes](images/normalizeSinInUE.png)
+
+![](../images/line2.png)
+
+
+##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
 *Delete* all nodes on the chart to the right of the **Sequence** node. 
 
 ![delete most nodes](images/SetTotalTimeRm8.png)
@@ -102,11 +111,6 @@ Change all the boolean names to `Translate on Z`, `Translate on X` and `Translat
 *Drag off* of this **Set** output pin and look for the **Sin (Radians)** node. We will use a sine wave to translate the object and you need to use radians to do math to it as opposed to angles (remember your trig?).
 
 ![add sin wave radians](images/SineWaveNode.png)
-
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Drag a **Get** node from the **Translate On Z** boolean onto the graph. *Drag* the pin off of the **Translate On Z** variable in the graph and *select* a **Branch** node (remember this is like an if() statement). *Connect* the execution pins from the **Sequence | Then 0** to **Branch** pin.
 
