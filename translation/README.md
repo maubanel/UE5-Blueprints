@@ -99,10 +99,14 @@ Add a **Get PI** node to the chart.  Then add a **Multiplication** node and mult
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now add a new variable of **Type** `Float` with the name ``.
+Now add a new variable of **Type** `Float` with the name `SecondsPerPeriod`. Make **Instance Editable** and **Private** `true` and set the **Category** to `Translation`. Add a **Description** of `Number of Seconds for a full period`.
 
 ![delete most nodes](images/secondsPerPeriod.png)
 
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 *Delete* all nodes on the chart to the right of the **Sequence** node. 
 
@@ -120,10 +124,6 @@ Drag a **Get** node from the **Translate On Z** boolean onto the graph. *Drag* t
 *Drag and drop* a reference to the **Rotating Cube** mesh onto the graph. *Pull off* of the **Rotating Cube** pin and *add* a node called **Add Relative Location** to the scene graph.
 
 ![reference to rotating cube](images/DragAndDropRotatingCube.png)
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now would be a good time to rename our static mesh. It is no longer part of a rotating cube. Go to the **Components** window and *rename* it to `Translating Cube`. Hook up the execution pins from the **Branch | True** node to the **Add Relative Location** node.
 
