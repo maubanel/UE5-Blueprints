@@ -37,29 +37,22 @@ https://github.com/maubanel/UE5-Blueprints/assets/5504953/60ccf750-6c5f-4059-a50
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Copy and paste* all the nodes from the **Translate On Z** section again. Change the **Comment** to `Translate on X`. Also *delete* the **Translate On Z** getter in the graph and drag and drop **Translate On X**. Change the connecdtion from the **Multiplication** node to **Delta Locaion on X**.
+*Copy and paste* the entire section from Y below it. Change the **Comment** to `Translate on X`.  Right click on the **bTranslateOnY** node and select **Replace variable 'bTranslateOnY' with... | bTranslateOnZ`**.  This will change it to the **Z** axis.  Connect the **Lerp** from the Y section to **SetRelativeLocatoin | New Location Z**. Connect the **Alpha** of the **Lerp** to the **SIN** node.Connect the output of the **Sequence | Then 2** pin to the **Branch** node hooked up to **bTranslateOnZ**.
 
 ![copy and paste to translate on x](images/translateOnX.png)
-
-Connect the output of the **Sin** node to the top input of the **Mutliplication** node.
-
-![connect sin to mult](images/sinToMult.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-*Pull* of the **Then 2** execution pin and place it into the **Branch** node you just to translate on x.
+Go into the game and turning each axis on and off. Also, look at your blueprint node chart as it runs to see how the booleans gate the operation flow.
 
-![connect execution pin to branch](images/connectThen2.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Go into the game and turning each axis on and off. Also, look at your blueprint node chart as it runs to see how the booleans gate the operation flow.
 
-https://user-images.githubusercontent.com/5504953/193456318-39ef7da9-817a-42c3-93c7-d537a18e1cf4.mp4
 
 ![](../images/line2.png)
 
