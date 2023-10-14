@@ -61,7 +61,7 @@ We need to add the other axis back into the tranlation nodes.  We are zeroing th
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now connect the ****
+Now connect the **Relative Location Y** to **Set Relative Location | New Location Y** and **Relative Location X** to **Set Relative Location | New Location Z**.  This will put the current value and not zero it out.
 
 ![alt_text](images/connectYZ.png)
 
