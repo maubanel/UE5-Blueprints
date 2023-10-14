@@ -140,6 +140,15 @@ Drag a **Get** node from the **bTranslate On X** boolean onto the graph. *Drag* 
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now we want to LERP between the current position to one side then the other (the sin goes from + to -).  So lets add a new variable of **Type** `float` called `CMToTravel`.  
+
+![reference to rotating cube](images/cmToTravel.png)
+
+![](../images/line2.png)
+
+##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
 *Drag and drop* a reference to the **Rotating Cube** mesh onto the graph. *Pull off* of the **Rotating Cube** pin and *add* a node called **Add Relative Location** to the scene graph.
 
 ![reference to rotating cube](images/DragAndDropRotatingCube.png)
@@ -165,9 +174,6 @@ Add a comment on all the nodes after the **Sequence** and type `Translate on Z`.
 
 ![add code comments](images/AddTranslateOnZComment.png)
 
-![](../images/line2.png)
-
-##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Run* the game and make sure the **Translate On Z** boolean is set to `true` in the **Details Panel**. The cube should move up and down. Now play with the default values and ranges of **CmOfTravel**. We limit ranges to limit very large numbers that could introduce bugs and gameplay issues.
 
