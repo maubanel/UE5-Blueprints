@@ -152,11 +152,11 @@ Drag **CmOfTravel** to the chart.  Add a **Linear Interpellation** LERP node to 
 
  ![reference to rotating cube](images/lerpInCM.png)
 
-*Drag and drop* a reference to the **Rotating Cube** mesh onto the graph. *Pull off* of the **Rotating Cube** pin and *add* a node called **Add Relative Location** to the scene graph.
-
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+*Drag and drop* a reference to the **Rotating Cube** mesh onto the graph. *Pull off* of the **Rotating Cube** pin and *add* a node called **Add Relative Location** to the scene graph.
 
 ![reference to rotating cube](images/DragAndDropRotatingCube.png)
 
