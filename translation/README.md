@@ -103,10 +103,17 @@ Now add a new variable of **Type** `Float` with the name `SecondsPerPeriod`. Mak
 
 ![delete most nodes](images/secondsPerPeriod.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+
+
+![delete most nodes](images/adjustLenthOfPeriodUE.png)
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 *Delete* all nodes on the chart to the right of the **Sequence** node. 
 
@@ -128,10 +135,6 @@ Drag a **Get** node from the **Translate On Z** boolean onto the graph. *Drag* t
 Now would be a good time to rename our static mesh. It is no longer part of a rotating cube. Go to the **Components** window and *rename* it to `Translating Cube`. Hook up the execution pins from the **Branch | True** node to the **Add Relative Location** node.
 
 ![rename rotation to translation](images/connectToTrue.png)
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Change the name of **Degress per Second** variable to `CmOfTravel`.  Change the **Description** to indicate that this will be the length of displacement on either side of the cube in the level.
 
