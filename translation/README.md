@@ -86,7 +86,7 @@ We are going to send this time period through a sign wave.  When we send the tim
 
 We want to adjust the length the animation in seconds and not of units of π. So we want to normalize this to a *period* of 1 second.  We accomplish this by mutliplying the value we are sending to by by `2π`.  This gives us a period of `1.0`.
 
-![delete most nodes](images/normalizeSinInUE.png)
+![delete most nodes](images/normalizeThePeriod.png)
 
 ![](../images/line2.png)
 
@@ -94,7 +94,7 @@ We want to adjust the length the animation in seconds and not of units of π. So
 
 Add a **Get PI** node to the chart.  Then add a **Multiplication** node and multiply **PI** by **Total Time**.  Then press the <kbd>+</kbd> button and add another mutliplication and enter a value of `2.0`.  This effectively will multiply **PI** by `2.0` giving us a period of `1`.
 
-![delete most nodes](images/normalizeThePeriod.png)
+![delete most nodes](images/normalizeSinInUE.png)
 
 ![](../images/line2.png)
 
