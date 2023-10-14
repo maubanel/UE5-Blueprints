@@ -132,7 +132,7 @@ Change all the boolean **Category** names of **bTranslateOnX**, **bTranslateOnY*
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Drag a **Get** node from the **bTranslate On X** boolean onto the graph. *Drag* the pin off of the **Translate On X** variable in the graph and *select* a **Branch** node (remember this is like an if() statement). *Connect* the execution pins from the **Sequence | Then 0** to **Branch** pin.
+Now would be a good time to rename our static mesh. It is no longer part of a rotating cube. Go to the **Components** window and *rename* it to `TranslatingCube`. Drag a **Get** node from the **bTranslateOnX** boolean onto the graph. *Drag* the pin off of the **TranslateOnX** variable in the graph and *select* a **Branch** node (remember this is like an if() statement). *Connect* the execution pins from the **Sequence | Then 0** to **Branch** pin.
 
 ![Change bool names](images/branchOnX.png)
 
@@ -156,7 +156,7 @@ Drag **CmOfTravel** to the chart.  Add a **Linear Interpellation** LERP node to 
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag and drop* a reference to the **TranslatingCube** cube mesh component onto the graph. *Pull off* of the **TranslatingCube** pin and *add* a node called **SetRelativeLocation** to the scene graph. Connet the execution pin of the **SetRelativeLocation**  to the **Branch** output.  Connect the **TranslatingCube** pin to the **SetRelativeLocation | Target**.  Plug the output of the **Lerp** node to the **New Location X** pin. Add a comment box around the nodes saying `TranslateOnX`.
+*Drag and drop* a reference to the **TranslatingCube** cube mesh component onto the graph. *Pull off* of the **TranslatingCube** pin and *add* a node called **SetRelativeLocation** to the scene graph. Connet the execution pin of the **SetRelativeLocation**  to the **Branch** output.  Connect the **TranslatingCube** pin to the **SetRelativeLocation | Target**.  Plug the output of the **Lerp** node to the **New Location X** pin. Add a comment box around the nodes saying `Translate On X`.
 
 ![reference to rotating cube](images/DragAndDropRotatingCube.png)
 
@@ -164,7 +164,7 @@ Drag **CmOfTravel** to the chart.  Add a **Linear Interpellation** LERP node to 
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-Now would be a good time to rename our static mesh. It is no longer part of a rotating cube. Go to the **Components** window and *rename* it to `Translating Cube`. Hook up the execution pins from the **Branch | True** node to the **Add Relative Location** node.
+Hook up the execution pins from the **Branch | True** node to the **Add Relative Location** node.
 
 ![rename rotation to translation](images/connectToTrue.png)
 
