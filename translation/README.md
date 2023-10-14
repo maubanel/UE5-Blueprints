@@ -120,9 +120,18 @@ Before we adjust take the sin, we can divide the number by the number of seconds
 
 ![delete most nodes](images/SetTotalTimeRm8.png)
 
+![](../images/line2.png)
+
+##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
+
 Change all the boolean names to `Translate on Z`, `Translate on X` and `Translate on Y`.
 
 ![Change bool names](images/changeBoolNames.png)
+
+![](../images/line2.png)
+
+##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
 *Drag off* of this **Set** output pin and look for the **Sin (Radians)** node. We will use a sine wave to translate the object and you need to use radians to do math to it as opposed to angles (remember your trig?).
 
 ![add sin wave radians](images/SineWaveNode.png)
@@ -141,18 +150,10 @@ Change the name of **Degress per Second** variable to `CmOfTravel`.  Change the 
 
 ![change var name](images/changeVar.png)
 
-![](../images/line2.png)
-
-##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
-
 *Right click* on **Delta Location** input pin on the **Add Relative Location** node and *select* **Split Struct Pin**.
 
 ![split struct pin](images/splitPins.png)
 
-
-![](../images/line2.png)
-
-##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Add a **Multiplication** node to the graph.  Also add a **Get Cm Of Travel** node.  Multiply them together and send the output to the **Delta Location Z** input pin on the **Add Relative Location** node.
 
