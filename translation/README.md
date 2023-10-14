@@ -140,7 +140,7 @@ Drag a **Get** node from the **bTranslate On X** boolean onto the graph. *Drag* 
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we want to LERP between the current position to one side then the other (the sin goes from + to -).  So lets add a new variable of **Type** `float` called `CMToTravel`.  
+Now we want to LERP between the current position to one side then the other (the sin goes from + to -).  So lets add a new variable of **Type** `float` called `CmOfTavel`.  Set the **Instance Editable** and **Private** to `true`. Change the **Description** to `Total displacement in cm in each direction`. Set the **Category** to `Translation`. Set the **Default** to `200` cm (2 meters or 6.5 feet).  This will move the cube 200 cm in each direction on the chosen axis.
 
 ![reference to rotating cube](images/cmToTravel.png)
 
