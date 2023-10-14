@@ -172,7 +172,7 @@ To drive the **Lerp** we will use the alpha coming from the **SIN** node.  This 
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-*Run* the game and make sure the **TranslateOnX** boolean is set to `true` in the **Details Panel**. The cube should move left and right. Now play with the default values and ranges of **CmOfTravel**. We limit ranges to limit very large numbers that could introduce bugs and gameplay issues.
+*Run* the game and make sure the **TranslateOnX** boolean is set to `true` in the **Details Panel**. The cube should move left and right. Now play with the default values and ranges of **CmOfTravel**. We limit ranges to limit very large numbers that could introduce bugs and gameplay issues. You can see that the animation is not at a constant rate and we get a nice easing in and out of the end points of the sin curve.
 
 https://github.com/maubanel/UE5-Blueprints/assets/5504953/45b068bf-483b-42ca-ab59-0724bfdd4123
 
