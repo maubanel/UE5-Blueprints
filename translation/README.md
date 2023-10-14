@@ -86,7 +86,7 @@ We are going to send this time period through a sign wave.  When we send the tim
 
 We want to adjust the length the animation in seconds and not of units of π. So we want to normalize this to a *period* of 1 second.  We accomplish this by mutliplying the value we are sending to by by `2π`.  This gives us a period of `1.0`.
 
-![delete most nodes](images/normalizeThePeriod.png)
+![delete most nodes](images/normalizeSinInUE.png)
 
 ![](../images/line2.png)
 
@@ -94,6 +94,7 @@ We want to adjust the length the animation in seconds and not of units of π. So
 
 Add a **Get PI** node to the chart.  Then add a **Multiplication** node and multiply **PI** by **Total Time**.  Then press the <kbd>+</kbd> button and add another mutliplication and enter a value of `2.0`.  This effectively will multiply **PI** by `2.0` giving us a period of `1`.
 
+![delete most nodes](images/normalizeThePeriod.png)
 
 ![](../images/line2.png)
 
@@ -107,7 +108,7 @@ Now add a new variable of **Type** `Float` with the name `SecondsPerPeriod`. Mak
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-
+Before we adjust take the sin, we can divide the number by the number of seconds as the length of the period.  Add a **Get | SecondsPerPeriod** variable and add a **Divide** node.  Take the output of the **Mulitplication** node and plug it into the top of the **Division** and the **SecondsPerPeriod** into the bottom. We add a **Sin (Radians)** node adn plug the output of the **Division** node into it.  Lets make a commnet `Length of Period in Seconds` over these nodes to explain their function.
 
 ![delete most nodes](images/adjustLenthOfPeriodUE.png)
 
