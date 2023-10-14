@@ -31,7 +31,7 @@ Connect the **Lerp** from the Y section to **SetRelativeLocatoin | New Location 
 
 In the editor change it to only **bTranslateOnY** as `true`. *Press* the <kbd>Play</kbd> button to see the box move in and out of the screen.
 
-
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/60ccf750-6c5f-4059-a507-57b74f0f3312
 
 ![](../images/line2.png)
 
