@@ -94,12 +94,15 @@ We want to adjust the length the animation in seconds and not of units of π. So
 
 Add a **Get PI** node to the chart.  Then add a **Multiplication** node and multiply **PI** by **Total Time**.  Then press the <kbd>+</kbd> button and add another mutliplication and enter a value of `2.0`.  This effectively will multiply **PI** by `2.0` giving us a period of `1`.
 
-![delete most nodes](images/normalizeSinInUE.png)
 
 ![](../images/line2.png)
 
-
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+Now add a new variable of **Type** `Float` with the name ``.
+
+![delete most nodes](images/secondsPerPeriod.png)
+
 
 *Delete* all nodes on the chart to the right of the **Sequence** node. 
 
