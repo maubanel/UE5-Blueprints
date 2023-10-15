@@ -123,6 +123,10 @@ https://user-images.githubusercontent.com/5504953/193478516-fd17a586-e420-4272-a
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Make sure all the Lightbulbs and the 
+
+![save all and submit to perforce in P4V](images/cleanUp.png)
+
 Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
 
 ![save all and submit to perforce in P4V](images/submitP4.png)
