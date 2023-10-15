@@ -76,7 +76,7 @@ We need to add a dynamic material to the **Construction Script**. To switch the 
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Add* a new **Variable** and call it `DynamicMaterial`. *Choose* variable type **Material Instance Dynamic | Object Reference**. *Add* a **Tooltip** that says `Holds reference to material`. Put it in category `Lightbulb` and make it `Private`. 
+*Add* a new **Variable** and call it `DynamicMaterial`. *Choose* variable type **Material Instance Dynamic | Object Reference**. *Add* a **Description** that says `Holds reference to material`. Put it in category `Lightbulb` and make it `Private`. 
 
 ![add dynamci material variable and set it](images/SaveDynamicMaterialZ.png)
 
