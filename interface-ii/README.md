@@ -32,9 +32,9 @@ Now this is different than duplicating as it is now a child class and calls its 
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up the BP_Rotate_Rm10 blueprint. *Delete* all the Pitch and Roll nodes to leave just the Yaw.
+Now the first things we need to do is open the parent **BP_LightbulbMultiInterface** and change 
 
-![delete pitch and roll nodes](images/DeletePitchRoll.png)
+![delete pitch and roll nodes](images/nonPrivate.png)
 
 ![](../images/line2.png)
 
