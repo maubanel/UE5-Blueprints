@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-Communicate through a blueprint interface part II
+Communicate through a blueprint interface part II.  Now we will be demonstrating the real power of an interface.  We can inherit from our lightbulb blueprint and override the interface so we have a custom implementation when it is called.
 
 <br>
 
@@ -14,9 +14,11 @@ Communicate through a blueprint interface part II
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-The power of this interface is that other objects can define the interface to do a different action.  So turning on might a light for a light switch, but could also have a TV that implements turning on by showing a movie on the screen. Lets add a cube that rotates when turned on and stops when turned off. Go to **Blueprints | Room 8** and *right click* on **BP_RotateObject** and select **Duplicate**.
+The power of this interface is that other objects can define the interface to do a different action.  So turning on might a light for a light switch, but could also have a TV that implements turning on by showing a movie on the screen. You can also inherit from the same object class and define a different implementation for the interface as well.
 
-![duplicate bp_rotateobject](images/DupeRotateObject.png)
+Lets another light but this time it will be blue. Go to **Blueprints | Room 10** and *right click* on **BP_RotateObject** and select **Duplicate**.
+
+![duplicate bp_rotateobject](images/createChild.png)
 
 ![](../images/line2.png)
 
