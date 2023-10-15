@@ -101,7 +101,7 @@ Each actor that subscribes to it can create its own definition. This means that 
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-*Attach* the execution pins and the boolean pins between **Is On** to **Turn On**. This will run the function we previously wrote to turn the light on and off. *Press* the <kbd>Compile</kbd> button.
+*Attach* the execution pins and the boolean pins between **bIsActivated** to **bTurnOn**. This will run the function we previously wrote to turn the light on and off. *Press* the <kbd>Compile</kbd> button.
 
 ![trigger switch light](images/SwitchLightOnOff2b.png)
 
