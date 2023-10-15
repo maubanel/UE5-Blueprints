@@ -47,7 +47,7 @@ Move **BP_LightbulbMultiInterface** to **Room10**.
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Drag a **Trigger Volume** to the level. Scale it to be in front where you can walk in and out of it in the room. *Clean* up the **World Outliner** by dragging all blueprints and the trigger volume into **Room 10**. Adjust the **Brush Settings** so that the volume takes up the front part of the room that the player can walk in and out of.
+Drag a **Trigger Volume** to the level. Scale it to be in front where you can walk in and out of it in the room. I chose a **Brush Size** of `2000, 900, 8000` on **X, Y, Z** respectively. *Clean* up the **World Outliner** by dragging all blueprints and the trigger volume into **Room 10**. Adjust the **Brush Settings** so that the volume takes up the front part of the room that the player can walk in and out of.
 
 ![add and scale trigger volume in room 10](images/DupeRoom9SwitchRm12.png)
 
