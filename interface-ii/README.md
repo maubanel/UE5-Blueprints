@@ -40,17 +40,17 @@ Now the first things we need to do is open the parent **BP_LightbulbMultiInterfa
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we want to call our parent behavior.  So right click on 
+Now just like the tick was calling its parent behavior we want to override the way we implemented the interface in the parent.  So go to **Function | Override** and select 
 
-![delete three bools](images/callParent.png)
+![delete three bools](images/overrideRoom10.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Select **Interfaces** and double click the **BP_Room10Switch**. Replace the **Event Tick** with the interface event.  This way the user will trigger the interface in both the lightbulb and this new rotating cube.
+Now we want to call our parent behavior.  So right click on 
 
-![add interface to blueprint](images/image_11.png)
+![add interface to blueprint](images/callParent.png)
 
 ![](../images/line2.png)
 
