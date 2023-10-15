@@ -16,7 +16,7 @@ Communicate through a blueprint interface part II.  Now we will be demonstrating
 
 The power of this interface is that other objects can define the interface to do a different action.  So turning on might a light for a light switch, but could also have a TV that implements turning on by showing a movie on the screen. You can also inherit from the same object class and define a different implementation for the interface as well.
 
-Lets another light but this time it will be blue. Go to **Blueprints | Room 10** and *right click* on **BP_RotateObject** and select **Duplicate**.
+Lets another light but this time it will be blue. Go to **Blueprints | Room 10** and *right click* on **BP_LightbulbMultiInterface** and select **Create Child Blueprint Class** and name it `BP_LightbulbMultiInterfaceBlue`. 
 
 ![duplicate bp_rotateobject](images/createChild.png)
 
@@ -24,9 +24,9 @@ Lets another light but this time it will be blue. Go to **Blueprints | Room 10**
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Call it `BP_RotateInterface` and *drag it* into the **Room10** folder.
+Now this is different than duplicating as it is now a child class and calls its parents behavior.  Notice all your events and functions like **Event Tick** call their parents behavior so they will act the same.  In this case it calls **Parent: Tick**. So when it runs it will be exactly the same.
 
-![call blueprint bp_rotaterm10](images/Room10MoveRotateObject.png)
+![call blueprint bp_rotaterm10](images/callsParentBehavior.png)
 
 ![](../images/line2.png)
 
