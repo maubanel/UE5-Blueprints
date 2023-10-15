@@ -72,7 +72,7 @@ Now we get a lot of other variables but the one we are looking for is **Lightbul
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+Drag the **Dynamic Material** variable to the graph and pull off of the blue pin to select a **Set Vector Parameter Value**.  Connect the execution pin from **Parent: Room10Switch** to **Set Vector Parameter Value** nodes.  Change the color **Value** to blue (`0.0, 0.0, 1.0, 1.0`) then press the <kbd>OK</kbd> button. Now the material we are affecting is **M_Glass** and the parameter we want to change is `ColorGlow`.  Enter the **Parameter Name** as `ColorGlow`.
 
 ![connect is on to branch node](images/blueVectorParam.png)
 
