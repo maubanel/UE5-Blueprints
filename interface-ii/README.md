@@ -80,7 +80,7 @@ Drag the **Dynamic Material** variable to the graph and pull off of the blue pin
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+Now we want the light to be blue as well. Drag a copy of the **Point Light** component so we can reference its variables. Pull off of the **Point Light** pin and select **Set Light Color** node.  Connect the execution pin from **Set Vector Parameter Value** and set the **New Light Color** to the same blue (`0.0, 0.0, 1.0, 1.0`).
 
 ![rename dupe node to reftorotateinterface](images/changeLightBlue.png)
 
@@ -88,15 +88,15 @@ Drag the **Dynamic Material** variable to the graph and pull off of the blue pin
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Now at the end of the **Begin Play** event *off* the last **Set** node execution pin and *add* a **Get All Actors Of Class** node 
+Now go to the editor and add scatter the **BP_LightbulbMultiInterfaceBlue** throughout room 10 intermingling them with their parents.
 
-![get all actors of class bp_rotaterm10 node](images/GetActorOfClassThree.png)
+![rename dupe node to reftorotateinterface](images/scatterBlue.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-*Change* the Actor Class to **BP_RotateInterface** and make sure the execution pins are connected.
+Press the <kbd>Play</kbd> button and and enter the volume.  
 
 ![change actor class to BP_RotateInterface](images/rotateExecute.png)
 
