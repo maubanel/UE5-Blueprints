@@ -96,7 +96,7 @@ Now go to the editor and add scatter the **BP_LightbulbMultiInterfaceBlue** thro
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Press the <kbd>Play</kbd> button and and enter the volume.  
+Press the <kbd>Play</kbd> button and and enter the volume.  You should now have white and blue lights for this new class.  Notice that we are able to leave the level blueprint and even though we are only getting all actors of class **BP_LightbulbMultiInterface** it also gets all classes who have this in their inheritance heirachy.  So since **BP_LightbulbMultiInterfaceBlue** inherits from **BP_LightbulbMultiInterface** it is picked up in that array.  And since we define the interface in the parent through object oriented polymorphism it calls the child implementation at the same time.  This allows us to have a generic enemy class and have different enemy behavior for each child.  This allows us to not have to know about the specific implementation of the children and just call the interface in the parent class.  If you don't understand all of this it is ok.  
 
 https://github.com/maubanel/UE5-Blueprints/assets/5504953/c5b10e76-ccc7-4a7d-8ab4-f949d1ce67da
 
@@ -104,9 +104,9 @@ https://github.com/maubanel/UE5-Blueprints/assets/5504953/c5b10e76-ccc7-4a7d-8ab
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Add a **Set RefToRotateInterface** node and connect the execution and array pins to the **Get All Actors Of Class** node. Add a comment around these two nodes.
+Lets make the change a bit more obvious, the color change is rather subtle. 
 
-![connect pins between get all acors of class and setter](images/RefToRotateExecute.png)
+![connect pins between get all acors of class and setter](images/rotateLightbulb.png)
 
 ![](../images/line2.png)
 
