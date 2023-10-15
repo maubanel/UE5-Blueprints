@@ -103,7 +103,7 @@ Each actor that subscribes to it can create its own definition. This means that 
 
 *Attach* the execution pins and the boolean pins between **Is On** to **Turn On**. This will run the function we previously wrote to turn the light on and off. *Press* the <kbd>Compile</kbd> button.
 
-![trigger switch light](images/SwitchLightOnOff2.png)
+![trigger switch light](images/SwitchLightOnOff2b.png)
 
 ![](../images/line2.png)
 
