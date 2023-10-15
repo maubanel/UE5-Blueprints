@@ -104,7 +104,7 @@ https://github.com/maubanel/UE5-Blueprints/assets/5504953/c5b10e76-ccc7-4a7d-8ab
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Lets make the change a bit more obvious, the color change is rather subtle. 
+Lets make the change a bit more obvious, the color change is rather subtle. Drag a copy of the **Lightbulb** component to the graph.  Pull off of the blue pin and select **Add Relative Rotation**.  Change the **Delta Rotation** on the **Y** axis to `45.0`.  Connect the execution pin from **Set Light Color** to **Add Relative Rotation**.
 
 ![connect pins between get all acors of class and setter](images/rotateLightbulb.png)
 
