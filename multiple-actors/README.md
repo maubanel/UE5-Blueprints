@@ -169,7 +169,7 @@ Move your **Player Start** node to **Room 9**.
 
 *Play* the game with the **Turn On** boolean set to `true`. Press the <kbd>Compile</kbd> button. *Play* it in game and the lights should be on. 
  
-Now do the same thing with the **Turn On** boolean set to `false`. Press the <kbd>Compile</kbd> button. *Run* the game the light should be on. 
+Now do the same thing with the **Turn On** boolean set to `false`. Press the <kbd>Compile</kbd> button. *Run* the game the light should be off. 
 
 https://user-images.githubusercontent.com/5504953/193463571-230468da-1461-4a73-b800-17276add648e.mp4
 
