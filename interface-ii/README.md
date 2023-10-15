@@ -32,7 +32,7 @@ Now this is different than duplicating as it is now a child class and calls its 
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now the first things we need to do is open the parent **BP_LightbulbMultiInterface** and change 
+Now the first things we need to do is open the parent **BP_LightbulbMultiInterface** and change the variable **Dynamic Material** to no longer be **Private** by setting it to `false`.  We want to access this in the child blueprint we just made and can't if it is a private variable.  To acccess a parent variable it must be public.
 
 ![delete pitch and roll nodes](images/nonPrivate.png)
 
@@ -40,9 +40,9 @@ Now the first things we need to do is open the parent **BP_LightbulbMultiInterfa
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Delete the three booleans **RotateOnZ**, **RotateOnY** and **RotateOnX**. We will be rotating the cube around only Z when the user enters the volume, so we will remove the switches.
+Now we want to call our parent behavior.  So right click on 
 
-![delete three bools](images/deleteBools.png)
+![delete three bools](images/callParent.png)
 
 ![](../images/line2.png)
 
