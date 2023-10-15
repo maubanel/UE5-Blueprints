@@ -68,7 +68,6 @@ Now we get a lot of other variables but the one we are looking for is **Lightbul
 
 ![connect get world delta seconds with multiplication node](images/parentDynMat.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
