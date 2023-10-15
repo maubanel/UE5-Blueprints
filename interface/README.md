@@ -75,9 +75,9 @@ This is not like a regular blueprint class but creates an interface that multipl
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open this new blueprint. Notice it is read only. It is a virtual interface so you will define it in the actors. This is completely blank. But we can add parameters. *Select* **NewFunction_0** on the graph and *press* the **+** button next to **Inputs** and call this variable `bIsOn` and make it type **Boolean**. Leave its default value at `false`. Lets call the function something more meaningful. Rename it to `Turn Room 10 Switches On and Off`. *Press* the <kbd>Compile</kbd> button.
+Open this new blueprint. Notice it is read only. It is a virtual interface so you will define it in the actors. We never put nodes in an interface. This is completely blank. But we get a default function (you can have more than one if you like). Rename **NewFunction_0** to `Room10Switch`. We can also add parameters to the function. *Select* **Room10Switch** on the graph and *press* the **+** button next to **Inputs** and call this variable `bIsActivated` and make it type **Boolean**. Leave its default value at `false`.  *Press* the <kbd>Compile</kbd> button.
 
-All other blueprints that subscribe to this interface will be able to access this boolean.
+All other blueprints we use in room 10 will *subscribe* to this interface will be define this method.  Then when the interface is called all objects that define it will run.  This means that each object can behave differently.
 
 ![add bIsOn boolean to interface](images/image_10.png)
 
