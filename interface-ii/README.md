@@ -114,67 +114,17 @@ Lets make the change a bit more obvious, the color change is rather subtle. Drag
 
 Press the <kbd>Play</kbd> button and and enter the volume. Now the lightbulbs rotate back and forth.
 
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/fb0aa325-6778-4f4b-a577-89640e42aded
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-Right click and add the **Event Tick** back to the bottom of the graph. *Drag and drop* a **Get RotateCube** variable next to it.
-
-![add get boolena to graph](images/AddRotateCubeToGraph.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-*Drag and drop* a **Get RefToRotateInterface** variable to the chart. Add a **Turn Room 10 Switches on Off(Message)** node.
-
-![add turn room on off node](images/TurnRoom.png)
-
-
-![](../images/line2.png)
-
-##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-*Connect* the array output of **Room 10ReferencesCubes** to the **Target** input of the **Room 10 Switch** message. *Connect* the **Event Tick** execution pin to the **Turn Room 10 Switch** pin and *connect* the **Rotate Cube** output boolean pin to the **Turn Room 10 Switch | IsOn** node.
-
-What this will do is trigger that message in the interface to fire in each cube as they need to be called every frame not just when the player enters the volume.
-
-![connect 3 pins](images/connectPins.png)
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now in the Overlap events we need to turn the **bRotateCube** boolean on and off. Go to the end and add two **Set bRotateCube** nodes. *Attach* the execution pin from both **Turns Room 10 Switch** nodes and *connect* it to the **Set** nodes. Set the **RotateCube** boolean to `true` on the begin overlap and to `false` on the end overlap pathway. Add a comment on top of these nodes
-
-![connect execution pin and flip flop is on](images/SetBoolenForCube.png)
-
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Drag two **BP_RotateInterface** in the room. Make sure they are in the **Room 10** folder in the **Outliner**.
-
-![drag two bp_rotaterm10 into the level](images/DragTwoCubesInRoom.png)
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now go to the game and play it. Notice that the single interface can trigger two completely different type of events!
-
-https://user-images.githubusercontent.com/5504953/193569015-26620727-ace0-4fe5-a179-3c3fabb14a10.mp4
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
-
-Select the **File | Save All** then quit UE5.   Go to **P4V** and go the top project folder (the one that holds the `.uproject` file and **Content** folder) and press the <kbd>+Add</kbd> then <kbd>OK</kbd> button.  This makes sure any files that Unreal didn't add get added to source control. Press the <kbd>Submit</kbd> button and enter a message explaining the work done.  Press <kbd>Submit</kbd>.
-
-![save all and submit to perforce in P4V](images/submitP4.png)
 
 ![](../images/line.png)
 
