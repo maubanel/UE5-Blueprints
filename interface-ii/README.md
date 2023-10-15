@@ -40,7 +40,7 @@ Now the first things we need to do is open the parent **BP_LightbulbMultiInterfa
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now just like the tick was calling its parent behavior we want to override the way we implemented the interface in the parent.  So go to **Function | Override** and select 
+Now just like the tick was calling its parent behavior we want to override the way we implemented the interface in the parent.  So go to **Function | Override** and select `Room10Switch`.  You will see an event **Room10Switch** be added to the graph.
 
 ![delete three bools](images/overrideRoom10.png)
 
@@ -48,7 +48,7 @@ Now just like the tick was calling its parent behavior we want to override the w
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Now we want to call our parent behavior.  So right click on 
+Now this is overriding the parent behavior.  But we want the light to turn on and off with the parent.  So we can call it.  Right click on on the **Event Room10Switch** node and select **Add Call to Parent Function**.  This will add a **Parent: Room10Switch** node to the chart.  Connect the execuation pins as well as **bIsActivated** to **bIsActivated** on the parent call.
 
 ![add interface to blueprint](images/callParent.png)
 
