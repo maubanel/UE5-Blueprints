@@ -80,9 +80,9 @@ Drag the **Dynamic Material** variable to the graph and pull off of the blue pin
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the **Level Blueprint** for **IntroToBlueprints2** and *right click* on **Room10References** and select **Duplicate**. Name it `Room10ReferencesCubes` and change the type to **BP_RotateInterface**. Update the **Tooltip**.
 
-![rename dupe node to reftorotateinterface](images/ReferenceToCubes.png)
+
+![rename dupe node to reftorotateinterface](images/changeLightBlue.png)
 
 ![](../images/line2.png)
 
