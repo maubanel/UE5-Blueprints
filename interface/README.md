@@ -157,7 +157,7 @@ Make sure you still have the Trigger Volume selected in game. *Right click* on t
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we want to call the event that the **BP_LightbulbMultiInterface** subscribed to.  *Pull* off of the **Array Element** pin from the **For Each Loop** node and add a call to **Switch Light**.  Set **Turn On** to `true`. This array element pin is accessing a reference to each lightbulb in the loop and running the nodes that are part of the interface definition in that blueprint (BP_LightbulbMultiInterface).
+Now we want to call the event that the **BP_LightbulbMultiInterface** subscribed to.  *Pull* off of the **Array Element** pin from the **For Each Loop** node and add a call the interface **Room10Switch**.  This array element pin is accessing a reference to each lightbulb in the loop and running the nodes that are part of the interface definition in that blueprint (BP_LightbulbMultiInterface). Connect the execution pins from the **For Each Loop** to the **Room 10 Switch** nodes.
 
 ![get reference to interface then call the off method](images/EventCall.png)
 
@@ -166,7 +166,7 @@ Now we want to call the event that the **BP_LightbulbMultiInterface** subscribed
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Connect* the  execution pins from **Begin Overlap** node to the **For Each Loop** to the **Turn Room 10 Switches On And Off** nodes.  Make sure that the **Is On** pin is set to `true` (ticked) as this is the turning on state.  Then copy the **For Each** and **Turn Room 10 Switches On And Off** nodes and connect them to the **End Overlap** node and make **IsOn** `false` (un-ticked) as it is turning the light off.
+*Connect* the  execution pins from **Begin Overlap** node to the **For Each Loop** to the **Turn Room 10 Switches On And Off** nodes.  Change **IsActivated** pin to be set to `true` (ticked) as this is the activated state.  Then copy the **For Each** and **Room10Switch** nodes and connect them to the **End Overlap** node and make **IsOn** `false` (un-ticked) as it is turning the light off. Connect the **For Each | Array** to the same **Ref to Lightbulbs Interface** array variables.
 
 ![connect pins on flipflop, interface and turn off method](images/FinishInterfaceCall.png)
 
