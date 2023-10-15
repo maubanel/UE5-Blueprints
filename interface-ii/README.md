@@ -73,9 +73,8 @@ Now we get a lot of other variables but the one we are looking for is **Lightbul
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
-*Connect* the **Is On** output pin from the **Event** node and connect it to the **Condition** pin in the **Branch** node. *Press* the <kbd>Compile</kbd> button.
 
-![connect is on to branch node](images/ConnetEventToBranch.png)
+![connect is on to branch node](images/blueVectorParam.png)
 
 ![](../images/line2.png)
 
