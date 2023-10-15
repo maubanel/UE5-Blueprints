@@ -112,9 +112,7 @@ Lets make the change a bit more obvious, the color change is rather subtle. Drag
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now to rotate we need to keep calling the cube every frame the player is in the collision volume. There is only an enter and and exit event so we will need to add a boolean. Add a new **Variable** called `RotateCube` and make it **Variable Type** called **Boolean**. *Set it* to **Private** and set it ot the **Room 10** Category. *Make sure* it is a single variable and not an array (no group of squares icon next to the **Variable Type**).
-
-![add event tick and boolean variable](images/AddTickAndRotateBool.png)
+Press the <kbd>Play</kbd> button and and enter the volume. Now the lightbulbs rotate back and forth.
 
 
 ![](../images/line2.png)
