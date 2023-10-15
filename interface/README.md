@@ -112,11 +112,11 @@ Each actor that subscribes to it can create its own definition. This means that 
 
 Open up the **Level Blueprint**. It is called **Intro to Blueprints 2**. Press the **+** button next to **Variables** and add a new variable called `RefToLightbulbsInterface`. Make it type **BP_LightbulbMultiInterface | Object Reference**.
 
-Select **TriggerVolume2** that is in room 10. Then press the **Blueprints** button then select **Open Level Blueprint**. *Press* the sphere icon next to the **Variable Type** and select an **Array**.
+*Press* the arrow icon next to the **Variable Type** and select an **Array**.
 
 An [array](https://en.wikipedia.org/wiki/Array_programming) is a list of variables.  They can only be of a single type.  So this is creating an array of a reference to all the instances of the lightbulb in the room.
 
-Add a **Tooltip** with `Keeps array of all room 10 lightbulbs`. Set **Private** to `true` and add it to category `Room 10-Lightbulb`.
+Add a **Description** with `Keeps array of all room 10 lightbulbs`. Set **Private** to `true` and add it to category `Room10Lightbulb`.
 
 ![open level blueprint](images/NameItBPSwitchInterface.png)
 
