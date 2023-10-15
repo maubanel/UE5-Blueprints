@@ -98,11 +98,9 @@ Now go to the editor and add scatter the **BP_LightbulbMultiInterfaceBlue** thro
 
 Press the <kbd>Play</kbd> button and and enter the volume.  
 
-![change actor class to BP_RotateInterface](images/rotateExecute.png)
-
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/c5b10e76-ccc7-4a7d-8ab4-f949d1ce67da
 
 ![](../images/line2.png)
-
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
