@@ -56,7 +56,7 @@ Now this is overriding the parent behavior.  But we want the light to turn on an
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Now we need access to the Dynamic Material variable in the parent which is in category **Lightbulb** but it is not visible.  We need it to alter the color of the glow on the light.  Lick the **Gear** at the top of the **MyBlueprint** tab and select 
+Now we need access to the Dynamic Material variable in the parent which is in category **Lightbulb** but it is not visible.  We need it to alter the color of the glow on the light.  Lick the **Gear** at the top of the **MyBlueprint** tab and set **Show Inherited Variables** to `true`. 
 
 ![replace event tick with interface node](images/showInheritedVars.png)
 
@@ -64,9 +64,9 @@ Now we need access to the Dynamic Material variable in the parent which is in ca
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we are missing the **Delta Seconds** that was fed by the **Event Tick** node. No problem we can get this value by *right clicking* and adding a **Get World Delta Seconds** node. *Connect* the output of the **Get World Delta Seconds** node to the empty **Multiplication** node. This is the exact same node, so we can get this without having to use the tick event.
+Now we get a lot of other variables but the one we are looking for is **Lightbulb | DynamicMaterial**.
 
-![connect get world delta seconds with multiplication node](images/ConnectToMultiplyNode.png)
+![connect get world delta seconds with multiplication node](images/parentDynMat.png)
 
 
 ![](../images/line2.png)
