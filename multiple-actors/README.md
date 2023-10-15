@@ -111,7 +111,7 @@ Now the lightbulb's material with the glow is in **M_Glass**. *Select* the **Sou
 
 Press the **+** button next to **Functions** to add a new function. This allows us to put nodes in this blueprint that can be called from other objects. So intead of an internal event (BeginPlay or Tick) you can create your own function name and call it from another object.
 
-Call this new function `SwitchLight`. We need to add an **Input** and call it `TurnOn`. Make it type **boolean**. Without this there is no way for the function to know if we are turning the light **on** or **off**. Notice that this adds a pin to the **Switch Light** execution pin.
+Call this new function `bSwitchLight`. We need to add an **Input** and call it `TurnOn`. Make it type **boolean**. Without this there is no way for the function to know if we are turning the light **on** or **off**. Notice that this adds a pin to the **Switch Light** execution pin.
 
 ![add switch light function](images/SwitchLigthFunction.png)
 
