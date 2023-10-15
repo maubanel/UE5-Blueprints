@@ -93,7 +93,7 @@ Open up **BP_LightbulbMultiInterface** as we are going to subcribe to the **Inte
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Each actor that subscribes to it can create its own definition. This means that the behavior can be customized PER actor class. Double click on the **Interface | Room 10 Switch**. This adds an event so there is an execution pin. Now add a **Switch Light** node.
+Each actor that subscribes to it can create its own definition. This means that the behavior can be customized PER actor class. Double click on the **Interface | Room 10 Switch**. This adds an event so there is an execution pin. Now call the **Switch Light** function by adding its node. This means that when this is called and it is activated it will call switch light. If it is activated the boolean will be true and it will turn the light on and if not it will be false and turn the light off.
 
 ![interface method node](images/PrivateTooltipRm12.png)
 
