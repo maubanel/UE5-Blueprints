@@ -56,9 +56,9 @@ Now this is overriding the parent behavior.  But we want the light to turn on an
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Now remove the **Event Tick** node *connect* the output of the **BP_RoomSwitchInterface** execution pin to the **Set Degrees Since Las Frame** node.
+Now we need access to the Dynamic Material variable in the parent which is in category **Lightbulb** but it is not visible.  We need it to alter the color of the glow on the light.  Lick the **Gear** at the top of the **MyBlueprint** tab and select 
 
-![replace event tick with interface node](images/ReplaceEventNode.png)
+![replace event tick with interface node](images/showInheritedVars.png)
 
 ![](../images/line2.png)
 
