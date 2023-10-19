@@ -140,7 +140,7 @@ Now it is a good idea to test our work after each step. There is a fair amount t
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Connect the output **Set** execution pin to the **Print String** input pin. *Press* the small arrow at the bottom to expand the options. Now this will print every frame so we don't want the default 2.0 second variable. We will just get a large scrolling mess (try it!). Set **Duration** to `0.0`.
+Connect the output **Set** execution pin to the **Print String** input pin. *Press* the small arrow at the bottom to expand the options. Now this will print every frame so we don't want the default 2.0 second variable. We will just get a large scrolling mess (try it!). We can avoid this by setting a key for the variable.  Set the **Key** to `Debug` (can be anything really).
 
 ![output angle to print and make the duration 0](images/ConnectExecSetToZeroRm15.png)
 
