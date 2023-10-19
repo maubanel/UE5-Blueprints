@@ -119,7 +119,7 @@ https://github.com/maubanel/UE5-Blueprints/assets/5504953/df2975f1-1ed1-45f5-aef
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-The **Tick Event** updates every frame which is upwards of 90FPS here, which is why you can't make out what is happening.  It doesn't have to be so.  You can go to the top node in the component and set the **Tick Interval** from `0.0` (no delay) to `1.0` (updates once a second).
+The **Tick Event** updates every frame which is upwards of 90FPS here, which is why you can't make out what is happening.  It doesn't have to be so.  You can go to the top node **BP_Timer**, in the component and set the **Tick Interval** from `0.0` (no delay) to `1.0` (updates once a second).
 
 ![drag bp timer to room 7](images/tickOnOne.png)
 
