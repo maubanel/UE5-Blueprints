@@ -134,7 +134,7 @@ Now it is a good idea to test our work after each step. There is a fair amount t
 
 *Drag* a **Get Show Debug Angle In Degrees** variable and *drag off* of the pin. Select a **Print String** node. Note that this is not for an official HUD in the game. This is just for testing and will not show up in a release build.
 
-![print debug string](images/PrintDebugTimerRm15.jpg)
+![print debug string](images/PrintDebugTimerRm15.png)
 
 ![](../images/line2.png)
 
