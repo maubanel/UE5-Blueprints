@@ -39,9 +39,7 @@ Connect the **Triggered** execution pin from the **IA_ClockwiseRotation** node t
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *run* it in game and the cube should rotate clockwise when you press the <kbd>L</kbd> key. The problem is the text rotates and it is only one sided, so you don't see it from the other side.
-
-https://user-images.githubusercontent.com/5504953/194177718-2f05a3fe-9480-4276-803f-7f14660311a3.mp4
+Press the <kbd>Play</kbd> button and press the <kbd>L</kbd> key.  Nothing happens, why is it not working?
 
 ![](../images/line2.png)
 
@@ -56,7 +54,9 @@ https://user-images.githubusercontent.com/5504953/194177718-2f05a3fe-9480-4276-8
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
+Now *run* it in game and the cube should rotate clockwise when you press the <kbd>L</kbd> key. The problem is the text rotates and it is only one sided, so you don't see it from the other side.
 
+https://user-images.githubusercontent.com/5504953/194177718-2f05a3fe-9480-4276-803f-7f14660311a3.mp4
 
 ![](../images/line2.png)
 
