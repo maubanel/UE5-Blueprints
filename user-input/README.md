@@ -178,7 +178,7 @@ We also need a variable to store the current angle of rotation. Right click on *
 
 ##### `Step 21.`\|`ITB`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-*Drag* a **Speed of Rotation** variable and *add* a **Multiplication** node. Take the output to the **Speed of Rotation** node and attach it to the top multiplication pin. Connect the output **Delta Seconds** from the **Event Tick** to the other end of the **Multiplication** node. This gives us the speed for this one frame.
+*Drag* a **Speed of Rotation** variable and *add* a **Multiplication** node. Take the output to the **Speed of Rotation** node and attach it to the top multiplication pin. We need to convert seconds to the single frame time.  Right click and add a **Get World Delta Seconds** node and connet its output to the bottom **Multiplication** node. This gives us the speed for this one frame.
 
 ![set rotating clockwise to false](images/speedOfRotInSec.png)
 
