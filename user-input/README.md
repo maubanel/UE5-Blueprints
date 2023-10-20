@@ -38,9 +38,9 @@ Add a **Static Mesh** component to the blueprint. Call it `Cube`. Assign the **S
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add **BP_Rotate_Cube** to the **Room 12** and center it. Make sure the collision box is in front of cube. Rotate it if necessary so the collision box is between the cube and the center of the room.
+Add **BP_Rotate_Cube** to the **Room 12** and center it. Move the **Player Start** in front of the box.
 
-![add BP_Rotate_Cube behond collision box in room 12](images/AddBPToRm16.png)
+![add BP_RotateCube behond collision box in room 12](images/AddBPToRm16.png)
 
 ![](../images/line2.png)
 
