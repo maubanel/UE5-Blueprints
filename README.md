@@ -39,7 +39,6 @@ Lets get started looking into how to create some game logic.
 <kbd></kbd> &nbsp;&nbsp; [Orbiting Actors IV](orbiting-actors-iv/README.md#user-content-orbiting-actors-iv) <br>
 <kbd></kbd> &nbsp;&nbsp; [User Input](user-input/README.md#user-content-user-input) <br>
 <kbd></kbd> &nbsp;&nbsp; [User Input II](user-input-ii/README.md#user-content-user-input-ii) <br>
-<kbd></kbd> &nbsp;&nbsp; [User Input III](user-input-iii/README.md#user-content-user-input-iii) <br>
 
 
 
