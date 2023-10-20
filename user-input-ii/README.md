@@ -110,6 +110,8 @@ Add a **Set | Current Angle of Rotation** node and connect the output of the **S
 
 *Run* the game and test it. Now it works OK as the <kbd>L</kbd> and <kbd>K</kbd> button both work. That is all for adding controls to an actor in Unreal!
 
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/7b18eb03-0d29-4bfc-a704-4b27b87dbb02
+
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
