@@ -23,15 +23,16 @@ Now we need to update the current angle.  Drag a **Get | CurrentAngleOfRotation*
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
+Connect the **Triggered** execution pin from the **IA_ClockwiseRotation** node to the **Set CurrentAngleOfRotation** node.  The trigger event will trigger as long as the button is pressed (essentially tick while the user pressed the **L** key).
+
 ![add K keyboard event](images/connectExecClock.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add the comment `Button Pressed Booleans` to the neds around the **L** and *K* events:
 
-![add code comments](images/Comment2Rm16.png)
+![add code comments](images/rotateCube.png)
 
 ![](../images/line2.png)
 
