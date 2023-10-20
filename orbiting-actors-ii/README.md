@@ -86,7 +86,7 @@ Now lets test our work to date. We have enough information to run a test in game
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Now go into the game and don't assign a target, just run it as is. You should see the red message **Target is Invalid** appears when you *run* the game.
+Now go into the game and don't assign a target, just run it as is. You should see the message **Target is Invalid** appears when you *run* the game.
 
 ![run debug in game](images/RedDebugInGame.png)
 
