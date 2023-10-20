@@ -41,6 +41,8 @@ Connect the **Triggered** execution pin from the **IA_ClockwiseRotation** node t
 
 Press the <kbd>Play</kbd> button and press the <kbd>L</kbd> key.  Nothing happens, why is it not working?
 
+![add code comments](images/lKeyNothing.png)
+
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
