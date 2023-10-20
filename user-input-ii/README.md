@@ -15,7 +15,7 @@ User input continued...
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Get
+Now we need to update the current angle.  Drag a **Get | CurrentAngleOfRotation** onto the graph.  Add its output with an **Addition** node to the output of the **Multiplication** node.  Send the output of the **Addition** node to a new **Set | CurrentOfRotation** node.
 
 ![add K keyboard event](images/getCurrentAngle.png)
 
