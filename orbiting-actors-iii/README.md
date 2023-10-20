@@ -39,17 +39,15 @@ Now we can get to the meat of this room. We have calculated where in world coord
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Connect* the **Return Value** output pin of the **Rotate Vector Around Axis** node to the **New Location** pin in the **Set Actor Location** node. 
+Now we have figured out how far to the right the player needs to be of the cube and the z axis of rotatoin.  We now need to go from local to wolrd space and add the cube's current location to this vector. Add a **Get Actor Location** node and an **Addition** node adding the output of the **Return Vector Around Axis** node.  Then send the output of the **Addition** node to the **New Location** in the **Set Actor Location** node.
 
-![connect rotate arount world new location pins](images/AddCommenstRm15.png)
+![put rotation in world coordinates](images/PutItInWorldCoordsRm15.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-Before we try it in game, I just realized I made an error. The vector is in local space to the cube. What I need to do is to get this into world coordinates. I do this by adding my current location to this vector. Add a **Get Actor Location** node and an **Addition** node adding the output of the **Return Vector Around Axis** node.  Then send the output of the **Addition** node to the **New Location** in the **Set Actor Location** node.
 
-![put rotation in world coordinates](images/PutItInWorldCoordsRm15.png)
 
 ![](../images/line2.png)
 
