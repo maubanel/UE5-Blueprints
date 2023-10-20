@@ -114,62 +114,22 @@ Add a **Set | Current Angle of Rotation** node and connect the output of the **S
 
 ##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now we don't want to use **Set Actor Rotation** or the entire actor which includes the text and the collision box will rotate. We just want the **Static Mesh** component mesh to rotate. *Drag* and drop a **Static Mesh** (or whatever you renamed the static mesh) node onto the graph. Pull off of the pin and select **Set Relative Rotation** node.
+Select the **File | Save All** then press the <kbd>Revision Control</kbd> button and select **Submit Content**.  If you are prompted, select **Check Out** for all items that are not checked out of source control. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number. Quit Unreal and make sure your **Pending** tab in **P4V** is empty. **Submit** any work that is still in the editor.
 
-![alt_text](images/GetCubeComponentRm16.png)
+![save all and submit to perforce in P4V](images/submitP4.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now do not have an entire rotation on all axis. We have a float to rotate around the **Z** axis. So *right click* on the **Set Relative Rotation** node's **New Rotation** pin and *select* **Split Struct Pin**:
+Sometimes not all files get submitted to Unreal especially for files that don't show up in the editor.  It is good practice one you submit in **Unreal** and quit the game to right click on the top most project folder and select **Reconcile Offline Work...**.
 
-![split strut pin on set relative rotation node](images/SplitStructPinRm26.png)
+This will either give a message saying ther is nothing to reconcile or bring up a tab.  Make sure that these are **NOT** files in the **Intermediate** and **Saved** folders as these should be ignored from the `.p4ignore`.
 
-![](../images/line2.png)
+If the files are in **Content** or **Configuration** then press the <kbd>Reconcile</kbd> button.  Then submit the changes with a message and press the <kbd>Submit</kbd> button.
 
-##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
-
-Connect the output of the **Set Current Angle Deg** node to the input of the **Set Relative Rotation** node's **New Rotation Z (Yaw)** pin. Connect the execution pins. Adjust the default Speed of Rotation variable to 45.0 and press the <kbd>Compile</kbd> button. *Press* the <kbd>Compile</kbd> button.
-
-![connecxt set current angle deg to set relative rotation Z pin](images/ConnectCurrentAngleToYawRm26.png)
-
-
-![](../images/line2.png)
-
-##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-*Run* it in game to test if clockwise works. Run into the box and press L (or K for that matter). Hmmm nothing happens.
-
-![cube does not rotate when keys are pressed in game](images/CubeDoesntMove.png)
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now go to the game and select the **BP_RotateCube** instance in the level and change the **Auto Receive Input** to `Player 0`.
-
-![get player controller node](images/GetPlayerControllerRm16.png)
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-![get player controller node](images/flattenHiearchy.png)
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
-
-
+![reconcile offline work](images/reconcile.png) 
 
 ![](../images/line.png)
 
