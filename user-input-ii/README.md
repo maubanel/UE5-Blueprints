@@ -23,7 +23,7 @@ Now we need to update the current angle.  Drag a **Get | CurrentAngleOfRotation*
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-
+![add K keyboard event](images/connectExecClock.png)
 
 ![](../images/line2.png)
 
