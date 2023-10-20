@@ -95,7 +95,7 @@ Now to figure out the angle between the sphere and the target adda **Find Look a
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
- Add a **Set Actor Rotation** node and connect the output of **Find Look at Rotation | Return Value** node into the **Set Actor Rotation | New Rotation** node.  * Connect the output execution pin of the **Set Actor Location** node to the input execution pin of the **Set Actor Rotation** node. Also connect the **Set Actor Rotatione** execution pin to the **Branch** node. Please note the yellow line does not connect to anything in the **Set Actor Rotation** node. *Press* the <kbd>Compile</kbd> button.
+ Add a **Set Actor Rotation** node and connect the output of **Find Look at Rotation | Return Value** node into the **Set Actor Rotation | New Rotation** node.  Connect the output execution pin of the **Set Actor Location** node to the input execution pin of the **Set Actor Rotation** node. Also connect the **Set Actor Rotatione** execution pin to the **Branch** node. Please note the yellow line does not connect to anything in the **Set Actor Rotation** node. *Press* the <kbd>Compile</kbd> button.
 
 ![connect pins in graph](images/LookAtRotationHookRm15.png)
 
