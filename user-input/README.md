@@ -78,9 +78,9 @@ Go to the game and hit **run**. Look and see if you are happy with the position.
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the **Event Graph** and *pull off* of the **Event Actor Begin Overlap** and *drag off* off the execution pin. *Select* a **Sequence** node:
+Go to the **Event Graph** *drag* a copy of the **Text Render** component to the right of the **Event Actor Begin Overlap**. Pull off of the **Text Render** pin and select a **Toggle Visibility (Text Render)** node. Connect the execution pin from the **Event Actor Begin Overlap** to the **Toggle Visibility (Text Render)** pin.
 
-![Add sequence node](images/OverlapSequenceRm16.png)
+![Add sequence node](images/AddToggleVisibilityRm16.png)
 
 ![](../images/line2.png)
 
