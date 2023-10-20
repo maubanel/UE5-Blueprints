@@ -63,9 +63,9 @@ Now lets test out our work.  Go back to the editor and select **BP_RotateAroundP
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Run* the game and look in the room, the sphere should be rotating around the cube. I adjust the height of the cube and the scale of the spherical static mesh to be a bit smaller (.75). 
+*Run* the game and look in the room, the sphere should be rotating around the cube. I adjust the height of the cube and the scale of the spherical static mesh to be a bit smaller (0.5). 
 
-
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/56045f15-85a2-4b38-9862-21c0a291700d
 
 ![](../images/line2.png)
 
