@@ -39,17 +39,17 @@ Connect the **Triggered** execution pin from the **IA_ClockwiseRotation** node t
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag* the **Get Rotating Clockwise** node and *drop it* on the graph at the bottom. *Drag off* of the output pin and select a **Branch** node.
+Now *run* it in game and the cube should rotate clockwise when you press the <kbd>L</kbd> key. The problem is the text rotates and it is only one sided, so you don't see it from the other side.
 
-![add get rotating clockwise node](images/GetRotatingClockwiseBoolRm16.png)
+https://user-images.githubusercontent.com/5504953/194177718-2f05a3fe-9480-4276-803f-7f14660311a3.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-*Add* a **Sequence** node and attach it to the the **Branch | True** output execution pin. Connect the **Event Tick** execution pin to the input of the **Branch** node.
 
-![add sequence node](images/AttachExecutionPinsSequenceRm16.png)
+
+![add sequence node](images/.png)
 
 
 ![](../images/line2.png)
@@ -152,9 +152,7 @@ Now go to the game and select the **BP_RotateCube** instance in the level and ch
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *run* it in game and the cube should rotate clockwise when you press the <kbd>L</kbd> key. The problem is the text rotates and it is only one sided, so you don't see it from the other side.
 
-https://user-images.githubusercontent.com/5504953/194177718-2f05a3fe-9480-4276-803f-7f14660311a3.mp4
 
 ![](../images/line2.png)
 
