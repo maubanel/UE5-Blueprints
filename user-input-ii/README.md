@@ -82,7 +82,7 @@ https://user-images.githubusercontent.com/5504953/194178482-b022c172-e4fd-474a-b
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the blueprint and select all the nodes used to rotate and press the <kbd>C</kbd> key to add a comment box with the title ``.
+Go back to the blueprint and select all the nodes used to rotate and press the <kbd>C</kbd> key to add a comment box with the title `Rotate Clockwise`.
 
 ![connect delta seconds to multiplication node](images/rotClockComm.png)
 
@@ -90,9 +90,8 @@ Go back to the blueprint and select all the nodes used to rotate and press the <
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-Then we need to add this to the existing angle. Place a **Get Current Angle Deg** node:
 
-![add get current angle deg node](images/AddCurrentAngleDegRm16.png)
+![add get current angle deg node](images/counterClock1.png)
 
 ![](../images/line2.png)
 
