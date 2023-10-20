@@ -112,7 +112,7 @@ We need a mapping context for these controls.  Go back to **Content | Room 12** 
 
 Copy and paste the **Toggle Visibility (Text Render)** and **j** nodes and attach to the second **Sequence** pin. Add a comment to this group of nodes called `Toggle Text On and Off`.
 
-![add code comments](images/AddComment1Rm16.png)
+![add code comments](images/LKey.png)
 
 ![](../images/line2.png)
 
