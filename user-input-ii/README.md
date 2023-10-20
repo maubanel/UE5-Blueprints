@@ -74,17 +74,16 @@ Now we need to open up **BP_RotateCube** and flatten the hiearchy. Prior the **B
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Press* the <kbd>Play</kbd> button and go up and press the <kbd>L</kbd> key.  Now the cube rotates but the text stays in place.
 
-![add float times float multiplication node](images/FloatByFloatMultiply.png)
-
+https://user-images.githubusercontent.com/5504953/194178482-b022c172-e4fd-474a-b6c9-252ac1698e43.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
-
-![connect delta seconds to multiplication node](images/ConnectWithDeltaSecondsRm16.png)
+![connect delta seconds to multiplication node](images/.png)
 
 ![](../images/line2.png)
 
@@ -170,9 +169,7 @@ Now go to the game and select the **BP_RotateCube** instance in the level and ch
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-*Press* the <kbd>Play</kbd> button and go up and press the <kbd>L</kbd> key.  Now the cube rotates but the text stays in place.
 
-https://user-images.githubusercontent.com/5504953/194178482-b022c172-e4fd-474a-b6c9-252ac1698e43.mp4
 
 ![](../images/line.png)
 
