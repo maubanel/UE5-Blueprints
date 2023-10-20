@@ -94,7 +94,7 @@ Go to the **Event Graph** *drag* a copy of the **Text Render** component to the 
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Now we need to add some controls to rotate the cube.  Go to **Content | Room 12** and add
+Now we need to add some controls to rotate the cube.  Go to **Content | Room 12** and add two **Input | Input Action** nodes with the names `IA_ClockwiseRotation` and `IA_CounterCLockwiseRotation`. These can stay in their default settings as a boolean button (on/off).
 
 ![add end overlap node](images/addInputActions.png)
 
@@ -103,7 +103,7 @@ Now we need to add some controls to rotate the cube.  Go to **Content | Room 12*
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-
+![add end overlap node](images/ImcRotation.png)
 
 ![](../images/line2.png)
 
