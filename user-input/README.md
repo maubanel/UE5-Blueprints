@@ -86,15 +86,15 @@ Go to the **Event Graph** and *pull off* of the **Event Actor Begin Overlap** an
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
+*Drag* a copy of the **Text Render** component onto the **Event Graph**. off of the execution pin from the **Sequence | Then 0** pin and select **Toggle Visibility (Text Render)**.
 
+![Add toggle visibility node](images/AddToggleVisibilityRm16.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-*Drag* off of the execution pin from the **Sequence | Then 0** pin and select **Toggle Visibility (Text Render)**.
 
-![Add toggle visibility node](images/AddToggleVisibilityRm16.png)
 
 
 ![](../images/line2.png)
