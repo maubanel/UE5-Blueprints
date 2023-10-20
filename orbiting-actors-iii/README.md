@@ -39,7 +39,7 @@ Now we can get to the meat of this room. We have calculated where in world coord
 
 ##### `Step 4.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we have figured out how far to the right the player needs to be of the cube and the z axis of rotatoin.  We now need to go from local to wolrd space and add the cube's current location to this vector. Add a **Get Actor Location** node and an **Addition** node adding the output of the **Return Vector Around Axis** node.  Then send the output of the **Addition** node to the **New Location** in the **Set Actor Location** node.
+Now we have figured out how far to the right the player needs to be of the cube and the z axis of rotatoin.  We now need to go from local to wolrd space and add the cube's current location to this vector. Add a **Get Actor Location** node and an **Addition** node adding the output of the **Rotate Vector Around Axis** node.  Then send the output of the **Addition** node to the **New Location** in the **Set Actor Location** node.
 
 ![put rotation in world coordinates](images/PutItInWorldCoordsRm15.png)
 
