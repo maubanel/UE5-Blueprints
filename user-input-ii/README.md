@@ -31,6 +31,7 @@ Connect the **Triggered** execution pin from the **IA_ClockwiseRotation** node t
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Drag* a **Cube** component onto the graph.  Pull off of the **Cube** pin and select **Set Relative Rotation** node.  Right click on **New Rotation** and select **Split Struct Pins**.
 
 ![add code comments](images/rotateCube.png)
 
