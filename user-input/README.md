@@ -170,7 +170,7 @@ Set the **Default Value** to `45.0`.
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-We also need a variable to store the current angle of rotation. Add a new variable called `Current Angle` of **Type Float** and make it **Private**. Set the **Category** to `Controls`. Set the **Tooltip** to `speed of rotation in degrees`.
+We also need a variable to store the current angle of rotation. Right click on **Speed of Rotation** and select **Duplicate**.  Call the dupe `CurrentAngleOfRotation` of **Type Float** and leave it **Private** and turn **Instance Editable** to `false`. Leave the **Category** at `Controls`. Set the **Tooltip** to `current angle in degrees`.
 
 ![add set rotating clockwise node](images/CurrentAngle.png)
 
