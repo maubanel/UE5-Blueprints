@@ -70,15 +70,15 @@ Go to the **Text Render** Component and alter the **Text** to `Press L Key to Ro
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Go to the game and hit **run**. Look and see if you are happy with the position. Make any size adjustments you need to. 
 
+![test text in game](images/TestInGameRm16.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the game and hit **run**. Look and see if you are happy with the position. Make any size adjustments you need to. 
 
-![test text in game](images/TestInGameRm16.png)
 
 ![](../images/line2.png)
 
