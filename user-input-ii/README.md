@@ -108,10 +108,7 @@ Add a **Set | Current Angle of Rotation** node and connect the output of the **S
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Right click* and select a **Set Current Angle** node. Send the output of the **Addition** node to the **Set | Current Angle** pin. Connect the execution pin of **Sequence | 0** to **Set Current Angle**.
-
-
-![get speed of rotation node](images/Rm16GetSpeedOfRotationNodeRm16.png)
+*Run* the game and test it. Now it works OK as the <kbd>L</kbd> and <kbd>K</kbd> button both work. That is all for adding controls to an actor in Unreal!
 
 ![](../images/line2.png)
 
