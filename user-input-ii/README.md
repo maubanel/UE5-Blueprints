@@ -47,7 +47,7 @@ Press the <kbd>Play</kbd> button and press the <kbd>L</kbd> key.  Nothing happen
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
-
+Select the **BP_RotatingCube** in the level or in the Outliner and change the **Input | Auto Receive Input** from `disabled` to `Player0`.  Actors by default do not take in input events.  This rectifies this problem.
 
 ![add code comments](images/receiveInput.png)
 
@@ -58,9 +58,9 @@ Press the <kbd>Play</kbd> button and press the <kbd>L</kbd> key.  Nothing happen
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Now *run* it in game and the cube should rotate clockwise when you press the <kbd>L</kbd> key. The problem is the text rotates and it is only one sided, so you don't see it from the other side.
+Now *run* it in game and the cube should rotate clockwise when you press the <kbd>L</kbd> key. The problem is the text rotates with it.  We want the text to stay still.
 
-https://user-images.githubusercontent.com/5504953/194177718-2f05a3fe-9480-4276-803f-7f14660311a3.mp4
+
 
 ![](../images/line2.png)
 
