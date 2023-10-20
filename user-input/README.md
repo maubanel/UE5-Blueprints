@@ -142,9 +142,9 @@ Repeat this for the counter clockwise direction. Press the <kbd>+</kbd> button n
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the **My Blueprints** panel and select the **bRotatingClockwise** with the *right mouse button* and select **Duplicate**:
+Now we need to initialize this new control system.  Open up
 
-![duplicate rotating clockwise](images/RIghtClickDupeRm16.png)
+![duplicate rotating clockwise](images/initInputSystem.png)
 
 ![](../images/line2.png)
 
