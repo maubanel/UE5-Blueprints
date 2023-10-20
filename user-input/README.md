@@ -150,7 +150,7 @@ Now we need to initialize this new control system.  Open up **BP_RotateCube** an
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets get an event that is called when the **L** key is pressed. *Right click* on the open graph and look for **Event | Keyboard Event | L**:
+Add a comment box around the overlay triggers and title it `Toggle Text On/Off`.  Now lets get an event that is called when the **L** key is pressed. *Right click* on the open graph and look for **EnhancedInputAction IA_ClockwiseRotation** event node.
 
 ![add L keyboard event](images/rotClockEvent.png)
 
