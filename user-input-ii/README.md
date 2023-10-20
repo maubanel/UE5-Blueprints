@@ -82,8 +82,9 @@ https://user-images.githubusercontent.com/5504953/194178482-b022c172-e4fd-474a-b
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Go back to the blueprint and select all the nodes used to rotate and press the <kbd>C</kbd> key to add a comment box with the title ``.
 
-![connect delta seconds to multiplication node](images/.png)
+![connect delta seconds to multiplication node](images/rotClockComm.png)
 
 ![](../images/line2.png)
 
