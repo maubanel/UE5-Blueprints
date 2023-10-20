@@ -55,6 +55,8 @@ Add a **Get Target** node and attach it to the **Target** pin of the **Get Actor
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
+Now lets test out our work.  Go back to the editor and select **BP_RotateAroundPoint** object in the level or Outliner. Double check that **Degrees Per Second** is `30.0` and **Radius** is `300.0`. 
+
 ![add get target to rotate around node](images/adjustDefaults.png)
 
 ![](../images/line2.png)
