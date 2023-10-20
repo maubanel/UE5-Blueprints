@@ -2,7 +2,7 @@
 
 ### User Input II
 
-<sub>[previous](../user-input/README.md#user-content-user-input) • [home](../README.md#user-content-ue4-blueprints) • [next](../user-input-iii/README.md#user-content-user-input-iii)</sub>
+<sub>[previous](../user-input/README.md#user-content-user-input) • [home](../README.md#user-content-ue4-blueprints)</sub>
 
 ![](../images/line3.png)
 
@@ -131,6 +131,10 @@ If the files are in **Content** or **Configuration** then press the <kbd>Reconci
 
 ![reconcile offline work](images/reconcile.png) 
 
+| `intro.blueprints`\|`THE END`| 
+| :--- |
+| **That's All Folks!** Thanks for sticking around. That's it for this lesson. |
+
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - User Input III"> -->
@@ -138,5 +142,5 @@ If the files are in **Content** or **Configuration** then press the <kbd>Reconci
 
 ![](../images/line.png)
 
-| [previous](../user-input/README.md#user-content-user-input)| [home](../README.md#user-content-ue4-blueprints) | [next](../user-input-iii/README.md#user-content-user-input-iii)|
-|---|---|---|
+| [previous](../user-input/README.md#user-content-user-input)| [home](../README.md#user-content-ue4-blueprints) 
+|---|---|
