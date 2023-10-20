@@ -96,7 +96,7 @@ Now go into the game and don't assign a target, just run it as is. You should se
 
 Now highlight the **BP_RotateAround** actor in the scene and press the <kbd>Lock</kbd> button to lock the **Details** panel.  Then you can drag the **Rotate Around Me** cube actor from the scene to the **Target** input that we set up. Release the lock at the end by pressing the <kbd>Lock</kbd> to turn it off.
 
-![assign actor in details panel](images/RotateAroundMe.png)
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/2de658ff-986a-4623-8e7d-862e54a887e9
 
 ![](../images/line2.png)
 
