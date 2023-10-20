@@ -145,7 +145,7 @@ Now *drag and drop* a **Get Radius** to the graph and we need to figure out how 
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now *drag* a **Get** reference to the **Target To Rotate Around** variable and attack it to the **Target** input of **Get Actor Right Vector**. We are rotating around the referenced object, not ourselves. Now we want to scale this normalized vector by adding a **Multiplication** node and attaching the return value of **Get Actor Right Vector** to the top pin of the **Multiplication** node and the **Radius** to the bottom pin of the **Multipllication node**.
+Now *drag* a **Get** reference to the **Target** variable and attack it to the **Target** input of **Get Actor Right Vector**. We are rotating around the referenced object, not ourselves. Now we want to scale this normalized vector by adding a **Multiplication** node and attaching the return value of **Get Actor Right Vector** to the top pin of the **Multiplication** node and the **Radius** to the bottom pin of the **Multipllication node**.
 
 ![add target to rotate around and connect to righ vector](images/VectorTimesFloatRm15.png)
 
