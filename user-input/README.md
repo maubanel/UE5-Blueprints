@@ -86,7 +86,7 @@ Go to the **Event Graph** *drag* a copy of the **Text Render** component to the 
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-*Right click* on the empty graph and select the **Event Actor End Overlap** node. *Pull off* the execution pin and select another **Sequence** node.
+*Right click* on the empty graph and select the **Event Actor End Overlap** node. *Copy & paste* the **Text Render** and **Toggle Visibility** nodes.  Connect the execution pin from the **Event Actor End Overlap** node to the copied **Toggle Visibility** node.
 
 ![add end overlap node](images/AddActorEndOverlapRm16.png)
 
@@ -94,7 +94,9 @@ Go to the **Event Graph** *drag* a copy of the **Text Render** component to the 
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
+Now we need to add some controls to rotate the cube.  Go to **Content | Room 12** and add
 
+![add end overlap node](images/addInputActions.png)
 
 
 ![](../images/line2.png)
