@@ -15,7 +15,7 @@ Orbiting actors continued.
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-Now we want to rotate around the relative Z axis of the box. So we will r*ight click* and select the **Get Actor Up Vector** node. This is the same idea as the right vector except this is the relative **Z** axis of the box. It is also relative to the player so it is always up based on the player regardless of their rotation in the room.
+Now we want to rotate around the relative Z axis of the box. So we will r*ight click* and select the **Get Actor Up Vector** node. This is the same idea as the right vector except this is the relative **Z** axis of the box. It is also relative to the player so it is always up based on the player regardless of their rotation in the room. Also expand the Rotate Around Target comment box to cover these new nodes.
 
 ![add get actor up vector](images/GetActorUpVectorRm15.png)
 
