@@ -23,9 +23,7 @@ Now we need to update the current angle.  Drag a **Get | CurrentAngleOfRotation*
 
 ##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
 
-Add two **Set Rotating CounterClockwise**. For the **Pressed** execution pin, set to true and the **Released** pin to false.
 
-![add two set rotating counterclockwise nodes](images/SetCounterclockwiseControlsBoolRm16.png)
 
 ![](../images/line2.png)
 
