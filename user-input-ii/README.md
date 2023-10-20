@@ -90,6 +90,7 @@ Go back to the blueprint and select all the nodes used to rotate and press the <
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
+Lets now go in the counter clockwise direction.  Right click on the open graph and select a **IA_CounterClockwiseRotation** node. Drag a **Get | Current Angle of Rotation** node.  Now instead of adding to our current angle we will subtract.  Add a **Subtraction** ndoe and connect the **Current Angle of Rotation** to the top of the **Subtracdtion** pin.  Grab the output of the **Multiplication** node in the **Clockwise Nodes** to the bottom 0f the **Subtraction pin**.
 
 ![add get current angle deg node](images/counterClock1.png)
 
@@ -97,8 +98,9 @@ Go back to the blueprint and select all the nodes used to rotate and press the <
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Then put a **Addition** node and add the output of the **Multiplication** node and the **Current Angle Deg** node.  
-![add multiplication and current angle deg in addition node](images/FloatPFloatRm16.png)
+
+
+![add multiplication and current angle deg in addition node](images/finishCounter.png)
 
 ![](../images/line2.png)
 
