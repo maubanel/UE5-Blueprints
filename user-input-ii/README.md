@@ -49,6 +49,8 @@ Press the <kbd>Play</kbd> button and press the <kbd>L</kbd> key.  Nothing happen
 
 
 
+![add code comments](images/receiveInput.png)
+
 ![add sequence node](images/.png)
 
 
