@@ -98,10 +98,11 @@ Now we need to add some controls to rotate the cube.  Go to **Content | Room 12*
 
 ![add end overlap node](images/addInputActions.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+We need a mapping context for these controls.  Go back to **Content | Room 12** and add a **Input | Input Mapping Context** and call it `IMC_Rotation`.
 
 ![add end overlap node](images/ImcRotation.png)
 
