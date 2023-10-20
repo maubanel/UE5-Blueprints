@@ -15,9 +15,9 @@ User input continued...
 
 ##### `Step 1.`\|`ITB`|:small_blue_diamond:
 
-*Right click* on the open graph and look for **Event | Keyboard Event | K:**
+Get
 
-![add K keyboard event](images/EventKeyboardKRm16.png)
+![add K keyboard event](images/getCurrentAngle.png)
 
 ![](../images/line2.png)
 
@@ -56,13 +56,7 @@ Add the comment `Button Pressed Booleans` to the neds around the **L** and *K* e
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-We need a variable to adjust the speed of the rotation. *Add* a new variable called `Speed of Rotation` of Type **Float** and make it **Instance Editable** and **Private**. Set the Category to `Controls`. Set the Tooltip to `Set speed in degrees per second`.
 
-*Press* the <kbd>Compile</kbd> button.
-
-Set the **Default Value** to `45.0`.
-
-![add float variable speed of rotation](images/SpeedOfRotationVarRm16.png)
 
 ![](../images/line2.png)
 
@@ -76,7 +70,6 @@ We also need a variable to store the current angle of rotation. Add a new variab
 
 ##### `Step 8.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag* a **Speed of Rotation** variable and *add* a **Multiplication** node. Take the output to the **Speed of Rotation** node and attach it to the top multiplication pin.
 
 ![add float times float multiplication node](images/FloatByFloatMultiply.png)
 
@@ -85,7 +78,7 @@ We also need a variable to store the current angle of rotation. Add a new variab
 
 ##### `Step 9.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Connect the output **Delta Seconds** from the **Event Tick** to the other end of the **Multiplication** node. This gives us the speed for this one frame.
+
 
 ![connect delta seconds to multiplication node](images/ConnectWithDeltaSecondsRm16.png)
 
