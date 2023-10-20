@@ -66,7 +66,7 @@ https://github.com/maubanel/UE5-Blueprints/assets/5504953/da923daa-9703-4c39-ad9
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to open up **BP_RotateCube** and flatten the hiearchy. Prior the **Box Trigger** and **TextRender** were under the **Cube** so they were inheriting its rotation.  By having them at the same hiearchy, the static mesh will no longer affect the trigger volume or the text render node.
+Now we need to open up **BP_RotateCube** and flatten the hiearchy. Prior the **Box Trigger** and **TextRender** were under the **Cube** so they were inheriting its rotation.  Drag and drop the two child so they are all under the **Default Scene Root**. By having them at the same hiearchy, the static mesh will no longer affect the trigger volume or the text render node.
 
 ![add float variable current angle deg](images/undoHiearchy.png)
 
