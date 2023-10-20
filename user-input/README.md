@@ -94,41 +94,47 @@ Go to the **Event Graph** *drag* a copy of the **Text Render** component to the 
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-Now we need to add some controls to rotate the cube.  Go to **Content | Room 12** and add two **Input | Input Action** nodes with the names `IA_ClockwiseRotation` and `IA_CounterCLockwiseRotation`. These can stay in their default settings as a boolean button (on/off).
-
-![add end overlap node](images/addInputActions.png)
-
-![](../images/line2.png)
-
-##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
-We need a mapping context for these controls.  Go back to **Content | Room 12** and add a **Input | Input Mapping Context** and call it `IMC_Rotation`.
-
-![add end overlap node](images/ImcRotation.png)
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-Open up **IMC_Rotation** and press the <kbd>+</kbd> button next to **Mappings** and select `IA_ClockwiseRotation` then assign the <kbd>L<kbd> key to the event.
-
-![add code comments](images/LKey.png)
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
 *Run* the game and walk into the collision volume. You will see that the algorithm is backwards. When you are inside the volume the text is off and on when you are outside the volume.
 
 https://user-images.githubusercontent.com/5504953/194055388-0d374746-5051-4092-9387-3a6f0bb89da1.mp4
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Just ensure that visibility is off when we start open the blueprint and make sure that **Visibility** is `False` on the **Text Render** component.  Run the game and confirm that the text is now turning on when you enter the volume.
 
 https://user-images.githubusercontent.com/5504953/194058110-5654d6d0-f835-4d8c-aa5a-6a1df2fb989f.mp4
+
+
+Now we need to add some controls to rotate the cube.  Go to **Content | Room 12** and add two **Input | Input Action** nodes with the names `IA_ClockwiseRotation` and `IA_CounterCLockwiseRotation`. These can stay in their default settings as a boolean button (on/off).
+
+![add end overlap node](images/addInputActions.png)
+
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+We need a mapping context for these controls.  Go back to **Content | Room 12** and add a **Input | Input Mapping Context** and call it `IMC_Rotation`.
+
+![add end overlap node](images/ImcRotation.png)
+
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Open up **IMC_Rotation** and press the <kbd>+</kbd> button next to **Mappings** and select `IA_ClockwiseRotation` then assign the <kbd>L<kbd> key to the event.
+
+![add code comments](images/LKey.png)
+
+
+![](../images/line2.png)
+
+##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
+
+
 
 ![](../images/line2.png)
 
