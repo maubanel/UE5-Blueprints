@@ -86,9 +86,9 @@ Go to the **Event Graph** *drag* a copy of the **Text Render** component to the 
 
 ##### `Step 10.`\|`ITB`| :large_blue_diamond:
 
-*Drag* a copy of the **Text Render** component onto the **Event Graph**. off of the execution pin from the **Sequence | Then 0** pin and select **Toggle Visibility (Text Render)**.
+*Right click* on the empty graph and select the **Event Actor End Overlap** node. *Pull off* the execution pin and select another **Sequence** node.
 
-![Add toggle visibility node](images/AddToggleVisibilityRm16.png)
+![add end overlap node](images/AddActorEndOverlapRm16.png)
 
 ![](../images/line2.png)
 
@@ -101,9 +101,7 @@ Go to the **Event Graph** *drag* a copy of the **Text Render** component to the 
 
 ##### `Step 12.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Right click* on the empty graph and select the **Event Actor End Overlap** node. *Pull off* the execution pin and select another **Sequence** node.
 
-![add end overlap node](images/AddActorEndOverlapRm16-1.png)
 
 ![](../images/line2.png)
 
