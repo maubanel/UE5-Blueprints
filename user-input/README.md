@@ -150,9 +150,13 @@ Now we need to initialize this new control system.  Open up **BP_RotateCube** an
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Rename* the **Variable** to `bRotatingCounterClockwise` and update the **Tooltip**:
+We need a variable to adjust the speed of the rotation. *Add* a new variable called `Speed of Rotation` of Type **Float** and make it **Instance Editable** and **Private**. Set the Category to `Controls`. Set the Tooltip to `Set speed in degrees per second`.
 
-![rename to rotatingcounterclockwise](images/RenameCCRm16.png)
+*Press* the <kbd>Compile</kbd> button.
+
+Set the **Default Value** to `45.0`.
+
+![add float variable speed of rotation](images/SpeedOfRotatoin.png)
 
 ![](../images/line2.png)
 
