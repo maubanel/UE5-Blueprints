@@ -66,9 +66,9 @@ https://github.com/maubanel/UE5-Blueprints/assets/5504953/da923daa-9703-4c39-ad9
 
 ##### `Step 7.`\|`ITB`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We also need a variable to store the current angle of rotation. Add a new variable called `Current Angle` of **Type Float** and make it **Private**. Set the **Category** to `Controls`. Set the **Tooltip** to `speed of rotation in degrees`.
+Now we need to open up **BP_ControlCube** and flatten the hiearchy. Prior the **Box Trigger** and **TextRender** were under the **Cube** so they were inheriting its rotation.  By having them at the same hiearchy, the static mesh will no longer affect the trigger volume or the text render node.
 
-![add float variable current angle deg](images/CurrentAngleDegreesRm16.png)
+![add float variable current angle deg](images/undoHiearchy.png)
 
 ![](../images/line2.png)
 
@@ -162,7 +162,7 @@ Now go to the game and select the **BP_RotateCube** instance in the level and ch
 
 ##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to open up **BP_ControlCube** and flatten the hiearchy. Prior the **Box Trigger** and **TextRdner** were under the **StaticMesh** so they were inheriting its rotation.  By having them at the same hiearchy, the static mesh will no longer affect the trigger volume or the text render node.
+
 
 ![get player controller node](images/flattenHiearchy.png)
 
