@@ -47,15 +47,15 @@ Now we have figured out how far to the right the player needs to be of the cube 
 
 ##### `Step 5.`\|`ITB`| :small_orange_diamond:
 
+Add a **Get Target** node and attach it to the **Target** pin of the **Get Actor Location** node. We want to rotate around the target actor.
 
+![add get target to rotate around node](images/AddRotateTarget.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-Add a **Get Target** node and attach it to the **Target** pin of the **Get Actor Location** node. We want to rotate around the target actor.
 
-![add get target to rotate around node](images/AddRotateTarget.png)
 
 ![](../images/line2.png)
 
