@@ -55,7 +55,7 @@ Add a **Get Target** node and attach it to the **Target** pin of the **Get Actor
 
 ##### `Step 6.`\|`ITB`| :small_orange_diamond: :small_blue_diamond:
 
-
+![add get target to rotate around node](images/adjustDefaults.png)
 
 ![](../images/line2.png)
 
