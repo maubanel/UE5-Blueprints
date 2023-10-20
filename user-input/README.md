@@ -106,45 +106,38 @@ Just ensure that visibility is off when we start open the blueprint and make sur
 
 https://user-images.githubusercontent.com/5504953/194058110-5654d6d0-f835-4d8c-aa5a-6a1df2fb989f.mp4
 
+![](../images/line2.png)
+
+##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now we need to add some controls to rotate the cube.  Go to **Content | Room 12** and add two **Input | Input Action** nodes with the names `IA_ClockwiseRotation` and `IA_CounterCLockwiseRotation`. These can stay in their default settings as a boolean button (on/off).
 
 ![add end overlap node](images/addInputActions.png)
 
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-We need a mapping context for these controls.  Go back to **Content | Room 12** and add a **Input | Input Mapping Context** and call it `IMC_Rotation`.
-
-![add end overlap node](images/ImcRotation.png)
-
-
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Open up **IMC_Rotation** and press the <kbd>+</kbd> button next to **Mappings** and select `IA_ClockwiseRotation` then assign the <kbd>L<kbd> key to the event.
+We need a mapping context for these controls.  Go back to **Content | Room 12** and add a **Input | Input Mapping Context** and call it `IMC_Rotation`.
 
-![add code comments](images/LKey.png)
-
+![add end overlap node](images/ImcRotation.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
 
+Open up **IMC_Rotation** and press the <kbd>+</kbd> button next to **Mappings** and select `IA_ClockwiseRotation` then assign the <kbd>L<kbd> key to the event.
+
+![add code comments](images/LKey.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now there is an event trigger for when a button is pressed and released. There is not a trigger for a button being held. So we will create a boolean that sets when a key is held. We need to add two booleans. 
 
-*Add* a new **Boolean** variable called `bRotatingClockwise`, make it **Private** and set the **Category** to `Controls`. *Add* a **Tooltip** that says `Bool to tell us if clockwise button is pressed`.
 
-![add rotating clockwise variable](images/RotatingClockwiseVarRm16.png)
+![add rotating clockwise variable](images/kCounter.png)
 
 ![](../images/line2.png)
 
