@@ -60,7 +60,7 @@ Select the **BP_RotatingCube** in the level or in the Outliner and change the **
 
 Now *run* it in game and the cube should rotate clockwise when you press the <kbd>L</kbd> key. The problem is the text rotates with it.  We want the text to stay still.
 
-
+https://github.com/maubanel/UE5-Blueprints/assets/5504953/da923daa-9703-4c39-ad93-d3e4f54ccad0
 
 ![](../images/line2.png)
 
