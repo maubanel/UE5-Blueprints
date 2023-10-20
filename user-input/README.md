@@ -150,6 +150,16 @@ Now we need to initialize this new control system.  Open up **BP_RotateCube** an
 
 ##### `Step 18.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now lets get an event that is called when the **L** key is pressed. *Right click* on the open graph and look for **Event | Keyboard Event | L**:
+
+![add L keyboard event](images/rotClockEvent.png)
+
+![](../images/line2.png)
+
+##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+
 We need a variable to adjust the speed of the rotation. *Add* a new variable called `Speed of Rotation` of Type **Float** and make it **Instance Editable** and **Private**. Set the Category to `Controls`. Set the Tooltip to `Set speed in degrees per second`.
 
 *Press* the <kbd>Compile</kbd> button.
@@ -157,14 +167,6 @@ We need a variable to adjust the speed of the rotation. *Add* a new variable cal
 Set the **Default Value** to `45.0`.
 
 ![add float variable speed of rotation](images/SpeedOfRotatoin.png)
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now lets get an event that is called when the **L** key is pressed. *Right click* on the open graph and look for **Event | Keyboard Event | L**:
-
-![add L keyboard event](images/EventKeyboardLRm16.png)
 
 ![](../images/line2.png)
 
