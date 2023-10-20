@@ -98,7 +98,8 @@ Lets now go in the counter clockwise direction.  Right click on the open graph a
 
 ##### `Step 11.`\|`ITB`| :large_blue_diamond: :small_blue_diamond: 
 
-
+Add a **Set | Current Angle of Rotation** node and connect the output of the **Subtraction** poin to the **Current Angle of Rotation** pin.  Connect the **IA_CounterClockwiseRotation | Triggered** execution pin to the **Set | Current Angle of Rotation** pin. Copy an dpaster the **Cube** and **Set Rotation Node** from the clockwise nodes and connect th eoutput of the **Set | Current Angle of Rotation** pin to the
+**Set Relative Rotation | New Rotation Z** pin. Add a comment box around all these nodes that says `Rotate Counter Clockwise`.
 
 ![add multiplication and current angle deg in addition node](images/finishCounter.png)
 
