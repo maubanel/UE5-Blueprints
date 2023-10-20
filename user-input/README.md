@@ -164,7 +164,7 @@ We need a variable to adjust the speed of the rotation. *Add* a new variable cal
 
 Set the **Default Value** to `45.0`.
 
-![add float variable speed of rotation](images/SpeedOfRotatoin.png)
+![add float variable speed of rotation](images/speedOfRot.png)
 
 ![](../images/line2.png)
 
