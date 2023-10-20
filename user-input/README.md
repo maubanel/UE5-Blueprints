@@ -126,7 +126,6 @@ We need a mapping context for these controls.  Go back to **Content | Room 12** 
 
 ##### `Step 15.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: 
 
-
 Open up **IMC_Rotation** and press the <kbd>+</kbd> button next to **Mappings** and select `IA_ClockwiseRotation` then assign the <kbd>L<kbd> key to the event.
 
 ![add code comments](images/LKey.png)
@@ -135,7 +134,7 @@ Open up **IMC_Rotation** and press the <kbd>+</kbd> button next to **Mappings** 
 
 ##### `Step 16.`\|`ITB`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-
+Repeat this for the counter clockwise direction. Press the <kbd>+</kbd> button next to **Mappings** and select `IA_CounterClockwiseRotation` then assign the <kbd>K<kbd> key to the event.
 
 ![add rotating clockwise variable](images/kCounter.png)
 
