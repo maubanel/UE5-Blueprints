@@ -31,7 +31,7 @@ Connect the **Triggered** execution pin from the **IA_ClockwiseRotation** node t
 
 ##### `Step 3.`\|`ITB`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Drag* a **Cube** component onto the graph.  Pull off of the **Cube** pin and select **Set Relative Rotation** node.  Right click on **New Rotation** and select **Split Struct Pins**.
+*Drag* a **Cube** component onto the graph.  Pull off of the **Cube** pin and select **Set Relative Rotation** node.  Right click on **New Rotation** and select **Split Struct Pins**. Connect the output of **Set CurrentAngleRotation** into the **Set Relative Rotation | New Rotation Z** pin as well as their respective execution pins.
 
 ![add code comments](images/rotateCube.png)
 
