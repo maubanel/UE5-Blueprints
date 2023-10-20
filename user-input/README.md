@@ -170,9 +170,9 @@ Set the **Default Value** to `45.0`.
 
 ##### `Step 20.`\|`ITB`| :large_blue_diamond: :large_blue_diamond:
 
-See that the event node has two execution pins. One for **Pressed** and one for **Released**. *Drag* off the **Pressed** key and add a **Set Rotating Clockwise** node. Set the **Rotating Clockwise** boolean to `true`.
+We also need a variable to store the current angle of rotation. Add a new variable called `Current Angle` of **Type Float** and make it **Private**. Set the **Category** to `Controls`. Set the **Tooltip** to `speed of rotation in degrees`.
 
-![add set rotating clockwise node](images/SetClockWiseBoolRm16.png)
+![add set rotating clockwise node](images/CurrentAngle.png)
 
 ![](../images/line2.png)
 
