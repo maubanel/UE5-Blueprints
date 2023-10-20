@@ -142,7 +142,7 @@ Repeat this for the counter clockwise direction. Press the <kbd>+</kbd> button n
 
 ##### `Step 17.`\|`ITB`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to initialize this new control system.  Open up
+Now we need to initialize this new control system.  Open up **BP_RotateCube** and after begin play add a **Get Player Controller** node.  Pull off the pin and select a **Enhanced Input Local Player Subsystem** node.  Pull off of this pin and select a **Add Mapping Context** node.  Change the **Mapping Content** to `IMC_Rotation`.  Connect the **BeginPlay** execution pin to the **Add Mapping Content**.
 
 ![duplicate rotating clockwise](images/initInputSystem.png)
 
